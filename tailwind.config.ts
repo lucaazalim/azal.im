@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        accent: "rgb(var(--accent))",
-        foreground: "rgb(var(--foreground))",
-        'foreground-faded': "rgb(var(--foreground-faded))",
+        accent: "hsl(var(--accent))",
+        foreground: "hsl(var(--foreground))",
+        'foreground-faded': "hsl(var(--foreground-faded))",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -7,9 +7,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
-  --foreground: 255, 255, 255;
-  --foreground-faded: 125, 125, 125;
-  --accent: 255, 111, 0;
+  --foreground: 0 100% 100%;
+  --foreground-faded: 0 0% 49%;
+  --accent: 26 100% 50%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,5 +37,5 @@ body {
 }
 
 a {
-  @apply text-white hover:text-accent transition-colors;
+  @apply text-foreground hover:text-accent transition-colors;
 }
