@@ -1,7 +1,5 @@
 "use client";
 
-import Experience from "@/app/components/Experience";
-import Award from "@/app/components/Award";
 import Header from "@/app/components/sections/Header";
 import MainContainer from "@/app/components/MainContainer";
 import Experiences from "@/app/components/sections/Experiences";
