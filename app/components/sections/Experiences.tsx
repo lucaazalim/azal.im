@@ -1,30 +1,30 @@
-import Experience from "@/app/components/Experience";
+import Item from "@/app/components/Item";
+import SectionTitle from "@/app/components/SectionTitle";
 
 export default function Experiences() {
     return (
         <section id="experience" className="scroll-mt-24 space-y-10">
 
-            <h1 className="text-xl">Experience</h1>
+            <SectionTitle>Experience</SectionTitle>
 
-            <Experience
+            <Item
                 fromYear={2024}
                 title="Software Engineer Intern"
-                institution="90 Information Technology"
+                subtitle="90 Information Technology"
                 link="https://noventa.com.br"
                 skills={["C#", ".NET", "TypeScript", "SQL", "React", "TailwindCSS", "Next.js"]}
             >
                 <p>
                     I am currently leading the architecture and development of a comprehensive web platform
-                    aimed at optimizing processes. I am building RESTful APIs using
-                    .NET and C#, and front-end interfaces with TypeScript, Next.js, and TailwindCSS.
+                    aimed at automating and optimizing processes for the ERP clients.
                 </p>
-            </Experience>
+            </Item>
 
-            <Experience
+            <Item
                 fromYear={2015}
                 toYear={2022}
                 title="CEO and Lead Developer"
-                institution="Rede Sky"
+                subtitle="Rede Sky"
                 link="https://redesky.com"
                 skills={["Java", "SQL", "Redis", "MongoDB", "Grafana", "Linux", "DevOps"]}
             >
@@ -39,20 +39,20 @@ export default function Experiences() {
                     managers. Directed over 50 projects involving development, launch, marketing, and ongoing
                     support.
                 </p>
-            </Experience>
+            </Item>
 
-            <Experience
+            <Item
                 fromYear={2014}
                 toYear={2015}
                 title="Founder and Lead Developer"
-                institution="Mineland Network"
+                subtitle="Mineland Network"
                 skills={["Java", "SQL", "Redis"]}
             >
                 <p>
                     Led a small team of three developers to build five different Minecraft game modes, peaking a
                     total of 500 concurrent players.
                 </p>
-            </Experience>
+            </Item>
 
         </section>
     );

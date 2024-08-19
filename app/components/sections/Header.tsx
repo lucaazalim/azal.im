@@ -1,12 +1,12 @@
 import Image from "next/image";
-import NavItem from "@/app/components/NavItem";
-import SocialItem from "@/app/components/SocialItem";
+import NavigationItem from "@/app/components/navigation/NavigationItem";
+import SocialItem from "@/app/components/navigation/SocialItem";
 import {SiGithub, SiInstagram, SiLinkedin} from "@icons-pack/react-simple-icons";
 import {Utensils} from "lucide-react";
 
 export default function Header() {
     return (
-        <header className="lg:sticky lg:top-0 lg:max-h-screen pt-24 lg:pb-24 flex flex-col justify-between">
+        <header className="lg:sticky lg:top-0 lg:max-h-screen pt-12 lg:pt-24 lg:pb-24 flex flex-col justify-between">
             <div className="space-y-12">
                     <Image src="/avatar.png" alt="" width={200} height={200}
                            className="rounded-full hover:scale-110 transition-transform"/>
@@ -16,10 +16,10 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul className="hidden lg:block">
-                        <NavItem section="about" title="About"/>
-                        <NavItem section="experience" title="Experience"/>
-                        <NavItem section="education" title="Education"/>
-                        <NavItem section="honors" title="Awards"/>
+                        <NavigationItem section="about" title="About"/>
+                        <NavigationItem section="experience" title="Item"/>
+                        <NavigationItem section="education" title="Education"/>
+                        <NavigationItem section="honors" title="Awards"/>
                     </ul>
                 </nav>
             </div>

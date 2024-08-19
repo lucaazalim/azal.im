@@ -36,10 +36,6 @@ body {
   }
 }
 
-#about a {
+.link {
   @apply text-foreground hover:text-accent transition-colors;
-}
-
-.animate-in {
-  animation-delay: calc(var(--index) * 200ms);
 }

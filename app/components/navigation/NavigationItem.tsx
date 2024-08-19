@@ -7,7 +7,7 @@ type NavItemProps = {
     title: string;
 }
 
-export default function NavItem({section, title}: NavItemProps) {
+export default function NavigationItem({section, title}: NavItemProps) {
     return (
         <li>
             <Link href={`#${section}`}

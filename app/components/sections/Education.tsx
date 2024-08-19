@@ -1,19 +1,22 @@
-import Experience from "@/app/components/Experience";
+import Item from "@/app/components/Item";
+import SectionTitle from "@/app/components/SectionTitle";
 
 export default function Education() {
     return (
         <section id="education" className="scroll-mt-24 space-y-10">
-            <h1 className="text-xl">Education</h1>
-            <Experience
+
+            <SectionTitle>Education</SectionTitle>
+
+            <Item
                 fromYear={2023}
                 toYear={2026}
                 title="Bachelor's Degree in Software Engineering"
-                institution="Pontifical Catholic University of Minas Gerais"
+                subtitle="Pontifical Catholic University of Minas Gerais"
                 link="https://pucminas.br"
             >
                 <p>
                 </p>
-            </Experience>
+            </Item>
         </section>
     );
 }
