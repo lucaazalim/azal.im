@@ -12,10 +12,10 @@ export default function ItemContainer({link, children}: ContainerProps) {
             <a href={link} target='_blank'>
                 <div className="
                     relative group
-                    hover:scale-[101%]
-                    hover:bg-white/5 hover:bg-gradient-to-br from-white/10 to-white/1
+                    lg:hover:scale-[101%]
+                    lg:hover:bg-white/5 lg:hover:bg-gradient-to-br from-white/10 to-white/1
                     rounded-lg lg:p-5 transition-all
-                    border-t-[1px] hover:border-t-white/20 hover:border-b-black/50 border-transparent
+                    border-t-[1px] lg:hover:border-t-white/20 lg:hover:border-b-black/50 border-transparent
                 ">
                     {children}
                 </div>

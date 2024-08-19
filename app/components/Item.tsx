@@ -50,14 +50,16 @@ export default function Item({
                             <div>
                                 <div className="relative flex flex-row items-center w-fit gap-2">
                                     <p>{title}</p>
-                                    <ArrowUpRight
-                                        className="
+                                    {link &&
+                                        <ArrowUpRight
+                                            className="
                                             absolute size-5 transition-all
                                             top-0 -right-6 lg:top-2 lg:-right-4
                                             lg:group-hover:top-0 lg:group-hover:-right-6
                                             lg:opacity-0 group-hover:opacity-100
                                         "
-                                    />
+                                        />
+                                    }
                                 </div>
                                 <p className="text-sm text-foreground-faded">{subtitle}</p>
                             </div>
