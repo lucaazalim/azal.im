@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "@/app/components/sections/Header";
 import Experiences from "@/app/components/sections/Experiences";
 import About from "@/app/components/sections/About";
