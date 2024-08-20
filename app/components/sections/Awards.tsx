@@ -3,12 +3,12 @@ import Item from "@/app/components/Item";
 
 export default function Awards() {
     return (
-        <section id="honors" className="scroll-mt-24 space-y-10">
+        <section id="awards" className="scroll-mt-24 space-y-10">
 
             <SectionTitle>Awards</SectionTitle>
 
             <Item
-                fromYear={2024}
+                date="2024"
                 title="Academic Excellence Award"
                 subtitle="Pontifical Catholic University of Minas Gerais"
                 badge="2x"
@@ -21,7 +21,7 @@ export default function Awards() {
             </Item>
 
             <Item
-                fromYear={2024}
+                date="2024"
                 title="Outstanding Project Award"
                 subtitle="Pontifical Catholic University of Minas Gerais"
                 badge="3x"

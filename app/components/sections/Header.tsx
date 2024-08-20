@@ -17,9 +17,10 @@ export default function Header() {
                 <nav>
                     <ul className="hidden lg:block">
                         <NavigationItem section="about" title="About"/>
-                        <NavigationItem section="experience" title="Item"/>
+                        <NavigationItem section="experience" title="Experience"/>
                         <NavigationItem section="education" title="Education"/>
-                        <NavigationItem section="honors" title="Awards"/>
+                        <NavigationItem section="awards" title="Awards"/>
+                        <NavigationItem section="projects" title="Projects"/>
                     </ul>
                 </nav>
             </div>

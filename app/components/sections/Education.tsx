@@ -8,8 +8,7 @@ export default function Education() {
             <SectionTitle>Education</SectionTitle>
 
             <Item
-                fromYear={2023}
-                toYear={2026}
+                date="2023 – 2026"
                 title="Bachelor's Degree in Software Engineering"
                 subtitle="Pontifical Catholic University of Minas Gerais"
                 link="https://pucminas.br"

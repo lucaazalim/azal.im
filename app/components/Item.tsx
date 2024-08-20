@@ -6,8 +6,7 @@ import Badge from "@/app/components/Badge";
 import {ArrowUpRight} from "lucide-react";
 
 type ExperienceProps = {
-    fromYear: number;
-    toYear?: number;
+    date: string;
     image?: string;
     badge?: string;
     title: string;
@@ -18,8 +17,7 @@ type ExperienceProps = {
 }
 
 export default function Item({
-                                 fromYear,
-                                 toYear,
+                                 date,
                                  image,
                                  badge,
                                  title,
@@ -39,7 +37,7 @@ export default function Item({
                             className="object-coverrounded-sm border-2 border-foreground/30"
                         />
                     }
-                    <p className="mt-1 text-nowrap text-xs font-semibold">{fromYear} – {toYear || 'PRESENT'}</p>
+                    <p className="mt-1 text-nowrap text-xs font-semibold">{date}</p>
                 </div>
                 <div className="space-y-4">
                     <div className="flex justify-between gap-2">

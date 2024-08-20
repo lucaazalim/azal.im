@@ -6,8 +6,7 @@ export default function Projects() {
         <section id="projects" className="scroll-mt-24 space-y-10">
             <SectionTitle>Projects</SectionTitle>
             <Item
-                fromYear={2023}
-                toYear={2024}
+                date="2023 – 2024"
                 image="/projects/webtech.png"
                 title="WebTech"
                 link="https://webtech.network"
@@ -20,8 +19,7 @@ export default function Projects() {
                 </p>
             </Item>
             <Item
-                fromYear={2024}
-                toYear={2024}
+                date="2024"
                 image="/projects/boutique-das-carnes.png"
                 title="Boutique das Carnes"
                 link="https://github.com/lucaazalim/boutique-das-carnes"
@@ -34,8 +32,7 @@ export default function Projects() {
                 </p>
             </Item>
             <Item
-                fromYear={2024}
-                toYear={2024}
+                date="2024"
                 image="/projects/novas.png"
                 title="Novas"
                 link="https://github.com/lucaazalim/novas"

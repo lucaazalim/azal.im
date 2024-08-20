@@ -8,7 +8,7 @@ export default function Experiences() {
             <SectionTitle>Experience</SectionTitle>
 
             <Item
-                fromYear={2024}
+                date="2024 – Present"
                 title="Software Engineer Intern"
                 subtitle="90 Information Technology"
                 link="https://noventa.com.br"
@@ -21,8 +21,7 @@ export default function Experiences() {
             </Item>
 
             <Item
-                fromYear={2015}
-                toYear={2022}
+                date="2015 – 2022"
                 title="CEO and Lead Developer"
                 subtitle="Rede Sky"
                 link="https://redesky.com"
@@ -42,8 +41,7 @@ export default function Experiences() {
             </Item>
 
             <Item
-                fromYear={2014}
-                toYear={2015}
+                date="2014 – 2015"
                 title="Founder and Lead Developer"
                 subtitle="Mineland Network"
                 skills={["Java", "SQL", "Redis"]}
