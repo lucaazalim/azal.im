@@ -3,7 +3,7 @@ import Item from "@/app/components/Item";
 
 export default function Awards() {
     return (
-        <section id="awards" className="scroll-mt-24 space-y-10">
+        <section id="awards" className="scroll-mt-24 space-y-10 group/section">
 
             <SectionTitle>Awards</SectionTitle>
 

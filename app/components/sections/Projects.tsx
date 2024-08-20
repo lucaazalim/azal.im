@@ -3,7 +3,7 @@ import Item from "@/app/components/Item";
 
 export default function Projects() {
     return (
-        <section id="projects" className="scroll-mt-24 space-y-10">
+        <section id="projects" className="scroll-mt-24 space-y-10 group/section">
             <SectionTitle>Projects</SectionTitle>
             <Item
                 date="2023 – 2024"

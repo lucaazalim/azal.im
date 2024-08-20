@@ -3,6 +3,7 @@ import NavigationItem from "@/app/components/navigation/NavigationItem";
 import SocialItem from "@/app/components/navigation/SocialItem";
 import {SiGithub, SiInstagram, SiLinkedin} from "@icons-pack/react-simple-icons";
 import {Utensils} from "lucide-react";
+import Navigation from "@/app/components/navigation/Navigation";
 
 export default function Header() {
     return (
@@ -14,15 +15,7 @@ export default function Header() {
                     <h1 className="text-5xl font-bold text-nowrap">Luca Azalim</h1>
                     <h2 className="text-xl text-nowrap">Software Engineer</h2>
                 </div>
-                <nav>
-                    <ul className="hidden lg:block">
-                        <NavigationItem section="about" title="About"/>
-                        <NavigationItem section="experience" title="Experience"/>
-                        <NavigationItem section="education" title="Education"/>
-                        <NavigationItem section="awards" title="Awards"/>
-                        <NavigationItem section="projects" title="Projects"/>
-                    </ul>
-                </nav>
+                <Navigation/>
             </div>
             <div className="space-y-4">
                 <a href="mailto:luca@azal.im">luca@azal.im</a>

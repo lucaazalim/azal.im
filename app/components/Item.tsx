@@ -53,8 +53,8 @@ export default function Item({
                                             className="
                                             absolute size-5 transition-all
                                             top-0 -right-6 lg:top-2 lg:-right-4
-                                            lg:group-hover:top-0 lg:group-hover:-right-6
-                                            lg:opacity-0 group-hover:opacity-100
+                                            lg:group-hover/container:top-0 lg:group-hover/container:-right-6
+                                            lg:opacity-0 group-hover/container:opacity-100
                                         "
                                         />
                                     }
