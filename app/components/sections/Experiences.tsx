@@ -25,7 +25,7 @@ export default function Experiences() {
                 title="CEO and Lead Developer"
                 subtitle="Rede Sky"
                 link="https://redesky.com"
-                skills={["Java", "SQL", "Redis", "MongoDB", "Grafana", "Linux", "DevOps"]}
+                skills={["Java", "SQL", "Bash", "Lua", "Redis", "MongoDB", "Grafana", "Linux", "DevOps"]}
             >
                 <p>
                     Led the largest Minecraft server network and community in Brazil, with over 16 million
