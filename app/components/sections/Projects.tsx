@@ -23,7 +23,7 @@ export default function Projects() {
                 image="/projects/boutique-das-carnes.png"
                 title="Boutique das Carnes"
                 link="https://github.com/lucaazalim/boutique-das-carnes"
-                subtitle="Pontifical Catholic University of Minas Gerais"
+                subtitle="Interdisciplinary Project: Web Applications"
                 skills={["JavaScript", "SQL", "MariaDB", "Node.js", "Sequelize", "React", "Next.js", "TailwindCSS", "Docker"]}
             >
                 <p>
@@ -42,6 +42,19 @@ export default function Projects() {
                 <p>
                     Novas is an open-source news website built with Next.js and TailwindCSS. It uses the News API to
                     fetch the latest news from around the world. </p>
+            </Item>
+            <Item
+                date="2023"
+                image="/projects/morada.png"
+                title="Morada"
+                link="https://github.com/lucaazalim/tiapn-morada"
+                subtitle="Interdisciplinary Project: Applications for Business Processes"
+                skills={["Java", "Spring Boot", "Docker", "Grafana", "HTML", "CSS", "Bootstrap 5"]}
+            >
+                <p>
+                    Morada is a platform for property rental and listing that streamlines the rental process for both
+                    tenants and landlords, offering an efficient, centralized solution for listings, processes, and
+                    documentation.</p>
             </Item>
         </section>
     );
