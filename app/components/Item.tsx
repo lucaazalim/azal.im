@@ -1,9 +1,12 @@
+"use client";
+
 import {ReactNode} from "react";
 import Skills from "@/app/components/Skills";
 import ItemContainer from "@/app/components/ItemContainer";
 import Image from "next/image";
 import Badge from "@/app/components/Badge";
 import {ArrowUpRight} from "lucide-react";
+import {useImageView} from "@/app/components/image-view/ImageViewContext";
 
 type ExperienceProps = {
     date: string;
@@ -27,14 +30,20 @@ export default function Item({
                                  children
                              }: ExperienceProps) {
 
+    const {setPath} = useImageView();
+
     return (
         <ItemContainer link={link}>
             <div className="grid lg:grid-cols-[0.4fr,1.6fr] gap-5">
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col max-lg:flex-col-reverse gap-4">
                     {image &&
                         <Image
                             src={image} alt="" width={300} height={300}
-                            className="object-coverrounded-sm border-2 border-foreground/30"
+                            onClick={(e) => {
+                                setPath(image);
+                                e.preventDefault();
+                            }}
+                            className="cursor-zoom-in object-coverrounded-sm border-2 border-foreground/30"
                         />
                     }
                     <p className="mt-1 text-nowrap text-xs font-semibold">{date}</p>
