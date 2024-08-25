@@ -39,3 +39,23 @@ body {
 .link {
   @apply text-foreground hover:text-accent transition-colors;
 }
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-[5px];
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-foreground-faded/80 rounded-xl transition-all;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-foreground-faded;
+}
