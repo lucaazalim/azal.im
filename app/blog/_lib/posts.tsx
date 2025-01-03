@@ -24,9 +24,26 @@ export const postMetadataSchema = z.object({
 export type PostMetadata = z.infer<typeof postMetadataSchema>;
 
 const postsDirectory = "posts";
-export const posts = await getPosts();
 
-async function getPosts(): Promise<Post[]> {
+export async function getPost(file: string): Promise<Post | null> {
+
+    const source = fs.readFileSync(path.join(postsDirectory, file), 'utf8');
+    const {content, metadata, headings} = await parseMDX(source);
+
+    const slug = file.replace('.mdx', '');
+
+    return {
+        slug,
+        route: `/blog/${slug}`,
+        source,
+        metadata,
+        content,
+        headings
+    };
+
+}
+
+export async function getPosts(): Promise<Post[]> {
 
     if (!fs.statSync(postsDirectory).isDirectory()) {
         return [];
@@ -34,26 +51,11 @@ async function getPosts(): Promise<Post[]> {
 
     const files = fs.readdirSync(postsDirectory);
 
-    return Promise.all(files.map(async (file) => {
-
-        const source = fs.readFileSync(path.join(postsDirectory, file), 'utf8');
-        const {content, metadata, headings} = await parseMDX(source);
-
-        const slug = file.replace('.mdx', '');
-
-        return {
-            slug,
-            route: `/blog/${slug}`,
-            source,
-            metadata,
-            content,
-            headings
-        };
-
-    }));
+    return (await Promise.all(files.map(getPost)))
+        .filter(post => post !== null);
 
 }
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
-    return posts.find(post => post.slug === slug) || null;
+    return getPost(slug + ".mdx");
 }

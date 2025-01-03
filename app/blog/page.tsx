@@ -1,8 +1,8 @@
-import {posts} from "@/app/blog/_lib/posts";
+import {getPosts} from "@/app/blog/_lib/posts";
 import PostCard from "@/app/blog/_components/PostCard";
 import * as motion from '@/app/_utils/motion';
 
-export default function Page() {
+export default async function Page() {
 
     return <motion.div
         initial={{opacity: 0}}
@@ -14,7 +14,7 @@ export default function Page() {
             <h2 className="font-serif text-xl">I write about programming, technology, and life.</h2>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {posts.map((post, index) =>
+            {(await getPosts()).map((post, index) =>
                 <PostCard key={index} post={post} index={index}/>
             )}
         </div>

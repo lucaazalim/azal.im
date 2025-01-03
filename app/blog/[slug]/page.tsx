@@ -1,5 +1,5 @@
 import {Metadata} from "next";
-import {getPostBySlug, posts} from "@/app/blog/_lib/posts";
+import {getPostBySlug, getPosts} from "@/app/blog/_lib/posts";
 import NotFound from "next/dist/client/components/not-found-error";
 import Image from "next/image";
 import {ArrowLeft} from "lucide-react";
@@ -15,7 +15,7 @@ type Props = {
 
 export async function generateStaticParams() {
 
-    return posts.map(post => {
+    return (await getPosts()).map(post => {
         return {
             path: post.slug
         }
