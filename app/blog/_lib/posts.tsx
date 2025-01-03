@@ -23,7 +23,7 @@ export const postMetadataSchema = z.object({
 
 export type PostMetadata = z.infer<typeof postMetadataSchema>;
 
-const postsDirectory = "posts";
+const postsDirectory = path.join(process.cwd(), 'posts');
 
 export async function getPost(file: string): Promise<Post | null> {
 
