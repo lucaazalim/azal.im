@@ -1,0 +1,102 @@
+---
+title: "From Multirepo to Monorepo: How to Merge Multiple Git Repositories into One"
+description: "A guide on how to merge multiple repositories into one monorepo, making it easier to manage and maintain your codebase for small teams or individual projects."
+cover: /blog/from-multirepo-to-monorepo.webp
+date: 2024-12-31
+---
+
+You may have found yourself in a situation where you have multiple git
+repositories for different components of your project, and now you decided to
+switch to a monorepo approach.
+
+# Merging repositories while maintaining history
+
+Here's a step-by-step guide on how to merge multiple repositories into one
+monorepo, while maintaining the commit history of each repository:
+
+Let's assume you have three repositories:
+
+- A backend repository, called "back"
+- A frontend repository, called "front"
+- A freshly created repository, called "monorepo"
+
+1. Clone the monorepo repository
+
+```bash
+git clone https://github.com/org-name/monorepo.git monorepo
+```
+
+1. Install git-filter-repo
+
+We will use [git-filter-repo](https://github.com/newren/git-filter-repo) for manipulating the
+commit history of the repositories, which is a tool endorsed by the official Git documentation.
+
+On MacOS, you can install it using [Homebrew](https://brew.sh/):
+
+```bash
+brew install git-filter-repo
+```
+
+2. Clone the repositories that you want to merge into the monorepo
+
+```bash
+git clone https://github.com/org-name/back.git back
+git clone https://github.com/org-name/front.git front
+```
+
+These are throwaway clones that you are going to modify, so you should delete them later
+to make sure you don't accidentally push changes to the original repositories.
+
+3. Move the codebase of each original repository into a subdirectory
+
+For this example, I want to have each repository in a separate subdirectory
+of the monorepo. To do this, I will use the `--to-subdirectory-filter` option
+of git-filter-repo to move while preserving the commit history.
+
+```bash
+cd back
+git filter-repo --force --to-subdirectory-filter back
+
+cd ../front
+git filter-repo --force --to-subdirectory-filter front
+```
+
+4. **Optional:** Append a prefix to the commit messages of each repository
+
+```bash
+cd ../back
+git filter-repo --force --to-subdirectory-filter back --message-callback 'return b"back: " + message'
+
+cd ../front
+git filter-repo --force --to-subdirectory-filter front --message-callback 'return b"front: " + message'
+```
+
+4. Add the repositories as remotes to the monorepo repository
+
+Now, you can add the repositories as remotes to the monorepo repository.
+
+```bash
+cd ../monorepo
+git remote add -f back ../back
+git remote add -f front ../front
+```
+
+5. Merge the repositories into the monorepo
+
+We will use `git merge` to merge the repositories into the monorepo. This will
+create a merge commit that will include the commit history of the original repositories.
+
+```bash
+git merge --allow-unrelated-histories -m "Merging backend repository into the monorepo" back/main
+git merge --allow-unrelated-histories -m "Merging frontend repository into the monorepo" front/main
+```
+
+6. Push the changes to the monorepo repository
+
+Finally, you can push the changes to the monorepo repository.
+
+```bash
+git push origin main
+```
+
+That's it! You have successfully merged multiple repositories into one monorepo.

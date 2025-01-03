@@ -1,5 +1,5 @@
-import SectionTitle from "@/app/components/SectionTitle";
-import Item from "@/app/components/Item";
+import SectionTitle from "@/app/_components/home/SectionTitle";
+import Item from "@/app/_components/home/Item";
 
 export default function Awards() {
     return (

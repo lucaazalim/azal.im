@@ -1,4 +1,4 @@
-import SectionTitle from "@/app/components/SectionTitle";
+import SectionTitle from "@/app/_components/home/SectionTitle";
 
 export default function About() {
     return (
@@ -6,7 +6,7 @@ export default function About() {
 
             <SectionTitle className="lg:hidden">About</SectionTitle>
 
-            <div className="lg:px-5 space-y-4 text-foreground-faded">
+            <div className="lg:px-5 space-y-4 text-foreground-muted">
                 <p>My journey in the digital world began in 2008, at the age of 8, when I created a blog about
                     Club Penguin and started experimenting with HTML and CSS. This sparked my passion for
                     technology and online communities.</p>

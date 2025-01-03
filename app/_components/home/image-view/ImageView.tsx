@@ -1,6 +1,6 @@
 "use client";
 
-import {useImageView} from "@/app/components/image-view/ImageViewContext";
+import {useImageView} from "@/app/_components/home/image-view/ImageViewContext";
 import Image from "next/image";
 import {useEffect} from "react";
 

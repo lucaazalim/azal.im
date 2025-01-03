@@ -1,9 +1,9 @@
 import Image from "next/image";
-import NavigationItem from "@/app/components/navigation/NavigationItem";
-import SocialItem from "@/app/components/navigation/SocialItem";
+import NavigationItem from "@/app/_components/home/navigation/NavigationItem";
+import SocialItem from "@/app/_components/home/navigation/SocialItem";
 import {SiGithub, SiInstagram, SiLinkedin} from "@icons-pack/react-simple-icons";
 import {Utensils} from "lucide-react";
-import Navigation from "@/app/components/navigation/Navigation";
+import Navigation from "@/app/_components/home/navigation/Navigation";
 
 export default function Header() {
     return (
@@ -12,13 +12,13 @@ export default function Header() {
                     <Image src="/avatar.png" alt="" width={200} height={200}
                            className="rounded-full hover:scale-110 transition-transform"/>
                 <div>
-                    <h1 className="text-5xl font-bold text-nowrap">Luca Azalim</h1>
+                    <h1 className="text-5xl font-bold text-nowrap text-accent">Luca Azalim</h1>
                     <h2 className="text-xl text-nowrap">Software Engineer</h2>
                 </div>
                 <Navigation/>
             </div>
             <div className="space-y-4">
-                <a href="mailto:luca@azal.im">luca@azal.im</a>
+                <a className="link" href="mailto:luca@azal.im">luca@azal.im</a>
                 <ul className="flex gap-4">
 
                     <SocialItem
