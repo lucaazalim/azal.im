@@ -32,7 +32,7 @@ export default function InThisPost({post}: Props) {
 
     }, []);
 
-    return <div className="max-lg:hidden sticky top-10 space-y-3 h-fit">
+    return <div className="space-y-3">
         <h2 className="font-semibold text-lg">On this post</h2>
         <ol className="space-y-2">
             {post.headings

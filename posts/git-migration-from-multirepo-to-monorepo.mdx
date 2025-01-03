@@ -63,12 +63,15 @@ git filter-repo --force --to-subdirectory-filter front
 
 4. **Optional:** Append a prefix to the commit messages of each repository
 
+Appending a prefix to the commit message can help you identify the origin
+of each commit in the merged monorepo history.
+
 ```bash
 cd ../back
-git filter-repo --force --to-subdirectory-filter back --message-callback 'return b"back: " + message'
+git filter-repo --message-callback 'return b"back: " + message'
 
 cd ../front
-git filter-repo --force --to-subdirectory-filter front --message-callback 'return b"front: " + message'
+git filter-repo --message-callback 'return b"front: " + message'
 ```
 
 4. Add the repositories as remotes to the monorepo repository

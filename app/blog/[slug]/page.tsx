@@ -62,46 +62,46 @@ export default async function Page({params}: Props) {
         return <NotFound/>;
     }
 
-    return <>
-        <main className="px-5 py-10 mx-auto max-w-[950px]">
-            <article className="space-y-10">
-                <Link href="/blog"
-                      className="flex items-center gap-1 text-foreground-muted hover:text-foreground transition-colors">
-                    <ArrowLeft className="h-5 w-5"/>
-                    <span>Blog</span>
-                </Link>
-                <div className="space-y-5">
-                    <h1 className="text-foreground font-bold text-4xl">{post.metadata.title}</h1>
-                    <p className="text-foreground-muted">{post.metadata.description}</p>
+    return <main className="px-5 py-10 mx-auto max-w-[950px]">
+        <article className="space-y-10">
+            <Link href="/blog"
+                  className="flex items-center gap-1 text-foreground-muted hover:text-foreground transition-colors">
+                <ArrowLeft className="h-5 w-5"/>
+                <span>Blog</span>
+            </Link>
+            <div className="space-y-5">
+                <h1 className="text-foreground font-bold text-4xl">{post.metadata.title}</h1>
+                <p className="text-foreground-muted">{post.metadata.description}</p>
+            </div>
+            <motion.div
+                initial={{opacity: 0, filter: "blur(5px)"}}
+                animate={{opacity: 1, filter: "blur(0px)"}}
+                transition={{duration: 0.5, ease: "easeInOut"}}
+                className="relative w-full h-[300px] md:h-[500px]">
+                <Image
+                    src={post.metadata.cover}
+                    alt={post.metadata.title}
+                    fill={true}
+                    sizes="100vw"
+                    className="object-cover rounded-2xl"
+                />
+                <Image
+                    src={post.metadata.cover}
+                    alt={post.metadata.title}
+                    fill={true}
+                    sizes="100vw"
+                    className="object-cover blur-2xl -z-40 opacity-40"
+                />
+            </motion.div>
+            <div className="grid grid-cols-1 lg:grid-cols-[0.8fr,0.2fr] gap-5">
+                <div className="shrink prose prose-primary dark:prose-invert">
+                    {post.content}
                 </div>
-                <motion.div
-                    initial={{opacity: 0, filter: "blur(5px)"}}
-                    animate={{opacity: 1, filter: "blur(0px)"}}
-                    transition={{duration: 0.5, ease: "easeInOut"}}
-                    className="relative w-full h-[500px]">
-                    <Image
-                        src={post.metadata.cover}
-                        alt={post.metadata.title}
-                        fill={true}
-                        sizes="100vw"
-                        className="object-cover rounded-2xl"
-                    />
-                    <Image
-                        src={post.metadata.cover}
-                        alt={post.metadata.title}
-                        fill={true}
-                        sizes="100vw"
-                        className="object-cover blur-2xl -z-40 opacity-40"
-                    />
-                </motion.div>
-                <div className="flex flex-row gap-5">
-                    <div className="prose prose-primary dark:prose-invert">
-                        {post.content}
-                    </div>
+                <div className="hidden lg:block sticky top-10 h-fit">
                     <InThisPost post={post}/>
                 </div>
-            </article>
-        </main>
-    </>
+            </div>
+        </article>
+    </main>;
 
 }
