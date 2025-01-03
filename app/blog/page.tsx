@@ -1,6 +1,8 @@
 import {getPosts} from "@/app/blog/_lib/posts";
 import PostCard from "@/app/blog/_components/PostCard";
 import * as motion from '@/app/_utils/motion';
+import {ArrowLeft} from "lucide-react";
+import Link from "next/link";
 
 export default async function Page() {
 
@@ -8,10 +10,17 @@ export default async function Page() {
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{duration: 0.5, ease: "easeInOut"}}
-        className="max-w-screen-lg mx-auto p-5 space-y-10">
-        <header>
-            <h1 className="font-serif text-4xl font-bold">Luca Azalim's Blog</h1>
-            <h2 className="font-serif text-xl">I write about programming, technology, and life.</h2>
+        className="max-w-[950px] mx-auto px-5 py-10 space-y-10">
+        <header className="space-y-10">
+            <Link href="/"
+                  className="flex items-center gap-1 text-foreground-muted hover:text-foreground transition-colors">
+                <ArrowLeft className="h-5 w-5"/>
+                <span>Home</span>
+            </Link>
+            <div>
+                <h1 className="font-serif text-4xl font-bold">Luca Azalim's Blog</h1>
+                <h2 className="font-serif text-xl">I write about programming, technology, and life.</h2>
+            </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {(await getPosts()).map((post, index) =>
