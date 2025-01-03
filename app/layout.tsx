@@ -2,8 +2,8 @@ import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
 import {ReactNode} from "react";
-import {ImageViewContextProvider} from "@/app/_components/home/image-view/ImageViewContext";
-import ImageView from "@/app/_components/home/image-view/ImageView";
+import {ImageViewContextProvider} from "@/app/_components/image-view/ImageViewContext";
+import ImageView from "@/app/_components/image-view/ImageView";
 
 const inter = Inter({subsets: ["latin"]});
 

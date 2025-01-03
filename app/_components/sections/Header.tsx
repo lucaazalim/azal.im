@@ -1,9 +1,9 @@
 import Image from "next/image";
-import NavigationItem from "@/app/_components/home/navigation/NavigationItem";
-import SocialItem from "@/app/_components/home/navigation/SocialItem";
+import NavigationItem from "@/app/_components/navigation/NavigationItem";
+import SocialItem from "@/app/_components/navigation/SocialItem";
 import {SiGithub, SiInstagram, SiLinkedin} from "@icons-pack/react-simple-icons";
 import {Utensils} from "lucide-react";
-import Navigation from "@/app/_components/home/navigation/Navigation";
+import Navigation from "@/app/_components/navigation/Navigation";
 
 export default function Header() {
     return (

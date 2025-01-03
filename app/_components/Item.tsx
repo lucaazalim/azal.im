@@ -1,12 +1,12 @@
 "use client";
 
 import {ReactNode} from "react";
-import Skills from "@/app/_components/home/Skills";
-import ItemContainer from "@/app/_components/home/ItemContainer";
+import Skills from "@/app/_components/Skills";
+import ItemContainer from "@/app/_components/ItemContainer";
 import Image from "next/image";
-import Badge from "@/app/_components/home/Badge";
+import Badge from "@/app/_components/Badge";
 import {ArrowUpRight} from "lucide-react";
-import {useImageView} from "@/app/_components/home/image-view/ImageViewContext";
+import {useImageView} from "@/app/_components/image-view/ImageViewContext";
 
 type ExperienceProps = {
     date: string;

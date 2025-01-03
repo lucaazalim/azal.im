@@ -1,4 +1,4 @@
-import Badge from "@/app/_components/home/Badge";
+import Badge from "@/app/_components/Badge";
 
 type SkillsProps = {
     skills: string[];

@@ -1,5 +1,5 @@
-import Item from "@/app/_components/home/Item";
-import SectionTitle from "@/app/_components/home/SectionTitle";
+import Item from "@/app/_components/Item";
+import SectionTitle from "@/app/_components/SectionTitle";
 
 export default function Education() {
     return (

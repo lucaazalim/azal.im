@@ -1,4 +1,4 @@
-import NavigationItem from "@/app/_components/home/navigation/NavigationItem";
+import NavigationItem from "@/app/_components/navigation/NavigationItem";
 
 export default function Navigation() {
     return (

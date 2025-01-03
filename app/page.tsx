@@ -1,10 +1,10 @@
-import Header from "@/app/_components/home/sections/Header";
-import Experiences from "@/app/_components/home/sections/Experiences";
-import About from "@/app/_components/home/sections/About";
-import Education from "@/app/_components/home/sections/Education";
-import Awards from "@/app/_components/home/sections/Awards";
-import Footer from "@/app/_components/home/sections/Footer";
-import Projects from "@/app/_components/home/sections/Projects";
+import Header from "@/app/_components/sections/Header";
+import Experiences from "@/app/_components/sections/Experiences";
+import About from "@/app/_components/sections/About";
+import Education from "@/app/_components/sections/Education";
+import Awards from "@/app/_components/sections/Awards";
+import Footer from "@/app/_components/sections/Footer";
+import Projects from "@/app/_components/sections/Projects";
 
 export default function Home() {
 
