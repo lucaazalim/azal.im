@@ -1,4 +1,5 @@
 import NavigationItem from "@/app/_components/navigation/NavigationItem";
+import {ROUTES} from "@/app/_utils/constants";
 
 export default function Navigation() {
     return (
@@ -9,7 +10,7 @@ export default function Navigation() {
                 <NavigationItem href="#education" title="Education"/>
                 <NavigationItem href="#awards" title="Awards"/>
                 <NavigationItem href="#projects" title="Projects"/>
-                <NavigationItem href="blog" title="Blog"/>
+                <NavigationItem href={ROUTES.BLOG} title="Blog"/>
             </ul>
         </nav>
     );

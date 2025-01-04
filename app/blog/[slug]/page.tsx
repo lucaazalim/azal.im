@@ -6,6 +6,7 @@ import {ArrowLeft} from "lucide-react";
 import Link from "next/link";
 import * as motion from '@/app/_utils/motion';
 import InThisPost from "@/app/blog/_components/InThisPost";
+import {ROUTES} from "@/app/_utils/constants";
 
 type Props = {
     params: Promise<{
@@ -45,6 +46,14 @@ export async function generateMetadata({params}: Props): Promise<Metadata> {
             type: "article",
             title: post.metadata.title,
             description: post.metadata.description,
+            images: [
+                {
+                    url: ROUTES.OG(post.metadata.title, post.metadata.description),
+                    width: 1200,
+                    height: 630,
+                    alt: post.metadata.title,
+                }
+            ],
             url: url,
             siteName: "Blog",
             locale: "pt_BR",
@@ -64,8 +73,9 @@ export default async function Page({params}: Props) {
 
     return <main className="mx-auto px-5 py-10 max-w-[950px]">
         <article className="space-y-10">
-            <Link href="/blog"
-                  className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground">
+            <Link
+                href={ROUTES.BLOG}
+                className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground">
                 <ArrowLeft className="h-5 w-5"/>
                 <span>Blog</span>
             </Link>
