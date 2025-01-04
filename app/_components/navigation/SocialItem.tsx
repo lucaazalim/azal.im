@@ -9,7 +9,8 @@ type SocialItemProps = {
 export default function SocialItem({icon: Icon, href}: SocialItemProps) {
     return (
         <li>
-            <a href={href} target="_blank" rel="noreferrer" className="bg-red-500 text-foreground-muted hover:text-foreground transition-colors">
+            <a href={href} target="_blank" rel="noreferrer"
+               className="bg-red-500 transition-colors text-foreground-muted hover:text-foreground">
                 <Icon/>
             </a>
         </li>

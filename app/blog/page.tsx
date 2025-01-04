@@ -10,10 +10,10 @@ export default async function Page() {
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{duration: 0.5, ease: "easeInOut"}}
-        className="max-w-[950px] mx-auto px-5 py-10 space-y-10">
+        className="mx-auto px-5 py-10 max-w-[950px] space-y-10">
         <header className="space-y-10">
             <Link href="/"
-                  className="flex items-center gap-1 text-foreground-muted hover:text-foreground transition-colors">
+                  className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground">
                 <ArrowLeft className="h-5 w-5"/>
                 <span>Home</span>
             </Link>
@@ -22,7 +22,7 @@ export default async function Page() {
                 <h2 className="font-serif text-xl">I write about programming, technology, and life.</h2>
             </div>
         </header>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
             {(await getPosts()).map((post, index) =>
                 <PostCard key={index} post={post} index={index}/>
             )}

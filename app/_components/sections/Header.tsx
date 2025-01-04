@@ -1,5 +1,4 @@
 import Image from "next/image";
-import NavigationItem from "@/app/_components/navigation/NavigationItem";
 import SocialItem from "@/app/_components/navigation/SocialItem";
 import {SiGithub, SiInstagram, SiLinkedin} from "@icons-pack/react-simple-icons";
 import {Utensils} from "lucide-react";
@@ -7,10 +6,10 @@ import Navigation from "@/app/_components/navigation/Navigation";
 
 export default function Header() {
     return (
-        <header className="lg:sticky lg:top-0 lg:max-h-screen pt-12 lg:pt-24 lg:pb-24 flex flex-col justify-between">
+        <header className="flex flex-col justify-between pt-12 lg:sticky lg:top-0 lg:max-h-screen lg:pt-24 lg:pb-24">
             <div className="space-y-12">
-                    <Image src="/avatar.png" alt="" width={200} height={200}
-                           className="rounded-full hover:scale-110 transition-transform"/>
+                <Image src="/avatar.png" alt="" width={200} height={200}
+                       className="rounded-full transition-transform hover:scale-110"/>
                 <div>
                     <h1 className="text-5xl font-bold text-nowrap text-accent">Luca Azalim</h1>
                     <h2 className="text-xl text-nowrap">Software Engineer</h2>

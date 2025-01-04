@@ -33,7 +33,7 @@ export default function InThisPost({post}: Props) {
     }, []);
 
     return <div className="space-y-3">
-        <h2 className="font-semibold text-lg">On this post</h2>
+        <h2 className="text-lg font-semibold">On this post</h2>
         <ol className="space-y-2">
             {post.headings
                 .filter(heading => heading.level === 1)

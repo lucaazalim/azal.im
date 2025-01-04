@@ -9,7 +9,8 @@ type ImageViewContext = {
 
 const ImageViewContextDefaultValue: ImageViewContext = {
     path: undefined,
-    setPath: () => {}
+    setPath: () => {
+    }
 }
 
 export const ImageViewContext = createContext<ImageViewContext>(ImageViewContextDefaultValue);

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import {ReactNode} from "react";
 
 type NavItemProps = {
     href: string;
@@ -16,7 +15,7 @@ export default function NavigationItem({href, title}: NavItemProps) {
                 hover:text-foreground transition-all
             ">
                 <div
-                    className="h-0.5 rounded-full w-5 bg-foreground-muted group-hover:w-12 group-hover:bg-foreground transition-all"></div>
+                    className="w-5 rounded-full transition-all h-0.5 bg-foreground-muted group-hover:bg-foreground group-hover:w-12"></div>
                 {title}
             </Link>
         </li>

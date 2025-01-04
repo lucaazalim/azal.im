@@ -62,15 +62,15 @@ export default async function Page({params}: Props) {
         return <NotFound/>;
     }
 
-    return <main className="px-5 py-10 mx-auto max-w-[950px]">
+    return <main className="mx-auto px-5 py-10 max-w-[950px]">
         <article className="space-y-10">
             <Link href="/blog"
-                  className="flex items-center gap-1 text-foreground-muted hover:text-foreground transition-colors">
+                  className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground">
                 <ArrowLeft className="h-5 w-5"/>
                 <span>Blog</span>
             </Link>
             <div className="space-y-5">
-                <h1 className="text-foreground font-bold text-4xl">{post.metadata.title}</h1>
+                <h1 className="text-4xl font-bold text-foreground">{post.metadata.title}</h1>
                 <p className="text-foreground-muted">{post.metadata.description}</p>
             </div>
             <motion.div
@@ -83,21 +83,21 @@ export default async function Page({params}: Props) {
                     alt={post.metadata.title}
                     fill={true}
                     sizes="100vw"
-                    className="object-cover rounded-2xl"
+                    className="rounded-2xl object-cover"
                 />
                 <Image
                     src={post.metadata.cover}
                     alt={post.metadata.title}
                     fill={true}
                     sizes="100vw"
-                    className="object-cover blur-2xl -z-40 opacity-40"
+                    className="-z-40 object-cover opacity-40 blur-2xl"
                 />
             </motion.div>
             <div className="grid grid-cols-1 lg:grid-cols-[0.8fr,0.2fr] gap-5">
                 <div className="shrink prose prose-primary dark:prose-invert">
                     {post.content}
                 </div>
-                <div className="hidden lg:block sticky top-10 h-fit">
+                <div className="sticky top-10 hidden h-fit lg:block">
                     <InThisPost post={post}/>
                 </div>
             </div>

@@ -9,9 +9,9 @@ import Projects from "@/app/_components/sections/Projects";
 export default function Home() {
 
     return (
-        <div className="mx-auto max-w-screen-lg px-12 flex flex-col lg:flex-row gap-x-28">
+        <div className="mx-auto flex max-w-screen-lg flex-col gap-x-28 px-12 lg:flex-row">
             <Header/>
-            <main className="py-12 lg:py-24 space-y-24">
+            <main className="py-12 space-y-24 lg:py-24">
                 <About/>
                 <Experiences/>
                 <Education/>
