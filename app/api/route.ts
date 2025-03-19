@@ -1,5 +1,5 @@
-export function GET() {
-  return {
+export async function GET() {
+  return Response.json({
     type: "champion",
     format: "standAloneComplex",
     version: "15.5.1",
@@ -7315,5 +7315,5 @@ export function GET() {
         },
       },
     },
-  };
+  });
 }
