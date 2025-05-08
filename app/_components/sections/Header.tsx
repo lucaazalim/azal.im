@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Navigation from "@/app/_components/navigation/Navigation";
 import SocialItem from "@/app/_components/navigation/SocialItem";
 import {
   SiGithub,
@@ -6,18 +6,18 @@ import {
   SiLinkedin,
 } from "@icons-pack/react-simple-icons";
 import { Utensils } from "lucide-react";
-import Navigation from "@/app/_components/navigation/Navigation";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex flex-col justify-between pt-12 lg:sticky lg:top-0 lg:max-h-screen lg:pt-24 lg:pb-24">
-      <div className="space-y-12">
+    <header className="flex flex-col gap-5 justify-between pt-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-24">
+      <div className="space-y-8">
         <Image
           src="/avatar.png"
           alt=""
-          width={200}
-          height={200}
-          className="rounded-full transition-transform hover:scale-110"
+          width={150}
+          height={150}
+          className="rounded-full"
         />
         <div>
           <h1 className="text-5xl font-bold text-nowrap text-accent">
