@@ -1,11 +1,11 @@
 "use client";
 
-import { ReactNode } from "react";
-import Skills from "@/app/_components/Skills";
-import Image from "next/image";
 import Badge from "@/app/_components/Badge";
-import { ArrowUpRight } from "lucide-react";
 import { useImageView } from "@/app/_components/image-view/ImageViewContext";
+import Skills from "@/app/_components/Skills";
+import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
+import { ReactNode } from "react";
 
 type ExperienceProps = {
   date: string;
@@ -35,7 +35,8 @@ export default function Item({
       <a href={link} target="_blank">
         <div className="relative group/container lg:hover:scale-[101%] lg:hover:bg-white/5 lg:hover:bg-gradient-to-br from-white/10 to-white/1 border-t-[1px] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:border-transparent lg:hover:!opacity-100 lg:group-hover/section:opacity-50 rounded-lg p-8 transition-all border border-white/10">
           <div className="grid md:grid-cols-[0.3fr,0.7fr] gap-5">
-            <div className="flex flex-col max-lg:flex-col-reverse gap-4">
+            <div className="flex flex-col gap-4">
+              <p className="mt-1 text-xs font-semibold text-wrap">{date}</p>
               {image && (
                 <Image
                   src={image}
@@ -49,7 +50,6 @@ export default function Item({
                   className="cursor-zoom-in border-2 object-coverrounded-sm border-foreground/30"
                 />
               )}
-              <p className="mt-1 text-xs font-semibold text-wrap">{date}</p>
             </div>
             <div className="space-y-4">
               <div className="flex justify-between gap-2">
