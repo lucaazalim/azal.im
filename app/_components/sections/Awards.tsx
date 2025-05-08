@@ -1,5 +1,5 @@
-import SectionTitle from "@/app/_components/SectionTitle";
 import Item from "@/app/_components/Item";
+import SectionTitle from "@/app/_components/SectionTitle";
 
 export default function Awards() {
   return (
@@ -23,11 +23,11 @@ export default function Awards() {
         date="2024"
         title="Outstanding Project Award"
         subtitle="Pontifical Catholic University of Minas Gerais"
-        badge="3x"
+        badge="4x"
         link="https://www.linkedin.com/posts/lucaazalim_certificado-de-destaque-acad%C3%AAmico-1%C2%BA2024-activity-7229986810079133697-1JQx?utm_source=share&utm_medium=member_desktop"
       >
         <p>
-          The teams I led were awarded the Outstanding Project Award three times
+          The teams I led were awarded the Outstanding Project Award four times
           in a row. This award is given to a single team every semester.
         </p>
       </Item>
