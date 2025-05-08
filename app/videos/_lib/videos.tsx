@@ -35,6 +35,9 @@ export type Video = {
       medium: {
         url: string;
       };
+      high: {
+        url: string;
+      };
     };
     resourceId: {
       videoId: string;

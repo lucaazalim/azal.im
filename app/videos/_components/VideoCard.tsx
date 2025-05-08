@@ -1,4 +1,5 @@
 import * as motion from "@/app/_utils/motion";
+import { PlayCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Video } from "../_lib/videos";
@@ -20,15 +21,14 @@ export default function VideoCard({ video, index }: Props) {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 group"
       >
-        <div className="relative w-full shrink-0 h-[200px]">
-          <Image
-            src={video.snippet.thumbnails.medium.url}
-            alt={video.snippet.title}
-            fill={true}
-            sizes="30vw"
-            className="rounded-t-2xl object-cover"
-          />
-        </div>
+        <Image
+          src={video.snippet.thumbnails.medium.url}
+          alt={video.snippet.title}
+          width={320}
+          height={180}
+          quality={100}
+          className="rounded-t-2xl"
+        />
         <div className="flex flex-grow flex-col justify-between gap-3 p-5">
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">{video.snippet.title}</h3>
@@ -37,8 +37,11 @@ export default function VideoCard({ video, index }: Props) {
             </p>
           </div>
           <div>
-            <span className="text-sm">
-              {video.snippet.videoOwnerChannelTitle}
+            <span className="text-accent text-sm flex gap-1.5 items-center">
+              <PlayCircle className="size-4" />
+              <span className="line-clamp-1">
+                {video.snippet.videoOwnerChannelTitle}
+              </span>
             </span>
           </div>
         </div>

@@ -13,7 +13,7 @@ export default async function Page() {
     >
       <header className="space-y-10">
         <HomeButton />
-        <div>
+        <div className="space-y-3">
           <h1 className="font-serif text-4xl font-bold">Luca Azalim's Blog</h1>
           <h2 className="font-serif text-xl">
             I write about programming, technology, and life.
