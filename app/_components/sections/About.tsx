@@ -19,9 +19,9 @@ export default function About() {
           <a className="link" href="https://redesky.com">
             largest Minecraft network in Brazil
           </a>
-          , which peaked at over 8,000 concurrent players. Leading a talented
-          team of developers and game designers, we provided an engaging
-          platform for a thriving community of over 300,000 monthly players.
+          , which peaked at 8,115 concurrent players. Leading a talented team of
+          developers and game designers, we provided an engaging platform for a
+          thriving community of over 300,000 monthly players.
         </p>
 
         <p>
