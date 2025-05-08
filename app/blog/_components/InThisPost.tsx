@@ -1,14 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { Post } from "@/app/blog/_lib/posts";
 import { useEffect, useState } from "react";
+import { PostHeading } from "../_lib/headings";
 
 type Props = {
-  post: Post;
+  headings: PostHeading[];
 };
 
-export default function InThisPost({ post }: Props) {
+export default function InThisPost({ headings }: Props) {
   const [activeHeading, setActiveHeading] = useState<string | null>(null);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function InThisPost({ post }: Props) {
     <div className="space-y-3">
       <h2 className="text-lg font-semibold">On this post</h2>
       <ol className="space-y-2">
-        {post.headings
+        {headings
           .filter((heading) => heading.level === 1)
           .map((heading, index) => (
             <li

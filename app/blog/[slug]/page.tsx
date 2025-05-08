@@ -1,12 +1,12 @@
-import { Metadata } from "next";
-import { getPostBySlug, getPosts } from "@/app/blog/_lib/posts";
-import NotFound from "next/dist/client/components/not-found-error";
-import Image from "next/image";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import { ROUTES } from "@/app/_utils/constants";
 import * as motion from "@/app/_utils/motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
-import { ROUTES } from "@/app/_utils/constants";
+import { getPostBySlug, getPosts } from "@/app/blog/_lib/posts";
+import { ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
+import NotFound from "next/dist/client/components/not-found-error";
+import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   params: Promise<{
@@ -108,7 +108,7 @@ export default async function Page({ params }: Props) {
             {post.content}
           </div>
           <div className="sticky top-10 hidden h-fit lg:block">
-            <InThisPost post={post} />
+            <InThisPost headings={post.headings} />
           </div>
         </div>
       </article>
