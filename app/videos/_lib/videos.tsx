@@ -15,6 +15,11 @@ export const PLAYLISTS: Playlist[] = [
     id: "PLPg-XDqJPa5S1xJpGUpDQVLLVVEUb5UOx",
   },
   {
+    slug: "diy",
+    title: "DIY",
+    id: "PLPg-XDqJPa5SiEEOwj2c5e6-Y3X_29GAo",
+  },
+  {
     slug: "miscellaneous",
     title: "Miscellaneous",
     id: "PLPg-XDqJPa5S9hdWR54A72QalSRb-hgQ7",
