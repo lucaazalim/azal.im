@@ -7,24 +7,8 @@ export default function Experiences() {
       <SectionTitle>Experience</SectionTitle>
 
       <Item
-        date="1/2025 - Present"
-        title="Mid-Level Software Developer"
-        subtitle="90 Information Technology"
-        link="https://noventa.com.br"
-        skills={[
-          "C#",
-          ".NET",
-          "TypeScript",
-          "SQL",
-          "React",
-          "TailwindCSS",
-          "Next.js",
-        ]}
-      />
-
-      <Item
-        date="6/2024 - 12/2024"
-        title="Software Developer Intern"
+        date="6/2024 - 4/2025"
+        title="Software Developer"
         subtitle="90 Information Technology"
         link="https://noventa.com.br"
         skills={[
@@ -39,25 +23,34 @@ export default function Experiences() {
       >
         <ul className="list-disc space-y-3">
           <li>
-            Designed and developed a platform connecting 90 TI ERP clients with
-            construction material suppliers, modernizing the company's tech
-            stack and boosting team productivity.
+            Led the development of a complete web platform connecting ERP's
+            clients to suppliers of construction materials, using{" "}
+            <strong>.NET 9, Next.js, PostgreSQL</strong>, and{" "}
+            <strong>Docker</strong>.
           </li>
           <li>
-            Introduced a new development stack used in all recent projects,
-            reducing infrastructure costs and improving efficiency.
+            Promoted initiatives to{" "}
+            <strong>modernize the company’s legacy systems</strong> and the
+            adoption of a <strong>new stack of modern technologies</strong> for
+            web project development.
           </li>
           <li>
-            Enhanced the company website with an optimized SaaS checkout, modern
-            blog, improved SEO, and CRM-integrated lead capture forms.
+            Planned and executed the migration of the company’s code
+            repositories to GitHub, modernizing the development process and
+            enabling <strong>code review</strong> and <strong>CI/CD</strong>{" "}
+            flows.
           </li>
           <li>
-            Built a knowledge base platform to centralize and share product
-            documentation.
+            Contributed to the improvement of the company’s new institutional
+            website, implementing a new{" "}
+            <strong>optimized check-out experience</strong> for SaaS products, a
+            modern institutional blog, and best practices for SEO and
+            performance, in addition to integrating forms with a CRM for lead
+            capture.
           </li>
           <li>
-            Led the migration from SVN to Git/GitHub, enabling code reviews and
-            CI/CD workflows for modernized development processes.
+            Conceived and developed a knowledge base platform for publishing
+            articles about the software products marketed by the company.
           </li>
         </ul>
       </Item>
@@ -79,18 +72,32 @@ export default function Experiences() {
           "DevOps",
         ]}
       >
-        <p>
-          Led the largest Minecraft server network and community in Brazil, with
-          over 16 million registered users and a peak of 300,000 active players
-          per month. Achieved the national record of 8,115 concurrent players.
-        </p>
-        <p>
-          Focused on strategic decision-making and IT management, overseeing
-          company operations for seven years. Recruited and led a team of 10
-          developers, game designers, and project managers. Directed over 50
-          projects involving development, launch, marketing, and ongoing
-          support.
-        </p>
+        <ul className="list-disc space-y-3">
+          <li>
+            Led the company's operation for seven years, focusing on managing
+            the technology area and growth strategies that led to{" "}
+            <strong>16 million</strong> registered accounts,{" "}
+            <strong>300,000</strong> monthly active players, and a national
+            record of <strong>8,115</strong> players online simultaneously.
+          </li>
+          <li>
+            Designed and scaled the company's systems to support loads of over{" "}
+            <strong>8,000</strong> players online simultaneously, distributed
+            across more than <strong>30 game modes</strong> developed and
+            maintained by the company itself.
+          </li>
+          <li>
+            Led the development of the first Minecraft game mode with
+            distributed architecture in Brazil, which allowed more than{" "}
+            <strong>1,000</strong> users to interact in a{" "}
+            <strong>single virtual environment</strong>.
+          </li>
+          <li>
+            Established best practices for development, architecture, and CI/CD
+            that were applied to over <strong>250 code repositories</strong>,
+            mostly in the <strong>Java</strong> language.
+          </li>
+        </ul>
       </Item>
 
       <Item

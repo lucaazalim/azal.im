@@ -1,9 +1,9 @@
+import ImageView from "@/app/_components/image-view/ImageView";
+import { ImageViewContextProvider } from "@/app/_components/image-view/ImageViewContext";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import { ReactNode } from "react";
-import { ImageViewContextProvider } from "@/app/_components/image-view/ImageViewContext";
-import ImageView from "@/app/_components/image-view/ImageView";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,10 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth selection:bg-accent/30">
+    <html
+      lang="en"
+      className="scroll-smooth selection:bg-accent/30 selection:text-accent"
+    >
       <body className={`${inter.className} bg-background`}>
         <ImageViewContextProvider>
           <ImageView />
