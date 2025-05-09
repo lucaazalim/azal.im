@@ -4,7 +4,16 @@ import { redirect } from "next/navigation";
 import HomeButton from "../../_components/HomeButton";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoCard from "../_components/VideoCard";
-import { getVideos, Video } from "../_lib/videos";
+import { getVideos, PLAYLISTS, Video } from "../_lib/videos";
+
+export const dynamicParams = false;
+export const revalidate = 60;
+
+export async function generateStaticParams() {
+  return PLAYLISTS.map((playlist) => ({
+    playlistSlug: playlist.slug,
+  }));
+}
 
 export default async function Page({
   params,
@@ -36,8 +45,8 @@ export default async function Page({
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {videos.map((video: Video, index: number) => (
-            <VideoCard key={index} video={video} index={index} />
+          {videos.map((video: Video) => (
+            <VideoCard key={video.snippet.resourceId.videoId} video={video} />
           ))}
         </div>
       </motion.div>
