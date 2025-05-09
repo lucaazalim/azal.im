@@ -1,5 +1,5 @@
 import * as motion from "@/app/_utils/motion";
-import { PlayCircle } from "lucide-react";
+import { Play, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Video } from "../_lib/videos";
@@ -13,6 +13,7 @@ export default function VideoCard({ video }: Props) {
     <Link
       href={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
       target="_blank"
+      className="group"
     >
       <motion.article
         initial={{ opacity: 0, y: 100 }}
@@ -21,11 +22,14 @@ export default function VideoCard({ video }: Props) {
         className="flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 group"
       >
         <div className="relative aspect-video">
+          <div className="absolute flex justify-center items-center size-full z-40 opacity-0 group-hover:opacity-100 transition-all duration-400">
+            <Play className="opacity-0 group-hover:opacity-100 size-5 group-hover:size-12 duration-400 transition-all text-accent fill-current" />
+          </div>
           <Image
             src={video.snippet.thumbnails.medium.url}
             alt={video.snippet.title}
             fill={true}
-            className="rounded-t-2xl object-cover"
+            className="rounded-t-2xl object-cover group-hover:brightness-[25%] transition-all"
           />
         </div>
         <div className="flex flex-grow flex-col justify-between gap-3 p-5">
@@ -37,7 +41,7 @@ export default function VideoCard({ video }: Props) {
           </div>
           <div>
             <span className="text-accent text-sm flex gap-1.5 items-center">
-              <PlayCircle className="size-4" />
+              <Youtube className="size-5" />
               <span className="line-clamp-1">
                 {video.snippet.videoOwnerChannelTitle}
               </span>
