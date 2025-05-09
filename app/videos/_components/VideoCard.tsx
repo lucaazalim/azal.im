@@ -6,9 +6,10 @@ import { Video } from "../_lib/videos";
 
 type Props = {
   video: Video;
+  index: number;
 };
 
-export default function VideoCard({ video }: Props) {
+export default function VideoCard({ video, index }: Props) {
   return (
     <Link
       href={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
@@ -16,9 +17,12 @@ export default function VideoCard({ video }: Props) {
       className="group"
     >
       <motion.article
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          duration: 0.2 * Math.min(index, 5),
+          ease: "easeIn",
+        }}
         className="flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 group"
       >
         <div className="relative aspect-video">

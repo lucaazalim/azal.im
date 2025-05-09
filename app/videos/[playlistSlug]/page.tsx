@@ -1,10 +1,8 @@
-import { ROUTES } from "@/app/_utils/constants";
-import * as motion from "@/app/_utils/motion";
-import { redirect } from "next/navigation";
+import { Suspense } from "react";
 import HomeButton from "../../_components/HomeButton";
 import PlaylistSelector from "../_components/PlaylistSelector";
-import VideoCard from "../_components/VideoCard";
-import { getVideos, PLAYLISTS, Video } from "../_lib/videos";
+import VideoGrid from "../_components/VideoGrid";
+import { PLAYLISTS } from "../_lib/videos";
 
 export const dynamicParams = false;
 export const revalidate = 60;
@@ -21,11 +19,6 @@ export default async function Page({
   params: Promise<{ playlistSlug: string }>;
 }) {
   const { playlistSlug } = await params;
-  const videos = await getVideos(playlistSlug);
-
-  if (!videos) {
-    return redirect(ROUTES.VIDEOS());
-  }
 
   return (
     <div className="mx-auto px-5 py-10 max-w-[950px] space-y-10">
@@ -39,17 +32,9 @@ export default async function Page({
         </div>
       </header>
       <PlaylistSelector playlistSlug={playlistSlug} />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
-      >
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-          {videos.map((video: Video) => (
-            <VideoCard key={video.snippet.resourceId.videoId} video={video} />
-          ))}
-        </div>
-      </motion.div>
+      <Suspense>
+        <VideoGrid playlistSlug={playlistSlug} />
+      </Suspense>
     </div>
   );
 }
