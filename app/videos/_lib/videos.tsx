@@ -59,10 +59,6 @@ export async function getVideos(slug: string): Promise<Video[] | undefined> {
     return undefined;
   }
 
-  console.log(
-    `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlist.id}&maxResults=50&key=${process.env.GOOGLE_CLOUD_API_KEY}`
-  );
-
   const result = await fetch(
     `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlist.id}&maxResults=50&key=${process.env.GOOGLE_CLOUD_API_KEY}`
   );
@@ -72,6 +68,13 @@ export async function getVideos(slug: string): Promise<Video[] | undefined> {
   }
 
   const data: { items: Video[] } = await result.json();
+
+  data.items = data.items.sort((a, b) => {
+    return (
+      new Date(b.snippet.publishedAt).getTime() -
+      new Date(a.snippet.publishedAt).getTime()
+    );
+  });
 
   return data.items;
 }
