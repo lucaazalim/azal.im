@@ -103,7 +103,7 @@ export default async function Page({ params }: Props) {
             className="-z-40 object-cover opacity-40 blur-2xl"
           />
         </motion.div>
-        <div className="grid grid-cols-1 lg:grid-cols-[0.8fr,0.2fr] gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.8fr,0.2fr]">
           <div className="shrink prose prose-primary dark:prose-invert">
             {post.content}
           </div>

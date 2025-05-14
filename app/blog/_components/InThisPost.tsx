@@ -29,22 +29,24 @@ export default function InThisPost({ headings }: Props) {
   }, []);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-5">
       <h2 className="text-lg font-semibold">On this post</h2>
       <ol className="space-y-2">
         {headings
           .filter((heading) => heading.level === 1)
-          .map((heading, index) => (
+          .map((heading) => (
             <li
               key={heading.slug}
               className={
                 "text-sm  transition-all " +
                 (activeHeading === heading.slug
-                  ? "font-semibold text-foreground"
+                  ? "text-foreground"
                   : "text-foreground-muted")
               }
             >
-              <Link href={`#${heading.slug}`}>{heading.title}</Link>
+              <Link href={`#${heading.slug}`}>
+                <div>{heading.title}</div>
+              </Link>
             </li>
           ))}
       </ol>
