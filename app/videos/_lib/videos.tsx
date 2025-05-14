@@ -1,8 +1,8 @@
 export const PLAYLISTS: Playlist[] = [
   {
-    slug: "software-development",
-    title: "Software Development",
-    id: "PLPg-XDqJPa5SOJEeMV0jrQH7xmy1ZZgi2",
+    slug: "development",
+    title: "Development",
+    id: "PLPg-XDqJPa5Rq3XOttALgB6Bj8rkTCHF6",
   },
   {
     slug: "design",

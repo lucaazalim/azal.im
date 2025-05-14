@@ -4,7 +4,7 @@ import { ROUTES } from "@/app/_utils/constants";
 export default function Navigation() {
   return (
     <nav>
-      <ul className="hidden lg:block">
+      <ul className="">
         <NavigationItem href="#about" title="About" />
         <NavigationItem href="#experience" title="Experience" />
         <NavigationItem href="#education" title="Education" />
