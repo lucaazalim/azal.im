@@ -1,8 +1,9 @@
-import { Suspense } from "react";
+import { ROUTES } from "@/app/_utils/constants";
+import { redirect } from "next/navigation";
 import HomeButton from "../../_components/HomeButton";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
-import { PLAYLISTS } from "../_lib/videos";
+import { getVideos, PLAYLISTS } from "../_lib/videos";
 
 export const dynamicParams = false;
 export const revalidate = 60;
@@ -19,6 +20,11 @@ export default async function Page({
   params: Promise<{ playlistSlug: string }>;
 }) {
   const { playlistSlug } = await params;
+  const videos = await getVideos(playlistSlug);
+
+  if (!videos) {
+    return redirect(ROUTES.VIDEOS());
+  }
 
   return (
     <div className="mx-auto px-5 py-10 max-w-[950px] space-y-10">
@@ -32,9 +38,7 @@ export default async function Page({
         </div>
       </header>
       <PlaylistSelector playlistSlug={playlistSlug} />
-      <Suspense>
-        <VideoGrid playlistSlug={playlistSlug} />
-      </Suspense>
+      <VideoGrid videos={videos} />
     </div>
   );
 }

@@ -20,7 +20,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="scroll-smooth selection:bg-accent/30 selection:text-accent"
+      className="dark scroll-smooth selection:bg-accent/30 selection:text-accent"
+      style={{
+        scrollbarGutter: "stable",
+      }}
     >
       <body className={`${inter.className} bg-background`}>
         <ImageViewContextProvider>

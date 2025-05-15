@@ -1,35 +1,37 @@
-import { ROUTES } from "@/app/_utils/constants";
+"use client";
+
 import * as motion from "@/app/_utils/motion";
-import { redirect } from "next/navigation";
+import { useState } from "react";
 import VideoCard from "../_components/VideoCard";
-import { getVideos, Video } from "../_lib/videos";
+import { Video } from "../_lib/videos";
+import YoutubeOverlay from "./YoutubeOverlay";
 
 type Props = {
-  playlistSlug: string;
+  videos: Video[];
 };
 
-export default async function VideoGrid({ playlistSlug }: Props) {
-  const videos = await getVideos(playlistSlug);
-
-  if (!videos) {
-    return redirect(ROUTES.VIDEOS());
-  }
+export default function VideoGrid({ videos }: Props) {
+  const [video, setVideo] = useState<Video | null>(null);
 
   return (
-    <motion.div
-      initial={{ y: 100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5, ease: "easeInOut" }}
-    >
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
-        {videos.map((video: Video, index: number) => (
-          <VideoCard
-            key={video.snippet.resourceId.videoId}
-            video={video}
-            index={index}
-          />
-        ))}
-      </div>
-    </motion.div>
+    <>
+      <YoutubeOverlay video={video} onClose={() => setVideo(null)} />
+      <motion.div
+        initial={{ y: 50, type: "spring" }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+      >
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+          {videos.map((video: Video, index: number) => (
+            <VideoCard
+              key={video.snippet.resourceId.videoId}
+              video={video}
+              index={index}
+              onClick={() => setVideo(video)}
+            />
+          ))}
+        </div>
+      </motion.div>
+    </>
   );
 }

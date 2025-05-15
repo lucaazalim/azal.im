@@ -1,10 +1,19 @@
-import Header from "@/app/_components/sections/Header";
-import Experiences from "@/app/_components/sections/Experiences";
 import About from "@/app/_components/sections/About";
-import Education from "@/app/_components/sections/Education";
 import Awards from "@/app/_components/sections/Awards";
+import Education from "@/app/_components/sections/Education";
+import Experiences from "@/app/_components/sections/Experiences";
 import Footer from "@/app/_components/sections/Footer";
+import Header from "@/app/_components/sections/Header";
 import Projects from "@/app/_components/sections/Projects";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 export default function Home() {
   return (

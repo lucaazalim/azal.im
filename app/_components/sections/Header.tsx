@@ -15,15 +15,15 @@ export default function Header() {
         <Image
           src="/avatar.png"
           alt=""
-          width={150}
-          height={150}
+          width={200}
+          height={200}
           className="rounded-full"
         />
         <div>
           <h1 className="text-5xl font-bold text-nowrap text-accent">
             Luca Azalim
           </h1>
-          <h2 className="text-xl text-nowrap">Software Engineer</h2>
+          <h2 className="text-xl text-nowrap font-light">Software Engineer</h2>
         </div>
         <Navigation />
       </div>
