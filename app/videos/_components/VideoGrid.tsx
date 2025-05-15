@@ -27,7 +27,18 @@ export default function VideoGrid({ videos }: Props) {
               key={video.snippet.resourceId.videoId}
               video={video}
               index={index}
-              onClick={() => setVideo(video)}
+              onClick={() => {
+                const isMobile = window.innerWidth <= 768;
+
+                if (isMobile) {
+                  window.open(
+                    `https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`,
+                    "_blank"
+                  );
+                } else {
+                  setVideo(video);
+                }
+              }}
             />
           ))}
         </div>

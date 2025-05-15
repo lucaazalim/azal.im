@@ -22,15 +22,15 @@ export default function VideoCard({ video, index, onClick }: Props) {
       className="cursor-pointer flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 group"
     >
       <div className="relative aspect-video">
-        <div className="absolute flex justify-center items-center size-full z-40 opacity-0 group-hover:opacity-100 transition-all duration-400">
-          <Play className="opacity-0 group-hover:opacity-100 size-5 group-hover:size-12 duration-400 transition-all text-accent fill-current" />
+        <div className="absolute flex justify-center items-center size-full z-40 opacity-0 md:group-hover:opacity-100 transition-all duration-400">
+          <Play className="opacity-0 md:group-hover:opacity-100 size-5 md:group-hover:size-12 duration-400 transition-all text-accent fill-current" />
         </div>
         <Image
           src={video.snippet.thumbnails.medium.url}
           alt={video.snippet.title}
           fill={true}
-          sizes="10vw"
-          className="rounded-t-2xl object-cover group-hover:brightness-[25%] transition-all"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="rounded-t-2xl object-cover md:group-hover:brightness-[25%] transition-all"
         />
       </div>
       <div className="flex flex-grow flex-col justify-between gap-3 p-5">
