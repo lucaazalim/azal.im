@@ -4,7 +4,7 @@
     "title": "2012",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Batman v Superman: Dawn of Justice",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Captain America: Civil War",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Alice Through the Looking Glass",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -36,7 +36,7 @@
     "title": "War for the Planet of the Apes",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -44,7 +44,7 @@
     "title": "The Fate of the Furious",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -52,7 +52,7 @@
     "title": "The Cloverfield Paradox",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Ex Machina",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Catch Me If You Can",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -76,7 +76,7 @@
     "title": "What Happened to Monday",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Secuestro",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Contratiempo",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Annihilation",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -108,7 +108,7 @@
     "title": "3096 Tage",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -116,7 +116,7 @@
     "title": "The Imitation Game",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -124,7 +124,7 @@
     "title": "Órbita 9",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "no"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Steve Jobs",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Incredibles 2",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -148,15 +148,15 @@
     "title": "The Truman Show",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "yes"
   },
   {
     "watched_at": "07-2018",
-    "title": "TAU",
+    "title": "Tau",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Extinção",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -172,7 +172,7 @@
     "title": "El aviso",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Calibre",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -188,7 +188,7 @@
     "title": "The Impostor",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1944",
+    "year": 1944,
     "recommended": "yes"
   },
   {
@@ -196,7 +196,7 @@
     "title": "The Boy in the Striped Pyjamas",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Unbreakable",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2000",
+    "year": 2000,
     "recommended": "yes"
   },
   {
@@ -212,7 +212,7 @@
     "title": "The Meg",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -220,7 +220,7 @@
     "title": "Searching",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Venom",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -236,7 +236,7 @@
     "title": "The Gunman",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -244,7 +244,7 @@
     "title": "Papillon",
     "platform": "Cinema",
     "type": "movie",
-    "year": "1973",
+    "year": 1973,
     "recommended": "yes"
   },
   {
@@ -252,7 +252,7 @@
     "title": "Hunter Killer",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -260,7 +260,7 @@
     "title": "Gravity",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -268,7 +268,7 @@
     "title": "First Man",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -276,7 +276,7 @@
     "title": "A Star Is Born",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "favorite"
   },
   {
@@ -284,7 +284,7 @@
     "title": "Zero Dark Thirty",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -292,7 +292,7 @@
     "title": "Small Town Crime",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "no"
   },
   {
@@ -300,7 +300,7 @@
     "title": "No Escape",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -308,23 +308,23 @@
     "title": "Left Behind",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "no"
   },
   {
     "watched_at": "11-2018",
-    "title": "Ladrões",
+    "title": "Takers",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1972",
+    "year": 2010,
     "recommended": "yes"
   },
   {
     "watched_at": "11-2018",
-    "title": "GAGA: FIVE FOOT TWO",
+    "title": "Gaga: Five Foot Two",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -332,7 +332,7 @@
     "title": "Edge of Fear",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -340,7 +340,7 @@
     "title": "Cam",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -348,7 +348,7 @@
     "title": "Bohemian Rhapsody",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -356,7 +356,7 @@
     "title": "The Walk",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -364,7 +364,7 @@
     "title": "À Deriva",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -372,7 +372,7 @@
     "title": "12 Rounds 3: Lockdown",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -380,7 +380,7 @@
     "title": "10 Cloverfield Lane",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -388,7 +388,7 @@
     "title": "Widows",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -396,7 +396,7 @@
     "title": "Three Billboards Outside Ebbing, Missouri",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -404,7 +404,7 @@
     "title": "The Shape of Water",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -412,7 +412,7 @@
     "title": "The Grand Budapest Hotel",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -420,7 +420,7 @@
     "title": "Robin Hood",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
@@ -428,7 +428,7 @@
     "title": "La La Land",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "favorite"
   },
   {
@@ -436,7 +436,7 @@
     "title": "Forrest Gump",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1994",
+    "year": 1994,
     "recommended": "yes"
   },
   {
@@ -444,7 +444,7 @@
     "title": "Fantastic Beasts: The Crimes of Grindelwald",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -452,7 +452,7 @@
     "title": "Especial de Natal: Se Beber, Não Ceie",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -460,7 +460,7 @@
     "title": "Case 39",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "no"
   },
   {
@@ -468,7 +468,7 @@
     "title": "Cadáver",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
@@ -476,7 +476,7 @@
     "title": "Bird Box",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -484,7 +484,7 @@
     "title": "Avengers: Infinity War",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -492,7 +492,7 @@
     "title": "Aquaman",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -500,7 +500,7 @@
     "title": "Ant-Man and the Wasp",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -508,7 +508,7 @@
     "title": "Ant-Man",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -516,7 +516,7 @@
     "title": "A Quiet Place",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "favorite"
   },
   {
@@ -524,7 +524,7 @@
     "title": "12 Years a Slave",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "favorite"
   },
   {
@@ -532,7 +532,7 @@
     "title": "The Perks of Being a Wallflower",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -540,7 +540,7 @@
     "title": "Spider-Man: Into the Spider-Verse",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -548,7 +548,7 @@
     "title": "Mortal Engines",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -556,7 +556,7 @@
     "title": "Minha Vida em Marte",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -564,7 +564,7 @@
     "title": "Gone Girl",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -572,7 +572,7 @@
     "title": "Enough",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "no"
   },
   {
@@ -580,7 +580,7 @@
     "title": "Buried",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "no"
   },
   {
@@ -588,7 +588,7 @@
     "title": "127 hours",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
@@ -596,7 +596,7 @@
     "title": "Vice",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -604,7 +604,7 @@
     "title": "The Mule",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -612,7 +612,7 @@
     "title": "Roma",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -620,7 +620,7 @@
     "title": "Paranoia",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
@@ -628,7 +628,7 @@
     "title": "Green Book",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -636,7 +636,7 @@
     "title": "Ferris Bueller's Day Off",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1986",
+    "year": 1986,
     "recommended": "yes"
   },
   {
@@ -644,7 +644,7 @@
     "title": "Children of Men",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -652,7 +652,7 @@
     "title": "Bad Seeds",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -660,7 +660,7 @@
     "title": "Alita: Battle Angel",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -668,7 +668,7 @@
     "title": "A Dog's Way Home",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
@@ -676,7 +676,7 @@
     "title": "The Tourist",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "no"
   },
   {
@@ -684,7 +684,7 @@
     "title": "The Revenant",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -692,7 +692,7 @@
     "title": "The Magic of Belle Isle",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -700,7 +700,7 @@
     "title": "The Lovely Bones",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "no"
   },
   {
@@ -708,7 +708,7 @@
     "title": "Stolen",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "maybe"
   },
   {
@@ -716,7 +716,7 @@
     "title": "On The Basis of Sex",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -724,7 +724,7 @@
     "title": "O Hóspede",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "maybe"
   },
   {
@@ -732,7 +732,7 @@
     "title": "Michael Jackson's This Is It",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
@@ -740,15 +740,15 @@
     "title": "Limitless",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
     "watched_at": "03-2019",
     "title": "Leaving Neverland",
     "platform": "HBO GO",
-    "type": "movie",
-    "year": "2019",
+    "type": "series",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -756,7 +756,7 @@
     "title": "Kill Bill: Vol. 1",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2003",
+    "year": 2003,
     "recommended": "yes"
   },
   {
@@ -764,7 +764,7 @@
     "title": "John Wick",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -772,7 +772,7 @@
     "title": "Isn't It Romantic",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -780,7 +780,7 @@
     "title": "High School Musical",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "maybe"
   },
   {
@@ -788,7 +788,7 @@
     "title": "Five Feet Apart",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -796,7 +796,7 @@
     "title": "Dumbo",
     "platform": "Cinema",
     "type": "movie",
-    "year": "1941",
+    "year": 1941,
     "recommended": "yes"
   },
   {
@@ -804,7 +804,7 @@
     "title": "Cold Pursuit",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "no"
   },
   {
@@ -812,7 +812,7 @@
     "title": "Changeling",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -820,15 +820,15 @@
     "title": "A Origem",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
     "watched_at": "04-2019",
-    "title": "You're not You",
+    "title": "You're Not You",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -836,7 +836,7 @@
     "title": "The Shawshank Redemption",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1994",
+    "year": 1994,
     "recommended": "yes"
   },
   {
@@ -844,7 +844,7 @@
     "title": "The Pianist",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -852,7 +852,7 @@
     "title": "The Miseducation of Cameron Post",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -860,7 +860,7 @@
     "title": "The Bucket List",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -868,7 +868,7 @@
     "title": "Snowden",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -876,7 +876,7 @@
     "title": "Shazam",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -884,7 +884,7 @@
     "title": "Se7en",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1995",
+    "year": 1995,
     "recommended": "yes"
   },
   {
@@ -892,7 +892,7 @@
     "title": "Patch Adams",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "yes"
   },
   {
@@ -900,7 +900,7 @@
     "title": "Passengers",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -908,7 +908,7 @@
     "title": "Notting Hill",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -916,7 +916,7 @@
     "title": "Miracles from Heaven",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
@@ -924,7 +924,7 @@
     "title": "Life is Beautiful",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -932,7 +932,7 @@
     "title": "Doctor Strange",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -940,7 +940,7 @@
     "title": "Dead Poets Society",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1989",
+    "year": 1989,
     "recommended": "yes"
   },
   {
@@ -948,7 +948,7 @@
     "title": "Breakthrough",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
@@ -956,7 +956,7 @@
     "title": "Behind the Curve",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -964,7 +964,7 @@
     "title": "Back to the Future",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1985",
+    "year": 1985,
     "recommended": "yes"
   },
   {
@@ -972,7 +972,7 @@
     "title": "Avengers: Endgame",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -980,7 +980,7 @@
     "title": "Arctic",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -988,7 +988,7 @@
     "title": "About Time",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -996,7 +996,7 @@
     "title": "Twelve Monkeys",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1995",
+    "year": 1995,
     "recommended": "yes"
   },
   {
@@ -1004,7 +1004,7 @@
     "title": "The Prestige",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -1012,7 +1012,7 @@
     "title": "The Big Short",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "maybe"
   },
   {
@@ -1020,7 +1020,7 @@
     "title": "Pokémon Detective Pikachu",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1028,7 +1028,7 @@
     "title": "Pet Sematary",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1036,7 +1036,7 @@
     "title": "Money Monster",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
@@ -1044,7 +1044,7 @@
     "title": "John Wick: Chapter 3 - Parabellum",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1052,7 +1052,7 @@
     "title": "John Wick: Chapter 2",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1060,7 +1060,7 @@
     "title": "I Am Legend",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -1068,7 +1068,7 @@
     "title": "Godzilla: King of the Monsters",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1076,7 +1076,7 @@
     "title": "Face/Off",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1997",
+    "year": 1997,
     "recommended": "yes"
   },
   {
@@ -1084,7 +1084,7 @@
     "title": "Brightburn",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1092,7 +1092,7 @@
     "title": "American Psycho",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2000",
+    "year": 2000,
     "recommended": "yes"
   },
   {
@@ -1100,7 +1100,7 @@
     "title": "Aladdin",
     "platform": "Cinema",
     "type": "movie",
-    "year": "1992",
+    "year": 1992,
     "recommended": "yes"
   },
   {
@@ -1108,7 +1108,7 @@
     "title": "Zodiac",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "no"
   },
   {
@@ -1116,7 +1116,7 @@
     "title": "Sully",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1124,7 +1124,7 @@
     "title": "Moonlight",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1132,7 +1132,7 @@
     "title": "Greta",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -1140,7 +1140,7 @@
     "title": "Deja Vu",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "maybe"
   },
   {
@@ -1148,7 +1148,7 @@
     "title": "Top Gun",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "1986",
+    "year": 1986,
     "recommended": "no"
   },
   {
@@ -1156,7 +1156,7 @@
     "title": "The Shallows",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
@@ -1164,7 +1164,7 @@
     "title": "The Perfection",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -1172,7 +1172,7 @@
     "title": "The Lion King",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
@@ -1180,7 +1180,7 @@
     "title": "The Lion King",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "1994",
+    "year": 1994,
     "recommended": "yes"
   },
   {
@@ -1188,7 +1188,7 @@
     "title": "Spotlight",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -1196,7 +1196,7 @@
     "title": "Spider-man: Far From Home",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1204,7 +1204,7 @@
     "title": "Match Point",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -1212,7 +1212,7 @@
     "title": "Lion",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "favorite"
   },
   {
@@ -1220,7 +1220,7 @@
     "title": "Get Out",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "favorite"
   },
   {
@@ -1228,7 +1228,7 @@
     "title": "Free Solo",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -1236,7 +1236,7 @@
     "title": "Flight",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -1244,7 +1244,7 @@
     "title": "Fathers & Daughters",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
@@ -1252,7 +1252,7 @@
     "title": "Don't Breathe",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1260,7 +1260,7 @@
     "title": "Captain Fantastic",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1268,7 +1268,7 @@
     "title": "Blade Runner 2049",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1276,7 +1276,7 @@
     "title": "Black Hawk Down",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "yes"
   },
   {
@@ -1284,7 +1284,7 @@
     "title": "Better Watch Out",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1292,7 +1292,7 @@
     "title": "Baby Driver",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1300,7 +1300,7 @@
     "title": "Al final del túnel",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1308,7 +1308,7 @@
     "title": "About a Boy",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -1316,7 +1316,7 @@
     "title": "A Ghost Story",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1324,7 +1324,7 @@
     "title": "A Clockwork Orange",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "1971",
+    "year": 1971,
     "recommended": "yes"
   },
   {
@@ -1332,7 +1332,7 @@
     "title": "Whindersson Nunes: Adulto",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1340,7 +1340,7 @@
     "title": "The Hateful Eight",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -1348,7 +1348,7 @@
     "title": "Slumdog Millionaire",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -1356,7 +1356,7 @@
     "title": "It",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1364,7 +1364,7 @@
     "title": "Inglourious Basterds",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -1372,7 +1372,7 @@
     "title": "Fight Club",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -1380,7 +1380,7 @@
     "title": "Fast & Furious Presents: Hobbs & Shaw",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1388,7 +1388,7 @@
     "title": "Deadpool 2",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -1396,7 +1396,7 @@
     "title": "Deadpool",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1404,7 +1404,7 @@
     "title": "Call Me by Your Name",
     "platform": "Popcorn Time",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "favorite"
   },
   {
@@ -1412,7 +1412,7 @@
     "title": "Yesterday",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1420,7 +1420,7 @@
     "title": "Pulp Fiction",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1994",
+    "year": 1994,
     "recommended": "yes"
   },
   {
@@ -1428,7 +1428,7 @@
     "title": "It Chapter Two",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1436,7 +1436,7 @@
     "title": "Django Unchained",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -1444,7 +1444,7 @@
     "title": "We Need to Talk About Kevin",
     "platform": "Prime",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -1452,7 +1452,7 @@
     "title": "Split",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1460,7 +1460,7 @@
     "title": "Hereditary",
     "platform": "Prime",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -1468,7 +1468,7 @@
     "title": "Glass",
     "platform": "Prime",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1476,7 +1476,7 @@
     "title": "Gemini Man",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "no"
   },
   {
@@ -1484,7 +1484,7 @@
     "title": "Fractured",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1492,7 +1492,7 @@
     "title": "Beautiful Boy",
     "platform": "Prime",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -1500,7 +1500,7 @@
     "title": "Ad Astra",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1508,7 +1508,7 @@
     "title": "The Monster of Mangatiti",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -1516,7 +1516,7 @@
     "title": "I Origins",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -1524,7 +1524,7 @@
     "title": "Harry Potter and the Sorcerer's Stone",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "yes"
   },
   {
@@ -1532,7 +1532,7 @@
     "title": "Harry Potter and the Chamber of Secrets",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -1540,7 +1540,7 @@
     "title": "Frozen",
     "platform": "Prime",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "maybe"
   },
   {
@@ -1548,7 +1548,7 @@
     "title": "Doctor Sleep",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1556,7 +1556,7 @@
     "title": "Training Day",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "yes"
   },
   {
@@ -1564,7 +1564,7 @@
     "title": "The Zookeeper's Wife",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1572,7 +1572,7 @@
     "title": "The Two Popes",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1580,7 +1580,7 @@
     "title": "Me Before You",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1588,7 +1588,7 @@
     "title": "Marriage Story",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1596,7 +1596,7 @@
     "title": "Manchester By The Sea",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1604,7 +1604,7 @@
     "title": "Knives Out",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1612,7 +1612,7 @@
     "title": "Good Will Hunting",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1997",
+    "year": 1997,
     "recommended": "yes"
   },
   {
@@ -1620,7 +1620,7 @@
     "title": "A Primeira Tentação de Cristo",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1628,7 +1628,7 @@
     "title": "Unbroken",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -1636,7 +1636,7 @@
     "title": "Parasite",
     "platform": "Cinema",
     "type": "movie",
-    "year": "1982",
+    "year": 1982,
     "recommended": "yes"
   },
   {
@@ -1644,7 +1644,7 @@
     "title": "Little Women",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1652,7 +1652,7 @@
     "title": "1917",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1660,7 +1660,7 @@
     "title": "Uncut Gems",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1668,7 +1668,7 @@
     "title": "The Invisible Man",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -1676,7 +1676,7 @@
     "title": "Sonic",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
@@ -1684,7 +1684,7 @@
     "title": "Jojo Rabbit",
     "platform": "Stremio",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1692,7 +1692,7 @@
     "title": "Alive",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1993",
+    "year": 1993,
     "recommended": "no"
   },
   {
@@ -1700,7 +1700,7 @@
     "title": "A Beautiful Day in the Neighborhood",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1708,7 +1708,7 @@
     "title": "The Green Mile",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -1716,7 +1716,7 @@
     "title": "Tallulah",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
@@ -1724,7 +1724,7 @@
     "title": "Onward",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -1732,7 +1732,7 @@
     "title": "Oblivion",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -1740,15 +1740,15 @@
     "title": "El hoyo",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "03-2020",
-    "title": "Don't F**k With Cats: Hunting an Internet Killer",
+    "title": "Don't F**k with Cats: Hunting an Internet Killer",
     "platform": "Netflix",
     "type": "miniseries",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1756,7 +1756,7 @@
     "title": "Amnesiac",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "maybe"
   },
   {
@@ -1764,7 +1764,7 @@
     "title": "All The Bright Places",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -1772,31 +1772,23 @@
     "title": "The Intern",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
     "watched_at": "04-2020",
-    "title": "Miracle in Cell No. 7",
+    "title": "Yedinci Kogustaki Mucize",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
-  },
-  {
-    "watched_at": "04-2020",
-    "title": "Mauricio Meirelles comedy special",
-    "platform": "Netflix",
-    "type": "movie",
-    "year": "2020",
-    "recommended": "yes"
   },
   {
     "watched_at": "04-2020",
     "title": "Extraction",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -1804,7 +1796,7 @@
     "title": "Amy Schumer Growing",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -1812,7 +1804,7 @@
     "title": "American Made",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1820,7 +1812,7 @@
     "title": "World War Z",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -1828,7 +1820,7 @@
     "title": "The Lady in the Van",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
@@ -1836,7 +1828,7 @@
     "title": "The Dark Knight Rises",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -1844,7 +1836,7 @@
     "title": "The Dark Knight",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -1852,7 +1844,7 @@
     "title": "Super Size Me 2: Holy Chicken!",
     "platform": "Prime",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1860,7 +1852,7 @@
     "title": "Super Size Me",
     "platform": "Prime",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "yes"
   },
   {
@@ -1868,7 +1860,7 @@
     "title": "Shutter Island",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
@@ -1876,7 +1868,7 @@
     "title": "Red Dragon",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -1884,7 +1876,7 @@
     "title": "Psycho",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1960",
+    "year": 1960,
     "recommended": "yes"
   },
   {
@@ -1892,7 +1884,7 @@
     "title": "Okja",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -1900,7 +1892,7 @@
     "title": "Man of Steel",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -1908,7 +1900,7 @@
     "title": "Jaws",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1975",
+    "year": 1975,
     "recommended": "yes"
   },
   {
@@ -1916,7 +1908,7 @@
     "title": "Hacksaw Ridge",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1924,7 +1916,7 @@
     "title": "Batman Begins",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -1932,7 +1924,7 @@
     "title": "Apollo 13",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1995",
+    "year": 1995,
     "recommended": "yes"
   },
   {
@@ -1940,15 +1932,15 @@
     "title": "18 Regali",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
     "watched_at": "05-2020",
-    "title": "100 Metros",
+    "title": "100 metros",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -1956,7 +1948,7 @@
     "title": "Saving Private Ryan",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "yes"
   },
   {
@@ -1964,7 +1956,7 @@
     "title": "The Machinist",
     "platform": "Prime",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "yes"
   },
   {
@@ -1972,7 +1964,7 @@
     "title": "The Equalizer",
     "platform": "Prime",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -1980,7 +1972,7 @@
     "title": "Scent of a Woman",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1992",
+    "year": 1992,
     "recommended": "yes"
   },
   {
@@ -1988,7 +1980,7 @@
     "title": "American Sniper",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -1996,7 +1988,7 @@
     "title": "7500",
     "platform": "Prime",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -2004,7 +1996,7 @@
     "title": "The Bourne Identity",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -2012,7 +2004,7 @@
     "title": "The Beguiled",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "no"
   },
   {
@@ -2020,7 +2012,7 @@
     "title": "Mission: Impossible",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -2028,7 +2020,7 @@
     "title": "Executive Decision",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1996",
+    "year": 1996,
     "recommended": "maybe"
   },
   {
@@ -2036,7 +2028,7 @@
     "title": "Escape Plan",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -2044,7 +2036,7 @@
     "title": "Deepwater Horizon",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -2052,7 +2044,7 @@
     "title": "Meet Joe Black",
     "platform": "Prime",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "maybe"
   },
   {
@@ -2060,7 +2052,7 @@
     "title": "Man on Fire",
     "platform": "Prime",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "yes"
   },
   {
@@ -2068,7 +2060,7 @@
     "title": "Enola Holmes",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2076,7 +2068,7 @@
     "title": "American Beauty",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -2084,7 +2076,7 @@
     "title": "The Social Dilemma",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
@@ -2092,7 +2084,7 @@
     "title": "Only The Brave",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
@@ -2100,7 +2092,7 @@
     "title": "My Octopus Teacher",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2108,7 +2100,7 @@
     "title": "Jack Reacher",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -2116,7 +2108,7 @@
     "title": "Dunkirk",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -2124,7 +2116,7 @@
     "title": "Basic Instinct",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1992",
+    "year": 1992,
     "recommended": "yes"
   },
   {
@@ -2132,7 +2124,7 @@
     "title": "American Murder: The Family Next Door",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2140,7 +2132,7 @@
     "title": "Titanic",
     "platform": "Telecine",
     "type": "movie",
-    "year": "1997",
+    "year": 1997,
     "recommended": "yes"
   },
   {
@@ -2148,7 +2140,7 @@
     "title": "The Matrix",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "maybe"
   },
   {
@@ -2156,7 +2148,7 @@
     "title": "Tenet",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
@@ -2164,7 +2156,7 @@
     "title": "Shawn Mendes: Live in Concert",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2172,7 +2164,7 @@
     "title": "Shawn Mendes: In Wonder",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2180,7 +2172,7 @@
     "title": "Schindler's List",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1993",
+    "year": 1993,
     "recommended": "yes"
   },
   {
@@ -2188,7 +2180,7 @@
     "title": "Hamilton",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2196,7 +2188,7 @@
     "title": "The Judge",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -2204,7 +2196,7 @@
     "title": "Star Wars: Episode VI – Return of the Jedi",
     "platform": "Disney+",
     "type": "movie",
-    "year": "1983",
+    "year": 1983,
     "recommended": "yes"
   },
   {
@@ -2212,7 +2204,7 @@
     "title": "Star Wars: Episode V – The Empire Strikes Back",
     "platform": "Disney+",
     "type": "movie",
-    "year": "1980",
+    "year": 1980,
     "recommended": "yes"
   },
   {
@@ -2220,7 +2212,7 @@
     "title": "Star Wars: Episode IV – A New Hope",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -2228,7 +2220,7 @@
     "title": "Soul",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2236,7 +2228,7 @@
     "title": "Sicario",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "maybe"
   },
   {
@@ -2244,7 +2236,7 @@
     "title": "Mission: Impossible III",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -2252,7 +2244,7 @@
     "title": "Mission: Impossible - Rogue Nation",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -2260,7 +2252,7 @@
     "title": "Mission: Impossible - Ghost Protocol",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -2268,7 +2260,7 @@
     "title": "Mission: Impossible - Fallout",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -2276,7 +2268,7 @@
     "title": "Mad Max: Fury Road",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -2284,7 +2276,7 @@
     "title": "L'incredibile storia dell'Isola delle Rose",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2292,7 +2284,7 @@
     "title": "Eternal Sunshine of the Spotless Mind",
     "platform": "Prime",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "no"
   },
   {
@@ -2300,7 +2292,7 @@
     "title": "Edge of Tomorrow",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -2308,7 +2300,7 @@
     "title": "47 Meters Down: Uncaged",
     "platform": "Prime",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "no"
   },
   {
@@ -2316,7 +2308,7 @@
     "title": "The Dig",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2324,7 +2316,7 @@
     "title": "Pieces of a Woman",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2332,7 +2324,7 @@
     "title": "Inside Man",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -2340,7 +2332,7 @@
     "title": "Inside Job",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
@@ -2348,7 +2340,7 @@
     "title": "American Factory",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -2356,7 +2348,7 @@
     "title": "RED",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "maybe"
   },
   {
@@ -2364,7 +2356,7 @@
     "title": "Mr. Brooks",
     "platform": "Prime",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -2372,7 +2364,7 @@
     "title": "Zack Snyder's Justice League",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2380,7 +2372,7 @@
     "title": "Whiplash",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "favorite"
   },
   {
@@ -2388,7 +2380,7 @@
     "title": "Up",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -2396,7 +2388,7 @@
     "title": "The Trial of the Chicago 7",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
@@ -2404,7 +2396,7 @@
     "title": "Nocturnal Animals",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -2412,7 +2404,7 @@
     "title": "Molly's Game",
     "platform": "Prime",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -2420,7 +2412,7 @@
     "title": "Le chant du loup",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -2428,7 +2420,7 @@
     "title": "Captain Phillips",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -2436,7 +2428,7 @@
     "title": "United 93",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -2444,7 +2436,7 @@
     "title": "Stowaway",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2452,7 +2444,7 @@
     "title": "Prisoners",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -2460,7 +2452,7 @@
     "title": "Nightcrawler",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -2468,7 +2460,7 @@
     "title": "Arlington Road",
     "platform": "YouTube",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -2476,7 +2468,7 @@
     "title": "Sleepers",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1996",
+    "year": 1996,
     "recommended": "yes"
   },
   {
@@ -2484,7 +2476,7 @@
     "title": "Utøya 22. juli",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -2492,7 +2484,7 @@
     "title": "The Purge: Anarchy",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "maybe"
   },
   {
@@ -2500,7 +2492,7 @@
     "title": "The Kingdom",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -2508,7 +2500,7 @@
     "title": "The Greatest Showman",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "favorite"
   },
   {
@@ -2516,7 +2508,7 @@
     "title": "Source Code",
     "platform": "Prime",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -2524,7 +2516,7 @@
     "title": "Oxygen",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -2532,7 +2524,7 @@
     "title": "No Country for Old Men",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "favorite"
   },
   {
@@ -2540,7 +2532,7 @@
     "title": "Leave No Trace",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -2548,7 +2540,7 @@
     "title": "La fille inconnue",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
@@ -2556,7 +2548,7 @@
     "title": "Cruella",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2564,7 +2556,7 @@
     "title": "Cidade de Deus",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2002",
+    "year": 2002,
     "recommended": "yes"
   },
   {
@@ -2572,7 +2564,7 @@
     "title": "Below Zero",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1930",
+    "year": 1930,
     "recommended": "no"
   },
   {
@@ -2580,7 +2572,7 @@
     "title": "Seaspiracy",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2588,7 +2580,7 @@
     "title": "Army of the Dead",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -2596,7 +2588,7 @@
     "title": "I See You",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
@@ -2604,7 +2596,7 @@
     "title": "The Shining",
     "platform": "Telecine",
     "type": "movie",
-    "year": "1980",
+    "year": 1980,
     "recommended": "yes"
   },
   {
@@ -2612,7 +2604,7 @@
     "title": "Black Swan",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "favorite"
   },
   {
@@ -2620,7 +2612,7 @@
     "title": "Little Miss Sunshine",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -2628,7 +2620,7 @@
     "title": "The Woman in the Window",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2636,7 +2628,7 @@
     "title": "The Mauritanian",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2644,7 +2636,7 @@
     "title": "The Curious Case of Benjamin Button",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -2652,7 +2644,7 @@
     "title": "Luca",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2660,7 +2652,7 @@
     "title": "Ocean’s Eleven",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "yes"
   },
   {
@@ -2668,7 +2660,7 @@
     "title": "The Lighthouse",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -2676,7 +2668,7 @@
     "title": "Taxi Driver",
     "platform": "Telecine",
     "type": "movie",
-    "year": "1976",
+    "year": 1976,
     "recommended": "yes"
   },
   {
@@ -2684,7 +2676,7 @@
     "title": "The Wolf of Wall Street",
     "platform": "Prime",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "favorite"
   },
   {
@@ -2692,7 +2684,7 @@
     "title": "Three Identical Strangers",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -2700,7 +2692,7 @@
     "title": "The Tomorrow War",
     "platform": "Prime",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2708,7 +2700,7 @@
     "title": "Kol",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2716,7 +2708,7 @@
     "title": "In the valley of elah",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -2724,7 +2716,7 @@
     "title": "Fear Street: 1994",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -2732,7 +2724,7 @@
     "title": "Black Widow",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2740,7 +2732,7 @@
     "title": "A Quiet Place Part II",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2748,7 +2740,7 @@
     "title": "The Suicide Squad",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2756,7 +2748,7 @@
     "title": "The Fugitive",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "1993",
+    "year": 1993,
     "recommended": "yes"
   },
   {
@@ -2764,7 +2756,7 @@
     "title": "Sputnik",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "no"
   },
   {
@@ -2772,7 +2764,7 @@
     "title": "Silver Linings Playbook",
     "platform": "Globoplay",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -2780,7 +2772,7 @@
     "title": "Mimi",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -2788,7 +2780,7 @@
     "title": "Free Guy",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2796,7 +2788,7 @@
     "title": "Donnie Darko",
     "platform": "Prime",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "maybe"
   },
   {
@@ -2804,7 +2796,7 @@
     "title": "Don't Breathe 2",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2812,7 +2804,7 @@
     "title": "Dick Johnson Is Dead",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2820,7 +2812,7 @@
     "title": "Dark Waters",
     "platform": "Prime",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -2828,7 +2820,7 @@
     "title": "Cast Away",
     "platform": "Prime",
     "type": "movie",
-    "year": "2000",
+    "year": 2000,
     "recommended": "yes"
   },
   {
@@ -2836,7 +2828,7 @@
     "title": "Capharnaüm",
     "platform": "Prime",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -2844,7 +2836,7 @@
     "title": "Bo Burnham: Make Happy",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -2852,7 +2844,7 @@
     "title": "Bo Burnham: Inside",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2860,7 +2852,7 @@
     "title": "Blood Red Sky",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -2868,7 +2860,7 @@
     "title": "Before the Devil Knows You're Dead",
     "platform": "Prime",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -2876,7 +2868,7 @@
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2884,7 +2876,7 @@
     "title": "CODA",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "favorite"
   },
   {
@@ -2892,7 +2884,7 @@
     "title": "The Night House",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2900,7 +2892,7 @@
     "title": "The Butterfly Effect",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "yes"
   },
   {
@@ -2908,7 +2900,7 @@
     "title": "Shot Caller",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -2916,7 +2908,7 @@
     "title": "No Time to Die",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -2924,7 +2916,7 @@
     "title": "Mother!",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -2932,7 +2924,7 @@
     "title": "Minari",
     "platform": "Prime",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -2940,7 +2932,7 @@
     "title": "Green Room",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -2948,7 +2940,7 @@
     "title": "Gran Torino",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -2956,7 +2948,7 @@
     "title": "Freedom Writers",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -2964,15 +2956,15 @@
     "title": "Triangle",
     "platform": "Prime",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
     "watched_at": "11-2021",
-    "title": "The Pursuit of Happiness",
+    "title": "The Pursuit of Happyness",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -2980,7 +2972,7 @@
     "title": "The Fighter",
     "platform": "Globoplay",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "maybe"
   },
   {
@@ -2988,7 +2980,7 @@
     "title": "The Descent",
     "platform": "Prime",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -2996,7 +2988,7 @@
     "title": "Saw",
     "platform": "Prime",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "yes"
   },
   {
@@ -3004,7 +2996,7 @@
     "title": "Run Hide Fight",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "no"
   },
   {
@@ -3012,7 +3004,7 @@
     "title": "Non-Stop",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -3020,7 +3012,7 @@
     "title": "Nobody",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3028,7 +3020,7 @@
     "title": "In the Heart of the Sea",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -3036,7 +3028,7 @@
     "title": "House of Gucci",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3044,7 +3036,7 @@
     "title": "Greyhound",
     "platform": "Apple TV+",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -3052,7 +3044,7 @@
     "title": "Ghostbusters: Afterlife",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3060,7 +3052,7 @@
     "title": "Finch",
     "platform": "Apple TV+",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3068,7 +3060,7 @@
     "title": "Enemy",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
@@ -3076,7 +3068,7 @@
     "title": "Drive",
     "platform": "Globoplay",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -3084,7 +3076,7 @@
     "title": "Adele One Night Only",
     "platform": "Globoplay",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3092,7 +3084,7 @@
     "title": "21",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -3100,7 +3092,7 @@
     "title": "The Unforgivable",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "maybe"
   },
   {
@@ -3108,7 +3100,7 @@
     "title": "The Power of the Dog",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3116,7 +3108,7 @@
     "title": "Spider Man: No Way Home",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3124,7 +3116,7 @@
     "title": "Encanto",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3132,7 +3124,7 @@
     "title": "Eighth Grade",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -3140,7 +3132,7 @@
     "title": "We're the Millers",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -3148,7 +3140,7 @@
     "title": "tick, tick...BOOM!",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3156,7 +3148,7 @@
     "title": "The Lost Daughter",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -3164,7 +3156,7 @@
     "title": "The Book Thief",
     "platform": "Star+",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -3172,7 +3164,7 @@
     "title": "The Best Offer",
     "platform": "Prime",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -3180,7 +3172,7 @@
     "title": "Scream",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3188,7 +3180,7 @@
     "title": "Phone Booth",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2022",
+    "year": 2002,
     "recommended": "maybe"
   },
   {
@@ -3196,7 +3188,7 @@
     "title": "Erin Brockovich",
     "platform": "Telecine",
     "type": "movie",
-    "year": "2000",
+    "year": 2000,
     "recommended": "yes"
   },
   {
@@ -3204,7 +3196,7 @@
     "title": "Don't Look Up",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3212,7 +3204,7 @@
     "title": "14 Peaks: Nothing Is Impossible",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
@@ -3220,7 +3212,7 @@
     "title": "The Tinder Swindler",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3228,7 +3220,7 @@
     "title": "The Fallout",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3236,7 +3228,7 @@
     "title": "13 Hours",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -3244,7 +3236,7 @@
     "title": "Turning Red",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3252,7 +3244,7 @@
     "title": "The Mitchells vs the Machines",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3260,7 +3252,7 @@
     "title": "The Fault in Our Stars",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -3268,7 +3260,7 @@
     "title": "The Batman",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3276,7 +3268,7 @@
     "title": "Skyggen i mit øje",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3284,7 +3276,7 @@
     "title": "Fresh",
     "platform": "Star+",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3292,7 +3284,7 @@
     "title": "Downfall: The Case Against Boeing",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3300,7 +3292,7 @@
     "title": "Believe Me: The Abduction of Lisa McVey",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -3308,7 +3300,7 @@
     "title": "Return to Space",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3316,7 +3308,7 @@
     "title": "You Should Have Left",
     "platform": "Globoplay",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
@@ -3324,7 +3316,7 @@
     "title": "Wrath of Man",
     "platform": "Prime",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3332,7 +3324,7 @@
     "title": "Top Gun: Maverick",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3340,7 +3332,7 @@
     "title": "The Nice Guys",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -3348,7 +3340,7 @@
     "title": "The Hunt",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -3356,7 +3348,7 @@
     "title": "The Clovehitch Killer",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "maybe"
   },
   {
@@ -3364,7 +3356,7 @@
     "title": "The Beatles: Get Back",
     "platform": "Disney+",
     "type": "documentary",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3372,7 +3364,7 @@
     "title": "Silenced",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "maybe"
   },
   {
@@ -3380,7 +3372,7 @@
     "title": "Ricky Gervais: SuperNature",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3388,7 +3380,7 @@
     "title": "I, Tonya",
     "platform": "Apple TV+",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -3396,7 +3388,7 @@
     "title": "Gifted Hands: The Ben Carson Story",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -3404,7 +3396,7 @@
     "title": "Doctor Strange in the Multiverse of Madness",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3412,7 +3404,7 @@
     "title": "Deep Impact",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "no"
   },
   {
@@ -3420,7 +3412,7 @@
     "title": "Cleveland Abduction",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -3428,7 +3420,7 @@
     "title": "Upgrade",
     "platform": "Apple TV+",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -3436,7 +3428,7 @@
     "title": "The Life of David Gale",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2003",
+    "year": 2003,
     "recommended": "yes"
   },
   {
@@ -3444,7 +3436,7 @@
     "title": "Layer Cake",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2004",
+    "year": 2004,
     "recommended": "maybe"
   },
   {
@@ -3452,7 +3444,7 @@
     "title": "Hustle",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3460,7 +3452,7 @@
     "title": "Girl in the Picture",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3468,7 +3460,7 @@
     "title": "Everything Everywhere All at Once",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "maybe"
   },
   {
@@ -3476,7 +3468,7 @@
     "title": "Blow Out",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1981",
+    "year": 1981,
     "recommended": "no"
   },
   {
@@ -3484,7 +3476,7 @@
     "title": "Warm Bodies",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -3492,7 +3484,7 @@
     "title": "Thirteen Lives",
     "platform": "Prime",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3500,7 +3492,7 @@
     "title": "The Black Phone",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3508,7 +3500,7 @@
     "title": "Prey",
     "platform": "Star+",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3516,7 +3508,7 @@
     "title": "Pacto Brutal: O Assassinato de Daniella Perez",
     "platform": "HBO Max",
     "type": "documentary",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3524,7 +3516,7 @@
     "title": "O Palestrante",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3532,7 +3524,7 @@
     "title": "Elvis",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3540,7 +3532,7 @@
     "title": "Bullet Train",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3548,7 +3540,7 @@
     "title": "Trainwreck: Woodstock '99",
     "platform": "Netflix",
     "type": "documentary",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3556,7 +3548,7 @@
     "title": "The Rescue",
     "platform": "Disney+",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3564,7 +3556,7 @@
     "title": "The Anthrax Attacks",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3572,7 +3564,7 @@
     "title": "Nope",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3580,7 +3572,7 @@
     "title": "Hanna",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -3588,7 +3580,7 @@
     "title": "Underwater",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2020,
     "recommended": "no"
   },
   {
@@ -3596,7 +3588,7 @@
     "title": "Fall",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3604,7 +3596,7 @@
     "title": "Bros",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3612,7 +3604,7 @@
     "title": "The Good Nurse",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3620,7 +3612,7 @@
     "title": "Enola Holmes 2",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3628,7 +3620,7 @@
     "title": "Black Panther: Wakanda Forever",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3636,7 +3628,7 @@
     "title": "Barbarian",
     "platform": "Star+",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3644,7 +3636,7 @@
     "title": "All Quiet on the Western Front",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3652,7 +3644,7 @@
     "title": "X",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3660,7 +3652,7 @@
     "title": "The Volcano: Rescue from Whakaari",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3668,7 +3660,7 @@
     "title": "The Crazies",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "maybe"
   },
   {
@@ -3676,7 +3668,7 @@
     "title": "Roald Dahl's Matilda the Musical",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3684,7 +3676,7 @@
     "title": "Pearl",
     "platform": "Stremio",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3692,7 +3684,7 @@
     "title": "Midnight in Paris",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -3700,15 +3692,15 @@
     "title": "Guillermo del Toro's Pinocchio",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2022",
-    "title": "Glass Onion",
+    "title": "Glass Onion: A Knives Out Mystery",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3716,7 +3708,7 @@
     "title": "Being John Malkovich",
     "platform": "Prime",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -3724,7 +3716,7 @@
     "title": "Avatar: The Way of Water",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3732,7 +3724,7 @@
     "title": "71",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -3740,7 +3732,7 @@
     "title": "The Little Things",
     "platform": "Prime",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -3748,7 +3740,7 @@
     "title": "The Chalk Line",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3756,7 +3748,7 @@
     "title": "Smile",
     "platform": "Prime",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3764,7 +3756,7 @@
     "title": "Misery",
     "platform": "Prime",
     "type": "movie",
-    "year": "1990",
+    "year": 1990,
     "recommended": "yes"
   },
   {
@@ -3772,7 +3764,7 @@
     "title": "Inheritance",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -3780,7 +3772,7 @@
     "title": "Casino Royale",
     "platform": "Prime",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
@@ -3788,7 +3780,7 @@
     "title": "Athlete A",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "no"
   },
   {
@@ -3796,7 +3788,7 @@
     "title": "Alone",
     "platform": "Prime",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -3804,7 +3796,7 @@
     "title": "The Whale",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3812,7 +3804,7 @@
     "title": "Queen & Slim",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -3820,7 +3812,7 @@
     "title": "Patriots Day",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -3828,7 +3820,7 @@
     "title": "Missing",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3836,7 +3828,7 @@
     "title": "Luther",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "maybe"
   },
   {
@@ -3844,7 +3836,7 @@
     "title": "John Wick: Chapter 4",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3852,7 +3844,7 @@
     "title": "In Time",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -3860,7 +3852,7 @@
     "title": "Triangle of Sadness",
     "platform": "Prime",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -3868,7 +3860,7 @@
     "title": "The Super Mario Bros. Movie",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3876,7 +3868,7 @@
     "title": "Her",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -3884,7 +3876,7 @@
     "title": "Evil Dead Rise",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3892,7 +3884,7 @@
     "title": "The Lodge",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -3900,7 +3892,7 @@
     "title": "The Deep End of the Ocean",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -3908,7 +3900,7 @@
     "title": "In the Shadow of the Moon",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -3916,7 +3908,7 @@
     "title": "Girl, Interrupted",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1999",
+    "year": 1999,
     "recommended": "yes"
   },
   {
@@ -3924,7 +3916,7 @@
     "title": "The Silencing",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -3932,7 +3924,7 @@
     "title": "The Pledge",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2001",
+    "year": 2001,
     "recommended": "yes"
   },
   {
@@ -3940,7 +3932,7 @@
     "title": "The Covenant",
     "platform": "Prime",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3948,7 +3940,7 @@
     "title": "Take Care of Maya",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3956,7 +3948,7 @@
     "title": "Spider-Man: Across the Spider-Verse",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3964,7 +3956,7 @@
     "title": "Shut In",
     "platform": "Prime",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
@@ -3972,7 +3964,7 @@
     "title": "Freaky",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -3980,7 +3972,7 @@
     "title": "Extraction 2",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -3988,7 +3980,7 @@
     "title": "A History of Violence",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -3996,7 +3988,7 @@
     "title": "16 Blocks",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2006",
+    "year": 2006,
     "recommended": "maybe"
   },
   {
@@ -4004,7 +3996,7 @@
     "title": "Words on Bathroom Walls",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -4012,7 +4004,7 @@
     "title": "Under the Silver Lake",
     "platform": "Prime",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -4020,7 +4012,7 @@
     "title": "Turist",
     "platform": "Prime",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "maybe"
   },
   {
@@ -4028,7 +4020,7 @@
     "title": "There Will Be Blood",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4036,7 +4028,7 @@
     "title": "The Squid and the Whale",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -4044,7 +4036,7 @@
     "title": "The Jacket",
     "platform": "Prime",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
@@ -4052,7 +4044,7 @@
     "title": "The Game",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1997",
+    "year": 1997,
     "recommended": "yes"
   },
   {
@@ -4060,7 +4052,7 @@
     "title": "The Deepest Breath",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4068,7 +4060,7 @@
     "title": "Ready or Not",
     "platform": "Star+",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -4076,7 +4068,7 @@
     "title": "Primal Fear",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1996",
+    "year": 1996,
     "recommended": "yes"
   },
   {
@@ -4084,7 +4076,7 @@
     "title": "Premonition",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4092,7 +4084,7 @@
     "title": "Old Henry",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -4100,7 +4092,7 @@
     "title": "Mission: Impossible - Dead Reckoning Part One",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "maybe"
   },
   {
@@ -4108,7 +4100,7 @@
     "title": "Midnight Express",
     "platform": "Netflix",
     "type": "movie",
-    "year": "1978",
+    "year": 1978,
     "recommended": "yes"
   },
   {
@@ -4116,7 +4108,7 @@
     "title": "Little Bone Lodge",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4124,7 +4116,7 @@
     "title": "Let Him Go",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -4132,7 +4124,7 @@
     "title": "Ford v Ferrari",
     "platform": "Star+",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
@@ -4140,7 +4132,7 @@
     "title": "Eastern Promises",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4148,7 +4140,7 @@
     "title": "Barbie",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4156,7 +4148,7 @@
     "title": "Bad Times at the El Royale",
     "platform": "Star+",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -4164,7 +4156,7 @@
     "title": "A Man Called Otto",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -4172,7 +4164,7 @@
     "title": "A Cure for Wellness",
     "platform": "Star+",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -4180,7 +4172,7 @@
     "title": "12 Strong",
     "platform": "Prime",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -4188,7 +4180,7 @@
     "title": "50/50",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -4196,7 +4188,7 @@
     "title": "Reptile",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4204,7 +4196,7 @@
     "title": "Nowhere",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4212,7 +4204,7 @@
     "title": "No One Will Save You",
     "platform": "Star+",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4220,7 +4212,7 @@
     "title": "Love at First Sight",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4228,7 +4220,7 @@
     "title": "In the Tall Grass",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
@@ -4236,7 +4228,7 @@
     "title": "Close",
     "platform": "Stremio",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -4244,7 +4236,7 @@
     "title": "Boss Level",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -4252,7 +4244,7 @@
     "title": "The Wonderful Story of Henry Sugar",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4260,7 +4252,7 @@
     "title": "The Last House on the Left",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -4268,7 +4260,7 @@
     "title": "Jury Duty",
     "platform": "Prime",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4276,7 +4268,7 @@
     "title": "All the Money in the World",
     "platform": "Prime",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -4284,7 +4276,7 @@
     "title": "Contagion",
     "platform": "Prime",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "no"
   },
   {
@@ -4292,7 +4284,7 @@
     "title": "The Killer",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4300,7 +4292,7 @@
     "title": "Land",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -4308,7 +4300,7 @@
     "title": "Come Play",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "no"
   },
   {
@@ -4316,7 +4308,7 @@
     "title": "The Fundamentals of Caring",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
@@ -4324,7 +4316,7 @@
     "title": "Promising Young Woman",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -4332,7 +4324,7 @@
     "title": "1408",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4340,7 +4332,7 @@
     "title": "No Exit",
     "platform": "Star+",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -4348,7 +4340,7 @@
     "title": "Accused",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "maybe"
   },
   {
@@ -4356,7 +4348,7 @@
     "title": "Druk",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
@@ -4364,7 +4356,7 @@
     "title": "Cocaine Bear",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "no"
   },
   {
@@ -4372,7 +4364,7 @@
     "title": "Saltburn",
     "platform": "Prime",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "favorite"
   },
   {
@@ -4380,7 +4372,7 @@
     "title": "Law Abiding Citizen",
     "platform": "Prime",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -4388,7 +4380,7 @@
     "title": "Foxcatcher",
     "platform": "Prime",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
@@ -4396,7 +4388,7 @@
     "title": "Elena Knows",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "maybe"
   },
   {
@@ -4404,7 +4396,7 @@
     "title": "Life",
     "platform": "Prime",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
@@ -4412,7 +4404,7 @@
     "title": "Gone Baby Gone",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4420,7 +4412,7 @@
     "title": "The Reader",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2008",
+    "year": 2008,
     "recommended": "yes"
   },
   {
@@ -4428,7 +4420,7 @@
     "title": "Crazy, Stupid, Love.",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -4436,7 +4428,7 @@
     "title": "Chronicle",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -4444,7 +4436,7 @@
     "title": "Leave The World Behind",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "no"
   },
   {
@@ -4452,7 +4444,7 @@
     "title": "Talk to Me",
     "platform": "Prime",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -4460,7 +4452,7 @@
     "title": "La sociedad de la nieve",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4468,15 +4460,15 @@
     "title": "American History X",
     "platform": "Prime",
     "type": "movie",
-    "year": "1998",
+    "year": 1998,
     "recommended": "yes"
   },
   {
     "watched_at": "01-2024",
-    "title": "Misanthrope",
+    "title": "To Catch a Killer",
     "platform": "Prime",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4484,7 +4476,7 @@
     "title": "Wild",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "maybe"
   },
   {
@@ -4492,7 +4484,7 @@
     "title": "American Nightmare",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
@@ -4500,7 +4492,7 @@
     "title": "Lars and the Real Girl",
     "platform": "Prime",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
@@ -4508,7 +4500,7 @@
     "title": "Sinister",
     "platform": "Prime",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "no"
   },
   {
@@ -4516,7 +4508,7 @@
     "title": "Brothers",
     "platform": "Prime",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
@@ -4524,7 +4516,7 @@
     "title": "The Favourite",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
@@ -4532,7 +4524,7 @@
     "title": "The Killing of a Sacred Deer",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "favorite"
   },
   {
@@ -4540,7 +4532,7 @@
     "title": "The Lobster",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
@@ -4548,7 +4540,7 @@
     "title": "The Mist",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "maybe"
   },
   {
@@ -4556,7 +4548,7 @@
     "title": "Lover, Stalker, Killer",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
@@ -4564,7 +4556,7 @@
     "title": "Burnt",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
@@ -4572,7 +4564,7 @@
     "title": "The Music Never Stopped",
     "platform": "Prime",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
@@ -4580,7 +4572,7 @@
     "title": "Project X",
     "platform": "Prime",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
@@ -4588,7 +4580,7 @@
     "title": "Dallas Buyers Club",
     "platform": "Prime",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
@@ -4596,7 +4588,7 @@
     "title": "Poor Things",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4604,7 +4596,7 @@
     "title": "Interview with the Vampire: The Vampire Chronicles",
     "platform": "Prime",
     "type": "movie",
-    "year": "1994",
+    "year": 1994,
     "recommended": "yes"
   },
   {
@@ -4612,7 +4604,7 @@
     "title": "The Alpinist",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
@@ -4620,7 +4612,7 @@
     "title": "Anatomy of a Fall",
     "platform": "Stremio",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4628,7 +4620,7 @@
     "title": "The Zone of Interest",
     "platform": "Stremio",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
@@ -4636,7 +4628,7 @@
     "title": "Under the Skin",
     "platform": "HBO Max",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
@@ -4644,7 +4636,7 @@
     "title": "Aftersun",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
@@ -4652,7 +4644,7 @@
     "title": "Spaceman",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
@@ -4660,7 +4652,7 @@
     "title": "Hunt for the Wilderpeople",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
@@ -4668,7 +4660,7 @@
     "title": "A Simple Favor",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
@@ -4676,1375 +4668,1095 @@
     "title": "Anna",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Gentlemen",
-    "platform": "",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Late Night with the Devil",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Abigail",
-    "platform": "",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Reindeer Baby",
-    "platform": "",
     "type": "miniseries",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Four Good Days",
-    "platform": "",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Disturbia",
-    "platform": "",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Ted Bundy: Falling for a Killer",
-    "platform": "",
     "type": "miniseries",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Challengers",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Fallout",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Música",
-    "platform": "",
     "type": "movie",
-    "year": "2021",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Descendants",
-    "platform": "",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Eric",
-    "platform": "",
     "type": "miniseries",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Godzilla Minus One",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Us",
-    "platform": "",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Triple Frontier",
-    "platform": "",
     "type": "movie",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Hotel Mumbai",
-    "platform": "",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Primal Rage",
-    "platform": "",
     "type": "movie",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Longlegs",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "favorite"
   },
   {
     "watched_at": "12-2024",
     "title": "American Murder: Laci Peterson",
-    "platform": "",
     "type": "documentary",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Coherence",
-    "platform": "",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Men",
-    "platform": "",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Frozen Ground",
-    "platform": "",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Rebel Ridge",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Bandit",
-    "platform": "",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Searching for My Daughter",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "A Vítima Invisível: O Caso Eliza Samudio",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Jailbreak: Love on the Run",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Riders of Justice",
-    "platform": "",
     "type": "movie",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
     "watched_at": "12-2024",
     "title": "The Substance",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "favorite"
   },
   {
     "watched_at": "12-2024",
     "title": "His Three Daughters",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Watcher",
-    "platform": "",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "6 Souls",
-    "platform": "",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Menendez Brothers",
-    "platform": "",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Outfit",
-    "platform": "",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Belko Experiment",
-    "platform": "",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Remarkable Life of Ibelin",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Sweet Bobby: My Catfish Nightmare",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Visit",
-    "platform": "",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Martha",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Young Woman and the Sea",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "The Old Man",
-    "platform": "",
-    "type": "movie",
-    "year": "2022",
+    "type": "series",
+    "year": 2022,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Buy Now! The Shopping Conspiracy",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Wicked",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Violent Night",
-    "platform": "",
     "type": "movie",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
     "watched_at": "12-2024",
     "title": "Ainda Estou Aqui",
-    "platform": "",
     "type": "movie",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
     "watched_at": "12-2024",
     "title": "Beauty and the Beast",
-    "platform": "",
     "type": "movie",
-    "year": "2017",
+    "year": 1991,
     "recommended": "yes"
   },
   {
     "watched_at": "01-2025",
     "title": "Babygirl",
-    "platform": "",
     "type": "movie",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Accountant",
     "platform": "Prime",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Zootopia",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Theory of Everything",
-    "platform": "",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Social Network",
     "platform": "TV",
     "type": "movie",
-    "year": "2010",
+    "year": 2010,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Sem Saída",
     "platform": "YouTube",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Room",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Red Eye",
     "platform": "TV",
     "type": "movie",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Oldboy",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Logan",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Lo imposible",
     "platform": "TV",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Interstellar",
     "platform": "Netflix",
     "type": "movie",
-    "year": "2014",
+    "year": 2014,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "Hugo",
     "platform": "TV",
     "type": "movie",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Everyday",
     "platform": "Cinema",
     "type": "movie",
-    "year": "2012",
+    "year": 2012,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Avatar",
     "platform": "TV",
     "type": "movie",
-    "year": "2009",
+    "year": 2009,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "4: Rise of the Silver Surfer",
+    "title": "Fantastic Four: Rise of the Silver Surfer",
     "platform": "TV",
     "type": "movie",
-    "year": "2007",
+    "year": 2007,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "1899",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
-    "watched_at": "",
-    "title": "12 Macacos",
-    "platform": "",
+    "title": "12 Monkeys",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "A Louva-a-deus",
-    "platform": "",
+    "title": "La Mante",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "A Small Light",
-    "platform": "",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "After Life",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Anitta: Made in Honório",
-    "platform": "",
     "type": "series",
-    "year": "2020",
+    "year": 2020,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Atypical",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Barry",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "Bates Motel",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Berlin",
-    "platform": "",
+    "title": "Berlín",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Black Bird",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Black Mirror",
-    "platform": "",
     "type": "series",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Blindspot",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Bom dia, Verônica",
-    "platform": "",
     "type": "series",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Breaking Bad",
-    "platform": "",
     "type": "series",
-    "year": "2008",
+    "year": 2008,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Chernobyl",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Colony",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Crisis",
-    "platform": "",
     "type": "series",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Dahmer",
-    "platform": "",
+    "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Dark",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Demolidor",
-    "platform": "",
+    "title": "Marvel's Daredevil",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Designated Survivor",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Dexter",
-    "platform": "",
     "type": "series",
-    "year": "2006",
+    "year": 2006,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Dexter: New Blood",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Dr. House",
-    "platform": "",
+    "title": "House",
     "type": "series",
-    "year": "2004",
+    "year": 2004,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "Elize Matsunaga: Era Uma Vez Um Crime",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Emergency NYC",
-    "platform": "",
+    "title": "Emergency: NYC",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Five Days At Memorial",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Fleabag",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Glitch",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Grey's Anatomy",
-    "platform": "",
     "type": "series",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Heartstopper",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Hijack",
-    "platform": "",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Homeland",
-    "platform": "",
     "type": "series",
-    "year": "2011",
+    "year": 2011,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Hostages",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Inside Bill's Brain: Decoding Bill Gates",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Into the Night",
-    "platform": "",
     "type": "series",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Investigação Criminal",
-    "platform": "",
     "type": "series",
-    "year": "2012",
+    "year": 2012,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Jessica Jones",
-    "platform": "",
+    "title": "Marvel's Jessica Jones",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "La Casa de Papel",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Liebes Kind",
-    "platform": "",
     "type": "series",
-    "year": "2023",
+    "year": 2023,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Lost",
-    "platform": "",
     "type": "series",
-    "year": "2004",
+    "year": 2004,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "Love, Death & Robots",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Lucifer",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Luke Cage",
-    "platform": "",
+    "title": "Marvel's Luke Cage",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Lupin",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "no"
   },
   {
-    "watched_at": "",
-    "title": "MANHUNT: Unabomber",
-    "platform": "",
+    "title": "Manhunt",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Maniac",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Marcella",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Mare of Easttown",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Marte",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "O Atirador",
-    "platform": "",
+    "title": "Shooter",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
-    "watched_at": "",
-    "title": "O Nevoeiro",
-    "platform": "",
+    "title": "The Mist",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Orange Is The New Black",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Orphan Black",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Os Defensores",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Ozark",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Peacemaker",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Perdidos no Espaço",
-    "platform": "",
+    "title": "Lost in Space",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Prison Break",
-    "platform": "",
     "type": "series",
-    "year": "2005",
+    "year": 2005,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
-    "title": "Punho de Ferro",
-    "platform": "",
+    "title": "Marvel's Iron Fist",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Reacher",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Rick and Morty",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "River",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Safe",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Santa Clarita Diet",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Scream",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
-    "watched_at": "",
-    "title": "Segurança em Jogo",
-    "platform": "",
+    "title": "Bodyguard",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Severance",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "Slasher",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Somewhere Between",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Squid Game",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Stranger Things",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Sweet Tooth",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Terra Nova",
-    "platform": "",
     "type": "series",
-    "year": "2011",
+    "year": 2011,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The 100",
-    "platform": "",
     "type": "series",
-    "year": "2014",
+    "year": 2014,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Act",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Bear",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
     "title": "The End of the F***ing World",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Following",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Good Place",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Lincoln Lawyer",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "The Morning Show",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The OA",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Office",
-    "platform": "",
     "type": "series",
-    "year": "2005",
+    "year": 2005,
     "recommended": "favorite"
   },
   {
-    "watched_at": "",
-    "title": "The Punisher",
-    "platform": "",
+    "title": "Marvel's The Punisher",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Queen's Gambit",
-    "platform": "",
     "type": "series",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Rain",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "The Returned",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "The Sinner",
-    "platform": "",
     "type": "series",
-    "year": "2017",
+    "year": 2017,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Walking Dead",
-    "platform": "",
     "type": "series",
-    "year": "2010",
+    "year": 2010,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "The Watcher",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The White Lotus",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
     "watched_at": "03-2020",
     "title": "Tiger King",
-    "platform": "",
     "type": "series",
-    "year": "2020",
+    "year": 2020,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Touch",
-    "platform": "",
     "type": "series",
-    "year": "2012",
+    "year": 2012,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Trapped",
-    "platform": "",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Travelers",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Unbelievable",
-    "platform": "",
     "type": "series",
-    "year": "2019",
+    "year": 2019,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Under the Dome",
-    "platform": "",
     "type": "series",
-    "year": "2013",
+    "year": 2013,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Vai Anitta",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Van Helsing",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
-    "title": "Vis a Vis",
-    "platform": "",
+    "title": "Vis a vis",
     "type": "series",
-    "year": "2015",
+    "year": 2015,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "WandaVision",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Wanted",
-    "platform": "",
     "type": "series",
-    "year": "2016",
+    "year": 2016,
     "recommended": "no"
   },
   {
-    "watched_at": "",
     "title": "Wednesday",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "Yellowjackets",
-    "platform": "",
     "type": "series",
-    "year": "2021",
+    "year": 2021,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "You",
-    "platform": "",
     "type": "series",
-    "year": "2018",
+    "year": 2018,
     "recommended": "maybe"
   },
   {
-    "watched_at": "",
     "title": "Fool Me Once",
-    "platform": "",
     "type": "miniseries",
-    "year": "2024",
+    "year": 2024,
     "recommended": "yes"
   },
   {
-    "watched_at": "",
     "title": "The Tourist",
-    "platform": "",
     "type": "series",
-    "year": "2022",
+    "year": 2022,
     "recommended": "maybe"
   }
 ]

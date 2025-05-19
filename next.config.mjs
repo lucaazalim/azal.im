@@ -9,6 +9,13 @@ const nextConfig = {
         pathname: "/**",
         search: "",
       },
+      {
+        protocol: "https",
+        hostname: "image.tmdb.org",
+        port: "",
+        pathname: "/**",
+        search: "",
+      },
     ],
   },
 };
