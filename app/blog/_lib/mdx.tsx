@@ -1,15 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
-import { compileMDX } from "next-mdx-remote/rsc";
-import React, { ReactElement, ReactNode } from "react";
-import rehypeUnwrapImages from "rehype-unwrap-images";
-import { PostMetadata, postMetadataSchema } from "@/app/blog/_lib/posts";
 import {
   createHeading,
   extractHeadings,
   PostHeading,
 } from "@/app/blog/_lib/headings";
+import { PostMetadata, postMetadataSchema } from "@/app/blog/_lib/posts";
+import { evaluate } from "next-mdx-remote-client/rsc";
+import Image from "next/image";
+import Link from "next/link";
+import { ReactElement, ReactNode } from "react";
 import rehypePrettyCode from "rehype-pretty-code";
+import rehypeUnwrapImages from "rehype-unwrap-images";
 
 type TableData = {
   headers: string[];
@@ -111,7 +111,7 @@ export default async function parseMDX(source: string): Promise<{
   metadata: PostMetadata;
   headings: PostHeading[];
 }> {
-  const { content, frontmatter } = await compileMDX<PostMetadata>({
+  const { content, frontmatter } = await evaluate<PostMetadata>({
     source,
     options: {
       mdxOptions: {
