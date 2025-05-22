@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { ROUTES } from "../_utils/constants";
+import { ROUTES } from "../../lib/constants";
 import { PLAYLISTS } from "./_lib/videos";
 
 export default function Page() {

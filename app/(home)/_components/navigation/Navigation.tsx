@@ -1,5 +1,5 @@
-import NavigationItem from "@/app/_components/navigation/NavigationItem";
-import { ROUTES } from "@/app/_utils/constants";
+import NavigationItem from "@/app/(home)/_components/navigation/NavigationItem";
+import { ROUTES } from "@/lib/constants";
 
 export default function Navigation() {
   return (

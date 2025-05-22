@@ -1,4 +1,4 @@
-import SectionTitle from "@/app/_components/SectionTitle";
+import SectionTitle from "@/app/(home)/_components/SectionTitle";
 
 export default function About() {
   return (

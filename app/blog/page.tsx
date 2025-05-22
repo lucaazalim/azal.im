@@ -1,7 +1,7 @@
-import * as motion from "@/app/_utils/motion";
 import PostCard from "@/app/blog/_components/PostCard";
 import { getPosts } from "@/app/blog/_lib/posts";
-import HomeButton from "../_components/HomeButton";
+import * as motion from "@/lib/motion";
+import HomeButton from "../(home)/_components/HomeButton";
 
 export default async function Page() {
   return (

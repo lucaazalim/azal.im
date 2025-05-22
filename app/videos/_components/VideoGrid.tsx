@@ -1,9 +1,9 @@
 "use client";
 
-import * as motion from "@/app/_utils/motion";
+import * as motion from "@/lib/motion";
 import { useState } from "react";
-import VideoCard from "../_components/VideoCard";
 import { Video } from "../_lib/videos";
+import VideoCard from "./VideoCard";
 import YoutubeOverlay from "./YoutubeOverlay";
 
 type Props = {

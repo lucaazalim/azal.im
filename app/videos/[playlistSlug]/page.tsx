@@ -1,6 +1,6 @@
-import { ROUTES } from "@/app/_utils/constants";
+import { ROUTES } from "@/lib/constants";
 import { redirect } from "next/navigation";
-import HomeButton from "../../_components/HomeButton";
+import HomeButton from "../../(home)/_components/HomeButton";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
 import { getVideos, PLAYLISTS } from "../_lib/videos";

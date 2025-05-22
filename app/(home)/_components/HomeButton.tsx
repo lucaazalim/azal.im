@@ -1,6 +1,6 @@
+import { ROUTES } from "@/lib/constants";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { ROUTES } from "../_utils/constants";
 
 export default function HomeButton() {
   return (

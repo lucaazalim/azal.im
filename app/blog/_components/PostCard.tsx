@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
 import { Post } from "@/app/blog/_lib/posts";
-import * as motion from "@/app/_utils/motion";
+import * as motion from "@/lib/motion";
 import { format } from "date-fns";
+import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   post: Post;

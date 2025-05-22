@@ -1,8 +1,8 @@
 "use client";
 
-import Badge from "@/app/_components/Badge";
-import { useImageView } from "@/app/_components/image-view/ImageViewContext";
-import Skills from "@/app/_components/Skills";
+import Badge from "@/app/(home)/_components/Badge";
+import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
+import Skills from "@/app/(home)/_components/Skills";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";

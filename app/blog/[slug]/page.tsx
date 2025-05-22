@@ -1,7 +1,7 @@
-import { ROUTES } from "@/app/_utils/constants";
-import * as motion from "@/app/_utils/motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/app/blog/_lib/posts";
+import { ROUTES } from "@/lib/constants";
+import * as motion from "@/lib/motion";
 import { ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";

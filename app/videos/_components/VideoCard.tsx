@@ -1,4 +1,4 @@
-import * as motion from "@/app/_utils/motion";
+import * as motion from "@/lib/motion";
 import { Play, Youtube } from "lucide-react";
 import Image from "next/image";
 import { Video } from "../_lib/videos";

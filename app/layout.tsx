@@ -1,5 +1,6 @@
-import ImageView from "@/app/_components/image-view/ImageView";
-import { ImageViewContextProvider } from "@/app/_components/image-view/ImageViewContext";
+import ImageView from "@/app/(home)/_components/image-view/ImageView";
+import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
+import TanStackQueryProvider from "@/components/TanStackQueryProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
@@ -26,10 +27,12 @@ export default function RootLayout({
       }}
     >
       <body className={`${inter.className} bg-background`}>
-        <ImageViewContextProvider>
-          <ImageView />
-          {children}
-        </ImageViewContextProvider>
+        <TanStackQueryProvider>
+          <ImageViewContextProvider>
+            <ImageView />
+            {children}
+          </ImageViewContextProvider>
+        </TanStackQueryProvider>
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-import { ROUTES } from "@/app/_utils/constants";
+import { ROUTES } from "@/lib/constants";
 import Link from "next/link";
 import { PLAYLISTS } from "../_lib/videos";
 

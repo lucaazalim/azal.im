@@ -1,5 +1,5 @@
-import Navigation from "@/app/_components/navigation/Navigation";
-import SocialItem from "@/app/_components/navigation/SocialItem";
+import Navigation from "@/app/(home)/_components/navigation/Navigation";
+import SocialItem from "@/app/(home)/_components/navigation/SocialItem";
 import {
   SiGithub,
   SiInstagram,
