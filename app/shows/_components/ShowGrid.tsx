@@ -1,22 +1,41 @@
-"use client";
-
-import { PaginatedResponse, ShowWithMetadata } from "@/lib/shows/types";
+import LoadingSpinner from "@/components/LoadingSpinner";
+import { fetchShows } from "@/lib/shows/client";
+import { ShowFilters } from "@/lib/shows/types";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useFormContext, useWatch } from "react-hook-form";
 import { ShowCard } from "./ShowCard";
 
-async function fetchShows({
-  pageParam,
-}: {
-  pageParam: number;
-}): Promise<PaginatedResponse<ShowWithMetadata>> {
-  const response = await fetch("/api/shows?cursor=" + pageParam);
-  return response.json();
-}
-
 export default function ShowsGrid() {
+  const form = useFormContext<ShowFilters>();
   const observerRef = useRef<IntersectionObserver | null>(null);
   const loadMoreRef = useRef<HTMLDivElement>(null);
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const [debouncedFilters, setDebouncedFilters] = useState<ShowFilters>(
+    form.getValues()
+  );
+
+  // Watch for filter changes
+  const filters = useWatch({
+    control: form.control,
+  });
+
+  // Apply debouncing to filter changes
+  useEffect(() => {
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+
+    debounceTimerRef.current = setTimeout(() => {
+      setDebouncedFilters(filters);
+    }, 500); // 500ms debounce delay
+
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+    };
+  }, [filters]);
 
   const {
     data,
@@ -26,19 +45,19 @@ export default function ShowsGrid() {
     isLoading,
     isError,
   } = useInfiniteQuery({
-    queryKey: ["shows"],
-    queryFn: fetchShows,
-    initialPageParam: 1,
-    getNextPageParam: (lastPage) => lastPage.nextCursor,
+    queryKey: ["shows", debouncedFilters],
+    queryFn: ({ pageParam = 0 }) =>
+      fetchShows({ pageParam, filters: debouncedFilters }),
+    getNextPageParam: (lastPage) =>
+      lastPage.hasMore ? lastPage.nextCursor : undefined,
+    initialPageParam: 0,
   });
 
   useEffect(() => {
     if (!loadMoreRef.current) return;
 
-    // Disconnect previous observer
-    if (observerRef.current) {
-      observerRef.current.disconnect();
-    }
+    // Disconnect the previous observer if it exists
+    observerRef.current?.disconnect();
 
     // Create new intersection observer
     observerRef.current = new IntersectionObserver(
@@ -91,7 +110,7 @@ export default function ShowsGrid() {
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-8">
+      <div className="gap-6 grid grid-cols-3 md:grid-cols-8 justify-center">
         {shows.map((show, index) => (
           <ShowCard key={`${show.title}-${index}`} show={show} />
         ))}
@@ -100,10 +119,8 @@ export default function ShowsGrid() {
       {/* Loading more indicator */}
       <div ref={loadMoreRef} className="py-4 text-center">
         {isFetchingNextPage ? (
-          <p className="text-sm text-neutral-500">Loading more shows...</p>
-        ) : hasNextPage ? (
-          <p className="text-sm text-neutral-500">Scroll to load more</p>
-        ) : shows.length > 0 ? (
+          <LoadingSpinner />
+        ) : shows.length > 0 && !hasNextPage ? (
           <p className="text-sm text-neutral-500">You've seen all shows</p>
         ) : null}
       </div>

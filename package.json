@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@icons-pack/react-simple-icons": "^10.2.0",
     "@radix-ui/react-dialog": "^1.1.13",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.5",
     "@radix-ui/react-slot": "^1.2.3",
     "@tanstack/react-query": "^5.76.2",
     "class-variance-authority": "^0.7.1",
@@ -26,12 +29,13 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-github-btn": "^1.4.0",
+    "react-hook-form": "^7.56.4",
     "rehype-pretty-code": "^0.14.0",
     "rehype-unwrap-images": "^1.0.0",
     "shiki": "^1.26.1",
     "tailwind-merge": "^3.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.24.1"
+    "zod": "^3.25.21"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",

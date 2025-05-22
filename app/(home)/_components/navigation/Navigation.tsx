@@ -12,6 +12,7 @@ export default function Navigation() {
         <NavigationItem href="#projects" title="Projects" />
         <NavigationItem href={ROUTES.BLOG} title="Blog" />
         <NavigationItem href={ROUTES.VIDEOS()} title="Videos" />
+        <NavigationItem href={ROUTES.SHOWS} title="Shows" />
       </ul>
     </nav>
   );

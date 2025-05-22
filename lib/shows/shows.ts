@@ -1,40 +1,88 @@
-import metadataJson from "@/data/shows/metadata.json";
-import showsJson from "@/data/shows/shows.json";
 import { distance } from "fastest-levenshtein";
+import fs from "fs";
 import { z } from "zod";
+import { PaginatedRequest, PaginatedResponse } from "../types";
 import {
-  PaginatedRequest,
-  PaginatedResponse,
   Show,
+  ShowFilters,
   ShowMetadata,
   showSchema,
   ShowWithMetadata,
 } from "./types";
 
-let shows: Show[] = z.array(showSchema).parse(showsJson);
-let metadata: ShowMetadata[] = metadataJson;
-let showsWithMetadata: ShowWithMetadata[] = shows
-  .map((show) => {
-    const metadataEntry = findMetadataFromShow(show, metadata);
-    if (metadataEntry) return { ...show, metadata: metadataEntry };
-  })
-  .filter((show) => show !== undefined)
-  .sort(
-    (a, b) => (b.watched_at?.getTime() ?? 0) - (a.watched_at?.getTime() ?? 0)
-  );
+const SHOWS_PATH = "./data/shows/shows.json";
+const METADATA_PATH = "./data/shows/metadata.json";
 
-shows = undefined as any;
-metadata = undefined as any;
+let showsWithMetadata: ShowWithMetadata[];
+let genres: string[] = [];
+
+function loadShowData() {
+  const showsRawData = fs.readFileSync(SHOWS_PATH, "utf-8");
+  const showsJson = JSON.parse(showsRawData);
+  const shows = z.array(showSchema).parse(showsJson);
+
+  const metadataRawData = fs.readFileSync(METADATA_PATH, "utf-8");
+  const metadata = JSON.parse(metadataRawData);
+
+  showsWithMetadata = shows
+    .map((show) => {
+      const metadataEntry = findMetadataFromShow(show, metadata);
+      if (metadataEntry) return { ...show, metadata: metadataEntry };
+    })
+    .filter((show) => show !== undefined)
+    .sort(
+      (a, b) => (b.watched_at?.getTime() ?? 0) - (a.watched_at?.getTime() ?? 0)
+    );
+
+  genres = showsWithMetadata
+    .flatMap((show) => show.metadata.genres)
+    .filter((genre, index, self) => self.indexOf(genre) === index)
+    .sort((a, b) => a.localeCompare(b));
+}
+
+loadShowData();
 
 export function getShows({
   cursor,
   limit,
-}: PaginatedRequest): PaginatedResponse<ShowWithMetadata> {
+  filters,
+}: PaginatedRequest & {
+  filters?: ShowFilters;
+}): PaginatedResponse<ShowWithMetadata> {
+  let filteredShows = [...showsWithMetadata];
+
+  if (filters) {
+    if (filters.title) {
+      const searchTitle = filters.title.toLowerCase();
+      filteredShows = filteredShows.filter((show) =>
+        show.title.toLowerCase().includes(searchTitle)
+      );
+    }
+
+    if (filters.recommended) {
+      filteredShows = filteredShows.filter(
+        (show) => show.recommended === filters.recommended
+      );
+    }
+
+    const genre = filters.genre;
+
+    if (genre) {
+      filteredShows = filteredShows.filter((show) =>
+        show.metadata.genres.includes(genre)
+      );
+    }
+  }
+
   return {
-    data: showsWithMetadata.slice(cursor, cursor + limit),
-    nextCursor: cursor + limit,
-    hasMore: cursor + limit < showsWithMetadata.length,
+    data: filteredShows.slice(cursor, cursor + limit),
+    nextCursor: Math.min(cursor + limit, filteredShows.length),
+    hasMore: cursor + limit < filteredShows.length,
   };
+}
+
+export function getGenres(): string[] {
+  return genres;
 }
 
 function compareShowTitles(title1: string, title2: string): boolean {
@@ -71,3 +119,7 @@ function findMetadataFromShow(
     return titlesMatch && yearsMatch;
   });
 }
+
+export default {
+  getShows,
+};

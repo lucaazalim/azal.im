@@ -34,6 +34,8 @@ export const showSchema = z.object({
 
 export type Show = z.infer<typeof showSchema>;
 
+export type ShowRecommended = z.infer<typeof showSchema>["recommended"];
+
 export type ShowMetadata = {
   title: string;
   original_title: string;
@@ -49,13 +51,10 @@ export type ShowWithMetadata = Show & {
   metadata: ShowMetadata;
 };
 
-export type PaginatedRequest = {
-  cursor: number;
-  limit: number;
-};
+export const showFilterSchema = z.object({
+  title: z.string().optional(),
+  recommended: showSchema.shape.recommended.optional(),
+  genre: z.string().optional(),
+});
 
-export type PaginatedResponse<T> = {
-  data: T[];
-  nextCursor?: number;
-  hasMore: boolean;
-};
+export type ShowFilters = z.infer<typeof showFilterSchema>;
