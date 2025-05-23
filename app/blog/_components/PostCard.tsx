@@ -27,7 +27,7 @@ export default function PostCard({ post, index }: Props) {
             className="rounded-t-2xl object-cover"
           />
         </div>
-        <div className="flex flex-grow flex-col justify-between gap-3 p-5">
+        <div className="flex grow flex-col justify-between gap-3 p-5">
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">{post.metadata.title}</h3>
             <p className="text-neutral-500 line-clamp-3">

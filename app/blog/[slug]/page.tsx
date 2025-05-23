@@ -71,7 +71,7 @@ export default async function Page({ params }: Props) {
       <article className="space-y-10">
         <Link
           href={ROUTES.BLOG}
-          className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground"
+          className="flex items-center gap-1 transition-colors text-muted-foreground hover:text-foreground"
         >
           <ArrowLeft className="h-5 w-5" />
           <span>Blog</span>
@@ -80,7 +80,7 @@ export default async function Page({ params }: Props) {
           <h1 className="text-4xl font-bold text-foreground">
             {post.metadata.title}
           </h1>
-          <p className="text-foreground-muted">{post.metadata.description}</p>
+          <p className="text-muted-foreground">{post.metadata.description}</p>
         </div>
         <motion.div
           initial={{ opacity: 0, filter: "blur(5px)" }}
@@ -103,7 +103,7 @@ export default async function Page({ params }: Props) {
             className="-z-40 object-cover opacity-40 blur-2xl"
           />
         </motion.div>
-        <div className="grid grid-cols-1 lg:grid-cols-[0.8fr,0.2fr]">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_0.2fr]">
           <div className="shrink prose prose-primary dark:prose-invert">
             {post.content}
           </div>

@@ -6,7 +6,7 @@ export default function HomeButton() {
   return (
     <Link
       href={ROUTES.HOME}
-      className="flex items-center gap-1 transition-colors text-foreground-muted hover:text-foreground"
+      className="flex items-center gap-1 transition-colors text-muted-foreground hover:text-foreground"
     >
       <ArrowLeft className="h-5 w-5" />
       <span>Home</span>

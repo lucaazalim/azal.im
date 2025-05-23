@@ -41,7 +41,7 @@ export default function InThisPost({ headings }: Props) {
                 "text-sm  transition-all " +
                 (activeHeading === heading.slug
                   ? "text-foreground"
-                  : "text-foreground-muted")
+                  : "text-muted-foreground")
               }
             >
               <Link href={`#${heading.slug}`}>

@@ -30,10 +30,10 @@ export default function VideoCard({ video, index, onClick }: Props) {
           alt={video.snippet.title}
           fill={true}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="rounded-t-2xl object-cover md:group-hover:brightness-[25%] transition-all"
+          className="rounded-t-2xl object-cover md:group-hover:brightness-25 transition-all"
         />
       </div>
-      <div className="flex flex-grow flex-col justify-between gap-3 p-5">
+      <div className="flex grow flex-col justify-between gap-3 p-5">
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">{video.snippet.title}</h3>
           <p className="text-neutral-500 line-clamp-3">

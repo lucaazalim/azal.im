@@ -11,9 +11,9 @@ export default function ItemContainer({ link, children }: ContainerProps) {
           className="
                     relative group/container
                     lg:hover:scale-[101%]
-                    lg:hover:bg-white/5 lg:hover:bg-gradient-to-br from-white/5 to-white/1
-                    border-t-[1px] lg:hover:border-t-white/20 lg:hover:border-b-black/50 border-transparent
-                    lg:hover:!opacity-100 lg:group-hover/section:opacity-50
+                    lg:hover:bg-white/5 lg:hover:bg-linear-to-br from-white/5 to-white/1
+                    border-t lg:hover:border-t-white/20 lg:hover:border-b-black/50 border-transparent
+                    lg:hover:opacity-100! lg:group-hover/section:opacity-50
                     rounded-lg lg:p-5 transition-all
                 "
         >

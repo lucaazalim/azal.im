@@ -33,8 +33,8 @@ export default function Item({
   return (
     <div>
       <a href={link} target="_blank">
-        <div className="relative group/container lg:hover:scale-[101%] lg:hover:bg-white/5 lg:hover:bg-gradient-to-br from-white/10 to-white/1 border-t-[1px] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:border-transparent lg:hover:!opacity-100 lg:group-hover/section:opacity-50 rounded-lg p-8 transition-all border border-white/10">
-          <div className="grid md:grid-cols-[0.3fr,0.7fr] gap-5">
+        <div className="relative group/container lg:hover:scale-[101%] lg:hover:bg-white/5 lg:hover:bg-linear-to-br from-white/10 to-white/1 border-t lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:border-transparent lg:hover:opacity-100! lg:group-hover/section:opacity-50 rounded-lg p-8 transition-all border border-white/10">
+          <div className="grid md:grid-cols-[0.3fr_0.7fr] gap-5">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <span className="mt-1 text-xs font-semibold text-wrap">
@@ -66,11 +66,11 @@ export default function Item({
                         <ArrowUpRight className="hidden lg:block absolute size-5 transition-all top-2 -right-4 group-hover/container:top-0 group-hover/container:-right-6 opacity-0 group-hover/container:opacity-100" />
                       )}
                     </div>
-                    <p className="text-sm text-foreground-muted">{subtitle}</p>
+                    <p className="text-sm text-muted-foreground">{subtitle}</p>
                   </div>
                 </div>
               </div>
-              <div className="text-sm text-foreground-muted space-y-4">
+              <div className="text-sm text-muted-foreground space-y-4">
                 {children}
               </div>
               {skills && <Skills skills={skills} />}

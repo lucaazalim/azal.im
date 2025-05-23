@@ -52,7 +52,7 @@ export function ShowCard({ show }: ShowCardProps) {
 
   return (
     <div className="flex flex-col rounded-lg overflow-hidden bg-neutral-800">
-      <div className="relative aspect-[2/3] w-full">
+      <div className="relative aspect-2/3 w-full">
         {imagePath ? (
           <Image
             src={imagePath}
