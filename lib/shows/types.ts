@@ -1,4 +1,7 @@
 import { z } from "zod";
+import { paginatedRequestSchema } from "../types";
+
+export const MAX_SHOW_STARS = 5;
 
 export const showSchema = z.object({
   watched_at: z
@@ -29,12 +32,10 @@ export const showSchema = z.object({
     .optional(),
   type: z.enum(["movie", "series", "documentary", "miniseries"]),
   year: z.number().min(1900).max(new Date().getFullYear()),
-  recommended: z.enum(["yes", "no", "maybe", "favorite"]),
+  stars: z.number().int().min(1).max(MAX_SHOW_STARS),
 });
 
 export type Show = z.infer<typeof showSchema>;
-
-export type ShowRecommended = z.infer<typeof showSchema>["recommended"];
 
 export type ShowMetadata = {
   title: string;
@@ -53,8 +54,12 @@ export type ShowWithMetadata = Show & {
 
 export const showFilterSchema = z.object({
   title: z.string().optional(),
-  recommended: showSchema.shape.recommended.optional(),
+  stars: z.coerce.number().int().min(1).max(MAX_SHOW_STARS).optional(),
   genre: z.string().optional(),
 });
 
 export type ShowFilters = z.infer<typeof showFilterSchema>;
+
+export const showsRequestSchema = showFilterSchema.and(paginatedRequestSchema);
+
+export type ShowsRequest = z.infer<typeof showsRequestSchema>;

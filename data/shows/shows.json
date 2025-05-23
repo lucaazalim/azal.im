@@ -5,7 +5,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2016",
@@ -13,7 +13,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "04-2016",
@@ -21,7 +21,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2016",
@@ -29,7 +29,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2017",
@@ -37,7 +37,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2017",
@@ -45,7 +45,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2018",
@@ -53,7 +53,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2018",
@@ -61,7 +61,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2018",
@@ -69,7 +69,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2018",
@@ -77,7 +77,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2018",
@@ -85,7 +85,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2018",
@@ -93,7 +93,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2018",
@@ -101,7 +101,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2018",
@@ -109,7 +109,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2018",
@@ -117,7 +117,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2018",
@@ -125,7 +125,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2018",
@@ -133,7 +133,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "06-2018",
@@ -141,7 +141,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2018",
@@ -149,7 +149,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1998,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2018",
@@ -157,7 +157,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2018",
@@ -165,7 +165,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "07-2018",
@@ -173,7 +173,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2018",
@@ -181,7 +181,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2018",
@@ -189,7 +189,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1944,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2018",
@@ -197,7 +197,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2018",
@@ -205,7 +205,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2000,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2018",
@@ -213,7 +213,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "09-2018",
@@ -221,7 +221,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -229,7 +229,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "10-2018",
@@ -237,7 +237,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -245,7 +245,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 1973,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -253,7 +253,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -261,7 +261,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -269,7 +269,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2018",
@@ -277,7 +277,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "11-2018",
@@ -285,7 +285,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -293,7 +293,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2018",
@@ -301,7 +301,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -309,7 +309,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2018",
@@ -317,7 +317,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -325,7 +325,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -333,7 +333,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2018",
@@ -341,7 +341,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2018",
@@ -349,7 +349,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -357,7 +357,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -365,7 +365,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -373,7 +373,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2018",
@@ -381,7 +381,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -389,7 +389,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -397,7 +397,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -405,7 +405,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -413,7 +413,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -421,7 +421,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -429,7 +429,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "12-2018",
@@ -437,7 +437,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1994,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -445,7 +445,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -453,7 +453,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -461,7 +461,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -469,7 +469,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -477,7 +477,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2018",
@@ -485,7 +485,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -493,7 +493,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -501,7 +501,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -509,7 +509,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2018",
@@ -517,7 +517,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "12-2018",
@@ -525,7 +525,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "01-2019",
@@ -533,7 +533,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2019",
@@ -541,7 +541,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2019",
@@ -549,7 +549,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2019",
@@ -557,7 +557,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2019",
@@ -565,7 +565,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2019",
@@ -573,7 +573,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2019",
@@ -581,7 +581,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2010,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2019",
@@ -589,7 +589,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -597,7 +597,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2019",
@@ -605,7 +605,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -613,7 +613,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -621,7 +621,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2019",
@@ -629,7 +629,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -637,7 +637,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1986,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -645,7 +645,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -653,7 +653,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -661,7 +661,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2019",
@@ -669,7 +669,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2019",
@@ -677,7 +677,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2019",
@@ -685,7 +685,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -693,7 +693,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -701,7 +701,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2019",
@@ -709,7 +709,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2019",
@@ -717,7 +717,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -725,7 +725,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2019",
@@ -733,7 +733,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -741,7 +741,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -749,7 +749,7 @@
     "platform": "HBO GO",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -757,7 +757,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2003,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -765,7 +765,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -773,7 +773,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -781,7 +781,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2019",
@@ -789,7 +789,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -797,7 +797,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 1941,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -805,7 +805,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2019",
@@ -813,7 +813,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2019",
@@ -821,7 +821,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -829,7 +829,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -837,7 +837,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1994,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -845,7 +845,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -853,7 +853,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -861,7 +861,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -869,7 +869,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -877,7 +877,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -885,7 +885,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1995,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -893,7 +893,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1998,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -901,7 +901,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -909,7 +909,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -917,7 +917,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "04-2019",
@@ -925,7 +925,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -933,7 +933,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -941,7 +941,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1989,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -949,7 +949,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "04-2019",
@@ -957,7 +957,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -965,7 +965,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1985,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -973,7 +973,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -981,7 +981,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2019",
@@ -989,7 +989,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -997,7 +997,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1995,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1005,7 +1005,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1013,7 +1013,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2019",
@@ -1021,7 +1021,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1029,7 +1029,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1037,7 +1037,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2019",
@@ -1045,7 +1045,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1053,7 +1053,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1061,7 +1061,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1069,7 +1069,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1077,7 +1077,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1997,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1085,7 +1085,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1093,7 +1093,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2000,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2019",
@@ -1101,7 +1101,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 1992,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2019",
@@ -1109,7 +1109,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "06-2019",
@@ -1117,7 +1117,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2019",
@@ -1125,7 +1125,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2019",
@@ -1133,7 +1133,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "06-2019",
@@ -1141,7 +1141,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2019",
@@ -1149,7 +1149,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 1986,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "07-2019",
@@ -1157,7 +1157,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2019",
@@ -1165,7 +1165,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1173,7 +1173,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2019",
@@ -1181,7 +1181,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 1994,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1189,7 +1189,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1197,7 +1197,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1205,7 +1205,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1213,7 +1213,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "07-2019",
@@ -1221,7 +1221,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "07-2019",
@@ -1229,7 +1229,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1237,7 +1237,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1245,7 +1245,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2019",
@@ -1253,7 +1253,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1261,7 +1261,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1269,7 +1269,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1277,7 +1277,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2001,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1285,7 +1285,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1293,7 +1293,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1301,7 +1301,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1309,7 +1309,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1317,7 +1317,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2019",
@@ -1325,7 +1325,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 1971,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1333,7 +1333,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1341,7 +1341,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1349,7 +1349,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1357,7 +1357,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1365,7 +1365,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1373,7 +1373,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1381,7 +1381,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1389,7 +1389,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1397,7 +1397,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2019",
@@ -1405,7 +1405,7 @@
     "platform": "Popcorn Time",
     "type": "movie",
     "year": 2017,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "09-2019",
@@ -1413,7 +1413,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2019",
@@ -1421,7 +1421,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1994,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2019",
@@ -1429,7 +1429,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2019",
@@ -1437,7 +1437,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1445,7 +1445,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1453,7 +1453,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1461,7 +1461,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1469,7 +1469,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1477,7 +1477,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "10-2019",
@@ -1485,7 +1485,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1493,7 +1493,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2019",
@@ -1501,7 +1501,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2019",
@@ -1509,7 +1509,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2019",
@@ -1517,7 +1517,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2019",
@@ -1525,7 +1525,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2001,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2019",
@@ -1533,7 +1533,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2019",
@@ -1541,7 +1541,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2010,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "11-2019",
@@ -1549,7 +1549,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1557,7 +1557,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2001,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1565,7 +1565,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1573,7 +1573,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1581,7 +1581,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1589,7 +1589,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1597,7 +1597,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1605,7 +1605,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1613,7 +1613,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1997,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2019",
@@ -1621,7 +1621,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2020",
@@ -1629,7 +1629,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2020",
@@ -1637,7 +1637,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 1982,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2020",
@@ -1645,7 +1645,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2020",
@@ -1653,7 +1653,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2020",
@@ -1661,7 +1661,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2020",
@@ -1669,7 +1669,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2020",
@@ -1677,7 +1677,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2020",
@@ -1685,7 +1685,7 @@
     "platform": "Stremio",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2020",
@@ -1693,7 +1693,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1993,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2020",
@@ -1701,7 +1701,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1709,7 +1709,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1717,7 +1717,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2020",
@@ -1725,7 +1725,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1733,7 +1733,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1741,7 +1741,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1749,7 +1749,7 @@
     "platform": "Netflix",
     "type": "miniseries",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
@@ -1757,7 +1757,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2020",
@@ -1765,7 +1765,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2020",
@@ -1773,7 +1773,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2020",
@@ -1781,7 +1781,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "04-2020",
@@ -1789,7 +1789,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2020",
@@ -1797,7 +1797,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2020",
@@ -1805,7 +1805,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1813,7 +1813,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1821,7 +1821,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2020",
@@ -1829,7 +1829,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1837,7 +1837,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1845,7 +1845,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1853,7 +1853,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2004,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1861,7 +1861,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1869,7 +1869,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1877,7 +1877,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1960,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1885,7 +1885,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1893,7 +1893,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1901,7 +1901,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1975,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1909,7 +1909,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1917,7 +1917,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1925,7 +1925,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1995,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1933,7 +1933,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2020",
@@ -1941,7 +1941,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2020",
@@ -1949,7 +1949,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1998,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2020",
@@ -1957,7 +1957,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2004,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2020",
@@ -1965,7 +1965,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2020",
@@ -1973,7 +1973,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1992,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2020",
@@ -1981,7 +1981,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2020",
@@ -1989,7 +1989,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2020",
@@ -1997,7 +1997,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2020",
@@ -2005,7 +2005,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2020",
@@ -2013,7 +2013,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2020",
@@ -2021,7 +2021,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1996,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "08-2020",
@@ -2029,7 +2029,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2020",
@@ -2037,7 +2037,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2020",
@@ -2045,7 +2045,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 1998,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "09-2020",
@@ -2053,7 +2053,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2004,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2020",
@@ -2061,7 +2061,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2020",
@@ -2069,7 +2069,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2020",
@@ -2077,7 +2077,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "10-2020",
@@ -2085,7 +2085,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "10-2020",
@@ -2093,7 +2093,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2020",
@@ -2101,7 +2101,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2020",
@@ -2109,7 +2109,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2020",
@@ -2117,7 +2117,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1992,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2020",
@@ -2125,7 +2125,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2020",
@@ -2133,7 +2133,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 1997,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2020",
@@ -2141,7 +2141,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "11-2020",
@@ -2149,7 +2149,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "11-2020",
@@ -2157,7 +2157,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2020",
@@ -2165,7 +2165,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2020",
@@ -2173,7 +2173,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1993,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2020",
@@ -2181,7 +2181,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2189,7 +2189,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2197,7 +2197,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 1983,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2205,7 +2205,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 1980,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2213,7 +2213,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2221,7 +2221,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2229,7 +2229,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2020",
@@ -2237,7 +2237,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2245,7 +2245,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2253,7 +2253,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2261,7 +2261,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2269,7 +2269,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2277,7 +2277,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2285,7 +2285,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2004,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2020",
@@ -2293,7 +2293,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2020",
@@ -2301,7 +2301,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2019,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2021",
@@ -2309,7 +2309,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2021",
@@ -2317,7 +2317,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2021",
@@ -2325,7 +2325,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2021",
@@ -2333,7 +2333,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2021",
@@ -2341,7 +2341,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2021",
@@ -2349,7 +2349,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "02-2021",
@@ -2357,7 +2357,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2365,7 +2365,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2373,7 +2373,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2014,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "03-2021",
@@ -2381,7 +2381,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2389,7 +2389,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2021",
@@ -2397,7 +2397,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2405,7 +2405,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2413,7 +2413,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2021",
@@ -2421,7 +2421,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2429,7 +2429,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2437,7 +2437,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2445,7 +2445,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2453,7 +2453,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2461,7 +2461,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2021",
@@ -2469,7 +2469,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1996,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2477,7 +2477,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2485,7 +2485,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2021",
@@ -2493,7 +2493,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2501,7 +2501,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2017,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "05-2021",
@@ -2509,7 +2509,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2517,7 +2517,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2525,7 +2525,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2007,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "05-2021",
@@ -2533,7 +2533,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2541,7 +2541,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2021",
@@ -2549,7 +2549,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2557,7 +2557,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2002,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2565,7 +2565,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1930,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2021",
@@ -2573,7 +2573,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2581,7 +2581,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2021",
@@ -2589,7 +2589,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2021",
@@ -2597,7 +2597,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 1980,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2605,7 +2605,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2010,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "05-2021",
@@ -2613,7 +2613,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2021",
@@ -2621,7 +2621,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2629,7 +2629,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2637,7 +2637,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2645,7 +2645,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2653,7 +2653,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2001,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2661,7 +2661,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2669,7 +2669,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 1976,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2021",
@@ -2677,7 +2677,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2013,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "07-2021",
@@ -2685,7 +2685,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2021",
@@ -2693,7 +2693,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2021",
@@ -2701,7 +2701,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2021",
@@ -2709,7 +2709,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2021",
@@ -2717,7 +2717,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "07-2021",
@@ -2725,7 +2725,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2021",
@@ -2733,7 +2733,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2741,7 +2741,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2749,7 +2749,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 1993,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2757,7 +2757,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2021",
@@ -2765,7 +2765,7 @@
     "platform": "Globoplay",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2773,7 +2773,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2021",
@@ -2781,7 +2781,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2789,7 +2789,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2001,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "08-2021",
@@ -2797,7 +2797,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2805,7 +2805,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2813,7 +2813,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2821,7 +2821,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2000,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2829,7 +2829,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2837,7 +2837,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2845,7 +2845,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2021",
@@ -2853,7 +2853,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2021",
@@ -2861,7 +2861,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2021",
@@ -2869,7 +2869,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2021",
@@ -2877,7 +2877,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "10-2021",
@@ -2885,7 +2885,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2893,7 +2893,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2004,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2901,7 +2901,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2909,7 +2909,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2917,7 +2917,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2925,7 +2925,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2933,7 +2933,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2941,7 +2941,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2021",
@@ -2949,7 +2949,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -2957,7 +2957,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -2965,7 +2965,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -2973,7 +2973,7 @@
     "platform": "Globoplay",
     "type": "movie",
     "year": 2010,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "11-2021",
@@ -2981,7 +2981,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -2989,7 +2989,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2004,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -2997,7 +2997,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2020,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2021",
@@ -3005,7 +3005,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3013,7 +3013,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3021,7 +3021,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3029,7 +3029,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3037,7 +3037,7 @@
     "platform": "Apple TV+",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3045,7 +3045,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3053,7 +3053,7 @@
     "platform": "Apple TV+",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3061,7 +3061,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2021",
@@ -3069,7 +3069,7 @@
     "platform": "Globoplay",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3077,7 +3077,7 @@
     "platform": "Globoplay",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2021",
@@ -3085,7 +3085,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2021",
@@ -3093,7 +3093,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2021",
@@ -3101,7 +3101,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2021",
@@ -3109,7 +3109,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2021",
@@ -3117,7 +3117,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2021",
@@ -3125,7 +3125,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3133,7 +3133,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3141,7 +3141,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3149,7 +3149,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2022",
@@ -3157,7 +3157,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3165,7 +3165,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3173,7 +3173,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2022",
@@ -3181,7 +3181,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2002,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "01-2022",
@@ -3189,7 +3189,7 @@
     "platform": "Telecine",
     "type": "movie",
     "year": 2000,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3197,7 +3197,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2022",
@@ -3205,7 +3205,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2022",
@@ -3213,7 +3213,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2022",
@@ -3221,7 +3221,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2022",
@@ -3229,7 +3229,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3237,7 +3237,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3245,7 +3245,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3253,7 +3253,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3261,7 +3261,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3269,7 +3269,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3277,7 +3277,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3285,7 +3285,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2022",
@@ -3293,7 +3293,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2022",
@@ -3301,7 +3301,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3309,7 +3309,7 @@
     "platform": "Globoplay",
     "type": "movie",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2022",
@@ -3317,7 +3317,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3325,7 +3325,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3333,7 +3333,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3341,7 +3341,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3349,7 +3349,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2022",
@@ -3357,7 +3357,7 @@
     "platform": "Disney+",
     "type": "documentary",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3365,7 +3365,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "05-2022",
@@ -3373,7 +3373,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3381,7 +3381,7 @@
     "platform": "Apple TV+",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3389,7 +3389,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2022",
@@ -3397,7 +3397,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2022",
@@ -3405,7 +3405,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1998,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "05-2022",
@@ -3413,7 +3413,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2022",
@@ -3421,7 +3421,7 @@
     "platform": "Apple TV+",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2022",
@@ -3429,7 +3429,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2003,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2022",
@@ -3437,7 +3437,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2004,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "06-2022",
@@ -3445,7 +3445,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2022",
@@ -3453,7 +3453,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "06-2022",
@@ -3461,7 +3461,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "06-2022",
@@ -3469,7 +3469,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1981,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2022",
@@ -3477,7 +3477,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3485,7 +3485,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3493,7 +3493,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3501,7 +3501,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3509,7 +3509,7 @@
     "platform": "HBO Max",
     "type": "documentary",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3517,7 +3517,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "08-2022",
@@ -3525,7 +3525,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2022",
@@ -3533,7 +3533,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2022",
@@ -3541,7 +3541,7 @@
     "platform": "Netflix",
     "type": "documentary",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2022",
@@ -3549,7 +3549,7 @@
     "platform": "Disney+",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2022",
@@ -3557,7 +3557,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2022",
@@ -3565,7 +3565,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2022",
@@ -3573,7 +3573,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2022",
@@ -3581,7 +3581,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "10-2022",
@@ -3589,7 +3589,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2022",
@@ -3597,7 +3597,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2022",
@@ -3605,7 +3605,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2022",
@@ -3613,7 +3613,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2022",
@@ -3621,7 +3621,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2022",
@@ -3629,7 +3629,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2022",
@@ -3637,7 +3637,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3645,7 +3645,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3653,7 +3653,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3661,7 +3661,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2022",
@@ -3669,7 +3669,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2022",
@@ -3677,7 +3677,7 @@
     "platform": "Stremio",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3685,7 +3685,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3693,7 +3693,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3701,7 +3701,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2022",
@@ -3709,7 +3709,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3717,7 +3717,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2022",
@@ -3725,7 +3725,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3733,7 +3733,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3741,7 +3741,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3749,7 +3749,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3757,7 +3757,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 1990,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3765,7 +3765,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3773,7 +3773,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2023",
@@ -3781,7 +3781,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2023",
@@ -3789,7 +3789,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2023",
@@ -3797,7 +3797,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2023",
@@ -3805,7 +3805,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2023",
@@ -3813,7 +3813,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2023",
@@ -3821,7 +3821,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2023",
@@ -3829,7 +3829,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2023",
@@ -3837,7 +3837,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2023",
@@ -3845,7 +3845,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2023",
@@ -3853,7 +3853,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2023",
@@ -3861,7 +3861,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2023",
@@ -3869,7 +3869,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "04-2023",
@@ -3877,7 +3877,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2023",
@@ -3885,7 +3885,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2023",
@@ -3893,7 +3893,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2023",
@@ -3901,7 +3901,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "05-2023",
@@ -3909,7 +3909,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1999,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3917,7 +3917,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3925,7 +3925,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2001,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3933,7 +3933,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3941,7 +3941,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3949,7 +3949,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3957,7 +3957,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "06-2023",
@@ -3965,7 +3965,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3973,7 +3973,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3981,7 +3981,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "06-2023",
@@ -3989,7 +3989,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2006,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2023",
@@ -3997,7 +3997,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4005,7 +4005,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "07-2023",
@@ -4013,7 +4013,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2014,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2023",
@@ -4021,7 +4021,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4029,7 +4029,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4037,7 +4037,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4045,7 +4045,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1997,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4053,7 +4053,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4061,7 +4061,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4069,7 +4069,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1996,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4077,7 +4077,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4085,7 +4085,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4093,7 +4093,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "07-2023",
@@ -4101,7 +4101,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 1978,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4109,7 +4109,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4117,7 +4117,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4125,7 +4125,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4133,7 +4133,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4141,7 +4141,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4149,7 +4149,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4157,7 +4157,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4165,7 +4165,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "07-2023",
@@ -4173,7 +4173,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "08-2023",
@@ -4181,7 +4181,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4189,7 +4189,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4197,7 +4197,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4205,7 +4205,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4213,7 +4213,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4221,7 +4221,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "09-2023",
@@ -4229,7 +4229,7 @@
     "platform": "Stremio",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "09-2023",
@@ -4237,7 +4237,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2023",
@@ -4245,7 +4245,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2023",
@@ -4253,7 +4253,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2023",
@@ -4261,7 +4261,7 @@
     "platform": "Prime",
     "type": "series",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "10-2023",
@@ -4269,7 +4269,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4277,7 +4277,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2011,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2023",
@@ -4285,7 +4285,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4293,7 +4293,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4301,7 +4301,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "11-2023",
@@ -4309,7 +4309,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4317,7 +4317,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4325,7 +4325,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4333,7 +4333,7 @@
     "platform": "Star+",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "11-2023",
@@ -4341,7 +4341,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2023",
@@ -4349,7 +4349,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4357,7 +4357,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2023,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2023",
@@ -4365,7 +4365,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2023,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "12-2023",
@@ -4373,7 +4373,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4381,7 +4381,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4389,7 +4389,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2023",
@@ -4397,7 +4397,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4405,7 +4405,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4413,7 +4413,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2008,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4421,7 +4421,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4429,7 +4429,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2023",
@@ -4437,7 +4437,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2024",
@@ -4445,7 +4445,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4453,7 +4453,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4461,7 +4461,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 1998,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4469,7 +4469,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4477,7 +4477,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "01-2024",
@@ -4485,7 +4485,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4493,7 +4493,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4501,7 +4501,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2012,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "01-2024",
@@ -4509,7 +4509,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2024",
@@ -4517,7 +4517,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4525,7 +4525,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2017,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "02-2024",
@@ -4533,7 +4533,7 @@
     "platform": "YouTube",
     "type": "movie",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2024",
@@ -4541,7 +4541,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2007,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "02-2024",
@@ -4549,7 +4549,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4557,7 +4557,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4565,7 +4565,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4573,7 +4573,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4581,7 +4581,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4589,7 +4589,7 @@
     "platform": "Cinema",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4597,7 +4597,7 @@
     "platform": "Prime",
     "type": "movie",
     "year": 1994,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4605,7 +4605,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4613,7 +4613,7 @@
     "platform": "Stremio",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4621,7 +4621,7 @@
     "platform": "Stremio",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "02-2024",
@@ -4629,7 +4629,7 @@
     "platform": "HBO Max",
     "type": "movie",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "02-2024",
@@ -4637,7 +4637,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2024",
@@ -4645,7 +4645,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2024",
@@ -4653,7 +4653,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "03-2024",
@@ -4661,7 +4661,7 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "03-2024",
@@ -4669,1094 +4669,1094 @@
     "platform": "Netflix",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Gentlemen",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Late Night with the Devil",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Abigail",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Reindeer Baby",
     "type": "miniseries",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Four Good Days",
     "type": "movie",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Disturbia",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Ted Bundy: Falling for a Killer",
     "type": "miniseries",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Challengers",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Fallout",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Música",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Descendants",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Eric",
     "type": "miniseries",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Godzilla Minus One",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Us",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Triple Frontier",
     "type": "movie",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Hotel Mumbai",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Primal Rage",
     "type": "movie",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Longlegs",
     "type": "movie",
     "year": 2024,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "12-2024",
     "title": "American Murder: Laci Peterson",
     "type": "documentary",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Coherence",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Men",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Frozen Ground",
     "type": "movie",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Rebel Ridge",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Bandit",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Searching for My Daughter",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "A Vítima Invisível: O Caso Eliza Samudio",
     "type": "movie",
     "year": 2024,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Jailbreak: Love on the Run",
     "type": "movie",
     "year": 2024,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Riders of Justice",
     "type": "movie",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "watched_at": "12-2024",
     "title": "The Substance",
     "type": "movie",
     "year": 2024,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "watched_at": "12-2024",
     "title": "His Three Daughters",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Watcher",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "6 Souls",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Menendez Brothers",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Outfit",
     "type": "movie",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Belko Experiment",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Remarkable Life of Ibelin",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Sweet Bobby: My Catfish Nightmare",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Visit",
     "type": "movie",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Martha",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Young Woman and the Sea",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "The Old Man",
     "type": "series",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Buy Now! The Shopping Conspiracy",
     "type": "movie",
     "year": 2024,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Wicked",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Violent Night",
     "type": "movie",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "watched_at": "12-2024",
     "title": "Ainda Estou Aqui",
     "type": "movie",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "12-2024",
     "title": "Beauty and the Beast",
     "type": "movie",
     "year": 1991,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "01-2025",
     "title": "Babygirl",
     "type": "movie",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Accountant",
     "platform": "Prime",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Zootopia",
     "platform": "Cinema",
     "type": "movie",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Theory of Everything",
     "type": "movie",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Social Network",
     "platform": "TV",
     "type": "movie",
     "year": 2010,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Sem Saída",
     "platform": "YouTube",
     "type": "movie",
     "year": 2012,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Room",
     "platform": "Netflix",
     "type": "movie",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Red Eye",
     "platform": "TV",
     "type": "movie",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Oldboy",
     "platform": "Netflix",
     "type": "movie",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Logan",
     "platform": "Netflix",
     "type": "movie",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Lo imposible",
     "platform": "TV",
     "type": "movie",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Interstellar",
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Hugo",
     "platform": "TV",
     "type": "movie",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Everyday",
     "platform": "Cinema",
     "type": "movie",
     "year": 2012,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Avatar",
     "platform": "TV",
     "type": "movie",
     "year": 2009,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Fantastic Four: Rise of the Silver Surfer",
     "platform": "TV",
     "type": "movie",
     "year": 2007,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "1899",
     "type": "series",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "12 Monkeys",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "La Mante",
     "type": "series",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "A Small Light",
     "type": "series",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "After Life",
     "type": "series",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Anitta: Made in Honório",
     "type": "series",
     "year": 2020,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Atypical",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Barry",
     "type": "series",
     "year": 2018,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Bates Motel",
     "type": "series",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Berlín",
     "type": "series",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Black Bird",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Black Mirror",
     "type": "series",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Blindspot",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Bom dia, Verônica",
     "type": "series",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Breaking Bad",
     "type": "series",
     "year": 2008,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Chernobyl",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Colony",
     "type": "series",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Crisis",
     "type": "series",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "DAHMER - Monster: The Jeffrey Dahmer Story",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Dark",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Marvel's Daredevil",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Designated Survivor",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Dexter",
     "type": "series",
     "year": 2006,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Dexter: New Blood",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "House",
     "type": "series",
     "year": 2004,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Elize Matsunaga: Era Uma Vez Um Crime",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Emergency: NYC",
     "type": "series",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Five Days At Memorial",
     "type": "series",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Fleabag",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Glitch",
     "type": "series",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Grey's Anatomy",
     "type": "series",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Heartstopper",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Hijack",
     "type": "series",
     "year": 2023,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Homeland",
     "type": "series",
     "year": 2011,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Hostages",
     "type": "series",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Inside Bill's Brain: Decoding Bill Gates",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Into the Night",
     "type": "series",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Investigação Criminal",
     "type": "series",
     "year": 2012,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Marvel's Jessica Jones",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "La Casa de Papel",
     "type": "series",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Liebes Kind",
     "type": "series",
     "year": 2023,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Lost",
     "type": "series",
     "year": 2004,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Love, Death & Robots",
     "type": "series",
     "year": 2019,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Lucifer",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Marvel's Luke Cage",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Lupin",
     "type": "series",
     "year": 2021,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Manhunt",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Maniac",
     "type": "series",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Marcella",
     "type": "series",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Mare of Easttown",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Marte",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Shooter",
     "type": "series",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "The Mist",
     "type": "series",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Orange Is The New Black",
     "type": "series",
     "year": 2013,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Orphan Black",
     "type": "series",
     "year": 2013,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Os Defensores",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Ozark",
     "type": "series",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Peacemaker",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Lost in Space",
     "type": "series",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Prison Break",
     "type": "series",
     "year": 2005,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Marvel's Iron Fist",
     "type": "series",
     "year": 2017,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Reacher",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Rick and Morty",
     "type": "series",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "River",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Safe",
     "type": "series",
     "year": 2018,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Santa Clarita Diet",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Scream",
     "type": "series",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Bodyguard",
     "type": "series",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Severance",
     "type": "series",
     "year": 2022,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Slasher",
     "type": "series",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Somewhere Between",
     "type": "series",
     "year": 2017,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Squid Game",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Stranger Things",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Sweet Tooth",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Terra Nova",
     "type": "series",
     "year": 2011,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The 100",
     "type": "series",
     "year": 2014,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Act",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Bear",
     "type": "series",
     "year": 2022,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "The End of the F***ing World",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Following",
     "type": "series",
     "year": 2013,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Good Place",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Lincoln Lawyer",
     "type": "series",
     "year": 2022,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "The Morning Show",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The OA",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Office",
     "type": "series",
     "year": 2005,
-    "recommended": "favorite"
+    "stars": 5
   },
   {
     "title": "Marvel's The Punisher",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Queen's Gambit",
     "type": "series",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Rain",
     "type": "series",
     "year": 2018,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "The Returned",
     "type": "series",
     "year": 2015,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "The Sinner",
     "type": "series",
     "year": 2017,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Walking Dead",
     "type": "series",
     "year": 2010,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "The Watcher",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The White Lotus",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "watched_at": "03-2020",
     "title": "Tiger King",
     "type": "series",
     "year": 2020,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Touch",
     "type": "series",
     "year": 2012,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Trapped",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Travelers",
     "type": "series",
     "year": 2016,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Unbelievable",
     "type": "series",
     "year": 2019,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Under the Dome",
     "type": "series",
     "year": 2013,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Vai Anitta",
     "type": "series",
     "year": 2018,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Van Helsing",
     "type": "series",
     "year": 2016,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Vis a vis",
     "type": "series",
     "year": 2015,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "WandaVision",
     "type": "series",
     "year": 2021,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Wanted",
     "type": "series",
     "year": 2016,
-    "recommended": "no"
+    "stars": 1
   },
   {
     "title": "Wednesday",
     "type": "series",
     "year": 2022,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "Yellowjackets",
     "type": "series",
     "year": 2021,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "You",
     "type": "series",
     "year": 2018,
-    "recommended": "maybe"
+    "stars": 3
   },
   {
     "title": "Fool Me Once",
     "type": "miniseries",
     "year": 2024,
-    "recommended": "yes"
+    "stars": 4
   },
   {
     "title": "The Tourist",
     "type": "series",
     "year": 2022,
-    "recommended": "maybe"
+    "stars": 3
   }
 ]

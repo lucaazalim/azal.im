@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import {
   FormControl,
   FormField,
@@ -12,8 +13,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ShowFilters, showSchema } from "@/lib/shows/types";
+import { ShowFilters } from "@/lib/shows/types";
+import { BrushCleaning } from "lucide-react";
 import { useFormContext } from "react-hook-form";
+import Stars from "./Stars";
 
 type Props = {
   genres: string[];
@@ -24,7 +27,7 @@ export default function ShowFilterForm({ genres }: Props) {
 
   return (
     <form
-      className="flex flex-row items-end gap-4"
+      className="bg-accent grid grid-cols-1 items-end gap-4 rounded-xl p-5 md:flex md:flex-row"
       onSubmit={form.handleSubmit(() => {})}
     >
       <FormField
@@ -32,9 +35,14 @@ export default function ShowFilterForm({ genres }: Props) {
         name="title"
         render={({ field }) => (
           <FormItem className="flex flex-col">
-            <FormLabel className="sr-only">Title</FormLabel>
+            <FormLabel>Title</FormLabel>
             <FormControl>
-              <Input id="title" placeholder="Search by title" {...field} />
+              <Input
+                id="title"
+                placeholder="Search by title"
+                className="w-full md:w-50"
+                {...field}
+              />
             </FormControl>
           </FormItem>
         )}
@@ -42,21 +50,26 @@ export default function ShowFilterForm({ genres }: Props) {
 
       <FormField
         control={form.control}
-        name="recommended"
+        name="stars"
         render={({ field }) => (
           <FormItem className="flex flex-col">
-            <FormLabel className="sr-only">Recommended</FormLabel>
+            <FormLabel>Stars</FormLabel>
             <FormControl>
-              <Select onValueChange={field.onChange} defaultValue={field.value}>
-                <SelectTrigger id="recommended">
-                  <SelectValue placeholder="Recommendation" />
+              <Select
+                onValueChange={field.onChange}
+                defaultValue={field.value?.toString()}
+              >
+                <SelectTrigger className="w-full md:w-50">
+                  <SelectValue placeholder="Stars" />
                 </SelectTrigger>
                 <SelectContent>
-                  {showSchema.shape.recommended.options.map((option) => (
-                    <SelectItem key={option} value={option}>
-                      {option.charAt(0).toUpperCase() + option.slice(1)}
-                    </SelectItem>
-                  ))}
+                  {Array.from({ length: 5 })
+                    .map((_, index) => index + 1)
+                    .map((option) => (
+                      <SelectItem key={option} value={option.toString()}>
+                        <Stars stars={option} animationDelay={0} />
+                      </SelectItem>
+                    ))}
                 </SelectContent>
               </Select>
             </FormControl>
@@ -69,10 +82,10 @@ export default function ShowFilterForm({ genres }: Props) {
         name="genre"
         render={({ field }) => (
           <FormItem className="flex flex-col">
-            <FormLabel className="sr-only">Genres</FormLabel>
+            <FormLabel>Genre</FormLabel>
             <FormControl>
               <Select onValueChange={field.onChange} defaultValue={field.value}>
-                <SelectTrigger id="genres">
+                <SelectTrigger className="w-full md:w-50">
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
                 <SelectContent>
@@ -87,6 +100,17 @@ export default function ShowFilterForm({ genres }: Props) {
           </FormItem>
         )}
       />
+
+      <Button
+        variant="outline"
+        onClick={() => {
+          form.setValue("title", "");
+          form.setValue("stars", "");
+          form.setValue("genre", "");
+        }}
+      >
+        <BrushCleaning />
+      </Button>
     </form>
   );
 }

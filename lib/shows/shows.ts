@@ -1,12 +1,12 @@
 import { distance } from "fastest-levenshtein";
 import fs from "fs";
 import { z } from "zod";
-import { PaginatedRequest, PaginatedResponse } from "../types";
+import { PaginatedResponse } from "../types";
 import {
   Show,
-  ShowFilters,
   ShowMetadata,
   showSchema,
+  ShowsRequest,
   ShowWithMetadata,
 } from "./types";
 
@@ -31,7 +31,7 @@ function loadShowData() {
     })
     .filter((show) => show !== undefined)
     .sort(
-      (a, b) => (b.watched_at?.getTime() ?? 0) - (a.watched_at?.getTime() ?? 0)
+      (a, b) => (b.watched_at?.getTime() ?? 0) - (a.watched_at?.getTime() ?? 0),
     );
 
   genres = showsWithMetadata
@@ -44,34 +44,28 @@ loadShowData();
 
 export function getShows({
   cursor,
-  limit,
-  filters,
-}: PaginatedRequest & {
-  filters?: ShowFilters;
-}): PaginatedResponse<ShowWithMetadata> {
+  limit = 10,
+  title,
+  stars,
+  genre,
+}: ShowsRequest): PaginatedResponse<ShowWithMetadata> {
   let filteredShows = [...showsWithMetadata];
 
-  if (filters) {
-    if (filters.title) {
-      const searchTitle = filters.title.toLowerCase();
-      filteredShows = filteredShows.filter((show) =>
-        show.title.toLowerCase().includes(searchTitle)
-      );
-    }
+  if (title) {
+    const searchTitle = title.toLowerCase();
+    filteredShows = filteredShows.filter((show) =>
+      show.title.toLowerCase().includes(searchTitle),
+    );
+  }
 
-    if (filters.recommended) {
-      filteredShows = filteredShows.filter(
-        (show) => show.recommended === filters.recommended
-      );
-    }
+  if (stars) {
+    filteredShows = filteredShows.filter((show) => show.stars === stars);
+  }
 
-    const genre = filters.genre;
-
-    if (genre) {
-      filteredShows = filteredShows.filter((show) =>
-        show.metadata.genres.includes(genre)
-      );
-    }
+  if (genre) {
+    filteredShows = filteredShows.filter((show) =>
+      show.metadata.genres.includes(genre),
+    );
   }
 
   return {
@@ -104,7 +98,7 @@ function compareShowYears(year1: number, year2: number): boolean {
 
 function findMetadataFromShow(
   show: Show,
-  metadata: ShowMetadata[]
+  metadata: ShowMetadata[],
 ): ShowMetadata | undefined {
   return metadata.find((entry) => {
     const titlesMatch =
@@ -113,7 +107,7 @@ function findMetadataFromShow(
 
     const yearsMatch = compareShowYears(
       Number(entry.release_date.split("-")[0]), // extract year
-      show.year
+      show.year,
     );
 
     return titlesMatch && yearsMatch;

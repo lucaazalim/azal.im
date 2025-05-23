@@ -5,6 +5,7 @@ import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
 import { ShowCard } from "./ShowCard";
+import ShowGridSkeleton from "./ShowGridSkeleton";
 
 export default function ShowsGrid() {
   const form = useFormContext<ShowFilters>();
@@ -12,7 +13,7 @@ export default function ShowsGrid() {
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
   const [debouncedFilters, setDebouncedFilters] = useState<ShowFilters>(
-    form.getValues()
+    form.getValues(),
   );
 
   // Watch for filter changes
@@ -47,7 +48,7 @@ export default function ShowsGrid() {
   } = useInfiniteQuery({
     queryKey: ["shows", debouncedFilters],
     queryFn: ({ pageParam = 0 }) =>
-      fetchShows({ pageParam, filters: debouncedFilters }),
+      fetchShows({ cursor: pageParam, limit: 16, ...debouncedFilters }),
     getNextPageParam: (lastPage) =>
       lastPage.hasMore ? lastPage.nextCursor : undefined,
     initialPageParam: 0,
@@ -67,7 +68,7 @@ export default function ShowsGrid() {
           fetchNextPage();
         }
       },
-      { rootMargin: "0px 0px 200px 0px" } // Load more when within 200px of the bottom
+      { rootMargin: "0px 0px 200px 0px" }, // Load more when within 200px of the bottom
     );
 
     // Observe the load more element
@@ -85,16 +86,12 @@ export default function ShowsGrid() {
   const shows = data?.pages.flatMap((page) => page.data) || [];
 
   if (isLoading) {
-    return (
-      <div className="flex items-center justify-center py-10">
-        Loading shows...
-      </div>
-    );
+    return <ShowGridSkeleton />;
   }
 
   if (isError) {
     return (
-      <div className="flex items-center justify-center py-10 text-red-500">
+      <div className="text-destructive flex items-center justify-center py-10">
         Failed to load shows
       </div>
     );
@@ -102,26 +99,27 @@ export default function ShowsGrid() {
 
   if (shows.length === 0) {
     return (
-      <div className="flex items-center justify-center py-10">
-        No shows found
+      <div className="text-destructive flex items-center justify-center py-10">
+        Whoops! No shows found.
       </div>
     );
   }
 
   return (
     <div className="space-y-6">
-      <div className="gap-6 grid grid-cols-3 md:grid-cols-8 justify-center">
+      <div className="grid grid-cols-3 justify-center gap-6 md:grid-cols-8">
         {shows.map((show, index) => (
           <ShowCard key={`${show.title}-${index}`} show={show} />
         ))}
       </div>
 
-      {/* Loading more indicator */}
       <div ref={loadMoreRef} className="py-4 text-center">
         {isFetchingNextPage ? (
-          <LoadingSpinner />
+          <div className="flex items-center justify-center">
+            <LoadingSpinner />
+          </div>
         ) : shows.length > 0 && !hasNextPage ? (
-          <p className="text-sm text-neutral-500">You've seen all shows</p>
+          <p className="text-sm text-neutral-500">That's it!</p>
         ) : null}
       </div>
     </div>

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="dark scroll-smooth selection:bg-accent/30 selection:text-accent"
+      className="dark selection:bg-primary/30 selection:text-primary scroll-smooth"
       style={{
         scrollbarGutter: "stable",
       }}

@@ -1,36 +1,23 @@
 import { getShows } from "@/lib/shows/shows";
-import { showFilterSchema } from "@/lib/shows/types";
+import { showsRequestSchema } from "@/lib/shows/types";
+import { searchParamsToObject } from "@/lib/utils";
 import { NextRequest, NextResponse } from "next/server";
 
-export function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams;
+export async function GET(request: NextRequest) {
+  const searchParams = searchParamsToObject(request.nextUrl.searchParams);
+  const showsRequest = showsRequestSchema.safeParse(searchParams);
 
-  const cursor = Number(searchParams.get("cursor")) || 0;
-  const limit = Number(searchParams.get("limit")) || 10;
-
-  const filters = {
-    title: searchParams.get("title") || undefined,
-    recommended: searchParams.get("recommended") || undefined,
-    genre: searchParams.get("genre") || undefined,
-  };
-
-  const filtersParseResult = showFilterSchema.safeParse(filters);
-
-  if (!filtersParseResult.success) {
+  if (!showsRequest.success) {
     return NextResponse.json(
       {
-        error: "Invalid filters",
-        issues: filtersParseResult.error.format(),
+        error: "Invalid request",
+        issues: showsRequest.error.format(),
       },
       { status: 400 },
     );
   }
 
-  const shows = getShows({
-    cursor,
-    limit,
-    filters: filtersParseResult.data,
-  });
+  const shows = getShows(showsRequest.data);
 
   return NextResponse.json(shows, {
     status: 200,

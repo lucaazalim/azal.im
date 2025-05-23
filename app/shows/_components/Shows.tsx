@@ -16,7 +16,7 @@ export default function Shows({ genres }: Props) {
     resolver: zodResolver(showFilterSchema),
     defaultValues: {
       title: "",
-      recommended: undefined,
+      stars: undefined,
       genre: undefined,
     },
   });

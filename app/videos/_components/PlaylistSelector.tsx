@@ -15,8 +15,8 @@ export default function PlaylistSelector({ playlistSlug }: Props) {
             <button
               className={`cursor-pointer rounded-full border-2 px-3 py-2 text-sm font-semibold max-md:w-full ${
                 playlist.slug === playlistSlug
-                  ? "text-accent border-accent bg-accent/10"
-                  : "text-accent/30 border-accent/30 hover:text-accent/50 hover:border-accent/50 transition-all"
+                  ? "text-primary border-primary bg-primary/10"
+                  : "text-primary/30 border-primary/30 hover:text-primary/50 hover:border-primary/50 transition-all"
               }`}
             >
               {playlist.title}
