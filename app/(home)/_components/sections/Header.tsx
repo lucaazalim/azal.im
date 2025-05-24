@@ -35,18 +35,25 @@ export default function Header() {
           <SocialItem
             icon={SiLinkedin}
             href="https://www.linkedin.com/in/lucaazalim"
+            aria-label="LinkedIn"
           />
 
-          <SocialItem icon={SiGithub} href="https://github.com/lucaazalim" />
+          <SocialItem
+            icon={SiGithub}
+            href="https://github.com/lucaazalim"
+            aria-label="GitHub"
+          />
 
           <SocialItem
             icon={SiInstagram}
             href="https://www.instagram.com/lucaazalim"
+            aria-label="Instagram"
           />
 
           <SocialItem
             icon={Utensils}
             href="https://www.instagram.com/comidasdoluca"
+            aria-label="Instagram do Comidas do Luca"
           />
         </ul>
       </div>
