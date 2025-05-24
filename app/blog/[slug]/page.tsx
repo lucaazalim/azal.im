@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";
 import Image from "next/image";
 import Link from "next/link";
+import ProgressBar from "../_components/ProgressBar";
 
 type Props = {
   params: Promise<{
@@ -68,6 +69,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <main className="mx-auto max-w-[950px] px-5 py-10">
+      <ProgressBar />
       <article className="space-y-10">
         <Link
           href={routes.blog}
