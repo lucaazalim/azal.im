@@ -11,7 +11,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import MovieFilterForm from "./MovieFilterForm";
 import MoviesGrid from "./MovieGrid";
-import MovieSheet from "./MovieSheet";
+import MovieDetailsSheet from "./MovieDetailsSheet";
 
 type Props = {
   genres: string[];
@@ -31,7 +31,10 @@ export default function Movies({ genres }: Props) {
 
   return (
     <div className="flex flex-col gap-6">
-      <MovieSheet movie={openMovie} onClose={() => setOpenMovie(undefined)} />
+      <MovieDetailsSheet
+        movie={openMovie}
+        onClose={() => setOpenMovie(undefined)}
+      />
       <Form {...form}>
         <div className="flex justify-center">
           <MovieFilterForm genres={genres} />

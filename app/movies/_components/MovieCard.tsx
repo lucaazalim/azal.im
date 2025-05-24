@@ -1,8 +1,7 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { MovieWithMetadata } from "@/lib/movies/types";
-import { ImageOff, Info } from "lucide-react";
+import { ImageOff } from "lucide-react";
 import Image from "next/image";
 import Stars from "./Stars";
 
@@ -17,7 +16,10 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
     : null;
 
   return (
-    <div className="flex flex-col overflow-hidden rounded-lg bg-neutral-800">
+    <div
+      className="flex cursor-pointer flex-col overflow-hidden rounded-lg bg-neutral-800"
+      onClick={onClick}
+    >
       <div className="relative aspect-2/3 w-full">
         {imagePath ? (
           <Image
@@ -36,11 +38,8 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
           </div>
         )}
       </div>
-      <div className="flex flex-row justify-between gap-2 p-3">
+      <div className="flex flex-row justify-center gap-2 p-3">
         <Stars stars={movie.stars} />
-        <Button variant="outline" onClick={onClick}>
-          <Info />
-        </Button>
       </div>
     </div>
   );
