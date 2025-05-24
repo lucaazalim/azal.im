@@ -1,5 +1,6 @@
 import { distance } from "fastest-levenshtein";
 import fs from "fs";
+import path from "path";
 import { z } from "zod";
 import { PaginatedResponse } from "../types";
 import {
@@ -11,8 +12,8 @@ import {
   MovieWithMetadata,
 } from "./types";
 
-const MOVIES_PATH = "./data/movies/movies.json";
-const METADATA_PATH = "./data/movies/metadata.json";
+const MOVIES_PATH = path.join(process.cwd(), "data/movies/movies.json");
+const METADATA_PATH = path.join(process.cwd(), "data/movies/metadata.json");
 
 let moviesWithMetadata: MovieWithMetadata[];
 export let totalMovies: number;
