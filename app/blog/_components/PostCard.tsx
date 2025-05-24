@@ -1,5 +1,4 @@
 import { Post } from "@/app/blog/_lib/posts";
-import * as motion from "@/lib/motion";
 import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,12 +11,7 @@ type Props = {
 export default function PostCard({ post, index }: Props) {
   return (
     <Link href={post.route}>
-      <motion.article
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800"
-      >
+      <article className="animate-in slide-in-from-bottom-20 group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 duration-1000">
         <div className="relative h-[200px] w-full shrink-0">
           <Image
             src={post.metadata.cover}
@@ -40,7 +34,7 @@ export default function PostCard({ post, index }: Props) {
             </p>
           </div>
         </div>
-      </motion.article>
+      </article>
     </Link>
   );
 }

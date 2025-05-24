@@ -1,6 +1,5 @@
 "use client";
 
-import * as motion from "@/lib/motion";
 import { useState } from "react";
 import { Video } from "../_lib/videos";
 import VideoCard from "./VideoCard";
@@ -16,11 +15,7 @@ export default function VideoGrid({ videos }: Props) {
   return (
     <>
       <YoutubeOverlay video={video} onClose={() => setVideo(null)} />
-      <motion.div
-        initial={{ y: 50, type: "spring" }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-      >
+      <div className="animate-in slide-in-from-bottom-5 duration-300 ease-in">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {videos.map((video: Video, index: number) => (
             <VideoCard
@@ -42,7 +37,7 @@ export default function VideoGrid({ videos }: Props) {
             />
           ))}
         </div>
-      </motion.div>
+      </div>
     </>
   );
 }

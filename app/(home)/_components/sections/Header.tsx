@@ -27,7 +27,7 @@ export default function Header() {
         </div>
         <NavigationMenu />
       </div>
-      <div className="space-y-4">
+      <div className="flex flex-col gap-3">
         <a className="link" href="mailto:luca@azal.im">
           luca@azal.im
         </a>

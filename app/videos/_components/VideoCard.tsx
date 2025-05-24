@@ -1,4 +1,4 @@
-import * as motion from "@/lib/motion";
+import { cn } from "@/lib/utils";
 import { Play, Youtube } from "lucide-react";
 import Image from "next/image";
 import { Video } from "../_lib/videos";
@@ -11,15 +11,16 @@ type Props = {
 
 export default function VideoCard({ video, index, onClick }: Props) {
   return (
-    <motion.article
+    <article
       onClick={onClick}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{
-        duration: 0.2 * Math.min(index, 5),
-        ease: "easeIn",
-      }}
-      className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-800"
+      className={cn(
+        "animate-in fade-in group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-800",
+        index === 0 && "duration-200",
+        index === 1 && "duration-400",
+        index === 2 && "duration-600",
+        index === 3 && "duration-800",
+        index >= 4 && "duration-1000",
+      )}
     >
       <div className="relative aspect-video">
         <div className="absolute z-40 flex size-full items-center justify-center opacity-0 transition-all duration-400 md:group-hover:opacity-100">
@@ -49,6 +50,6 @@ export default function VideoCard({ video, index, onClick }: Props) {
           </span>
         </div>
       </div>
-    </motion.article>
+    </article>
   );
 }
