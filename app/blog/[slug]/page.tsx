@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metadata.description,
       images: [
         {
-          url: routes.API_OG(post.metadata.title, post.metadata.description),
+          url: routes.api.og(post.metadata.title, post.metadata.description),
           width: 1200,
           height: 630,
           alt: post.metadata.title,
