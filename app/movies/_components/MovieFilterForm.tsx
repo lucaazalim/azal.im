@@ -1,18 +1,18 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+} from "@/app/_components/ui/form";
+import { Input } from "@/app/_components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/app/_components/ui/select";
 import { MovieFilters } from "@/lib/movies/types";
 import { BrushCleaning } from "lucide-react";
 import { useFormContext } from "react-hook-form";

@@ -1,4 +1,4 @@
-import { ROUTES } from "@/lib/constants";
+import { routes } from "@/lib/constants";
 import Link from "next/link";
 import { PLAYLISTS } from "../_lib/videos";
 
@@ -11,7 +11,7 @@ export default function PlaylistSelector({ playlistSlug }: Props) {
     <ul className="grid grid-cols-2 gap-3 place-self-center md:flex md:flex-wrap">
       {PLAYLISTS.map((playlist) => (
         <li key={playlist.slug}>
-          <Link href={ROUTES.VIDEOS(playlist.slug)}>
+          <Link href={routes.videos(playlist.slug)}>
             <button
               className={`cursor-pointer rounded-full border-2 px-3 py-2 text-sm font-semibold max-md:w-full ${
                 playlist.slug === playlistSlug

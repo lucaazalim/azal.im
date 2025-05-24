@@ -3,7 +3,7 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/app/_components/ui/dialog";
 import { Video } from "../_lib/videos";
 import YouTubeEmbed from "./YoutubeEmbed";
 

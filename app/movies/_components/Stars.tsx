@@ -1,4 +1,4 @@
-import * as motion from "@/lib/motion";
+import * as motion from "@/app/_components/Motion";
 import { MAX_MOVIE_STARS } from "@/lib/movies/types";
 import { Star } from "lucide-react";
 

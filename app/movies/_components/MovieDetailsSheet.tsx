@@ -3,7 +3,7 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-} from "@/components/ui/sheet";
+} from "@/app/_components/ui/sheet";
 import { MovieWithMetadata } from "@/lib/movies/types";
 import { cn } from "@/lib/utils";
 import Image from "next/image";

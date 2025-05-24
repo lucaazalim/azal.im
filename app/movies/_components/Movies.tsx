@@ -1,6 +1,6 @@
 "use client";
 
-import { Form } from "@/components/ui/form";
+import { Form } from "@/app/_components/ui/form";
 import {
   MovieFilters,
   movieFilterSchema,

@@ -1,7 +1,7 @@
 import ImageView from "@/app/(home)/_components/image-view/ImageView";
 import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
-import TailwindBreakpoint from "@/components/TailwindBreakpoint";
-import TanStackQueryProvider from "@/components/TanStackQueryProvider";
+import TailwindBreakpoint from "@/app/_components/TailwindBreakpoint";
+import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";

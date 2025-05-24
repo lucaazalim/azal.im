@@ -1,7 +1,7 @@
-import PageDescription from "@/components/PageDescription";
-import PageHeader from "@/components/PageHeader";
-import PageTitle from "@/components/PageTitle";
-import { ROUTES } from "@/lib/constants";
+import PageDescription from "@/app/_components/PageDescription";
+import PageHeader from "@/app/_components/PageHeader";
+import PageTitle from "@/app/_components/PageTitle";
+import { routes } from "@/lib/constants";
 import { redirect } from "next/navigation";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
@@ -25,7 +25,7 @@ export default async function Page({
   const videos = await getVideos(playlistSlug);
 
   if (!videos) {
-    return redirect(ROUTES.VIDEOS());
+    return redirect(routes.videos());
   }
 
   return (

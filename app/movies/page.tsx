@@ -1,6 +1,6 @@
-import PageDescription from "@/components/PageDescription";
-import PageHeader from "@/components/PageHeader";
-import PageTitle from "@/components/PageTitle";
+import PageDescription from "@/app/_components/PageDescription";
+import PageHeader from "@/app/_components/PageHeader";
+import PageTitle from "@/app/_components/PageTitle";
 import { getGenres, totalMovies } from "@/lib/movies/movies";
 import Movies from "./_components/Movies";
 

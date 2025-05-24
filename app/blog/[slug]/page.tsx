@@ -1,7 +1,7 @@
+import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/app/blog/_lib/posts";
-import { ROUTES } from "@/lib/constants";
-import * as motion from "@/lib/motion";
+import { routes } from "@/lib/constants";
 import { ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metadata.description,
       images: [
         {
-          url: ROUTES.OG(post.metadata.title, post.metadata.description),
+          url: routes.API_OG(post.metadata.title, post.metadata.description),
           width: 1200,
           height: 630,
           alt: post.metadata.title,
@@ -70,7 +70,7 @@ export default async function Page({ params }: Props) {
     <main className="mx-auto max-w-[950px] px-5 py-10">
       <article className="space-y-10">
         <Link
-          href={ROUTES.BLOG}
+          href={routes.blog}
           className="text-muted-foreground hover:text-foreground flex items-center gap-1 transition-colors"
         >
           <ArrowLeft className="h-5 w-5" />

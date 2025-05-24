@@ -1,8 +1,8 @@
+import PageDescription from "@/app/_components/PageDescription";
+import PageHeader from "@/app/_components/PageHeader";
+import PageTitle from "@/app/_components/PageTitle";
 import PostCard from "@/app/blog/_components/PostCard";
 import { getPosts } from "@/app/blog/_lib/posts";
-import PageDescription from "@/components/PageDescription";
-import PageHeader from "@/components/PageHeader";
-import PageTitle from "@/components/PageTitle";
 
 export default async function Page() {
   return (

@@ -1,5 +1,5 @@
-import LoadingSpinner from "@/components/LoadingSpinner";
-import { fetchMovies } from "@/lib/movies/client";
+import LoadingSpinner from "@/app/_components/LoadingSpinner";
+import { routes } from "@/lib/constants";
 import { MovieFilters, MovieWithMetadata } from "@/lib/movies/types";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
@@ -51,8 +51,16 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
     isError,
   } = useInfiniteQuery({
     queryKey: ["movies", debouncedFilters],
-    queryFn: ({ pageParam = 0 }) =>
-      fetchMovies({ cursor: pageParam, limit: 16, ...debouncedFilters }),
+    queryFn: async ({ pageParam = 0 }) => {
+      const response = await fetch(
+        routes.api.movies({
+          cursor: pageParam,
+          limit: 16,
+          ...debouncedFilters,
+        }),
+      );
+      return response.json();
+    },
     getNextPageParam: (lastPage) =>
       lastPage.hasMore ? lastPage.nextCursor : undefined,
     initialPageParam: 0,

@@ -22,6 +22,20 @@ export function searchParamsToObject(searchParams: URLSearchParams) {
   return obj;
 }
 
+export function objectToSearchParams(
+  obj: Record<string, string | string[] | number | undefined | null>,
+) {
+  const searchParams = new URLSearchParams();
+
+  for (const [key, value] of Object.entries(obj)) {
+    if (value !== undefined && value !== null && value !== "") {
+      searchParams.append(key, value.toString());
+    }
+  }
+
+  return searchParams;
+}
+
 export function formatToMonthYear(date: Date) {
   date = new Date(date);
   const month = String(date.getMonth() + 1).padStart(2, "0");

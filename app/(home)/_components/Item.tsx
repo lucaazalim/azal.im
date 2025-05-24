@@ -2,7 +2,7 @@
 
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
 import Skills from "@/app/(home)/_components/Skills";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/app/_components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";
