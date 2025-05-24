@@ -8,7 +8,7 @@ import Projects from "@/app/(home)/_components/sections/Projects";
 
 export default function Home() {
   return (
-    <div className="mx-auto flex max-w-(--breakpoint-lg) flex-col gap-x-28 px-12 lg:flex-row">
+    <div className="animate-in fade-in mx-auto flex max-w-(--breakpoint-lg) flex-col gap-x-28 px-12 duration-300 ease-in lg:flex-row">
       <Header />
       <main className="space-y-24 py-12 lg:py-24">
         <About />

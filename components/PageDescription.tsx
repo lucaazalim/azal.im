@@ -9,7 +9,10 @@ export default function PageDescription({
   ...props
 }: Props) {
   return (
-    <p className={cn("max-w-lg text-xl", className)} {...props}>
+    <p
+      className={cn("text-foreground/70 max-w-lg text-xl", className)}
+      {...props}
+    >
       {children}
     </p>
   );

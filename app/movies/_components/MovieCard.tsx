@@ -17,7 +17,7 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
 
   return (
     <div
-      className="animate-in fade-in flex cursor-pointer flex-col overflow-hidden rounded-lg bg-neutral-800 duration-100"
+      className="animate-in fade-in flex cursor-pointer flex-col overflow-hidden rounded-lg bg-neutral-800 transition-all duration-100 ease-in hover:scale-[102%]"
       onClick={onClick}
     >
       <div className="relative aspect-2/3 w-full">

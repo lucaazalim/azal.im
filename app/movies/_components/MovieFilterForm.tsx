@@ -27,7 +27,7 @@ export default function MovieFilterForm({ genres }: Props) {
 
   return (
     <form
-      className="bg-accent grid w-full grid-cols-2 items-end gap-4 rounded-xl p-5 md:flex md:w-auto md:flex-row"
+      className="bg-accent grid w-full grid-cols-2 items-end gap-4 rounded-xl border p-5 md:flex md:w-auto md:flex-row"
       onSubmit={form.handleSubmit(() => {})}
     >
       <FormField
