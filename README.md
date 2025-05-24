@@ -1,41 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [
-`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# azal.im
 
-## Getting Started
+Welcome to the source code of my personal website! 👋
 
-First, run the development server:
+The site is organized into the following sections:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🏠 **Homepage** – Showcasing my professional experience, education, awards, and projects.
+- ✍️ **Blog** – A collection of articles I've written on software development and technology.
+- ▶️ **Videos** – A curated list of my favorite YouTube videos across a variety of topics.
+- 🎞 **Movies** – A catalog of movies and series I’ve watched in recent years, complete with my personal ratings.
+
+---
+
+## Technologies
+
+This project is built using the following technologies:
+
+- **Next.js** – A React framework for building server-rendered applications.
+- **TypeScript** – A superset of JavaScript that adds static types.
+- **Tailwind CSS v4** – A utility-first CSS framework for rapid UI development.
+- **Shadcn/ui** – A component library for building beautiful UIs with Tailwind CSS.
+
+In addition, the following libraries are used for specific functionalities:
+
+- **Lucide** – A library for displaying icons.
+- **Zod** – A TypeScript-first schema declaration and validation library.
+- **TanStack Query** – A powerful data-fetching library for React.
+- **React Hook Form** – A library for managing forms in React applications.
+- **Shiki** – A library for syntax highlighting.
+
+---
+
+## Directory Structure
+
+The project is organized into the following directories:
+
+```text
+app
+└── _components
+    └── ui
+    (home)
+    api
+    ├── movies
+    └── og
+    blog
+    movies
+    videos
+data
+├── movies
+└── posts
+lib
+└── ...
+public
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Directory            | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| `app`                | Root directory for Next.js application with app router. |
+| `app/_components`    | Shared components used across multiple pages.           |
+| `app/_components/ui` | Shadcn/UI components.                                   |
+| `app/(home)`         | Homepage components and layout.                         |
+| `app/api`            | API routes for server-side functionality.               |
+| `app/api/movies`     | Endpoint for fetching movies data.                      |
+| `app/api/og`         | Open Graph image generation API for the blog.           |
+| `app/blog`           | Blog components, pages and layout.                      |
+| `app/movies`         | Movies page components and layout.                      |
+| `app/videos`         | Videos page components and layout.                      |
+| `data`               | Static data files.                                      |
+| `data/movies`        | JSON files containing movies and their metadata.        |
+| `data/posts`         | MDX files for blog posts.                               |
+| `lib`                | Utility functions, types, and helper code.              |
+| `public`             | Public static assets like images.                       |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and
-load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions
-are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use
-the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](./LICENSE).
+You are free to use, modify, and distribute this code, provided that **proper credit is given** by linking back to the [original repository](https://github.com/lucaazalim/azal.im).
