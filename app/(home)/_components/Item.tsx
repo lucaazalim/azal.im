@@ -1,8 +1,8 @@
 "use client";
 
-import Badge from "@/app/(home)/_components/Badge";
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
 import Skills from "@/app/(home)/_components/Skills";
+import { Badge } from "@/components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";
@@ -33,8 +33,8 @@ export default function Item({
   return (
     <div>
       <a href={link} target="_blank">
-        <div className="relative group/container lg:hover:scale-[101%] lg:hover:bg-white/5 lg:hover:bg-linear-to-br from-white/10 to-white/1 border-t lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:border-transparent lg:hover:opacity-100! lg:group-hover/section:opacity-50 rounded-lg p-8 transition-all border border-white/10">
-          <div className="grid md:grid-cols-[0.3fr_0.7fr] gap-5">
+        <div className="group/container relative rounded-lg border border-t border-white/10 from-white/10 to-white/1 p-8 transition-all lg:border-transparent lg:group-hover/section:opacity-50 lg:hover:scale-[101%] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100!">
+          <div className="grid gap-5 md:grid-cols-[0.3fr_0.7fr]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
                 <span className="mt-1 text-xs font-semibold text-wrap">
@@ -52,7 +52,7 @@ export default function Item({
                     setPath(image);
                     e.preventDefault();
                   }}
-                  className="cursor-zoom-in border-2 object-coverrounded-sm border-foreground/30"
+                  className="object-coverrounded-sm border-foreground/30 cursor-zoom-in border-2"
                 />
               )}
             </div>
@@ -63,14 +63,14 @@ export default function Item({
                     <div className="relative flex w-fit flex-row items-center gap-2">
                       <span className="font-semibold">{title}</span>
                       {link && (
-                        <ArrowUpRight className="hidden lg:block absolute size-5 transition-all top-2 -right-4 group-hover/container:top-0 group-hover/container:-right-6 opacity-0 group-hover/container:opacity-100" />
+                        <ArrowUpRight className="absolute top-2 -right-4 hidden size-5 opacity-0 transition-all group-hover/container:top-0 group-hover/container:-right-6 group-hover/container:opacity-100 lg:block" />
                       )}
                     </div>
-                    <p className="text-sm text-muted-foreground">{subtitle}</p>
+                    <p className="text-muted-foreground text-sm">{subtitle}</p>
                   </div>
                 </div>
               </div>
-              <div className="text-sm text-muted-foreground space-y-4">
+              <div className="text-muted-foreground space-y-4 text-sm">
                 {children}
               </div>
               {skills && <Skills skills={skills} />}

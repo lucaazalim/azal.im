@@ -1,18 +1,19 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ShowWithMetadata } from "@/lib/shows/types";
+import { MovieWithMetadata } from "@/lib/movies/types";
 import { ImageOff, Info } from "lucide-react";
 import Image from "next/image";
 import Stars from "./Stars";
 
 type ShowCardProps = {
-  show: ShowWithMetadata;
+  movie: MovieWithMetadata;
+  onClick: () => void;
 };
 
-export function ShowCard({ show }: ShowCardProps) {
-  const imagePath = show.metadata.poster_path
-    ? `https://image.tmdb.org/t/p/w500${show.metadata.poster_path}`
+export function MovieCard({ movie, onClick }: ShowCardProps) {
+  const imagePath = movie.metadata.poster_path
+    ? `https://image.tmdb.org/t/p/w500${movie.metadata.poster_path}`
     : null;
 
   return (
@@ -21,7 +22,7 @@ export function ShowCard({ show }: ShowCardProps) {
         {imagePath ? (
           <Image
             src={imagePath}
-            alt={show.title}
+            alt={movie.title}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 33vw"
@@ -30,14 +31,14 @@ export function ShowCard({ show }: ShowCardProps) {
           <div className="flex h-full w-full items-center justify-center bg-neutral-200 dark:bg-neutral-800">
             <span className="flex flex-col items-center gap-3 opacity-50">
               <ImageOff className="size-10" />
-              <span className="font-semibold">{show.title}</span>
+              <span className="font-semibold">{movie.title}</span>
             </span>
           </div>
         )}
       </div>
       <div className="flex flex-row justify-between gap-2 p-3">
-        <Stars stars={show.stars} />
-        <Button variant="outline">
+        <Stars stars={movie.stars} />
+        <Button variant="outline" onClick={onClick}>
           <Info />
         </Button>
       </div>

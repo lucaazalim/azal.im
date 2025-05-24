@@ -13,7 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ShowFilters } from "@/lib/shows/types";
+import { MovieFilters } from "@/lib/movies/types";
 import { BrushCleaning } from "lucide-react";
 import { useFormContext } from "react-hook-form";
 import Stars from "./Stars";
@@ -22,8 +22,8 @@ type Props = {
   genres: string[];
 };
 
-export default function ShowFilterForm({ genres }: Props) {
-  const form = useFormContext<ShowFilters>();
+export default function MovieFilterForm({ genres }: Props) {
+  const form = useFormContext<MovieFilters>();
 
   return (
     <form

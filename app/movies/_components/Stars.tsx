@@ -1,5 +1,5 @@
 import * as motion from "@/lib/motion";
-import { MAX_SHOW_STARS } from "@/lib/shows/types";
+import { MAX_MOVIE_STARS } from "@/lib/movies/types";
 import { Star } from "lucide-react";
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
 export default function Stars({ stars, animationDelay = 0.5 }: Props) {
   return (
     <div className="flex flex-row items-center gap-1">
-      {Array.from({ length: MAX_SHOW_STARS }, (_, index) => (
+      {Array.from({ length: MAX_MOVIE_STARS }, (_, index) => (
         <motion.div
           key={index}
           initial={{ color: "var(--color-neutral-700)" }}

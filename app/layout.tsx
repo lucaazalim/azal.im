@@ -1,5 +1,6 @@
 import ImageView from "@/app/(home)/_components/image-view/ImageView";
 import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
+import TailwindBreakpoint from "@/components/TailwindBreakpoint";
 import TanStackQueryProvider from "@/components/TanStackQueryProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -33,6 +34,7 @@ export default function RootLayout({
             {children}
           </ImageViewContextProvider>
         </TanStackQueryProvider>
+        {process.env.NODE_ENV === "development" && <TailwindBreakpoint />}
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-import Navigation from "@/app/(home)/_components/navigation/Navigation";
+import NavigationMenu from "@/app/(home)/_components/navigation/NavigationMenu";
 import SocialItem from "@/app/(home)/_components/navigation/SocialItem";
 import {
   SiGithub,
@@ -25,7 +25,7 @@ export default function Header() {
           </h1>
           <h2 className="text-xl font-light text-nowrap">Software Engineer</h2>
         </div>
-        <Navigation />
+        <NavigationMenu />
       </div>
       <div className="space-y-4">
         <a className="link" href="mailto:luca@azal.im">

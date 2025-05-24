@@ -1,4 +1,4 @@
-// import { Show, ShowMetadata } from "@/lib/shows/types";
+// import { Show, ShowMetadata } from "@/lib/movies/types";
 // import chalk from "chalk";
 // import dotenv from "dotenv";
 // import fs from "fs";

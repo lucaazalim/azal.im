@@ -1,18 +1,22 @@
 import LoadingSpinner from "@/components/LoadingSpinner";
-import { fetchShows } from "@/lib/shows/client";
-import { ShowFilters } from "@/lib/shows/types";
+import { fetchMovies } from "@/lib/movies/client";
+import { MovieFilters, MovieWithMetadata } from "@/lib/movies/types";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
-import { ShowCard } from "./ShowCard";
-import ShowGridSkeleton from "./ShowGridSkeleton";
+import { MovieCard } from "./MovieCard";
+import MovieGridSkeleton from "./MovieGridSkeleton";
 
-export default function ShowsGrid() {
-  const form = useFormContext<ShowFilters>();
+type Props = {
+  onMovieClicked: (movie: MovieWithMetadata) => void;
+};
+
+export default function MoviesGrid({ onMovieClicked }: Props) {
+  const form = useFormContext<MovieFilters>();
   const observerRef = useRef<IntersectionObserver | null>(null);
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const [debouncedFilters, setDebouncedFilters] = useState<ShowFilters>(
+  const [debouncedFilters, setDebouncedFilters] = useState<MovieFilters>(
     form.getValues(),
   );
 
@@ -46,9 +50,9 @@ export default function ShowsGrid() {
     isLoading,
     isError,
   } = useInfiniteQuery({
-    queryKey: ["shows", debouncedFilters],
+    queryKey: ["movies", debouncedFilters],
     queryFn: ({ pageParam = 0 }) =>
-      fetchShows({ cursor: pageParam, limit: 16, ...debouncedFilters }),
+      fetchMovies({ cursor: pageParam, limit: 16, ...debouncedFilters }),
     getNextPageParam: (lastPage) =>
       lastPage.hasMore ? lastPage.nextCursor : undefined,
     initialPageParam: 0,
@@ -82,25 +86,25 @@ export default function ShowsGrid() {
     };
   }, [fetchNextPage, hasNextPage, isFetchingNextPage]);
 
-  // Flatten all pages of shows
-  const shows = data?.pages.flatMap((page) => page.data) || [];
+  // Flatten all pages of movies
+  const movies = data?.pages.flatMap((page) => page.data) || [];
 
   if (isLoading) {
-    return <ShowGridSkeleton />;
+    return <MovieGridSkeleton />;
   }
 
   if (isError) {
     return (
       <div className="text-destructive flex items-center justify-center py-10">
-        Failed to load shows
+        Failed to load movies
       </div>
     );
   }
 
-  if (shows.length === 0) {
+  if (movies.length === 0) {
     return (
       <div className="text-destructive flex items-center justify-center py-10">
-        Whoops! No shows found.
+        Whoops! No movies found.
       </div>
     );
   }
@@ -108,8 +112,12 @@ export default function ShowsGrid() {
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-3 justify-center gap-6 md:grid-cols-8">
-        {shows.map((show, index) => (
-          <ShowCard key={`${show.title}-${index}`} show={show} />
+        {movies.map((movieWithMetadata, index) => (
+          <MovieCard
+            key={`${movieWithMetadata.title}-${index}`}
+            movie={movieWithMetadata}
+            onClick={() => onMovieClicked(movieWithMetadata)}
+          />
         ))}
       </div>
 
@@ -118,7 +126,7 @@ export default function ShowsGrid() {
           <div className="flex items-center justify-center">
             <LoadingSpinner />
           </div>
-        ) : shows.length > 0 && !hasNextPage ? (
+        ) : movies.length > 0 && !hasNextPage ? (
           <p className="text-sm text-neutral-500">That's it!</p>
         ) : null}
       </div>

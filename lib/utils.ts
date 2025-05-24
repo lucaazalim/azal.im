@@ -21,3 +21,10 @@ export function searchParamsToObject(searchParams: URLSearchParams) {
 
   return obj;
 }
+
+export function formatToMonthYear(date: Date) {
+  date = new Date(date);
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const year = date.getFullYear();
+  return `${month}/${year}`;
+}

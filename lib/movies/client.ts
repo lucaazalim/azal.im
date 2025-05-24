@@ -1,9 +1,9 @@
 import { PaginatedResponse } from "../types";
-import { ShowsRequest, ShowWithMetadata } from "./types";
+import { MoviesRequest, MovieWithMetadata } from "./types";
 
-export async function fetchShows(
-  request: ShowsRequest,
-): Promise<PaginatedResponse<ShowWithMetadata>> {
+export async function fetchMovies(
+  request: MoviesRequest,
+): Promise<PaginatedResponse<MovieWithMetadata>> {
   const params = new URLSearchParams();
 
   for (const [key, value] of Object.entries(request)) {
@@ -12,6 +12,6 @@ export async function fetchShows(
     }
   }
 
-  const response = await fetch(`/api/shows?${params.toString()}`);
+  const response = await fetch(`/api/movies?${params.toString()}`);
   return response.json();
 }

@@ -1,25 +1,25 @@
-import { getShows } from "@/lib/shows/shows";
-import { showsRequestSchema } from "@/lib/shows/types";
+import { getMovies } from "@/lib/movies/movies";
+import { moviesRequestSchema } from "@/lib/movies/types";
 import { searchParamsToObject } from "@/lib/utils";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
   const searchParams = searchParamsToObject(request.nextUrl.searchParams);
-  const showsRequest = showsRequestSchema.safeParse(searchParams);
+  const moviesRequest = moviesRequestSchema.safeParse(searchParams);
 
-  if (!showsRequest.success) {
+  if (!moviesRequest.success) {
     return NextResponse.json(
       {
         error: "Invalid request",
-        issues: showsRequest.error.format(),
+        issues: moviesRequest.error.format(),
       },
       { status: 400 },
     );
   }
 
-  const shows = getShows(showsRequest.data);
+  const movies = getMovies(moviesRequest.data);
 
-  return NextResponse.json(shows, {
+  return NextResponse.json(movies, {
     status: 200,
     headers: {
       "Content-Type": "application/json",
