@@ -33,10 +33,7 @@ export default function ImageView() {
 
   return (
     <div
-      className="
-            fixed size-full z-1000 cursor-zoom-out
-            flex items-center justify-center bg-black/50 backdrop-blur-xs
-        "
+      className="fixed z-1000 flex size-full cursor-zoom-out items-center justify-center bg-black/50 backdrop-blur-xs"
       onClick={() => setPath(undefined)}
     >
       <Image src={path} alt="Image" fill={true} className="object-scale-down" />

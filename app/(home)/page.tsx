@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="mx-auto flex max-w-(--breakpoint-lg) flex-col gap-x-28 px-12 lg:flex-row">
       <Header />
-      <main className="py-12 space-y-24 lg:py-24">
+      <main className="space-y-24 py-12 lg:py-24">
         <About />
         <Experiences />
         <Education />

@@ -38,7 +38,7 @@ export default function InThisPost({ headings }: Props) {
             <li
               key={heading.slug}
               className={
-                "text-sm  transition-all " +
+                "text-sm transition-all " +
                 (activeHeading === heading.slug
                   ? "text-foreground"
                   : "text-muted-foreground")

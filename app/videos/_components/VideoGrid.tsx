@@ -33,7 +33,7 @@ export default function VideoGrid({ videos }: Props) {
                 if (isMobile) {
                   window.open(
                     `https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`,
-                    "_blank"
+                    "_blank",
                   );
                 } else {
                   setVideo(video);

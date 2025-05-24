@@ -3,7 +3,7 @@ import SectionTitle from "@/app/(home)/_components/SectionTitle";
 
 export default function Experiences() {
   return (
-    <section id="experience" className="scroll-mt-24 space-y-10 group/section">
+    <section id="experience" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Experience</SectionTitle>
 
       <Item

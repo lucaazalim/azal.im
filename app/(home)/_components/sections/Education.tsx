@@ -3,7 +3,7 @@ import SectionTitle from "@/app/(home)/_components/SectionTitle";
 
 export default function Education() {
   return (
-    <section id="education" className="scroll-mt-24 space-y-10 group/section">
+    <section id="education" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Education</SectionTitle>
 
       <Item

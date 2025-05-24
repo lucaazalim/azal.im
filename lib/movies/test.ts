@@ -26,12 +26,12 @@ type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
 
 type EndpointDefinitions = {
   "/ordem-compras": {
-    "GET": {
+    GET: {
       params: OrdemCompraFilterDto;
       body: undefined;
       response: OrdemCompraResponseDto[];
     };
-    "POST": {
+    POST: {
       params: undefined;
       body: OrdemCompraCreateDto;
       response: OrdemCompraResponseDto;

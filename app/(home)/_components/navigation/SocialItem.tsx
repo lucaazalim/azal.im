@@ -13,7 +13,7 @@ export default function SocialItem({ icon: Icon, href }: SocialItemProps) {
         href={href}
         target="_blank"
         rel="noreferrer"
-        className="bg-red-500 transition-colors text-muted-foreground hover:text-foreground"
+        className="text-muted-foreground hover:text-foreground bg-red-500 transition-colors"
       >
         <Icon />
       </a>

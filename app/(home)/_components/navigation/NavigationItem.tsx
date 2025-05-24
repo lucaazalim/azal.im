@@ -10,14 +10,9 @@ export default function NavigationItem({ href, title }: NavItemProps) {
     <li>
       <Link
         href={href}
-        className="
-                group h-8
-                flex items-center gap-3
-                cursor-pointer text-muted-foreground
-                hover:text-foreground transition-all
-            "
+        className="group text-muted-foreground hover:text-foreground flex h-8 cursor-pointer items-center gap-3 transition-all"
       >
-        <div className="w-5 rounded-full transition-all h-0.5 bg-muted-foreground group-hover:bg-foreground group-hover:w-12"></div>
+        <div className="bg-muted-foreground group-hover:bg-foreground h-0.5 w-5 rounded-full transition-all group-hover:w-12"></div>
         {title}
       </Link>
     </li>

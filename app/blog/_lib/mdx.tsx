@@ -86,7 +86,7 @@ function CustomImage({ alt, ...props }: CustomImageProps) {
     <figure>
       {image}
       {alt && (
-        <figcaption className="text-center text-sm text-muted-foreground">
+        <figcaption className="text-muted-foreground text-center text-sm">
           {alt}
         </figcaption>
       )}

@@ -27,7 +27,7 @@ export default async function Page({
   }
 
   return (
-    <div className="mx-auto px-5 py-10 max-w-[950px] space-y-10">
+    <div className="mx-auto max-w-[950px] space-y-10 px-5 py-10">
       <header className="space-y-10">
         <HomeButton />
         <div className="space-y-3">

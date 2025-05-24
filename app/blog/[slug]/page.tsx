@@ -67,17 +67,17 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <main className="mx-auto px-5 py-10 max-w-[950px]">
+    <main className="mx-auto max-w-[950px] px-5 py-10">
       <article className="space-y-10">
         <Link
           href={ROUTES.BLOG}
-          className="flex items-center gap-1 transition-colors text-muted-foreground hover:text-foreground"
+          className="text-muted-foreground hover:text-foreground flex items-center gap-1 transition-colors"
         >
           <ArrowLeft className="h-5 w-5" />
           <span>Blog</span>
         </Link>
         <div className="space-y-5">
-          <h1 className="text-4xl font-bold text-foreground">
+          <h1 className="text-foreground text-4xl font-bold">
             {post.metadata.title}
           </h1>
           <p className="text-muted-foreground">{post.metadata.description}</p>
@@ -86,7 +86,7 @@ export default async function Page({ params }: Props) {
           initial={{ opacity: 0, filter: "blur(5px)" }}
           animate={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="relative w-full h-[300px] md:h-[500px]"
+          className="relative h-[300px] w-full md:h-[500px]"
         >
           <Image
             src={post.metadata.cover}
@@ -104,7 +104,7 @@ export default async function Page({ params }: Props) {
           />
         </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_0.2fr]">
-          <div className="shrink prose prose-primary dark:prose-invert">
+          <div className="prose prose-primary dark:prose-invert shrink">
             {post.content}
           </div>
           <div className="sticky top-10 hidden h-fit lg:block">

@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="scroll-mt-24 max-lg:space-y-10">
       <SectionTitle className="lg:hidden">About</SectionTitle>
 
-      <div className="space-y-4 text-muted-foreground lg:px-5">
+      <div className="text-muted-foreground space-y-4 lg:px-5">
         <p>
           My journey in the digital world began in 2008, at the age of 8, when I
           created a blog about Club Penguin and started experimenting with HTML

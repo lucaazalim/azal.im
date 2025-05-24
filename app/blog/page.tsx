@@ -9,7 +9,7 @@ export default async function Page() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
-      className="mx-auto px-5 py-10 max-w-[950px] space-y-10"
+      className="mx-auto max-w-[950px] space-y-10 px-5 py-10"
     >
       <header className="space-y-10">
         <HomeButton />

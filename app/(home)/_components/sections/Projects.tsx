@@ -3,7 +3,7 @@ import SectionTitle from "@/app/(home)/_components/SectionTitle";
 
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-24 space-y-10 group/section">
+    <section id="projects" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Projects</SectionTitle>
       <Item
         date="2023 – 2024"

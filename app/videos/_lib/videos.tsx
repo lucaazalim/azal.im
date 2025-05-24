@@ -60,7 +60,7 @@ export async function getVideos(slug: string): Promise<Video[] | undefined> {
   }
 
   const result = await fetch(
-    `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlist.id}&maxResults=50&key=${process.env.GOOGLE_CLOUD_API_KEY}`
+    `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlist.id}&maxResults=50&key=${process.env.GOOGLE_CLOUD_API_KEY}`,
   );
 
   if (!result.ok) {

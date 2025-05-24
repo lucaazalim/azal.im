@@ -16,9 +16,9 @@ export default function PostCard({ post, index }: Props) {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 group"
+        className="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800"
       >
-        <div className="relative w-full shrink-0 h-[200px]">
+        <div className="relative h-[200px] w-full shrink-0">
           <Image
             src={post.metadata.cover}
             alt={post.metadata.title}
@@ -30,7 +30,7 @@ export default function PostCard({ post, index }: Props) {
         <div className="flex grow flex-col justify-between gap-3 p-5">
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">{post.metadata.title}</h3>
-            <p className="text-neutral-500 line-clamp-3">
+            <p className="line-clamp-3 text-neutral-500">
               {post.metadata.description}
             </p>
           </div>
