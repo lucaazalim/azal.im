@@ -105,6 +105,7 @@ export default function MovieFilterForm({ genres }: Props) {
         variant="outline"
         onClick={() => {
           form.setValue("title", "");
+          // @ts-ignore
           form.setValue("stars", "");
           form.setValue("genre", "");
         }}
