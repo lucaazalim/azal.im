@@ -8,7 +8,7 @@ type Props = {
 
 export default function PlaylistSelector({ playlistSlug }: Props) {
   return (
-    <ul className="grid grid-cols-2 gap-3 md:flex md:flex-wrap">
+    <ul className="grid grid-cols-2 gap-3 place-self-center md:flex md:flex-wrap">
       {PLAYLISTS.map((playlist) => (
         <li key={playlist.slug}>
           <Link href={ROUTES.VIDEOS(playlist.slug)}>

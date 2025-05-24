@@ -9,9 +9,9 @@ import {
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import MovieDetailsSheet from "./MovieDetailsSheet";
 import MovieFilterForm from "./MovieFilterForm";
 import MoviesGrid from "./MovieGrid";
-import MovieDetailsSheet from "./MovieDetailsSheet";
 
 type Props = {
   genres: string[];
@@ -30,7 +30,7 @@ export default function Movies({ genres }: Props) {
   const [openMovie, setOpenMovie] = useState<MovieWithMetadata>();
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="animate-in fade-in flex flex-col gap-6 duration-1000">
       <MovieDetailsSheet
         movie={openMovie}
         onClose={() => setOpenMovie(undefined)}

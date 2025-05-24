@@ -47,7 +47,7 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-    isLoading,
+    isPending,
     isError,
   } = useInfiniteQuery({
     queryKey: ["movies", debouncedFilters],
@@ -89,14 +89,14 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
   // Flatten all pages of movies
   const movies = data?.pages.flatMap((page) => page.data) || [];
 
-  if (isLoading) {
+  if (isPending) {
     return <MovieGridSkeleton />;
   }
 
   if (isError) {
     return (
       <div className="text-destructive flex items-center justify-center py-10">
-        Failed to load movies
+        Failed to load movies.
       </div>
     );
   }

@@ -1,6 +1,8 @@
+import PageDescription from "@/components/PageDescription";
+import PageHeader from "@/components/PageHeader";
+import PageTitle from "@/components/PageTitle";
 import { ROUTES } from "@/lib/constants";
 import { redirect } from "next/navigation";
-import HomeButton from "../../(home)/_components/HomeButton";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
 import { getVideos, PLAYLISTS } from "../_lib/videos";
@@ -28,15 +30,12 @@ export default async function Page({
 
   return (
     <div className="mx-auto max-w-[950px] space-y-10 px-5 py-10">
-      <header className="space-y-10">
-        <HomeButton />
-        <div className="space-y-3">
-          <h1 className="font-serif text-4xl font-bold">Videos</h1>
-          <h2 className="font-serif text-xl">
-            YouTube videos I watched, learned from, or enjoyed.
-          </h2>
-        </div>
-      </header>
+      <PageHeader>
+        <PageTitle>Videos</PageTitle>
+        <PageDescription>
+          YouTube videos I watched, learned from, or enjoyed.
+        </PageDescription>
+      </PageHeader>
       <PlaylistSelector playlistSlug={playlistSlug} />
       <VideoGrid videos={videos} />
     </div>

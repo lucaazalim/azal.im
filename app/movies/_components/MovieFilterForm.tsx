@@ -27,14 +27,14 @@ export default function MovieFilterForm({ genres }: Props) {
 
   return (
     <form
-      className="bg-accent grid grid-cols-1 items-end gap-4 rounded-xl p-5 md:flex md:flex-row"
+      className="bg-accent grid w-full grid-cols-2 items-end gap-4 rounded-xl p-5 md:flex md:w-auto md:flex-row"
       onSubmit={form.handleSubmit(() => {})}
     >
       <FormField
         control={form.control}
         name="title"
         render={({ field }) => (
-          <FormItem className="flex flex-col">
+          <FormItem className="col-span-2 flex flex-col">
             <FormLabel>Title</FormLabel>
             <FormControl>
               <Input
@@ -103,14 +103,15 @@ export default function MovieFilterForm({ genres }: Props) {
 
       <Button
         variant="outline"
+        className="col-span-2"
         onClick={() => {
           form.setValue("title", "");
-          // @ts-ignore
-          form.setValue("stars", "");
+          form.setValue("stars", undefined);
           form.setValue("genre", "");
         }}
       >
         <BrushCleaning />
+        <span>Clean</span>
       </Button>
     </form>
   );

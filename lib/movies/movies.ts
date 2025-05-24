@@ -15,12 +15,15 @@ const MOVIES_PATH = "./data/movies/movies.json";
 const METADATA_PATH = "./data/movies/metadata.json";
 
 let moviesWithMetadata: MovieWithMetadata[];
+export let totalMovies: number;
 let genres: string[] = [];
 
 function loadShowData() {
   const moviesRawData = fs.readFileSync(MOVIES_PATH, "utf-8");
   const moviesJson = JSON.parse(moviesRawData);
   const movies = z.array(movieSchema).parse(moviesJson);
+
+  totalMovies = movies.length;
 
   const metadataRawData = fs.readFileSync(METADATA_PATH, "utf-8");
   const metadataJson = JSON.parse(metadataRawData);
@@ -115,7 +118,3 @@ function findMetadataFromMovie(
     return titlesMatch && yearsMatch;
   });
 }
-
-export default {
-  getMovies,
-};
