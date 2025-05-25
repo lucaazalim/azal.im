@@ -3,8 +3,25 @@ import { paginatedRequestSchema } from "../types";
 
 export const MAX_MOVIE_STARS = 5;
 
+export const PLATFORMS = [
+  "Netflix",
+  "Cinema",
+  "YouTube",
+  "Popcorn Time",
+  "HBO GO",
+  "Prime",
+  "Telecine",
+  "Stremio",
+  "Disney+",
+  "HBO Max",
+  "Globoplay",
+  "Apple TV+",
+  "Star+",
+  "TV",
+] as const;
+
 export const movieSchema = z.object({
-  watched_at: z
+  watchedAt: z
     .string()
     .regex(/^\d{2}-\d{4}$/)
     .transform((watchedAt) => {
@@ -12,24 +29,7 @@ export const movieSchema = z.object({
     })
     .optional(),
   title: z.string().min(1),
-  platform: z
-    .enum([
-      "Netflix",
-      "Cinema",
-      "YouTube",
-      "Popcorn Time",
-      "HBO GO",
-      "Prime",
-      "Telecine",
-      "Stremio",
-      "Disney+",
-      "HBO Max",
-      "Globoplay",
-      "Apple TV+",
-      "Star+",
-      "TV",
-    ])
-    .optional(),
+  platform: z.enum(PLATFORMS).optional(),
   type: z.enum(["movie", "series", "documentary", "miniseries"]),
   year: z.number().min(1900).max(new Date().getFullYear()),
   stars: z.number().int().min(1).max(MAX_MOVIE_STARS),

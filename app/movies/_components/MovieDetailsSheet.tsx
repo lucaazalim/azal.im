@@ -64,8 +64,8 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
               <div>
                 <span className="font-bold">Watched at: </span>
                 <span className="text-foreground/70">
-                  {movie?.watched_at &&
-                    new Date(movie.watched_at).toLocaleString("en-US", {
+                  {movie?.watchedAt &&
+                    new Date(movie.watchedAt).toLocaleString("en-US", {
                       month: "long",
                       year: "numeric",
                     })}

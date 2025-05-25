@@ -12,8 +12,11 @@ import {
   MovieWithMetadata,
 } from "./types";
 
-const MOVIES_PATH = path.join(process.cwd(), "data/movies/movies.json");
-const METADATA_PATH = path.join(process.cwd(), "data/movies/metadata.json");
+export const MOVIES_PATH = path.join(process.cwd(), "data/movies/movies.json");
+export const METADATA_PATH = path.join(
+  process.cwd(),
+  "data/movies/metadata.json",
+);
 
 let moviesWithMetadata: MovieWithMetadata[];
 export let totalMovies: number;
@@ -37,7 +40,7 @@ function loadShowData() {
     })
     .filter((movie) => movie !== undefined)
     .sort(
-      (a, b) => (b.watched_at?.getTime() ?? 0) - (a.watched_at?.getTime() ?? 0),
+      (a, b) => (b.watchedAt?.getTime() ?? 0) - (a.watchedAt?.getTime() ?? 0),
     );
 
   genres = moviesWithMetadata
