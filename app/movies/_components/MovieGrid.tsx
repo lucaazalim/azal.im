@@ -119,7 +119,7 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-3 justify-center gap-6 md:grid-cols-8">
+      <div className="grid grid-cols-3 justify-center gap-6 md:grid-cols-6 lg:grid-cols-8">
         {movies.map((movieWithMetadata, index) => (
           <MovieCard
             key={`${movieWithMetadata.title}-${index}`}
