@@ -27,6 +27,9 @@ export default function RootLayout({
         scrollbarGutter: "stable",
       }}
     >
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Luca Azalim" />
+      </head>
       <body className={`${inter.className} bg-background`}>
         <TanStackQueryProvider>
           <ImageViewContextProvider>
