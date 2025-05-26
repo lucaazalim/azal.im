@@ -22,7 +22,7 @@ export default function Stars({ stars, animationDelay = 0.5 }: Props) {
                 : "var(--color-neutral-700)",
           }}
         >
-          <Star className="size-4 fill-current lg:size-5" />
+          <Star className="size-3.5 fill-current md:size-4 lg:size-5" />
         </motion.div>
       ))}
     </div>
