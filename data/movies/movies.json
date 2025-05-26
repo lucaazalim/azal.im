@@ -5758,5 +5758,372 @@
     "type": "series",
     "year": 2022,
     "stars": 3
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "Almost Famous",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2000,
+    "stars": 4
+  },
+  {
+    "watchedAt": "12-2024",
+    "title": "Carry-On",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2024,
+    "stars": 1
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "MaXXXine",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "Blink Twice",
+    "type": "movie",
+    "platform": "Prime",
+    "year": 2024,
+    "stars": 5
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "Woman of the Hour",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2023,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "Anora",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "My Old Ass",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2025",
+    "title": "28 Days Later",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2002,
+    "stars": 3
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "Boiling Point",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2021,
+    "stars": 5
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "Chef",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2014,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "September 5",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "Conclave",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "Reality",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2023,
+    "stars": 3
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "Oppenheimer",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2023,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2025",
+    "title": "American Murder: Gabby Petito",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Bodies Bodies Bodies",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2022,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Heretic",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Marrowbone",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2017,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Oculus",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2013,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Runaway Jury",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2003,
+    "stars": 1
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "2001: A Space Odyssey",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 1968,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "The Score",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2001,
+    "stars": 4
+  },
+  {
+    "title": "Liar Liar",
+    "platform": "TV",
+    "type": "movie",
+    "year": 1997,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Young Hearts",
+    "platform": "Stremio",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2025",
+    "title": "Adolescence",
+    "platform": "Netflix",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "The Gorge",
+    "platform": "Apple TV+",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "The Day of the Jackal",
+    "platform": "Disney+",
+    "type": "series",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Panic Room",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2002,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "The Pitt",
+    "platform": "Max",
+    "type": "series",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Daredevil: Born Again",
+    "platform": "Disney+",
+    "type": "series",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Civil War",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Cunk on Earth",
+    "platform": "Netflix",
+    "type": "miniseries",
+    "year": 2022,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Cunk on Life",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Lioness",
+    "platform": "Netflix",
+    "type": "series",
+    "year": 2023,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Incendies",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2010,
+    "stars": 5
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Elephant",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2003,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Congonhas: Tragédia Anunciada",
+    "platform": "Netflix",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2025",
+    "title": "Shooter",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2007,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Volta Priscila",
+    "platform": "Disney+",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "El Eternauta",
+    "platform": "Netflix",
+    "type": "series",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "The Assessment",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2024,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Side Effects",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2013,
+    "stars": 3
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Escape from Alcatraz",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 1979,
+    "stars": 5
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "The Notebook",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2004,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Sinners",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2025,
+    "stars": 5
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "District 9",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2009,
+    "stars": 4
   }
 ]
