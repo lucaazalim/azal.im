@@ -2193,7 +2193,7 @@
   },
   {
     "watchedAt": "12-2020",
-    "title": "Star Wars: Episode VI – Return of the Jedi",
+    "title": "Return of the Jedi",
     "platform": "Disney+",
     "type": "movie",
     "year": 1983,
@@ -2201,7 +2201,7 @@
   },
   {
     "watchedAt": "12-2020",
-    "title": "Star Wars: Episode V – The Empire Strikes Back",
+    "title": "The Empire Strikes Back",
     "platform": "Disney+",
     "type": "movie",
     "year": 1980,
@@ -2209,10 +2209,10 @@
   },
   {
     "watchedAt": "12-2020",
-    "title": "Star Wars: Episode IV – A New Hope",
+    "title": "Star Wars",
     "platform": "Disney+",
     "type": "movie",
-    "year": 2011,
+    "year": 1977,
     "stars": 4
   },
   {
@@ -3721,7 +3721,7 @@
   },
   {
     "watchedAt": "12-2022",
-    "title": "71",
+    "title": "'71",
     "platform": "Netflix",
     "type": "movie",
     "year": 2014,
@@ -3825,7 +3825,7 @@
   },
   {
     "watchedAt": "03-2023",
-    "title": "Luther",
+    "title": "Luther: The Fallen Sun",
     "platform": "Netflix",
     "type": "movie",
     "year": 2023,
@@ -4593,7 +4593,7 @@
   },
   {
     "watchedAt": "02-2024",
-    "title": "Interview with the Vampire: The Vampire Chronicles",
+    "title": "Interview with the Vampire",
     "platform": "Prime",
     "type": "movie",
     "year": 1994,
@@ -5435,7 +5435,7 @@
     "stars": 3
   },
   {
-    "title": "Os Defensores",
+    "title": "Marvel's The Defenders",
     "type": "series",
     "year": 2017,
     "stars": 4
@@ -5875,7 +5875,7 @@
     "watchedAt": "02-2025",
     "title": "American Murder: Gabby Petito",
     "platform": "Netflix",
-    "type": "movie",
+    "type": "miniseries",
     "year": 2025,
     "stars": 4
   },
@@ -5985,7 +5985,7 @@
   {
     "watchedAt": "04-2025",
     "title": "The Pitt",
-    "platform": "Max",
+    "platform": "HBO Max",
     "type": "series",
     "year": 2025,
     "stars": 3
@@ -6011,7 +6011,7 @@
     "title": "Cunk on Earth",
     "platform": "Netflix",
     "type": "miniseries",
-    "year": 2022,
+    "year": 2018,
     "stars": 4
   },
   {
@@ -6067,7 +6067,7 @@
     "title": "Volta Priscila",
     "platform": "Disney+",
     "type": "miniseries",
-    "year": 2025,
+    "year": 2024,
     "stars": 4
   },
   {

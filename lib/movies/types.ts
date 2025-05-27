@@ -3,6 +3,8 @@ import { paginatedRequestSchema } from "../types";
 
 export const MAX_MOVIE_STARS = 5;
 
+export const TYPES = ["movie", "series", "documentary", "miniseries"] as const;
+
 export const PLATFORMS = [
   "Netflix",
   "Cinema",
@@ -30,7 +32,7 @@ export const movieSchema = z.object({
     .optional(),
   title: z.string().min(1),
   platform: z.enum(PLATFORMS).optional(),
-  type: z.enum(["movie", "series", "documentary", "miniseries"]),
+  type: z.enum(TYPES),
   year: z.number().min(1900).max(new Date().getFullYear()),
   stars: z.number().int().min(1).max(MAX_MOVIE_STARS),
 });
@@ -45,6 +47,7 @@ export const movieMetadataSchema = z.object({
   backdrop_path: z.string().nullable(),
   poster_path: z.string().nullable(),
   release_date: z.string().transform((date) => new Date(date)),
+  runtime: z.number().int().min(0).nullable(),
   genres: z.array(z.string()),
 });
 
@@ -59,6 +62,7 @@ export const movieFilterSchema = z.object({
   type: movieSchema.shape.type.optional(),
   stars: z.coerce.number().int().min(1).max(MAX_MOVIE_STARS).optional(),
   genre: z.string().optional(),
+  runtime: z.coerce.number().int().min(0).optional(),
 });
 
 export type MovieFilters = z.infer<typeof movieFilterSchema>;
