@@ -4,7 +4,7 @@ type SkillsProps = {
   skills: string[];
 };
 
-export default function Skills({ skills }: SkillsProps) {
+export default function ExperienceSkills({ skills }: SkillsProps) {
   return (
     <div className="flex flex-wrap items-center gap-2">
       {skills.map((skill, index) => (

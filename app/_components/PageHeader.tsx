@@ -2,13 +2,21 @@ import HomeButton from "@/app/(home)/_components/HomeButton";
 import { cn } from "@/lib/utils";
 import { HTMLAttributes } from "react";
 
-type Props = HTMLAttributes<HTMLDivElement>;
+type Props = {
+  animation?: boolean;
+} & HTMLAttributes<HTMLDivElement>;
 
-export default function PageHeader({ className, children, ...props }: Props) {
+export default function PageHeader({
+  animation = true,
+  className,
+  children,
+  ...props
+}: Props) {
   return (
     <header
       className={cn(
-        "animate-in fade-in mx-auto flex max-w-[950px] flex-col items-center space-y-5 text-center duration-500 ease-in",
+        "mx-auto flex max-w-[950px] flex-col items-center space-y-5 text-center",
+        animation && "animate-in fade-in duration-500 ease-in",
         className,
       )}
       {...props}

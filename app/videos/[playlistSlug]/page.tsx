@@ -30,7 +30,7 @@ export default async function Page({
 
   return (
     <div className="mx-auto max-w-[950px] space-y-10 px-5 py-10">
-      <PageHeader>
+      <PageHeader animation={false}>
         <PageTitle>Videos</PageTitle>
         <PageDescription>
           YouTube videos I watched, learned from, or enjoyed.

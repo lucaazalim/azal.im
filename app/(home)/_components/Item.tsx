@@ -1,13 +1,13 @@
 "use client";
 
+import ExperienceSkills from "@/app/(home)/_components/ExperienceSkills";
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
-import Skills from "@/app/(home)/_components/Skills";
 import { Badge } from "@/app/_components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";
 
-type ExperienceProps = {
+type Props = {
   date: string;
   image?: string;
   badge?: string;
@@ -27,7 +27,7 @@ export default function Item({
   link,
   skills,
   children,
-}: ExperienceProps) {
+}: Props) {
   const { setPath } = useImageView();
 
   return (
@@ -73,7 +73,7 @@ export default function Item({
               <div className="text-muted-foreground space-y-4 text-sm">
                 {children}
               </div>
-              {skills && <Skills skills={skills} />}
+              {skills && <ExperienceSkills skills={skills} />}
             </div>
           </div>
         </div>

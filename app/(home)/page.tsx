@@ -5,6 +5,7 @@ import Experiences from "@/app/(home)/_components/sections/Experiences";
 import Footer from "@/app/(home)/_components/sections/Footer";
 import Header from "@/app/(home)/_components/sections/Header";
 import Projects from "@/app/(home)/_components/sections/Projects";
+import TechSkills from "./_components/sections/TechSkills";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <main className="space-y-24 py-8 lg:py-24">
         <About />
+        <TechSkills />
         <Experiences />
         <Education />
         <Awards />
