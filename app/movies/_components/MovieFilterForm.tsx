@@ -14,7 +14,7 @@ import {
   SelectValue,
 } from "@/app/_components/ui/select";
 import { MAX_MOVIE_STARS, MovieFilters, TYPES } from "@/lib/movies/types";
-import { BrushCleaning } from "lucide-react";
+import { RefreshCcw } from "lucide-react";
 import { useFormContext } from "react-hook-form";
 import Stars from "./Stars";
 
@@ -27,14 +27,14 @@ export default function MovieFilterForm({ genres }: Props) {
 
   return (
     <form
-      className="bg-accent grid grid-cols-2 items-end gap-4 rounded-xl border p-5 md:flex md:flex-row"
+      className="bg-accent grid grid-cols-2 items-end gap-5 rounded-xl border p-5 lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_0.5fr]"
       onSubmit={form.handleSubmit(() => {})}
     >
       <FormField
         control={form.control}
         name="title"
         render={({ field }) => (
-          <FormItem className="col-span-2 flex grow flex-col">
+          <FormItem className="flex grow flex-col max-lg:col-span-2">
             <FormLabel>Title</FormLabel>
             <FormControl>
               <Input id="title" placeholder="Search by title" {...field} />
@@ -178,15 +178,13 @@ export default function MovieFilterForm({ genres }: Props) {
 
       <Button
         variant="outline"
-        className="col-span-2"
+        className="max-lg:col-span-2"
         onClick={() => {
-          form.setValue("title", "");
-          form.setValue("stars", undefined);
-          form.setValue("genre", "");
+          form.reset();
         }}
       >
-        <BrushCleaning />
-        <span>Clean</span>
+        <RefreshCcw />
+        <span>Reset</span>
       </Button>
     </form>
   );

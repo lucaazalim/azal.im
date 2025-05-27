@@ -1,9 +1,9 @@
-import { PostHeading } from "@/app/blog/_lib/headings";
-import parseMDX from "@/app/blog/_lib/mdx";
 import * as fs from "node:fs";
 import path from "node:path";
 import { ReactElement } from "react";
 import { z } from "zod";
+import { PostHeading } from "./headings";
+import parseMDX from "./mdx";
 
 export type Post = {
   slug: string;

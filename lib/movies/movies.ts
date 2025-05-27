@@ -6,13 +6,14 @@ import { MoviesRequest, MovieWithMetadata } from "./types";
 const MOVIES_PATH = path.join(process.cwd(), "data/movies/movies.json");
 const METADATA_PATH = path.join(process.cwd(), "data/movies/metadata.json");
 
-export const { moviesWithMetadata, totalMovies, genres } =
+export const { moviesWithMetadata, genres, totalMovies, totalRuntime } =
   loadMoviesWithMetadata();
 
 export function loadMoviesWithMetadata(): {
   moviesWithMetadata: MovieWithMetadata[];
-  totalMovies: number;
   genres: string[];
+  totalMovies: number;
+  totalRuntime: number;
 } {
   const movies = loadMovies(MOVIES_PATH);
   const metadata = loadMetadata(METADATA_PATH);
@@ -34,8 +35,12 @@ export function loadMoviesWithMetadata(): {
 
   return {
     moviesWithMetadata,
-    totalMovies: movies.length,
     genres,
+    totalMovies: movies.length,
+    totalRuntime: moviesWithMetadata.reduce(
+      (total, movie) => total + (movie.metadata.runtime ?? 0),
+      0,
+    ),
   };
 }
 

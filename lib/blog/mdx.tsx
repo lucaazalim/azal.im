@@ -1,15 +1,11 @@
-import {
-  createHeading,
-  extractHeadings,
-  PostHeading,
-} from "@/app/blog/_lib/headings";
-import { PostMetadata, postMetadataSchema } from "@/app/blog/_lib/posts";
 import { evaluate } from "next-mdx-remote-client/rsc";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactElement, ReactNode } from "react";
 import rehypePrettyCode from "rehype-pretty-code";
 import rehypeUnwrapImages from "rehype-unwrap-images";
+import { createHeading, extractHeadings, PostHeading } from "./headings";
+import { PostMetadata, postMetadataSchema } from "./posts";
 
 type TableData = {
   headers: string[];

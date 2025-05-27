@@ -5,12 +5,12 @@ import {
   SiInstagram,
   SiLinkedin,
 } from "@icons-pack/react-simple-icons";
-import { Utensils } from "lucide-react";
+import { Mail, Utensils } from "lucide-react";
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex flex-col justify-between gap-5 pt-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-24">
+    <header className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-18">
       <div className="space-y-8">
         <Image
           src="/avatar.png"
@@ -28,10 +28,13 @@ export default function Header() {
         <NavigationMenu />
       </div>
       <div className="flex flex-col gap-3">
-        <a className="link" href="mailto:luca@azal.im">
-          luca@azal.im
-        </a>
         <ul className="flex gap-4">
+          <SocialItem
+            icon={Mail}
+            href="mailto:luca@azal.im"
+            aria-label="E-mail"
+          />
+
           <SocialItem
             icon={SiLinkedin}
             href="https://www.linkedin.com/in/lucaazalim"
