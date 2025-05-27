@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Play, Youtube } from "lucide-react";
 import Image from "next/image";
-import { Video } from "../_lib/videos";
+import { Video } from "../../../lib/videos/videos";
 
 type Props = {
   video: Video;

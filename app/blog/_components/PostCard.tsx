@@ -1,4 +1,4 @@
-import { Post } from "@/app/blog/_lib/posts";
+import { Post } from "@/lib/blog/posts";
 import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";

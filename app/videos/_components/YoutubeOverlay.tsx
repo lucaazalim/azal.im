@@ -4,7 +4,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/app/_components/ui/dialog";
-import { Video } from "../_lib/videos";
+import { Video } from "../../../lib/videos/videos";
 import YouTubeEmbed from "./YoutubeEmbed";
 
 type YoutubeOverlayProps = {

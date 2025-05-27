@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Video } from "../_lib/videos";
+import { Video } from "../../../lib/videos/videos";
 import VideoCard from "./VideoCard";
 import YoutubeOverlay from "./YoutubeOverlay";
 

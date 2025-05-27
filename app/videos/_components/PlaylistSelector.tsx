@@ -1,6 +1,6 @@
 import { routes } from "@/lib/constants";
 import Link from "next/link";
-import { PLAYLISTS } from "../_lib/videos";
+import { PLAYLISTS } from "../../../lib/videos/videos";
 
 type Props = {
   playlistSlug: string;

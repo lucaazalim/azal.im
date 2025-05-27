@@ -3,9 +3,9 @@ import PageHeader from "@/app/_components/PageHeader";
 import PageTitle from "@/app/_components/PageTitle";
 import { routes } from "@/lib/constants";
 import { redirect } from "next/navigation";
+import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
-import { getVideos, PLAYLISTS } from "../_lib/videos";
 
 export const dynamicParams = false;
 export const revalidate = 60;

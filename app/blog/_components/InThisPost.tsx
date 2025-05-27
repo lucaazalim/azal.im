@@ -1,8 +1,8 @@
 "use client";
 
+import { PostHeading } from "@/lib/blog/headings";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { PostHeading } from "../_lib/headings";
 
 type Props = {
   headings: PostHeading[];

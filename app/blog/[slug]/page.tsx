@@ -1,6 +1,6 @@
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
-import { getPostBySlug, getPosts } from "@/app/blog/_lib/posts";
+import { getPostBySlug, getPosts } from "@/lib/blog/posts";
 import { routes } from "@/lib/constants";
 import { ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
