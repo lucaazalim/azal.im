@@ -22,8 +22,10 @@ export default function Movies({ genres }: Props) {
     resolver: zodResolver(movieFilterSchema),
     defaultValues: {
       title: "",
-      stars: undefined,
+      type: undefined,
       genre: undefined,
+      stars: undefined,
+      runtime: undefined,
     },
   });
 
@@ -36,9 +38,7 @@ export default function Movies({ genres }: Props) {
         onClose={() => setOpenMovie(undefined)}
       />
       <Form {...form}>
-        <div className="flex justify-center">
-          <MovieFilterForm genres={genres} />
-        </div>
+        <MovieFilterForm genres={genres} />
         <MoviesGrid onMovieClicked={(movie) => setOpenMovie(movie)} />
       </Form>
     </div>

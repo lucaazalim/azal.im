@@ -1,7 +1,7 @@
 import PageDescription from "@/app/_components/PageDescription";
 import PageHeader from "@/app/_components/PageHeader";
 import PageTitle from "@/app/_components/PageTitle";
-import { getGenres, totalMovies } from "@/lib/movies/movies";
+import { genres, totalMovies } from "@/lib/movies/movies";
 import Movies from "./_components/Movies";
 
 export default function Page() {
@@ -14,7 +14,7 @@ export default function Page() {
           and series in the last few years. Here are all of them with my rates.
         </PageDescription>
       </PageHeader>
-      <Movies genres={getGenres()} />
+      <Movies genres={genres} />
     </div>
   );
 }
