@@ -22,6 +22,10 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
     ? `https://image.tmdb.org/t/p/original${movie.metadata.backdrop_path}`
     : null;
 
+  const runtime = movie?.metadata.runtime
+    ? `${Math.floor(movie.metadata.runtime / 60)}h ${movie.metadata.runtime % 60}m`
+    : undefined;
+
   return (
     <Sheet
       open={!!movie}
@@ -57,9 +61,12 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
         </div>
         <div className="space-y-10">
           <div className="z-50 grid grid-cols-1 gap-12 xl:grid-cols-[2fr_1fr]">
-            {movie?.metadata.overview && (
-              <p className="text-foreground/70">{movie?.metadata.overview}</p>
-            )}
+            <div className="space-y-8">
+              {movie?.metadata.overview && (
+                <p className="text-foreground/70">{movie?.metadata.overview}</p>
+              )}
+              {movie && <Stars stars={movie?.stars} />}
+            </div>
             <div className="space-y-2">
               <div>
                 <span className="font-bold">Watched at: </span>
@@ -71,6 +78,16 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
                     })}
                 </span>
               </div>
+              <div>
+                <span className="font-bold">Platform: </span>
+                <span className="text-foreground/70">{movie?.platform}</span>
+              </div>
+              {runtime && (
+                <div>
+                  <span className="font-bold">Runtime: </span>
+                  <span className="text-foreground/70">{runtime}</span>
+                </div>
+              )}
               <div className="flex flex-row gap-2">
                 <div className="inline-flex flex-wrap gap-x-1">
                   <span className="font-bold">Genres: </span>
@@ -84,7 +101,6 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
               </div>
             </div>
           </div>
-          {movie && <Stars stars={movie?.stars} />}
         </div>
       </SheetContent>
     </Sheet>
