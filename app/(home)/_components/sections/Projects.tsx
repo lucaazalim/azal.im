@@ -6,6 +6,30 @@ export default function Projects() {
     <section id="projects" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Projects</SectionTitle>
       <Item
+        date="2024 - 2025"
+        image="/projects/portal-do-fornecedor.png"
+        title="Portal do Fornecedor (Supplier Portal)"
+        link="https://fornecedor.noventa.com.br"
+        subtitle="90 Information Technology"
+        skills={[
+          "C#",
+          ".NET",
+          "Entity Framework",
+          "PostgreSQL",
+          "TypeScript",
+          "Next.js",
+          "TailwindCSS",
+          "Docker",
+        ]}
+      >
+        <p>
+          I developed the Supplier Portal for 90 TI — a web application designed
+          to streamline and enhance the relationship between ERP clients and
+          their suppliers, facilitating more efficient communication and
+          collaboration.
+        </p>
+      </Item>
+      <Item
         date="2023 – 2024"
         image="/projects/webtech.png"
         title="WebTech"
@@ -95,6 +119,31 @@ export default function Projects() {
           the rental process for both tenants and landlords, offering an
           efficient, centralized solution for listings, processes, and
           documentation.
+        </p>
+      </Item>
+      <Item
+        date="2015-2022"
+        image="/projects/redesky.png"
+        title="Rede Sky"
+        link="https://redesky.com"
+        subtitle="Largest Minecraft network in Brazil"
+        skills={[
+          "Java",
+          "SQL",
+          "Bash",
+          "Lua",
+          "Redis",
+          "MongoDB",
+          "Grafana",
+          "Linux",
+          "DevOps",
+        ]}
+      >
+        <p>
+          Rede Sky was the largest Minecraft community in Brazil, reaching over
+          300,000 active players per month and setting a national record of
+          8,115 concurrent players online. In total, more than 16 million
+          players engaged with the game modes launched by the company.
         </p>
       </Item>
     </section>
