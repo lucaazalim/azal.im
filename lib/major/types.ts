@@ -9,6 +9,10 @@ export const courseSchema = z.object({
     pt: z.string().min(1),
     en: z.string().min(1),
   }),
+  syllabus: z.object({
+    pt: z.string().min(1),
+    en: z.string().min(1),
+  }),
   grade: z.number().int().min(0).max(100).nullable(),
   hours: z.number().int().positive(),
   modality: z.enum(MODALITIES),

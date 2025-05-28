@@ -12,7 +12,7 @@ export default function Page() {
     <div className="mx-auto space-y-10 px-5 py-10">
       <PageHeader>
         <PageTitle>Software Engineering Major</PageTitle>
-        <PageDescription>
+        <PageDescription className="max-w-xl">
           I'm majoring in Software Engineering at PUC Minas. This page shows all
           the courses I've taken and will take.
         </PageDescription>
