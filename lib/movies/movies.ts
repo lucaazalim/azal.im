@@ -67,7 +67,7 @@ export function getMovies({
   }
 
   if (stars) {
-    filteredMovies = filteredMovies.filter((movie) => movie.stars === stars);
+    filteredMovies = filteredMovies.filter((movie) => movie.stars >= stars);
   }
 
   if (genre) {

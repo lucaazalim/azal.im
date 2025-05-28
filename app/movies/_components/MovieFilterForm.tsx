@@ -28,7 +28,7 @@ export default function MovieFilterForm({ genres }: Props) {
   return (
     <form
       className="bg-accent grid grid-cols-2 items-end gap-5 rounded-xl border p-5 lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_0.5fr]"
-      onSubmit={form.handleSubmit(() => {})}
+      onSubmit={(e) => e.preventDefault()}
     >
       <FormField
         control={form.control}
@@ -177,6 +177,7 @@ export default function MovieFilterForm({ genres }: Props) {
       />
 
       <Button
+        type="button"
         variant="outline"
         className="max-lg:col-span-2"
         onClick={() => {

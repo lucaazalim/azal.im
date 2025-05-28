@@ -1,0 +1,857 @@
+[
+  {
+    "period": 1,
+    "id": 60422,
+    "name": {
+      "pt": "Algoritmos e Estruturas de Dados I",
+      "en": "Algorithms and Data Structures I"
+    },
+    "syllabus": {
+      "pt": "Representação e armazenamento de dados. Manipulação e movimentação de dados em memória principal e secundária. Abstração de dados. Estruturas e abstração de controle. Modularização, encapsulamento e herança. Recursividade. Documentação e testes. Implementação em linguagem de programação. Contagem de operações.",
+      "en": ""
+    },
+    "grade": 96,
+    "hours": 120,
+    "modality": "in-person"
+  },
+  {
+    "period": 1,
+    "id": 57384,
+    "name": {
+      "pt": "Cálculo I",
+      "en": "Calculus I"
+    },
+    "syllabus": {
+      "pt": "Funções: polinomiais, racionais, algébricas, exponenciais, logarítmicas e trigonométricas. Aplicações de funções nas Ciências Exatas e Engenharias. Limites. Continuidade. Derivada: definição e interpretações. Regras de derivação. Derivação implícita. Aplicações de derivada: taxas relacionadas, regra de L’Hospital, estudo do comportamento de funções, esboço de gráficos e otimização. Aplicações de derivadas nas Ciências Exatas e Engenharias.",
+      "en": ""
+    },
+    "grade": 68,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 1,
+    "id": 63236,
+    "name": {
+      "pt": "Desenvolvimento de Interfaces Web",
+      "en": "Web Interface Development"
+    },
+    "syllabus": {
+      "pt": "Evolução e tendências. W3C. Aquitetura, linguagens e padrões da Web. Fundamentos e técnicas de construção de interfaces. Ambientes de desenvolvimento e frameworks de front end.",
+      "en": ""
+    },
+    "grade": 96,
+    "hours": 80,
+    "modality": "hybrid"
+  },
+  {
+    "period": 1,
+    "id": 56963,
+    "name": {
+      "pt": "Fundamentos de Engenharia de Software",
+      "en": "Software Engineering Fundamentals"
+    },
+    "syllabus": {
+      "pt": "Conceitos de sistemas de software. Componentes e relacionamento de sistemas de software. Fundamentos e classificação de sistemas de software. Conceitos básicos de Engenharia de Software. Processo de desenvolvimento de software. Métodos e técnicas para Engenharia de Software.",
+      "en": ""
+    },
+    "grade": 90,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 1,
+    "id": 60388,
+    "name": {
+      "pt": "Introdução à Computação",
+      "en": "Introduction to Computing"
+    },
+    "syllabus": {
+      "pt": "Pesquisa, Ensino, Extensão, Inovação e Mercado. História da computação. Fundamentos de Computabilidade. Linguagens de programação. Principais áreas da Computação. Computação Verde. Práticas de extensão. Atividades de extensão com integração entre academia e saberes da sociedade.",
+      "en": ""
+    },
+    "grade": 85,
+    "hours": 70,
+    "modality": "hybrid"
+  },
+  {
+    "period": 1,
+    "id": 60423,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Aplicações Web",
+      "en": "Interdisciplinary Project: Web Applications"
+    },
+    "syllabus": {
+      "pt": "Desenvolvimento de uma aplicação web front end usando um processo incremental e iterativo. Trabalho e avaliação em equipe.",
+      "en": ""
+    },
+    "grade": 98,
+    "hours": 50,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 60393,
+    "name": {
+      "pt": "Arquitetura de Computadores",
+      "en": "Computer Architecture"
+    },
+    "syllabus": {
+      "pt": "Modelos para representação de dados e aritmética computacional em nível de máquina. Introdução às funções e aos sistemas lógicos. Organização de sistemas de computação e dos subsistemas (processador, memória, entrada e saída, barramentos). Linguagem de montagem, conjunto de instruções e modos de endereçamento. Avaliação de desempenho. Hierarquia de memória. Modelos de arquiteturas sequenciais e paralelas.",
+      "en": ""
+    },
+    "grade": 94,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 60426,
+    "name": {
+      "pt": "Bancos de Dados",
+      "en": "Databases"
+    },
+    "syllabus": {
+      "pt": "Conceitos de gerenciamento de bancos de dados. Arquitetura de um SGBD. Modelos de dados. Modelo de bancos de dados. Linguagens de definição, manipulação e controle de dados. Normalização e projeto físico de bancos de dados. Aspectos de segurança em banco de dados.",
+      "en": ""
+    },
+    "grade": 95,
+    "hours": 80,
+    "modality": "hybrid"
+  },
+  {
+    "period": 2,
+    "id": 54810,
+    "name": {
+      "pt": "Cálculo II",
+      "en": "Calculus II"
+    },
+    "syllabus": {
+      "pt": "Integral indefinida. Técnicas de Integração: substituição, por partes, trigonométricas, substituição trigonométrica e frações parciais. Integral definida: conceitos e Teorema Fundamental do Cálculo. Integrais impróprias. Aplicações de integrais nas Ciências Exatas e Engenharias. Superfícies. Funções de várias variáveis. Derivadas parciais. Aproximações lineares. Regra da cadeia. Derivadas direcionais e vetor gradiente. Valores máximos e mínimos. Aplicações de funções de várias variáveis nas Ciências Exatas e Engenharias.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 54279,
+    "name": {
+      "pt": "Filosofia: Razão e Modernidade",
+      "en": "Philosophy: Reason and Modernity"
+    },
+    "syllabus": {
+      "pt": "As origens da Filosofia. A Filosofia como busca do conhecimento. Ciência e Filosofia: o surgimento da modernidade, a racionalidade instrumental e o impacto das novas tecnologias. A questão do saber e da linguagem nas sociedades contemporâneas.",
+      "en": ""
+    },
+    "grade": 80,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 60428,
+    "name": {
+      "pt": "Laboratório de Programação Modular",
+      "en": "Modular Programming Lab"
+    },
+    "syllabus": {
+      "pt": "Teste unitário. Projeto e desenvolvimento de software orientado para objetos. Implementação de sistemas utilizando padrões de projeto. Uso de recursos funcionais no desenvolvimento de sistemas.",
+      "en": ""
+    },
+    "grade": 89,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 60424,
+    "name": {
+      "pt": "Modelagem de Processos de Negócios",
+      "en": "Business Process Modeling"
+    },
+    "syllabus": {
+      "pt": "Conceitos de processos. Tipos de processos. Elementos do processo. Gestão orientada a processos. Mapeamento e modelagem de processos. Metodologia para modelagem de processos de negócios. Definição de objetivos, metas e indicadores de desempenho. Tecnologias para gestão de processos. Metodologias para gestão e avaliação de processos dos negócios.",
+      "en": ""
+    },
+    "grade": 92,
+    "hours": 60,
+    "modality": "hybrid"
+  },
+  {
+    "period": 2,
+    "id": 60427,
+    "name": {
+      "pt": "Programação Modular",
+      "en": "Modular Programming"
+    },
+    "syllabus": {
+      "pt": "Fatores de qualidade de software. Modularidade. Projeto Orientado para Objetos. Polimorfismos de Inclusão e Paramétrico. Tipos enumeráveis e opcionais. Coleções. Tratamento de exceções. Programação Orientada a Eventos. Princípios SOLID. Padrões de projeto. Aspectos funcionais. Teste unitário. Serialização.",
+      "en": ""
+    },
+    "grade": 92,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 2,
+    "id": 60425,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Aplicações para Processos de Negócios",
+      "en": "Interdisciplinary Project: Business Process Applications"
+    },
+    "syllabus": {
+      "pt": "Conceitos de programação modular aplicados na automação de processos de negócio. Avaliação do processo e do produto.",
+      "en": ""
+    },
+    "grade": 93,
+    "hours": 50,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 60430,
+    "name": {
+      "pt": "Algoritmos e Estruturas de Dados II",
+      "en": "Algorithms and Data Structures II"
+    },
+    "syllabus": {
+      "pt": "Somatórios. Fundamentos de análise de algoritmos. Ordenação e pesquisa em memória principal. Tipos abstratos de dados lineares e flexíveis. Árvores. Balanceamento de árvores. Tabelas e Dicionários.",
+      "en": ""
+    },
+    "grade": 90,
+    "hours": 120,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 56212,
+    "name": {
+      "pt": "Cultura Religiosa: Fenômeno Religioso",
+      "en": "Religious Culture: The Religious Phenomenon"
+    },
+    "syllabus": {
+      "pt": "O fenômeno religioso: experiência e linguagem. O fenômeno religioso como experiência específica: limites e possibilidades da experiência de Deus. As categorias fundamentais de interpretação e de linguagem do fenômeno religioso. Narrativas sagradas. A Bíblia em sua formação histórica, cultural e literária; os critérios de interpretação, os temas e as perspectivas de estudo e da experiência mística e de abertura que o livro sagrado propicia. O cristianismo e os desafios do diálogo ecumênico e inter-religioso no contexto de um mundo globalizado. História e fundamentos da cultura e tradições religiosas Afro Brasileira e Indígenas.",
+      "en": ""
+    },
+    "grade": 100,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 60432,
+    "name": {
+      "pt": "Engenharia de Requisitos de Software",
+      "en": "Software Requirements Engineering"
+    },
+    "syllabus": {
+      "pt": "Conceitos de Engenharia de software. Conceitos e tipos de Processos de Software. Engenharia de requisitos. Métodos e técnicas para análise e especificação de softwares. Introdução às estimativas de software. Atividades de extensão com integração entre academia e saberes da sociedade.",
+      "en": ""
+    },
+    "grade": 91,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 60429,
+    "name": {
+      "pt": "Introdução à Pesquisa em Informática",
+      "en": "Introduction to Computing Research"
+    },
+    "syllabus": {
+      "pt": "Função da metodologia científica. Técnicas de pesquisa bibliográfica. Normalização do trabalho científico. Pesquisa bibliográfica como fundamentação teórica. Metodologias qualitativas de pesquisa em Informática. Metodologias quantitativas de pesquisa em Informática (métodos, descritivos, experimentais e estatísticos). Elaboração e execução de trabalhos científicos. Comunicação científica e resenhas.",
+      "en": ""
+    },
+    "grade": 98,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 60431,
+    "name": {
+      "pt": "Sistemas Operacionais",
+      "en": "Operating Systems"
+    },
+    "syllabus": {
+      "pt": "Estrutura de um sistema operacional. Gerência de processos: processos, comunicação, escalonamento, multiprocessamento, programação concorrente. Sincronização de processos. Deadlock. Gerência de memória: memória virtual, paginação, segmentação, mudança de contexto, proteção. Gerenciamento de arquivos. Gerenciamento de dispositivos de entrada/saída. Sistemas Operacionais Atuais. Virtualização de Armazenamento. Simulação de Sistemas. Escalabilidade.",
+      "en": ""
+    },
+    "grade": 95,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 3,
+    "id": 60433,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Aplicações para Cenários Reais",
+      "en": "Interdisciplinary Project: Real-World Applications"
+    },
+    "syllabus": {
+      "pt": "Descrição dos requisitos funcionais e não funcionais de um software. Atividades de extensão com integração entre academia e saberes da sociedade na finalidade do desenvolvimento dos requisitos de um software de um cliente. Avaliação do artefato de requisitos.",
+      "en": ""
+    },
+    "grade": 100,
+    "hours": 45,
+    "modality": "in-person"
+  },
+  {
+    "period": 4,
+    "id": 60439,
+    "name": {
+      "pt": "Interação Humano-Computador",
+      "en": "Human-Computer Interaction"
+    },
+    "syllabus": {
+      "pt": "Conceitos básicos de Interação Humano-Computador. Engenharia cognitiva e abordagens semióticas. Fatores humanos em software interativo: teorias, princípios e regras básicas. Ciclo de vida na Engenharia da Usabilidade. Estilos de interface. Projeto e prototipação de interface e interação para diversos dispositivos. Definição e métodos para avaliação de usabilidade e acessibilidade. Atividades de extensão com integração entre academia e saberes da sociedade.",
+      "en": ""
+    },
+    "grade": 95,
+    "hours": 90,
+    "modality": "in-person"
+  },
+  {
+    "period": 4,
+    "id": 60436,
+    "name": {
+      "pt": "Laboratório de Desenvolvimento de Software",
+      "en": "Software Development Lab"
+    },
+    "syllabus": {
+      "pt": "Elaboração de um projeto de um software dividido em camadas. Construção da camada de apresentação (interfaces reais). Construção da camada de aplicação. Construção da camada de domínio. Construção da camada de persistência/acesso a dados (Implementação de Bancos de Dados). Desenvolvimento do sistema projetado.",
+      "en": ""
+    },
+    "grade": 87,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 4,
+    "id": 60399,
+    "name": {
+      "pt": "Optativa I (Ciência de Dados)",
+      "en": "Elective I (Data Science)"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": ""
+    },
+    "grade": 99,
+    "hours": 80,
+    "modality": "virtual"
+  },
+  {
+    "period": 4,
+    "id": 60435,
+    "name": {
+      "pt": "Projeto de Software",
+      "en": "Software Design"
+    },
+    "syllabus": {
+      "pt": "Conceituação de projeto de software. Introdução à Arquitetura de Software. Organização e projeto das camadas de negócios, serviços e dados. Modelagem estrutural e comportamental. Padrões de Projeto. Qualidade de projeto.",
+      "en": ""
+    },
+    "grade": 91,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 4,
+    "id": 60437,
+    "name": {
+      "pt": "Redes de Computadores",
+      "en": "Computer Networks"
+    },
+    "syllabus": {
+      "pt": "Conceitos básicos de redes de computadores. Redes sem fio e cabeadas. Protocolo IP e endereçamento. Protocolos de transporte: TCP e UDP. Aplicações. Redes Multimídia. Arquitetura de Infraestrutura de TI. Virtualização. Computação em Nuvem. Comunicação entre dispositivos inteligentes.",
+      "en": ""
+    },
+    "grade": 85,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 4,
+    "id": 60434,
+    "name": {
+      "pt": "Teoria dos Grafos e Computabilidade",
+      "en": "Graph Theory and Computability"
+    },
+    "syllabus": {
+      "pt": "Lógica, relações de equivalência, funções e conjuntos. Prova e demonstração de teoremas. Estruturas de dados para grafos, caminhos, busca, árvores, conectividade, isomorfismo, planaridade, coloração, particionamento, modelagem de problemas e fluxo em redes.",
+      "en": ""
+    },
+    "grade": 86,
+    "hours": 120,
+    "modality": "hybrid"
+  },
+  {
+    "period": 4,
+    "id": 60438,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Aplicações para Sustentabilidade",
+      "en": "Interdisciplinary Project: Sustainability Applications"
+    },
+    "syllabus": {
+      "pt": "Planejamento do projeto de software. Detalhamento dos requisitos de um software. Produção de artefatos de projeto e desenvolvimento de software. Atividades de extensão com integração entre academia e saberes da sociedade com a finalidade do desenvolvimento dos artefatos de software aplicados a projetos para sustentabilidade.",
+      "en": ""
+    },
+    "grade": 94,
+    "hours": 50,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60442,
+    "name": {
+      "pt": "Arquitetura de Software",
+      "en": "Software Architecture"
+    },
+    "syllabus": {
+      "pt": "Conceitos de Arquiteturas de Software. Requisitos arquiteturais. Padrões arquiteturais. Modelos baseados em camadas, componentes e agentes. Arquiteturas: orientadas a mensagens, orientadas a serviços, para persistência de dados, de objetos distribuídos, para aplicações Web, para dispositivos móveis, para aplicações ubíquas.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 54318,
+    "name": {
+      "pt": "Cultura Religiosa: Pessoa e Sociedade",
+      "en": "Religious Culture: Person and Society"
+    },
+    "syllabus": {
+      "pt": "Fundamentação da práxis cristã. A categoria Pessoa em diálogo com categorias antropológicas contemporâneas. Temas atuais à luz do Humanismo Cristão: a família e a dimensão afetivo-sexual; o mundo do trabalho; ordem social e política, e a cidadania. O compromisso com o cuidado e a defesa da vida humana e ecológica, e as perspectivas de construção de uma nova ordem mundial, centrada na sustentabilidade, na justiça, no amor e na paz.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60444,
+    "name": {
+      "pt": "Desenvolvimento de Aplicações Móveis e Distribuídas",
+      "en": "Mobile and Distributed Application Development"
+    },
+    "syllabus": {
+      "pt": "Fundamentos de sistemas distribuídos e computação móvel. Comunicação entre processos. Middlewares. Ambientes e ferramentas para o desenvolvimento de aplicações móveis e distribuídas. Problemas e limitações relacionados à mobilidade e à modalidade de comunicação. Coordenação e consenso. Transações distribuídas e controle de concorrência. Consistência, replicação e tolerância à falha. Computação ubíqua e pervasiva. Sistemas cientes de contexto.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60441,
+    "name": {
+      "pt": "Estatística e Probabilidade",
+      "en": "Statistics and Probability"
+    },
+    "syllabus": {
+      "pt": "Estatística descritiva. Probabilidade. Variáveis aleatórias. Distribuições discretas. Distribuições contínuas. Inferência estatística: estimação, intervalos de confiança e testes de hipóteses. Regressão linear.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "hybrid"
+  },
+  {
+    "period": 5,
+    "id": 60440,
+    "name": {
+      "pt": "Fundamentos de Projeto e Análise de Algoritmos",
+      "en": "Algorithm Design and Analysis Fundamentals"
+    },
+    "syllabus": {
+      "pt": "Fundamentos de análise de algoritmos. Análise de algoritmos. Técnicas de Projeto de Algoritmos. Teoria da Complexidade.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 63237,
+    "name": {
+      "pt": "Gerência de Projetos de Software",
+      "en": "Software Project Management"
+    },
+    "syllabus": {
+      "pt": "Conceito de gerência de projeto de software. Planejamento de projeto. Gerência de recursos. Controle de projetos. Processo de gerência de projetos. Modelos para gerencia de projetos. Utilização de softwares para planejamento e acompanhamento de projetos.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 60,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60445,
+    "name": {
+      "pt": "Laboratório de Desenvolvimento de Aplicações Móveis e Distribuídas",
+      "en": "Mobile and Distributed Application Development Lab"
+    },
+    "syllabus": {
+      "pt": "Elaboração da arquitetura de um sistema de software distribuído com clientes móveis e web. Desenvolvimento utilizando middlewares de comunicação. Comunicação indireta. Programação de sistemas baseados em nuvem. Construção de software utilizando funções como serviço.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60447,
+    "name": {
+      "pt": "Optativa II (Desenvolvimento Web Full-Stack)",
+      "en": "Elective II (Full-Stack Web Development)"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 5,
+    "id": 60446,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Aplicações Distribuídas",
+      "en": "Interdisciplinary Project: Distributed Applications"
+    },
+    "syllabus": {
+      "pt": "Planejamento e detalhamento do projeto de arquitetura de um software. Produção de artefatos de arquitetura de software e gerência de projetos. Implementação de um software distribuído de acordo com a arquitetura projetada. Avaliação da arquitetura do sistema.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 45,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 63238,
+    "name": {
+      "pt": "Engenharia Econômica para Software",
+      "en": "Software Economics"
+    },
+    "syllabus": {
+      "pt": "Estimativa por pontos de função; Estimativa por dados históricos; Modelo COCOMO; Modelos empíricos de estimativa de software. Proposta técnica. Contratos de aquisição de software e serviços. Analise de viabilidade técnica e econômica. Retorno sobre investimento (ROI). Licença, Patente e propriedade intelectual ou industrial.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 60451,
+    "name": {
+      "pt": "Gerência de Configuração e Evolução de Software",
+      "en": "Software Configuration and Evolution Management"
+    },
+    "syllabus": {
+      "pt": "Conceitos. Papéis, Artefatos e Atividades de Gerência de Configuração. Princípios de entrega contínua. Integração contínua. A cultura DevOps. Definição e projeto de Build. Ferramentas. Provisionamento de ambientes de desenvolvimento, produção, integração e testes. Princípios e técnicas de manutenção de software. Tipos de manutenções. Reengenharia.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 60450,
+    "name": {
+      "pt": "Laboratório de Experimentação de Software",
+      "en": "Software Experimentation Lab"
+    },
+    "syllabus": {
+      "pt": "Aplicação prática, em um projeto, de técnicas de medição e experimentação em Engenharia de Software e processos de software.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 60449,
+    "name": {
+      "pt": "Medição e Experimentação em Engenharia de Software",
+      "en": "Measurement and Experimentation in Software Engineering"
+    },
+    "syllabus": {
+      "pt": "Métricas de software: conceito. Métricas objetivas e subjetivas; Métricas para processo, projeto e produto. Processo e Técnicas de medição e análise. Noções de confiabilidade metrológica. Controle estatístico de qualidade. Aplicação de técnicas estatísticas para análise de dados: análise fatorial, análise multivariada e testes de hipóteses. Estabilidade de processos. Princípios e técnicas para experimentação em Engenharia de Software. Planejamento e condução de experimentos.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 60454,
+    "name": {
+      "pt": "Optativa III",
+      "en": "Elective III"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "virtual"
+  },
+  {
+    "period": 6,
+    "id": 60448,
+    "name": {
+      "pt": "Teste de Software",
+      "en": "Software Testing"
+    },
+    "syllabus": {
+      "pt": "Fundamentos de testes. Níveis de testes. Tipos de testes. Técnicas de projeto de testes. Ferramentas de suporte a testes. Automatização de testes. Projeto de casos de teste. Planos de testes. Gerenciamento do processo de testes. Registro e acompanhamento de problemas. Técnicas de verificação e validação de sistemas.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 6,
+    "id": 60453,
+    "name": {
+      "pt": "Trabalho Interdisciplinar: Pesquisa em Engenharia de Software",
+      "en": "Interdisciplinary Project: Research in Software Engineering"
+    },
+    "syllabus": {
+      "pt": "Planejamento e execução de um experimento de Engenharia de Software.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 45,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60456,
+    "name": {
+      "pt": "Computadores e Sociedade",
+      "en": "Computers and Society"
+    },
+    "syllabus": {
+      "pt": "A evolução tecnológica e os distintos contextos sociais. Consequências da informatização na sociedade: aspectos culturais, sociais e de sociabilidade.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60457,
+    "name": {
+      "pt": "Engenharia de Processos e Qualidade de Software",
+      "en": "Software Process and Quality Engineering"
+    },
+    "syllabus": {
+      "pt": "Conceitos de processos e produtos. Modelos de processos de software. Definição, personalização, institucionalização e avaliação de processos de desenvolvimento de software. Qualidade de Software: Normas e modelos de maturidade de processo de desenvolvimento de software. Avaliação de Qualidade e Certificação. Melhoria continua. Processos críticos.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60455,
+    "name": {
+      "pt": "Filosofia: Antropologia e Ética",
+      "en": "Philosophy: Anthropology and Ethics"
+    },
+    "syllabus": {
+      "pt": "Concepções filosófico-antropológicas. O ser humano como ser no mundo e sua dimensão simbólico-cultural. A condição ética da ação humana. Questões éticas fundamentais e atuais, sociedade de consumo, diversidade étnica e desafios ecológicos.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60458,
+    "name": {
+      "pt": "Gestão da Produção de Software",
+      "en": "Software Production Management"
+    },
+    "syllabus": {
+      "pt": "Caracterização da função planejamento da produção nas organizações. O PCP (Planejamento e Controle da Produção) na empresa. Conciliação entre suprimento e demanda. Parâmetros de Controle de Produção. Fundamentos da qualidade. Produção Enxuta (Lean Manufacturing).",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60459,
+    "name": {
+      "pt": "Tecnologias da Informação e do Conhecimento",
+      "en": "Information and Communication Technologies"
+    },
+    "syllabus": {
+      "pt": "Sociedade do Conhecimento. Estratégia e Inteligência Competitiva. Processos de Gestão da Informação. Processos de Gestão do Conhecimento. Sistema de Inteligência Competitiva. Integração da Inteligência Competitiva com a Gestão do Conhecimento. Tecnologia da Informação aplicada à Gestão da Informação. Tecnologia da Informação aplicada à Gestão do Conhecimento.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "in-person"
+  },
+  {
+    "period": 7,
+    "id": 60460,
+    "name": {
+      "pt": "Tópicos em Computação I",
+      "en": "Topics in Computing I"
+    },
+    "syllabus": {
+      "pt": "Tema atual na área de Computação.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "virtual"
+  },
+  {
+    "period": 7,
+    "id": 60461,
+    "name": {
+      "pt": "Tópicos em Computação II",
+      "en": "Topics in Computing II"
+    },
+    "syllabus": {
+      "pt": "Tema atual na área de Computação.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "virtual"
+  },
+  {
+    "period": 7,
+    "id": 60462,
+    "name": {
+      "pt": "Trabalho de Conclusão de Curso I",
+      "en": "Capstone Project I"
+    },
+    "syllabus": {
+      "pt": "Elaboração de um projeto de trabalho que contribua para a melhoria da automação, do desempenho, da eficiência e da racionalização dos recursos no desenvolvimento, experimentação, manutenção e operação de software. Caracterização da natureza e objetivos do Trabalho de Conclusão de Curso. Elaboração do projeto de desenvolvimento, com metodologia, cronograma e descrição dos resultados esperados. Elaboração de resenhas e construção do estado da arte da área relacionada ao projeto.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 60,
+    "modality": "in-person"
+  },
+  {
+    "period": 8,
+    "id": 60465,
+    "name": {
+      "pt": "Modelagem e Avaliação de Desempenho",
+      "en": "Performance Modeling and Evaluation"
+    },
+    "syllabus": {
+      "pt": "Ciclo de vida, avaliação, modelagem e otimização de sistemas computacionais. Planejamento de capacidade. Curvas de desempenho teóricas e experimentais. Técnicas para avaliação de desempenho. Previsão de carga futura. Paradigmas de modelagem. Modelos de Markov e Teoria das filas. Modelos de sistemas computacionais. Simulação de modelos.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "in-person"
+  },
+  {
+    "period": 8,
+    "id": 60106,
+    "name": {
+      "pt": "Optativa IV",
+      "en": "Elective IV"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 80,
+    "modality": "virtual"
+  },
+  {
+    "period": 8,
+    "id": 60467,
+    "name": {
+      "pt": "Segurança e Auditoria de Sistemas",
+      "en": "Systems Security and Auditing"
+    },
+    "syllabus": {
+      "pt": "Auditoria de sistemas de informação. Ambiente de auditoria. Pirâmide da tecnologia de auditagem, conceitos básicos. Posicionamento na organização. Descrição das fases. Análise e desenvolvimento do processo. Segurança física e segurança lógica da informação. Contribuição do software em elementos de prevenção e combate a incêndios e desastres. Atividades de extensão com integração entre academia e saberes da sociedade.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 60,
+    "modality": "hybrid"
+  },
+  {
+    "period": 8,
+    "id": 60463,
+    "name": {
+      "pt": "Tópicos em Engenharia de Software",
+      "en": "Topics in Software Engineering"
+    },
+    "syllabus": {
+      "pt": "Tema atual na área de Engenharia de Software.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "virtual"
+  },
+  {
+    "period": 8,
+    "id": 60464,
+    "name": {
+      "pt": "Tópicos em Sistemas de Software",
+      "en": "Topics in Software Systems"
+    },
+    "syllabus": {
+      "pt": "Tema atual na área de Sistemas de Informação e Engenharia de Software.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 40,
+    "modality": "virtual"
+  },
+  {
+    "period": 8,
+    "id": 60466,
+    "name": {
+      "pt": "Trabalho de Conclusão de Curso II",
+      "en": "Capstone Project II"
+    },
+    "syllabus": {
+      "pt": "Execução e acompanhamento do projeto de trabalho elaborado na disciplina Trabalho de Conclusão de Curso I. Elaboração de artigo no padrão estabelecido pela PUC Minas. Apresentação do Trabalho de Conclusão de Curso perante professores avaliadores.",
+      "en": ""
+    },
+    "grade": null,
+    "hours": 75,
+    "modality": "in-person"
+  }
+]

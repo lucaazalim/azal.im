@@ -3,7 +3,6 @@
 import ExperienceSkills from "@/app/(home)/_components/ExperienceSkills";
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
 import { Badge } from "@/app/_components/ui/badge";
-import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { ReactNode } from "react";
 
@@ -32,7 +31,7 @@ export default function Item({
 
   return (
     <div>
-      <a href={link} target="_blank">
+      <Link href={link}>
         <div className="group/container relative rounded-lg border border-t border-white/10 from-white/10 to-white/1 p-8 transition-all lg:border-transparent lg:group-hover/section:opacity-50 lg:hover:scale-[101%] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100!">
           <div className="grid gap-5 md:grid-cols-[0.3fr_0.7fr]">
             <div className="flex flex-col gap-4">
@@ -60,12 +59,7 @@ export default function Item({
               <div className="flex justify-between gap-2">
                 <div className="flex items-center space-x-2">
                   <div className="flex flex-col gap-2">
-                    <div className="relative flex w-fit flex-row items-center gap-2">
-                      <span className="font-semibold">{title}</span>
-                      {link && (
-                        <ArrowUpRight className="absolute top-2 -right-4 hidden size-5 opacity-0 transition-all group-hover/container:top-0 group-hover/container:-right-6 group-hover/container:opacity-100 lg:block" />
-                      )}
-                    </div>
+                    <span className="font-semibold">{title}</span>
                     <p className="text-muted-foreground text-sm">{subtitle}</p>
                   </div>
                 </div>
@@ -77,7 +71,19 @@ export default function Item({
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
+  );
+}
+
+function Link({ href, children }: { href?: string; children: ReactNode }) {
+  if (!href) {
+    return children;
+  }
+
+  return (
+    <a href={href} target="_blank">
+      {children}
+    </a>
   );
 }

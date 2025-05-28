@@ -36,8 +36,10 @@ export default async function Page({
           YouTube videos I watched, learned from, or enjoyed.
         </PageDescription>
       </PageHeader>
-      <PlaylistSelector playlistSlug={playlistSlug} />
-      <VideoGrid videos={videos} />
+      <main className="space-y-10">
+        <PlaylistSelector playlistSlug={playlistSlug} />
+        <VideoGrid videos={videos} />
+      </main>
     </div>
   );
 }

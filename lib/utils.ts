@@ -42,3 +42,7 @@ export function formatToMonthYear(date: Date) {
   const year = date.getFullYear();
   return `${month}/${year}`;
 }
+
+export function capitalizeFirstLetter(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}

@@ -21,7 +21,7 @@ type BadgeProps = {
 
 function Badge({ skill, years }: BadgeProps) {
   return (
-    <div className="flex flex-row text-xs">
+    <div className="flex flex-row text-xs transition-transform select-none hover:scale-[103%]">
       <div className="bg-primary/25 text-primary rounded-l-full px-2.5 py-1 font-semibold">
         {skill}
       </div>
