@@ -13,8 +13,8 @@ export default function Page() {
       <PageHeader>
         <PageTitle>Software Engineering Major</PageTitle>
         <PageDescription className="max-w-xl">
-          I'm majoring in Software Engineering at PUC Minas. This page shows all
-          the courses I've taken and will take.
+          A complete list of courses and grades from my Software Engineering
+          degree at PUC Minas.
         </PageDescription>
       </PageHeader>
       <main className="space-y-10">
