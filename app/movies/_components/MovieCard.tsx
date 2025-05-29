@@ -17,7 +17,7 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
 
   return (
     <div
-      className="animate-in fade-in flex cursor-pointer flex-col overflow-hidden rounded-lg bg-neutral-800 transition-all duration-100 ease-in hover:scale-[102%]"
+      className="animate-in fade-in bg-accent flex cursor-pointer flex-col overflow-hidden rounded-lg transition-all duration-100 ease-in hover:scale-[102%]"
       onClick={onClick}
     >
       <div className="relative aspect-2/3 w-full">
@@ -30,7 +30,7 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center bg-neutral-200 dark:bg-neutral-800">
+          <div className="bg-accent flex h-full w-full items-center justify-center">
             <span className="flex flex-col items-center gap-3 opacity-50">
               <ImageOff className="size-10" />
               <span className="font-semibold">{movie.title}</span>

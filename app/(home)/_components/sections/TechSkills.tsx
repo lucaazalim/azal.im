@@ -25,7 +25,7 @@ function Badge({ skill, years }: BadgeProps) {
       <div className="bg-primary/25 text-primary rounded-l-full px-2.5 py-1 font-semibold">
         {skill}
       </div>
-      <div className="rounded-r-full bg-neutral-800 px-2.5 py-1">
+      <div className="bg-accent rounded-r-full px-2.5 py-1">
         {(years >= 10 ? "+" : "") + years + (years > 1 ? " yrs." : " yr.")}
       </div>
     </div>

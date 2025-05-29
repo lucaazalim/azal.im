@@ -9,7 +9,7 @@ export default function PeriodSummary({ courses }: Props) {
   const periodSummary = getPeriodSummary(courses);
 
   return (
-    <div className="grid grid-cols-2 bg-neutral-900 p-5">
+    <div className="bg-accent grid grid-cols-2 p-5">
       <div className="flex flex-col items-center justify-center gap-1 border-r-2">
         <span className="text-primary text-xl font-bold">Hours</span>
         <span className="">
