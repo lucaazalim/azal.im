@@ -2,8 +2,10 @@ import { z } from "zod";
 
 export const MODALITIES = ["in-person", "hybrid", "virtual"] as const;
 
+const periodSchema = z.number().int().min(1).max(8);
+
 export const courseSchema = z.object({
-  period: z.number().int().min(1).max(8),
+  period: periodSchema,
   id: z.number().int().positive(),
   name: z.object({
     pt: z.string().min(1),
