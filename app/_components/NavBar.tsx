@@ -46,7 +46,7 @@ export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <div className="bg-background/30 fixed top-0 left-0 z-50 h-[var(--navbar-height)] w-full border-b backdrop-blur-sm backdrop-saturate-150">
+    <div className="bg-background/80 fixed top-0 left-0 z-50 h-[var(--navbar-height)] w-full border-b backdrop-blur-sm backdrop-saturate-150">
       <nav className="mx-auto flex h-full w-full max-w-5xl items-center justify-between p-3">
         {/* Desktop Navigation */}
         <ol className="flex w-full items-center justify-center gap-4 max-md:hidden">
