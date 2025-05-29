@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Fragment } from "react";
 import {
   Sheet,
   SheetContent,
@@ -17,6 +18,10 @@ const menu = [
   {
     name: "Home",
     href: routes.home,
+  },
+  {
+    name: "CV",
+    href: routes.cv,
   },
   {
     name: "Blog",
@@ -49,21 +54,23 @@ export default function NavBar() {
     <div className="bg-background/80 fixed top-0 left-0 z-50 h-[var(--navbar-height)] w-full border-b backdrop-blur-sm backdrop-saturate-150">
       <nav className="mx-auto flex h-full w-full max-w-5xl items-center justify-between p-3">
         {/* Desktop Navigation */}
-        <ol className="flex w-full items-center justify-center gap-4 max-md:hidden">
-          {menu.map((item) => (
-            <li key={item.name} className="mr-4 inline-block">
-              <Link
-                href={item.href}
-                className={cn(
-                  "font-semibold drop-shadow-sm",
-                  matches(pathname, item.href)
-                    ? "text-foreground"
-                    : "text-foreground/50 hover:text-foreground transition-colors duration-200",
-                )}
-              >
-                {item.name}
-              </Link>
-            </li>
+        <ol className="flex w-full items-center justify-center gap-10 max-md:hidden">
+          {menu.map((item, index) => (
+            <Fragment key={item.name}>
+              <li>
+                <Link
+                  href={item.href}
+                  className={cn(
+                    "font-semibold drop-shadow-sm",
+                    matches(pathname, item.href)
+                      ? "text-foreground"
+                      : "text-foreground/50 hover:text-foreground transition-colors duration-200",
+                  )}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            </Fragment>
           ))}
         </ol>
 

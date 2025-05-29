@@ -163,18 +163,20 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
+  body[data-scroll-locked] {
+    overflow: visible !important;
+    margin-right: 0 !important;
+  }
+
   button:not([disabled]),
   [role="button"]:not([disabled]) {
     cursor: pointer;
   }
-}
-
-html body[data-scroll-locked] {
-  overflow: visible !important;
-  margin-right: 0 !important;
 }
 
 .link {

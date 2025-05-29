@@ -7,6 +7,7 @@ export const routes = {
   videos: (playlistSlug?: string) => `/videos/${playlistSlug ?? ""}`,
   movies: "/movies",
   major: "/major",
+  cv: "/cv",
   api: {
     og: (title: string, description?: string) => {
       return `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`;
