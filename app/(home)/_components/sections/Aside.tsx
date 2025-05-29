@@ -10,13 +10,13 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-18">
+    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-18 lg:max-h-[calc(100vh-var(--navbar-height))] lg:py-18">
       <div className="space-y-8">
         <Image
           src="/avatar.png"
           alt=""
-          width={200}
-          height={200}
+          width={220}
+          height={220}
           className="rounded-full"
         />
         <div>
