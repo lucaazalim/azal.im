@@ -30,7 +30,7 @@ export default function ProgressBar() {
   }, []);
 
   return (
-    <div className="bg-background fixed top-0 left-0 z-50 h-1 w-full">
+    <div className="fixed top-[var(--navbar-height)] left-0 z-50 h-1 w-full">
       <div
         className="bg-primary h-full transition-all duration-150 ease-out"
         style={{ width: `${progress * 100}%` }}

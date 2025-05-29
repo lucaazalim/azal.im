@@ -55,7 +55,7 @@ export default function NavBar() {
               <Link
                 href={item.href}
                 className={cn(
-                  "font-semibold",
+                  "font-semibold drop-shadow-sm",
                   matches(pathname, item.href)
                     ? "text-foreground"
                     : "text-foreground/50 hover:text-foreground transition-colors duration-200",
