@@ -1,12 +1,11 @@
+import BackButton from "@/app/(home)/_components/BackButton";
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/lib/blog/posts";
 import { routes } from "@/lib/constants";
-import { ArrowLeft } from "lucide-react";
 import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";
 import Image from "next/image";
-import Link from "next/link";
 import ProgressBar from "../_components/ProgressBar";
 
 type Props = {
@@ -71,13 +70,7 @@ export default async function Page({ params }: Props) {
     <main className="mx-auto max-w-[950px] px-5 py-10">
       <ProgressBar />
       <article className="space-y-10">
-        <Link
-          href={routes.blog}
-          className="text-muted-foreground hover:text-foreground flex items-center gap-1 transition-colors"
-        >
-          <ArrowLeft className="h-5 w-5" />
-          <span>Blog</span>
-        </Link>
+        <BackButton label="Posts" href={routes.blog} />
         <div className="space-y-5">
           <h1 className="text-foreground text-4xl font-bold">
             {post.metadata.title}
