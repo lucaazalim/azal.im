@@ -5,7 +5,7 @@ export const routes = {
   home: "/",
   blog: "/blog",
   videos: (playlistSlug?: string) => `/videos/${playlistSlug ?? ""}`,
-  shows: "/movies",
+  movies: "/movies",
   major: "/major",
   api: {
     og: (title: string, description?: string) => {

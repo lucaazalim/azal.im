@@ -5,6 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  --navbar-height: 60px;
+
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 

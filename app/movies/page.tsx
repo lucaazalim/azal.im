@@ -12,7 +12,7 @@ export default function Page() {
   const totalMoviesFormatted = totalMovies.toLocaleString();
 
   return (
-    <div className="mx-auto space-y-5 px-5 py-10">
+    <div className="mx-auto space-y-5 p-5">
       <PageHeader>
         <PageTitle>Movies</PageTitle>
         <PageDescription>

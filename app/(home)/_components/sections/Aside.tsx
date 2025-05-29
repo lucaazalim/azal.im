@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-18">
+    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-0 lg:max-h-screen lg:py-18">
       <div className="space-y-8">
         <Image
           src="/avatar.png"
@@ -60,6 +60,6 @@ export default function Header() {
           />
         </ul>
       </div>
-    </header>
+    </aside>
   );
 }

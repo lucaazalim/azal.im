@@ -5,6 +5,7 @@ import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
+import NavBar from "./_components/NavBar";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,12 +32,15 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Luca Azalim" />
       </head>
       <body className={`${inter.className} bg-background`}>
-        <TanStackQueryProvider>
-          <ImageViewContextProvider>
-            <ImageView />
-            {children}
-          </ImageViewContextProvider>
-        </TanStackQueryProvider>
+        <NavBar />
+        <main className="pt-[var(--navbar-height)]">
+          <TanStackQueryProvider>
+            <ImageViewContextProvider>
+              <ImageView />
+              {children}
+            </ImageViewContextProvider>
+          </TanStackQueryProvider>
+        </main>
         {process.env.NODE_ENV === "development" && <TailwindBreakpoint />}
       </body>
     </html>

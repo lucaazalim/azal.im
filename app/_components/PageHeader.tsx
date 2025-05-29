@@ -1,4 +1,3 @@
-import HomeButton from "@/app/(home)/_components/HomeButton";
 import { cn } from "@/lib/utils";
 import { HTMLAttributes } from "react";
 
@@ -15,13 +14,12 @@ export default function PageHeader({
   return (
     <header
       className={cn(
-        "mx-auto flex max-w-[950px] flex-col items-center space-y-5 text-center",
+        "mx-auto flex max-w-[950px] flex-col items-center space-y-5 py-10 text-center",
         animation && "animate-in fade-in duration-500 ease-in",
         className,
       )}
       {...props}
     >
-      <HomeButton />
       <div className="space-y-3">{children}</div>
     </header>
   );
