@@ -29,7 +29,7 @@ export default async function Page({
   }
 
   return (
-    <div className="mx-auto max-w-[950px] space-y-10 p-5">
+    <div className="mx-auto max-w-[950px] space-y-5 p-5">
       <PageHeader animation={false}>
         <PageTitle>Videos</PageTitle>
         <PageDescription>

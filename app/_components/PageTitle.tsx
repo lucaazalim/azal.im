@@ -5,7 +5,10 @@ type Props = HTMLAttributes<HTMLHeadingElement>;
 
 export default function PageTitle({ className, children, ...props }: Props) {
   return (
-    <h1 className={cn("font-serif text-4xl font-bold", className)} {...props}>
+    <h1
+      className={cn("font-serif text-3xl font-bold md:text-4xl", className)}
+      {...props}
+    >
       {children}
     </h1>
   );

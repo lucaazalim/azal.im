@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import {
   Sheet,
   SheetContent,
@@ -49,6 +49,7 @@ function matches(pathname: string, href: string): boolean {
 
 export default function NavBar() {
   const pathname = usePathname();
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
     <div className="bg-background/80 fixed top-0 left-0 z-50 h-[var(--navbar-height)] w-full border-b backdrop-blur-sm backdrop-saturate-150">
@@ -76,7 +77,7 @@ export default function NavBar() {
 
         {/* Mobile Navigation */}
         <div className="flex w-full items-center justify-end md:hidden">
-          <Sheet>
+          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <button className="hover:bg-accent rounded-md p-2 transition-colors">
                 <Menu className="h-6 w-6" />
@@ -95,6 +96,7 @@ export default function NavBar() {
                   <Link
                     key={item.name}
                     href={item.href}
+                    onClick={() => setIsSheetOpen(false)}
                     className={cn(
                       "rounded-md px-4 py-2 text-3xl font-bold transition-colors duration-200",
                       matches(pathname, item.href)
