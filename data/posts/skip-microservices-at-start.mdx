@@ -1,17 +1,17 @@
 ---
 title: "Why You (Probably) Shouldn’t Start Your Project with Microservices"
-description: "A critical reflection on the hype around microservices — and why starting simple with a modular monolith might be a wiser architectural choice."
+description: "A critical reflection on the hype around microservices, and why starting simple with a modular monolith might be a wiser architectural choice."
 cover: /blog/skip-microservices-at-start.png
 date: 2025-03-14
 ---
 
-Let’s be honest — if you’ve browsed job posts or followed tech influencers recently, you’ve probably felt a bit of FOMO. Everyone’s talking about microservices, Kubernetes, event-driven architectures, distributed tracing, and enough acronyms to fill a startup pitch deck.
+Let’s be honest, if you’ve browsed job posts or followed tech influencers recently, you’ve probably felt a bit of FOMO. Everyone’s talking about microservices, Kubernetes, event-driven architectures, distributed tracing, and enough acronyms to fill a startup pitch deck.
 
 It’s almost like if your system isn’t built on microservices, you’re doing it wrong. Right?
 
 Well, not exactly.
 
-In this post, I want to challenge this mindset. Not because microservices are bad — they’re powerful and necessary _in the right context_. But because starting a new project with microservices often introduces way more pain than gain.
+In this post, I want to challenge this mindset. Not because microservices are bad, as they’re powerful and necessary _in the right context_. But because starting a new project with microservices often introduces way more pain than gain.
 
 Let’s talk about why.
 
@@ -19,19 +19,19 @@ Let’s talk about why.
 
 # The Illusion of Microservice Superpowers
 
-There’s this shiny aura around microservices — as if breaking a system into dozens of little independent services automatically makes your app scalable, modern, and “enterprise-grade”.
+There’s this shiny aura around microservices, as if breaking a system into dozens of little independent services automatically makes your app scalable, modern, and “enterprise-grade”.
 
-What we often don’t hear is that **many companies, including giants like Amazon**, have started migrating parts of their systems _back_ to monolithic architectures — and saving millions doing so.
+What we often don’t hear is that **many companies, including giants like Amazon**, have started migrating parts of their systems _back_ to monolithic architectures, saving millions in the process.
 
 That’s right. The same companies that popularized microservices are now rethinking them.
 
 ---
 
-# Monoliths Aren’t Evil — Just Misunderstood
+# Monoliths Aren’t Evil - Just Misunderstood
 
 Let’s step back.
 
-A **monolith** is just a system where everything runs in the same process: customer registration, order processing, reporting — all bundled up. Traditionally, you’ve got one codebase and one database.
+A **monolith** is just a system where everything runs in the same process: customer registration, order processing, reporting, all bundled up. Traditionally, you’ve got one codebase and one database.
 
 And you know what? That’s not necessarily a bad thing.
 
@@ -53,7 +53,7 @@ These drawbacks become more pronounced **as you grow**, but in the beginning? A 
 
 # Microservices: Power, at a Cost
 
-Microservices bring flexibility and scalability — **but also complexity**.
+Microservices bring flexibility and scalability, **but also complexity**.
 
 Every microservice needs:
 
@@ -64,7 +64,7 @@ Every microservice needs:
 - A clear communication strategy (REST, gRPC, messaging, etc.)
 - Infrastructure orchestration (containers, service discovery, failover, retries...)
 
-That’s a lot to manage — especially when your product isn’t even validated yet.
+That’s a lot to manage, especially when your product isn’t even validated yet.
 
 In early development, your biggest priority should be **shipping quickly** and **validating your idea**, not building a distributed system worthy of a Netflix tech talk.
 
@@ -76,19 +76,19 @@ Let me break it down.
 
 ## 1. **Too Much Complexity, Too Soon**
 
-Microservices force you to make architectural decisions early — often _before_ you fully understand your business domain.
+Microservices force you to make architectural decisions early, often _before_ you fully understand your business domain.
 
 Worse, you’ll spend weeks setting up infra when you should be building features and getting feedback.
 
 ## 2. **They’re Not for Everyone**
 
-Microservices were made to solve problems of **scale** — both system and team scale.
+Microservices were made to solve problems of **scale**, both system and team scale.
 
 If you’re working with a small dev team (or alone), you don’t need 15 services, 15 Git repos, and 15 headaches. You need one well-written app that’s easy to reason about.
 
 ## 3. **You Don’t Know the Domain Yet**
 
-In the beginning, the business domain is a moving target. You’re still figuring things out. If you split the system too early, you’ll likely create boundaries that don’t reflect real business responsibilities — and that leads to endless refactoring.
+In the beginning, the business domain is a moving target. You’re still figuring things out. If you split the system too early, you’ll likely create boundaries that don’t reflect real business responsibilities - and that leads to endless refactoring.
 
 ---
 
@@ -96,7 +96,7 @@ In the beginning, the business domain is a moving target. You’re still figurin
 
 Here’s a better approach: start with a **modular monolith**.
 
-Think of it like this: instead of one big ball of code, you structure your application as **modules**, each with a clear responsibility. These modules represent **bounded contexts** — areas of your domain that are cohesive and self-contained.
+Think of it like this: instead of one big ball of code, you structure your application as **modules**, each with a clear responsibility. These modules represent **bounded contexts**, which are areas of your domain that are cohesive and self-contained.
 
 For example, in an e-commerce system:
 
@@ -120,12 +120,12 @@ And here's the kicker: **when the time comes**, and if your team and product tru
 
 # Evolve, Don’t Overengineer
 
-There’s a time and place for microservices. If you’re a huge company with hundreds of engineers, separate teams, and scalability issues — go for it.
+There’s a time and place for microservices. If you’re a huge company with hundreds of engineers, separate teams, and scalability issues, then go for it.
 
-But if you’re building something new — a startup MVP, a side project, a client system — start with what’s simple and sustainable.
+But if you’re building something new, such as a startup MVP, a side project, or a client system, start with what’s simple and sustainable.
 
 **Build a modular monolith. Learn the domain. Deliver value. Then evolve.**
 
-That’s how software grows with your understanding — instead of collapsing under complexity.
+That’s how software grows with your understanding, rather than collapsing under complexity.
 
 Let’s stop chasing hype and start building smarter.

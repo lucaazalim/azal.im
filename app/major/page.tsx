@@ -9,7 +9,7 @@ export default function Page() {
   const courses = getCourses();
 
   return (
-    <div className="mx-auto space-y-10 p-5">
+    <div className="mx-auto space-y-10 p-10">
       <PageHeader>
         <PageTitle>Software Engineering Major</PageTitle>
         <PageDescription className="max-w-xl">
