@@ -75,7 +75,7 @@ export default function NavBar() {
         </ol>
 
         {/* Mobile Navigation */}
-        <div className="flex w-full items-center justify-between md:hidden">
+        <div className="flex w-full items-center justify-end md:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <button className="hover:bg-accent rounded-md p-2 transition-colors">
@@ -83,20 +83,23 @@ export default function NavBar() {
                 <span className="sr-only">Open menu</span>
               </button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[300px] sm:w-[400px]">
-              <SheetHeader>
+            <SheetContent
+              side="top"
+              className="bg-background/80 backdrop-blur-sm"
+            >
+              <SheetHeader className="sr-only">
                 <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
-              <nav className="flex flex-col gap-4 px-3">
+              <nav className="flex h-[90vh] flex-col items-center justify-center gap-10 py-10">
                 {menu.map((item) => (
                   <Link
                     key={item.name}
                     href={item.href}
                     className={cn(
-                      "rounded-md px-4 py-2 font-semibold transition-colors duration-200",
+                      "rounded-md px-4 py-2 text-3xl font-bold transition-colors duration-200",
                       matches(pathname, item.href)
                         ? "text-foreground"
-                        : "text-foreground/70 hover:text-foreground hover:bg-accent/50",
+                        : "text-foreground/50 hover:text-foreground hover:bg-accent/50",
                     )}
                   >
                     {item.name}

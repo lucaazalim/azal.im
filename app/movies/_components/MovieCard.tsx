@@ -12,7 +12,7 @@ type ShowCardProps = {
 
 export function MovieCard({ movie, onClick }: ShowCardProps) {
   const imagePath = movie.metadata.poster_path
-    ? `https://image.tmdb.org/t/p/w500${movie.metadata.poster_path}`
+    ? `https://image.tmdb.org/t/p/w300${movie.metadata.poster_path}`
     : null;
 
   return (
@@ -27,7 +27,7 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
             alt={movie.title}
             fill
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, 33vw"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         ) : (
           <div className="bg-accent flex h-full w-full items-center justify-center">
