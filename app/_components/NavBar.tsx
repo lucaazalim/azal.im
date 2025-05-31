@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import {
   Sheet,
   SheetContent,
@@ -52,27 +52,21 @@ function DesktopNavBar() {
 
   return (
     <ol className="flex w-full items-center justify-center gap-10 max-md:hidden">
-      {menu.map((item) => {
-        const isActive = matches(pathname, item.href);
-
-        return (
-          <Fragment key={item.name}>
-            <li>
-              <Link
-                href={item.href}
-                className={cn(
-                  "font-semibold drop-shadow-sm",
-                  isActive
-                    ? "text-foreground"
-                    : "text-foreground/50 hover:text-foreground transition-colors duration-200",
-                )}
-              >
-                {item.name}
-              </Link>
-            </li>
-          </Fragment>
-        );
-      })}
+      {menu.map((item) => (
+        <li key={item.name}>
+          <Link
+            href={item.href}
+            className={cn(
+              "font-semibold drop-shadow-sm",
+              matches(pathname, item.href)
+                ? "text-foreground"
+                : "text-foreground/50 hover:text-foreground transition-colors duration-200",
+            )}
+          >
+            {item.name}
+          </Link>
+        </li>
+      ))}
     </ol>
   );
 }
