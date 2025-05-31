@@ -102,7 +102,7 @@ export default async function Page({ params }: Props) {
           <div className="prose prose-primary dark:prose-invert shrink">
             {post.content}
           </div>
-          <div className="sticky top-10 hidden h-fit lg:block">
+          <div className="sticky top-[calc(var(--navbar-height)+3rem)] hidden h-fit lg:block">
             <InThisPost headings={post.headings} />
           </div>
         </div>
