@@ -15,7 +15,7 @@ export default function VideoGrid({ videos }: Props) {
   return (
     <>
       <YoutubeOverlay video={video} onClose={() => setVideo(null)} />
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
+      <div className="animate-in fade-in grid grid-cols-1 gap-5 duration-1000 md:grid-cols-3">
         {videos.map((video: Video, index: number) => (
           <VideoCard
             key={video.snippet.resourceId.videoId}

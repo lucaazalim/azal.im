@@ -47,71 +47,89 @@ function matches(pathname: string, href: string): boolean {
     : pathname.startsWith(href);
 }
 
-export default function NavBar() {
+function DesktopNavBar() {
+  const pathname = usePathname();
+
+  return (
+    <ol className="flex w-full items-center justify-center gap-10 max-md:hidden">
+      {menu.map((item) => {
+        const isActive = matches(pathname, item.href);
+
+        return (
+          <Fragment key={item.name}>
+            <li>
+              <Link
+                href={item.href}
+                className={cn(
+                  "font-semibold drop-shadow-sm",
+                  isActive
+                    ? "text-foreground"
+                    : "text-foreground/50 hover:text-foreground transition-colors duration-200",
+                )}
+              >
+                {item.name}
+              </Link>
+            </li>
+          </Fragment>
+        );
+      })}
+    </ol>
+  );
+}
+
+function MobileNavBar() {
   const pathname = usePathname();
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <div className="bg-background/80 fixed top-0 left-0 z-50 h-[var(--navbar-height)] w-full border-b backdrop-blur-sm backdrop-saturate-150">
-      <nav className="mx-auto flex h-full w-full max-w-5xl items-center justify-between p-3">
-        {/* Desktop Navigation */}
-        <ol className="flex w-full items-center justify-center gap-10 max-md:hidden">
-          {menu.map((item, index) => (
-            <Fragment key={item.name}>
-              <li>
-                <Link
-                  href={item.href}
-                  className={cn(
-                    "font-semibold drop-shadow-sm",
-                    matches(pathname, item.href)
-                      ? "text-foreground"
-                      : "text-foreground/50 hover:text-foreground transition-colors duration-200",
-                  )}
-                >
-                  {item.name}
-                </Link>
-              </li>
-            </Fragment>
-          ))}
-        </ol>
-
-        {/* Mobile Navigation */}
-        <div className="flex w-full items-center justify-end md:hidden">
-          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-            <SheetTrigger asChild>
-              <button className="hover:bg-accent rounded-md p-2 transition-colors">
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Open menu</span>
-              </button>
-            </SheetTrigger>
-            <SheetContent
-              side="top"
-              className="bg-background/80 backdrop-blur-sm"
-            >
-              <SheetHeader className="sr-only">
-                <SheetTitle>Menu</SheetTitle>
-              </SheetHeader>
-              <nav className="flex h-[90vh] flex-col items-center justify-center gap-10 py-10">
-                {menu.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    onClick={() => setIsSheetOpen(false)}
-                    className={cn(
-                      "rounded-md px-4 py-2 text-3xl font-bold transition-colors duration-200",
-                      matches(pathname, item.href)
-                        ? "text-foreground"
-                        : "text-foreground/50 hover:text-foreground hover:bg-accent/50",
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </nav>
-            </SheetContent>
-          </Sheet>
-        </div>
-      </nav>
+    <div className="flex w-full items-center justify-end md:hidden">
+      <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+        <SheetTrigger asChild>
+          <button className="hover:bg-accent rounded-md p-2 transition-colors">
+            <Menu className="h-6 w-6" />
+            <span className="sr-only">Open menu</span>
+          </button>
+        </SheetTrigger>
+        <SheetContent side="top" className="bg-background/80 backdrop-blur-sm">
+          <SheetHeader className="sr-only">
+            <SheetTitle>Menu</SheetTitle>
+          </SheetHeader>
+          <nav className="flex h-[90vh] flex-col items-center justify-center gap-10 py-10">
+            {menu.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                onClick={() => setIsSheetOpen(false)}
+                className={cn(
+                  "rounded-md px-4 py-2 text-3xl font-bold transition-colors duration-200",
+                  matches(pathname, item.href)
+                    ? "text-foreground"
+                    : "text-foreground/50 hover:text-foreground hover:bg-accent/50",
+                )}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+        </SheetContent>
+      </Sheet>
     </div>
+  );
+}
+
+export default function NavBar() {
+  return (
+    <nav
+      className={cn(
+        "animate-in fade-in duration-500 ease-in", // animation
+        "flex items-center justify-between", // layout
+        "fixed top-0 left-0 z-50", // positioning
+        "h-[var(--navbar-height)] w-full", // size
+        "bg-background/80 border-b backdrop-blur-sm backdrop-saturate-150", // background
+      )}
+    >
+      <DesktopNavBar />
+      <MobileNavBar />
+    </nav>
   );
 }

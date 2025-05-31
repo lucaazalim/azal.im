@@ -11,7 +11,7 @@ type Props = {
 export default function PostCard({ post, index }: Props) {
   return (
     <Link href={post.route}>
-      <article className="animate-in slide-in-from-bottom-20 group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800 duration-1000">
+      <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800">
         <div className="relative h-[200px] w-full shrink-0">
           <Image
             src={post.metadata.cover}

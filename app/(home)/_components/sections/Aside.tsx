@@ -10,20 +10,20 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-18 lg:max-h-[calc(100vh-var(--navbar-height))] lg:py-18">
+    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-16 lg:h-[calc(100vh-var(--navbar-height))] lg:py-10">
       <div className="space-y-8">
         <Image
           src="/avatar.png"
           alt=""
-          width={220}
-          height={220}
+          width={200}
+          height={200}
           className="rounded-full"
         />
         <div>
-          <h1 className="text-primary text-5xl font-bold text-nowrap">
+          <h1 className="text-primary text-4xl font-bold text-nowrap">
             Luca Azalim
           </h1>
-          <h2 className="text-xl font-light text-nowrap">Software Engineer</h2>
+          <h2 className="text-lg font-light text-nowrap">Software Engineer</h2>
         </div>
         <NavigationMenu />
       </div>
