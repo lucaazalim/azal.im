@@ -13,7 +13,7 @@ export default async function Page() {
           I write about programming, technology, and life.
         </PageHeaderDescription>
       </PageHeader>
-      <main className="animate-in slide-in-from-bottom-20 fade-in grid grid-cols-1 gap-5 duration-500 ease-in md:grid-cols-3">
+      <main className="animate-in slide-in-from-bottom-20 fade-in grid grid-cols-1 gap-5 duration-500 ease-out md:grid-cols-3">
         {(await getPosts()).map((post, index) => (
           <PostCard key={index} post={post} index={index} />
         ))}

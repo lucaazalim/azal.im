@@ -15,7 +15,6 @@ export default function About() {
               transition: {
                 repeat: Infinity,
                 repeatDelay: 3,
-                repeatType: "mirror",
                 duration: 1.5,
               },
             }}

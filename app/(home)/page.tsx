@@ -9,7 +9,7 @@ import TechSkills from "./_components/sections/TechSkills";
 
 export default function Home() {
   return (
-    <div className="animate-in fade-in mx-auto flex max-w-5xl flex-col px-12 duration-300 ease-in lg:flex-row lg:divide-x-1 lg:divide-dashed">
+    <div className="animate-in fade-in mx-auto flex max-w-5xl flex-col px-12 duration-300 ease-out lg:flex-row lg:divide-x-1 lg:divide-dashed">
       <Aside />
       <main className="space-y-24 py-8 lg:py-20 lg:pl-14">
         <About />

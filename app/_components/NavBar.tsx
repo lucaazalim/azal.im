@@ -115,7 +115,7 @@ export default function NavBar() {
   return (
     <nav
       className={cn(
-        "animate-in fade-in duration-500 ease-in", // animation
+        "animate-in fade-in duration-500 ease-out", // animation
         "flex items-center justify-between", // layout
         "fixed top-0 left-0 z-50", // positioning
         "h-[var(--navbar-height)] w-full", // size
