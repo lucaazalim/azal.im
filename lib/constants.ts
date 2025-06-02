@@ -8,6 +8,9 @@ export const routes = {
   movies: "/movies",
   major: "/major",
   cv: "/cv",
+  projects: {
+    "90ti-docs": "/projects/90ti-docs",
+  },
   api: {
     og: (title: string, description?: string) => {
       return `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`;

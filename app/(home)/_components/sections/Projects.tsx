@@ -1,10 +1,25 @@
 import Item from "@/app/(home)/_components/Item";
 import SectionTitle from "@/app/(home)/_components/SectionTitle";
+import { routes } from "@/lib/constants";
 
 export default function Projects() {
   return (
     <section id="projects" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Projects</SectionTitle>
+      <Item
+        date="2024 - 2025"
+        image="/projects/90ti-docs/1.png"
+        title="90TI Docs"
+        link={routes.projects["90ti-docs"]}
+        subtitle="90 Information Technology"
+        skills={["TypeScript", "Next.js", "TailwindCSS", "PWA"]}
+      >
+        <p>
+          I developed the 90TI Docs, a comprehensive knowledge base and
+          documentation platform for 90TI, a Brazilian software company
+          specializing in construction management solutions.
+        </p>
+      </Item>
       <Item
         date="2024 - 2025"
         image="/projects/portal-do-fornecedor.png"

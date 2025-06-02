@@ -1,21 +1,22 @@
-import PageHeader from "@/app/_components/header/PageHeader";
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import ProjectDesktopImage from "../_components/ProjectDesktopImage";
 import ProjectImageCarousel from "../_components/ProjectImageCarousel";
+import ProjectMain from "../_components/ProjectMain";
 import ProjectMobileImage from "../_components/ProjectMobileImage";
+import ProjectPageHeader from "../_components/ProjectPageHeader";
 import ProjectSection from "../_components/ProjectSection";
 
 export default function Page() {
   return (
     <>
-      <PageHeader>
-        <PageHeaderTitle>90 TI Docs</PageHeaderTitle>
+      <ProjectPageHeader>
+        <PageHeaderTitle>90TI Docs</PageHeaderTitle>
         <PageHeaderDescription>
           A comprehensive knowledge base and documentation platform for 90TI.
         </PageHeaderDescription>
-      </PageHeader>
-      <main className="flex flex-col items-center space-y-16 p-10">
+      </ProjectPageHeader>
+      <ProjectMain>
         <ProjectSection>
           <h2>Summary</h2>
           <p>
@@ -29,7 +30,7 @@ export default function Page() {
           </p>
           <div className="flex justify-between gap-5">
             <div>
-              <h4>DATE</h4>
+              <h4>PERIOD</h4>
               2024 – 2025
             </div>
             <div>
@@ -43,7 +44,9 @@ export default function Page() {
             </div>
             <div>
               <h4>LIVE</h4>
-              <a href="https://docs.noventa.com.br">90TI Docs</a>
+              <a href="https://docs.noventa.com.br" target="_blank">
+                90TI Docs
+              </a>
             </div>
           </div>
         </ProjectSection>
@@ -119,7 +122,7 @@ export default function Page() {
         />
         <ProjectDesktopImage
           src="/projects/90ti-docs/4.png"
-          alt="Light mode for those (crazy people) who prefer it"
+          alt="Light mode for those who prefer it"
         />
         <ProjectSection>
           <h2>Git as CMS</h2>
@@ -211,7 +214,18 @@ export default function Page() {
             alt="Article in 90TI Docs on a mobile device"
           />
         </ProjectImageCarousel>
-      </main>
+        <ProjectSection>
+          <h2>Main takeaways</h2>
+          <p>
+            The 90TI Docs project was a significant achievement that addressed a
+            critical business need. By centralizing documentation and making it
+            easily accessible, we reduced support tickets and improved user
+            satisfaction. The use of Git as a CMS allowed for efficient
+            collaboration and version control, while the custom components and
+            search engine enhanced the overall user experience.
+          </p>
+        </ProjectSection>
+      </ProjectMain>
     </>
   );
 }

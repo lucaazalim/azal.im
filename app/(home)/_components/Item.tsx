@@ -82,7 +82,11 @@ function Link({ href, children }: { href?: string; children: ReactNode }) {
   }
 
   return (
-    <a href={href} target="_blank">
+    <a
+      href={href}
+      target={href.startsWith("http") ? "_blank" : "_self"}
+      rel="noopener noreferrer"
+    >
       {children}
     </a>
   );
