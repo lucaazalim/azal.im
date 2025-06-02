@@ -6,3 +6,4 @@ import { motion } from "framer-motion";
 
 export const div = motion.div;
 export const article = motion.article;
+export const span = motion.span;

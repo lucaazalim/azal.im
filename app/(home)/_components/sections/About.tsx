@@ -1,15 +1,34 @@
 import SectionTitle from "@/app/(home)/_components/SectionTitle";
+import * as motion from "@/app/_components/Motion";
 
 export default function About() {
   return (
     <section id="about" className="scroll-mt-24 max-lg:space-y-10">
-      <SectionTitle className="lg:hidden">About</SectionTitle>
+      <SectionTitle className="sr-only">About</SectionTitle>
 
       <div className="text-muted-foreground space-y-4 lg:px-5">
+        <p className="text-foreground text-2xl font-bold">
+          Hi there! I'm Luca.
+          <motion.span
+            animate={{
+              rotateZ: [0, 5, -15, 10, -10, 10, -15, 0],
+              transition: {
+                repeat: Infinity,
+                repeatDelay: 3,
+                repeatType: "mirror",
+                duration: 1.5,
+              },
+            }}
+            style={{ transformOrigin: "bottom right" }}
+            className="ml-2 inline-block"
+          >
+            👋
+          </motion.span>
+        </p>
         <p>
           My journey in the digital world began in 2008, at the age of 8, when I
-          created a blog about Club Penguin and started experimenting with HTML
-          and CSS. This sparked my passion for technology and online
+          created a blog about Club Penguin and started experimenting with web
+          development. This sparked my passion for technology and online
           communities.
         </p>
 
@@ -21,7 +40,7 @@ export default function About() {
           </a>
           , which peaked at 8,115 concurrent players. Leading a talented team of
           developers and game designers, we provided an engaging platform for a
-          thriving community of over 300,000 monthly players.
+          thriving community of over 300K monthly players.
         </p>
 
         <p>

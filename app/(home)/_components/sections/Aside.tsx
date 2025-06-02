@@ -8,16 +8,16 @@ import {
 import { Mail, Utensils } from "lucide-react";
 import Image from "next/image";
 
-export default function Header() {
+export default function Aside() {
   return (
-    <aside className="flex flex-col justify-between gap-8 py-12 lg:sticky lg:top-16 lg:h-[calc(100vh-var(--navbar-height))] lg:py-10">
+    <aside className="flex flex-col justify-between gap-8 py-12 pr-14 lg:sticky lg:top-[var(--navbar-height)] lg:h-[calc(100vh-var(--navbar-height))] lg:py-10">
       <div className="space-y-8">
         <Image
           src="/avatar.png"
           alt=""
           width={200}
           height={200}
-          className="rounded-full"
+          className="rounded-full drop-shadow-lg drop-shadow-black"
         />
         <div>
           <h1 className="text-primary text-4xl font-bold text-nowrap">
