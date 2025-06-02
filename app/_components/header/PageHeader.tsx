@@ -14,7 +14,7 @@ export default function PageHeader({
   return (
     <header
       className={cn(
-        "mx-auto flex flex-col items-center py-8 text-center",
+        "mx-auto flex flex-col items-center p-8 text-center",
         animation && "animate-in fade-in duration-500 ease-in",
         className,
       )}
