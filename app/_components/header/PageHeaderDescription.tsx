@@ -3,7 +3,7 @@ import { HTMLAttributes } from "react";
 
 type Props = HTMLAttributes<HTMLParagraphElement>;
 
-export default function PageDescription({
+export default function PageHeaderDescription({
   className,
   children,
   ...props

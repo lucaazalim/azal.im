@@ -1,6 +1,6 @@
-import PageDescription from "@/app/_components/PageDescription";
-import PageHeader from "@/app/_components/PageHeader";
-import PageTitle from "@/app/_components/PageTitle";
+import PageHeader from "@/app/_components/header/PageHeader";
+import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
+import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import { routes } from "@/lib/constants";
 import { redirect } from "next/navigation";
 import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
@@ -31,10 +31,10 @@ export default async function Page({
   return (
     <div className="mx-auto max-w-[950px] space-y-5 p-5">
       <PageHeader animation={false}>
-        <PageTitle>Videos</PageTitle>
-        <PageDescription>
+        <PageHeaderTitle>Videos</PageHeaderTitle>
+        <PageHeaderDescription>
           YouTube videos I watched, learned from, or enjoyed.
-        </PageDescription>
+        </PageHeaderDescription>
       </PageHeader>
       <main className="space-y-10">
         <PlaylistSelector playlistSlug={playlistSlug} />

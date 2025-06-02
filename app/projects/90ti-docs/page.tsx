@@ -1,6 +1,6 @@
-import PageDescription from "@/app/_components/PageDescription";
-import PageHeader from "@/app/_components/PageHeader";
-import PageTitle from "@/app/_components/PageTitle";
+import PageHeader from "@/app/_components/header/PageHeader";
+import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
+import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import ProjectDesktopImage from "../_components/ProjectDesktopImage";
 import ProjectImageCarousel from "../_components/ProjectImageCarousel";
 import ProjectMobileImage from "../_components/ProjectMobileImage";
@@ -10,10 +10,10 @@ export default function Page() {
   return (
     <>
       <PageHeader>
-        <PageTitle>90 TI Docs</PageTitle>
-        <PageDescription>
+        <PageHeaderTitle>90 TI Docs</PageHeaderTitle>
+        <PageHeaderDescription>
           A comprehensive knowledge base and documentation platform for 90TI.
-        </PageDescription>
+        </PageHeaderDescription>
       </PageHeader>
       <main className="flex flex-col items-center space-y-16 p-10">
         <ProjectSection>

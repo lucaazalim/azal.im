@@ -1,6 +1,6 @@
-import PageDescription from "@/app/_components/PageDescription";
-import PageHeader from "@/app/_components/PageHeader";
-import PageTitle from "@/app/_components/PageTitle";
+import PageHeader from "@/app/_components/header/PageHeader";
+import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
+import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import { genres, totalMovies, totalRuntime } from "@/lib/movies/movies";
 import Movies from "./_components/Movies";
 
@@ -14,12 +14,12 @@ export default function Page() {
   return (
     <div className="mx-auto space-y-5 p-5">
       <PageHeader>
-        <PageTitle>Movies</PageTitle>
-        <PageDescription>
+        <PageHeaderTitle>Movies</PageHeaderTitle>
+        <PageHeaderDescription>
           <span className="font-bold">{totalRuntimeInHoursFormatted}</span>{" "}
           hours. <span className="font-bold">{totalMoviesFormatted}</span>{" "}
           titles. All rated.
-        </PageDescription>
+        </PageHeaderDescription>
       </PageHeader>
       <Movies genres={genres} />
     </div>
