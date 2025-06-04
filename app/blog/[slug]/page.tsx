@@ -1,11 +1,11 @@
 import BackButton from "@/app/(home)/_components/BackButton";
+import LoadingImage from "@/app/_components/LoadingImage";
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/lib/blog/posts";
 import { routes } from "@/lib/constants";
 import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";
-import Image from "next/image";
 import ProgressBar from "../_components/ProgressBar";
 
 type Props = {
@@ -83,14 +83,14 @@ export default async function Page({ params }: Props) {
           transition={{ duration: 0.5, ease: "easeInOut" }}
           className="relative h-[300px] w-full md:h-[500px]"
         >
-          <Image
+          <LoadingImage
             src={post.metadata.cover}
             alt={post.metadata.title}
             fill={true}
             sizes="100vw"
             className="rounded-2xl object-cover"
           />
-          <Image
+          <LoadingImage
             src={post.metadata.cover}
             alt={post.metadata.title}
             fill={true}

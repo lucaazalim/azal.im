@@ -1,6 +1,6 @@
+import LoadingImage from "@/app/_components/LoadingImage";
 import { Post } from "@/lib/blog/posts";
 import { format } from "date-fns";
-import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
@@ -13,7 +13,7 @@ export default function PostCard({ post, index }: Props) {
     <Link href={post.route}>
       <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-800">
         <div className="relative h-[200px] w-full shrink-0">
-          <Image
+          <LoadingImage
             src={post.metadata.cover}
             alt={post.metadata.title}
             fill={true}

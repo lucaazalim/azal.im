@@ -1,18 +1,18 @@
 import NavigationMenu from "@/app/(home)/_components/navigation/NavigationMenu";
 import SocialItem from "@/app/(home)/_components/navigation/SocialItem";
+import LoadingImage from "@/app/_components/LoadingImage";
 import {
   SiGithub,
   SiInstagram,
   SiLinkedin,
 } from "@icons-pack/react-simple-icons";
 import { Mail, Utensils } from "lucide-react";
-import Image from "next/image";
 
 export default function Aside() {
   return (
     <aside className="flex flex-col justify-between gap-8 py-12 pr-14 lg:sticky lg:top-[var(--navbar-height)] lg:h-[calc(100vh-var(--navbar-height))] lg:py-10">
       <div className="space-y-8">
-        <Image
+        <LoadingImage
           src="/avatar.png"
           alt=""
           width={200}

@@ -1,3 +1,4 @@
+import LoadingImage from "@/app/_components/LoadingImage";
 import {
   Sheet,
   SheetContent,
@@ -5,8 +6,6 @@ import {
   SheetTitle,
 } from "@/app/_components/ui/sheet";
 import { MovieWithMetadata } from "@/lib/movies/types";
-import { cn } from "@/lib/utils";
-import Image from "next/image";
 import { useState } from "react";
 import Stars from "./Stars";
 
@@ -46,16 +45,12 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
         <div className="object-contain object-top">
           <div className="to-background absolute inset-x-0 inset-y-1 -z-10 aspect-video bg-gradient-to-b from-transparent to-90%" />
           {movie && imagePath && (
-            <Image
+            <LoadingImage
               src={imagePath}
               alt={movie.title}
               fill
-              className={cn(
-                "-z-15 object-contain object-top brightness-80 transition-opacity duration-500 ease-in-out",
-                imageLoaded ? "opacity-100" : "opacity-0",
-              )}
+              className="-z-15 object-contain object-top brightness-80"
               sizes="100vw"
-              onLoadingComplete={() => setImageLoaded(true)}
             />
           )}
         </div>
