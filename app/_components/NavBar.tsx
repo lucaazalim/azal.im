@@ -39,6 +39,10 @@ const menu = [
     name: "Major",
     href: routes.major,
   },
+  {
+    name: "Contact",
+    href: routes.contact,
+  },
 ];
 
 function matches(pathname: string, href: string): boolean {

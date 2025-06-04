@@ -11,6 +11,7 @@ export const routes = {
   projects: {
     "90ti-docs": "/projects/90ti-docs",
   },
+  contact: "/contact",
   api: {
     og: (title: string, description?: string) => {
       return `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`;
