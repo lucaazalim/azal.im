@@ -83,8 +83,8 @@ function MobileNavBar() {
     <div className="flex w-full items-center justify-end md:hidden">
       <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
         <SheetTrigger asChild>
-          <button className="hover:bg-accent rounded-md p-2 transition-colors">
-            <Menu className="h-6 w-6" />
+          <button className="p-2">
+            <Menu className="size-6" />
             <span className="sr-only">Open menu</span>
           </button>
         </SheetTrigger>
@@ -92,7 +92,7 @@ function MobileNavBar() {
           <SheetHeader className="sr-only">
             <SheetTitle>Menu</SheetTitle>
           </SheetHeader>
-          <nav className="flex h-[90vh] flex-col items-center justify-center gap-10 py-10">
+          <nav className="flex h-[90vh] flex-col items-center justify-center gap-5 py-10">
             {menu.map((item) => (
               <Link
                 key={item.name}
@@ -121,7 +121,7 @@ export default function NavBar() {
       className={cn(
         "animate-in fade-in duration-500 ease-out", // animation
         "flex items-center justify-between", // layout
-        "fixed top-0 left-0 z-50", // positioning
+        "fixed top-0 left-0 z-50 p-3", // positioning
         "h-[var(--navbar-height)] w-full", // size
         "bg-background/80 border-b backdrop-blur-sm backdrop-saturate-150", // background
       )}
