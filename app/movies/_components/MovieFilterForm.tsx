@@ -24,6 +24,7 @@ type Props = {
 
 export default function MovieFilterForm({ genres }: Props) {
   const form = useFormContext<MovieFilters>();
+  const EMPTY_KEY = "empty"
 
   return (
     <form
@@ -50,7 +51,10 @@ export default function MovieFilterForm({ genres }: Props) {
           <FormItem className="flex grow flex-col">
             <FormLabel>Type</FormLabel>
             <FormControl>
-              <Select onValueChange={field.onChange} defaultValue={field.value}>
+              <Select 
+                 key={field.value ?? EMPTY_KEY}
+                 onValueChange={field.onChange} 
+                 defaultValue={field.value}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Type" />
                 </SelectTrigger>
@@ -75,6 +79,7 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Max runtime</FormLabel>
             <FormControl>
               <Select
+                key={field.value ?? EMPTY_KEY}
                 onValueChange={field.onChange}
                 defaultValue={field.value ? String(field.value) : undefined}
               >
@@ -130,7 +135,10 @@ export default function MovieFilterForm({ genres }: Props) {
           <FormItem className="flex grow flex-col">
             <FormLabel>Genre</FormLabel>
             <FormControl>
-              <Select onValueChange={field.onChange} defaultValue={field.value}>
+              <Select 
+                 key={field.value ?? EMPTY_KEY} 
+                 onValueChange={field.onChange} 
+                 defaultValue={field.value}>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
@@ -155,6 +163,7 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Stars</FormLabel>
             <FormControl>
               <Select
+                key={field.value ?? EMPTY_KEY} 
                 onValueChange={field.onChange}
                 defaultValue={field.value?.toString()}
               >
