@@ -30,8 +30,8 @@ export default function VideoCard({ video, index, onClick }: Props) {
           src={video.snippet.thumbnails.medium.url}
           alt={video.snippet.title}
           fill={true}
-          sizes="33vw"
           className="rounded-t-2xl object-cover transition-all md:group-hover:brightness-25"
+          unoptimized
         />
       </div>
       <div className="flex grow flex-col justify-between gap-3 p-5">
