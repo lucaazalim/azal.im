@@ -1,5 +1,5 @@
+import LoadingImage from "@/app/_components/LoadingImage";
 import { evaluate } from "next-mdx-remote-client/rsc";
-import Image from "next/image";
 import Link from "next/link";
 import { ReactElement, ReactNode } from "react";
 import rehypePrettyCode from "rehype-pretty-code";
@@ -68,7 +68,7 @@ function CustomImage({ alt, ...props }: CustomImageProps) {
     image = <img alt={alt} className={className} {...props} />;
   } else {
     image = (
-      <Image
+      <LoadingImage
         width={650}
         height={650}
         alt={alt}

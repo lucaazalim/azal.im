@@ -1,3 +1,4 @@
+import LoadingImage from "@/app/_components/LoadingImage";
 import Image from "next/image";
 
 type Props = {
@@ -19,7 +20,7 @@ export default function ProjectDesktopImage({ src, alt }: Props) {
         </span>
       </div>
       <figure className="relative aspect-video">
-        <Image src={src} alt={alt} fill={true} />
+        <LoadingImage src={src} alt={alt} fill={true} />
       </figure>
     </div>
   );

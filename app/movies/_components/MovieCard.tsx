@@ -1,8 +1,8 @@
 "use client";
 
+import LoadingImage from "@/app/_components/LoadingImage";
 import { MovieWithMetadata } from "@/lib/movies/types";
 import { ImageOff } from "lucide-react";
-import Image from "next/image";
 import Stars from "./Stars";
 
 type ShowCardProps = {
@@ -22,12 +22,12 @@ export function MovieCard({ movie, onClick }: ShowCardProps) {
     >
       <div className="relative aspect-2/3 w-full">
         {imagePath ? (
-          <Image
+          <LoadingImage
             src={imagePath}
             alt={movie.title}
             fill
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="33vw"
           />
         ) : (
           <div className="bg-accent flex h-full w-full items-center justify-center">

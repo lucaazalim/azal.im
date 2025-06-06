@@ -2,8 +2,8 @@
 
 import ExperienceSkills from "@/app/(home)/_components/ExperienceSkills";
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
+import LoadingImage from "@/app/_components/LoadingImage";
 import { Badge } from "@/app/_components/ui/badge";
-import Image from "next/image";
 import { ReactNode } from "react";
 
 type Props = {
@@ -42,7 +42,7 @@ export default function Item({
                 {badge && <Badge>{badge}</Badge>}
               </div>
               {image && (
-                <Image
+                <LoadingImage
                   src={image}
                   alt=""
                   width={300}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
-import Image from "next/image";
+import LoadingImage from "@/app/_components/LoadingImage";
 import { useEffect } from "react";
 
 export default function ImageView() {
@@ -36,7 +36,12 @@ export default function ImageView() {
       className="fixed z-1000 flex size-full cursor-zoom-out items-center justify-center bg-black/50 backdrop-blur-xs"
       onClick={() => setPath(undefined)}
     >
-      <Image src={path} alt="Image" fill={true} className="object-scale-down" />
+      <LoadingImage
+        src={path}
+        alt="Image"
+        fill={true}
+        className="object-scale-down"
+      />
     </div>
   );
 }
