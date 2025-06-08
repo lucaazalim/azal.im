@@ -2,7 +2,7 @@ import ImageView from "@/app/(home)/_components/image-view/ImageView";
 import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
 import TailwindBreakpoint from "@/app/_components/TailwindBreakpoint";
 import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
@@ -29,7 +29,7 @@ export default function RootLayout({
         scrollbarGutter: "stable",
       }}
     >
-      <GoogleTagManager gtmId="GTM-TC74JZ8S" />
+      <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
       <body className={`${inter.className} bg-background`}>
         <NavBar />
         <main className="pt-[var(--navbar-height)]">
