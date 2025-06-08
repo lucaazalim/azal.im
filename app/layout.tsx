@@ -5,6 +5,7 @@ import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { ReactNode } from "react";
 import NavBar from "./_components/NavBar";
 import "./globals.css";
@@ -30,6 +31,11 @@ export default function RootLayout({
       }}
     >
       <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
+      <Script
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="f2fe2e82-8811-4558-a838-47c17f3ea936"
+      ></Script>
       <body className={`${inter.className} bg-background`}>
         <NavBar />
         <main className="pt-[var(--navbar-height)]">
