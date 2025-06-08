@@ -2,6 +2,7 @@ import ImageView from "@/app/(home)/_components/image-view/ImageView";
 import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
 import TailwindBreakpoint from "@/app/_components/TailwindBreakpoint";
 import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
+import { GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
@@ -28,9 +29,7 @@ export default function RootLayout({
         scrollbarGutter: "stable",
       }}
     >
-      <head>
-        <meta name="apple-mobile-web-app-title" content="Luca Azalim" />
-      </head>
+      <GoogleTagManager gtmId="GTM-TC74JZ8S" />
       <body className={`${inter.className} bg-background`}>
         <NavBar />
         <main className="pt-[var(--navbar-height)]">
