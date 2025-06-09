@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="animate-in fade-in mx-auto flex max-w-5xl flex-col px-12 duration-300 ease-out lg:flex-row lg:divide-x-1 lg:divide-dashed">
       <Aside />
-      <main className="space-y-24 py-8 lg:py-14 lg:pl-14">
+      <div className="space-y-24 py-8 lg:py-14 lg:pl-14">
         <About />
         <TechSkills />
         <Experiences />
@@ -19,7 +19,7 @@ export default function Home() {
         <Awards />
         <Projects />
         <Footer />
-      </main>
+      </div>
     </div>
   );
 }

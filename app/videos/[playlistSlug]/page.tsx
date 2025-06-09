@@ -39,10 +39,10 @@ export default async function Page({
           you find them useful too.
         </PageHeaderDescription>
       </PageHeader>
-      <main className="space-y-10">
+      <div className="space-y-10">
         <PlaylistSelector playlistSlug={playlistSlug} />
         <VideoGrid videos={videos} />
-      </main>
+      </div>
     </div>
   );
 }

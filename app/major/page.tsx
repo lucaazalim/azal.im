@@ -19,7 +19,7 @@ export default function Page() {
           degree at PUC Minas.
         </PageHeaderDescription>
       </PageHeader>
-      <main className="space-y-10">
+      <div className="space-y-10">
         <div className="">
           <MajorProgressBar />
         </div>
@@ -32,7 +32,7 @@ export default function Page() {
             />
           ))}
         </div>
-      </main>
+      </div>
     </div>
   );
 }

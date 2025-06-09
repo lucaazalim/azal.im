@@ -67,7 +67,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <main className="mx-auto max-w-[950px] px-5 py-10">
+    <div className="mx-auto max-w-[950px] px-5 py-10">
       <ProgressBar />
       <article className="space-y-10">
         <BackButton label="Posts" href={routes.blog} />
@@ -107,6 +107,6 @@ export default async function Page({ params }: Props) {
           </div>
         </div>
       </article>
-    </main>
+    </div>
   );
 }

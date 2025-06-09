@@ -5,11 +5,11 @@ export default function ProjectMain({
   ...props
 }: HTMLAttributes<HTMLDivElement>) {
   return (
-    <main
+    <div
       className="animate-in fade-in mx-auto mb-10 flex max-w-7xl flex-col items-center space-y-16 border-t-2 border-dashed p-10 duration-500 ease-out xl:border-2"
       {...props}
     >
       {children}
-    </main>
+    </div>
   );
 }

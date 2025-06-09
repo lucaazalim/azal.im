@@ -10,7 +10,10 @@ export default function PageHeaderTitle({
 }: Props) {
   return (
     <h1
-      className={cn("font-serif text-3xl font-bold md:text-4xl", className)}
+      className={cn(
+        "font-serif text-3xl font-bold italic md:text-4xl",
+        className,
+      )}
       {...props}
     >
       {children}

@@ -32,7 +32,7 @@ export default function Movies({ genres }: Props) {
   const [openMovie, setOpenMovie] = useState<MovieWithMetadata>();
 
   return (
-    <main className="animate-in fade-in flex flex-col gap-6 duration-1000">
+    <div className="animate-in fade-in flex flex-col gap-6 duration-1000">
       <MovieDetailsSheet
         movie={openMovie}
         onClose={() => setOpenMovie(undefined)}
@@ -41,6 +41,6 @@ export default function Movies({ genres }: Props) {
         <MovieFilterForm genres={genres} />
         <MoviesGrid onMovieClicked={(movie) => setOpenMovie(movie)} />
       </Form>
-    </main>
+    </div>
   );
 }

@@ -16,11 +16,11 @@ const inter = Inter({
   display: "swap",
 });
 
-const playfair = Merriweather({
+const merriweather = Merriweather({
   subsets: ["latin"],
   variable: "--font-serif",
-  style: "italic",
-  weight: "400",
+  style: ["normal", "italic"],
+  weight: ["300", "400", "700", "900"],
   display: "swap",
 });
 
@@ -48,20 +48,22 @@ export default function RootLayout({
         scrollbarGutter: "stable",
       }}
     >
-      <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
-      <Script
-        defer
-        src="https://cloud.umami.is/script.js"
-        data-website-id="f2fe2e82-8811-4558-a838-47c17f3ea936"
-      ></Script>
+      <head>
+        <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="f2fe2e82-8811-4558-a838-47c17f3ea936"
+        />
+      </head>
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} ${playfair.variable} bg-background`}
+        className={`${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable} bg-background`}
       >
         <TanStackQueryProvider>
           <ImageViewContextProvider>
             <NavBar />
             <ImageView />
-            <div className="pt-[var(--navbar-height)]">{children}</div>
+            <main className="pt-[var(--navbar-height)]">{children}</main>
             {process.env.NODE_ENV === "development" && <TailwindBreakpoint />}
           </ImageViewContextProvider>
         </TanStackQueryProvider>
