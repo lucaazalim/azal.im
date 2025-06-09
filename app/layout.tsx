@@ -40,6 +40,8 @@ export default function RootLayout({
 }: Readonly<{
   children: ReactNode;
 }>) {
+  const development = process.env.NODE_ENV === "development";
+
   return (
     <html
       lang="en"
@@ -48,14 +50,16 @@ export default function RootLayout({
         scrollbarGutter: "stable",
       }}
     >
-      <head>
-        <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
-        <Script
-          defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="f2fe2e82-8811-4558-a838-47c17f3ea936"
-        />
-      </head>
+      {!development && (
+        <head>
+          <GoogleAnalytics gaId="G-1PK2PWGZCQ" />
+          <Script
+            defer
+            src="https://cloud.umami.is/script.js"
+            data-website-id="f2fe2e82-8811-4558-a838-47c17f3ea936"
+          />
+        </head>
+      )}
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable} bg-background`}
       >
@@ -64,7 +68,7 @@ export default function RootLayout({
             <NavBar />
             <ImageView />
             <main className="pt-[var(--navbar-height)]">{children}</main>
-            {process.env.NODE_ENV === "development" && <TailwindBreakpoint />}
+            {development && <TailwindBreakpoint />}
           </ImageViewContextProvider>
         </TanStackQueryProvider>
       </body>
