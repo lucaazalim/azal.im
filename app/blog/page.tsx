@@ -4,10 +4,11 @@ import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import PostCard from "@/app/blog/_components/PostCard";
 import { getPosts } from "@/lib/blog/posts";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
+import PageWrapper from "../_components/header/PageWrapper";
 
 export default async function Page() {
   return (
-    <div className="mx-auto max-w-[950px] space-y-10 px-5 pb-5">
+    <PageWrapper className="mx-auto max-w-5xl">
       <PageHeader>
         <PageHeaderTag>Blog</PageHeaderTag>
         <PageHeaderTitle>Definitely a Blog</PageHeaderTitle>
@@ -21,6 +22,6 @@ export default async function Page() {
           <PostCard key={index} post={post} index={index} />
         ))}
       </div>
-    </div>
+    </PageWrapper>
   );
 }

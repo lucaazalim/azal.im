@@ -3,6 +3,7 @@ import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageHeaderTitle from "../_components/header/PageHeaderTitle";
+import PageWrapper from "../_components/header/PageWrapper";
 import MajorProgressBar from "./_components/MajorProgressBar";
 import PeriodSection from "./_components/PeriodSection";
 
@@ -10,7 +11,7 @@ export default function Page() {
   const courses = getCourses();
 
   return (
-    <div className="mx-auto space-y-10 px-10 pb-10">
+    <PageWrapper className="mx-auto">
       <PageHeader>
         <PageHeaderTag>Major</PageHeaderTag>
         <PageHeaderTitle>Check my grades</PageHeaderTitle>
@@ -33,6 +34,6 @@ export default function Page() {
           ))}
         </div>
       </div>
-    </div>
+    </PageWrapper>
   );
 }

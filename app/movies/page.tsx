@@ -3,12 +3,13 @@ import PageHeaderDescription from "@/app/_components/header/PageHeaderDescriptio
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import { genres } from "@/lib/movies/movies";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
+import PageWrapper from "../_components/header/PageWrapper";
 import Movies from "./_components/Movies";
 import MovieStats from "./_components/MovieStats";
 
 export default function Page() {
   return (
-    <div className="space-y-5 px-5 pb-5">
+    <PageWrapper>
       <PageHeader>
         <PageHeaderTag>Movies</PageHeaderTag>
         <PageHeaderTitle>Grab some popcorn</PageHeaderTitle>
@@ -19,6 +20,6 @@ export default function Page() {
       </PageHeader>
       <MovieStats />
       <Movies genres={genres} />
-    </div>
+    </PageWrapper>
   );
 }

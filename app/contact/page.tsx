@@ -3,6 +3,7 @@ import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageHeaderTitle from "../_components/header/PageHeaderTitle";
+import PageWrapper from "../_components/header/PageWrapper";
 import OpenToWork from "../_components/socials/OpenToWork";
 import Socials from "../_components/socials/Socials";
 import { Separator } from "../_components/ui/separator";
@@ -11,7 +12,7 @@ import ContactForm from "./_components/ContactForm";
 
 export default function Page() {
   return (
-    <div className="mx-auto max-w-5xl space-y-10 px-10 pb-10">
+    <PageWrapper className="mx-auto max-w-5xl">
       <PageHeader>
         <PageHeaderTag>Contact</PageHeaderTag>
         <PageHeaderTitle>Get in Touch</PageHeaderTitle>
@@ -44,6 +45,6 @@ export default function Page() {
         </div>
         <ContactForm />
       </div>
-    </div>
+    </PageWrapper>
   );
 }

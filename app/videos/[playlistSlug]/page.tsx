@@ -2,6 +2,7 @@ import PageHeader from "@/app/_components/header/PageHeader";
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTag from "@/app/_components/header/PageHeaderTag";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
+import PageWrapper from "@/app/_components/header/PageWrapper";
 import { routes } from "@/lib/constants";
 import { redirect } from "next/navigation";
 import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
@@ -30,7 +31,7 @@ export default async function Page({
   }
 
   return (
-    <div className="mx-auto max-w-[950px] space-y-5 px-5 pb-5">
+    <PageWrapper className="mx-auto max-w-5xl">
       <PageHeader>
         <PageHeaderTag>Videos</PageHeaderTag>
         <PageHeaderTitle>What I’ve Been Watching</PageHeaderTitle>
@@ -43,6 +44,6 @@ export default async function Page({
         <PlaylistSelector playlistSlug={playlistSlug} />
         <VideoGrid videos={videos} />
       </div>
-    </div>
+    </PageWrapper>
   );
 }

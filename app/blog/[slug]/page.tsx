@@ -1,4 +1,5 @@
 import BackButton from "@/app/(home)/_components/BackButton";
+import PageWrapper from "@/app/_components/header/PageWrapper";
 import LoadingImage from "@/app/_components/LoadingImage";
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
@@ -67,7 +68,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <div className="mx-auto max-w-[950px] px-5 py-10">
+    <PageWrapper className="mx-auto max-w-5xl">
       <ProgressBar />
       <article className="space-y-10">
         <BackButton label="Posts" href={routes.blog} />
@@ -107,6 +108,6 @@ export default async function Page({ params }: Props) {
           </div>
         </div>
       </article>
-    </div>
+    </PageWrapper>
   );
 }

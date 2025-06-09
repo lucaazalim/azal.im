@@ -3,6 +3,7 @@
 import { Language } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import PageWrapper from "../_components/header/PageWrapper";
 import { Button } from "../_components/ui/button";
 
 const cv: {
@@ -29,7 +30,7 @@ export default function CV() {
   const [language, setLanguage] = useState<Language>("en");
 
   return (
-    <div className="mx-auto flex max-w-xl flex-col items-center space-y-10 p-10">
+    <PageWrapper className="mx-auto flex max-w-xl flex-col items-center py-10">
       <div className="grid w-full grid-cols-2">
         {cv.map((c) => (
           <Button
@@ -49,6 +50,6 @@ export default function CV() {
         className="animate-in slide-in-from-bottom-10 fade-in h-[75vh] w-[80vw] grow duration-1000"
         src={cv.find((c) => c.id === language)?.url}
       ></iframe>
-    </div>
+    </PageWrapper>
   );
 }

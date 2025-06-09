@@ -5,11 +5,12 @@ import ProjectImageCarousel from "../_components/ProjectImageCarousel";
 import ProjectMain from "../_components/ProjectMain";
 import ProjectMobileImage from "../_components/ProjectMobileImage";
 import ProjectPageHeader from "../_components/ProjectPageHeader";
+import ProjectPageWrapper from "../_components/ProjectPageWrapper";
 import ProjectSection from "../_components/ProjectSection";
 
 export default function Page() {
   return (
-    <>
+    <ProjectPageWrapper>
       <ProjectPageHeader>
         <PageHeaderTitle>90TI Docs</PageHeaderTitle>
         <PageHeaderDescription>
@@ -226,6 +227,6 @@ export default function Page() {
           </p>
         </ProjectSection>
       </ProjectMain>
-    </>
+    </ProjectPageWrapper>
   );
 }
