@@ -19,11 +19,9 @@ import { Textarea } from "@/app/_components/ui/textarea";
 import { routes } from "@/lib/constants";
 import { ContactFormValues, contactSchema } from "@/lib/contact/types";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 export default function ContactForm() {
   const router = useRouter();
-  const [test, setTest] = useState(false);
 
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
@@ -65,7 +63,7 @@ export default function ContactForm() {
     submitMutation.mutate(values);
   }
 
-  if (submitMutation.isSuccess || test) {
+  if (submitMutation.isSuccess) {
     return (
       <div className="animate-in fade-in flex grow flex-col items-center justify-center space-y-5 border p-5 duration-1000 ease-in-out max-md:min-h-100">
         <div className="space-y-5 text-center">
@@ -74,13 +72,7 @@ export default function ContactForm() {
             text="Thank you!"
           />
           <p className="mb-4">I'll get back to you as soon as possible.</p>
-          <Button
-            onClick={() => {
-              submitMutation.reset();
-              setTest(false);
-            }}
-            variant="outline"
-          >
+          <Button onClick={() => submitMutation.reset()} variant="outline">
             Send another message
           </Button>
         </div>
@@ -166,14 +158,6 @@ export default function ContactForm() {
           disabled={submitMutation.isPending}
         >
           {submitMutation.isPending ? "Sending..." : "Send Message"}
-        </Button>
-
-        <Button
-          onClick={() => setTest(true)}
-          variant="secondary"
-          className="w-full"
-        >
-          Test
         </Button>
 
         {submitMutation.isError && (
