@@ -9,7 +9,7 @@ type Props = {
 
 export default function PeriodSection({ period, courses }: Props) {
   return (
-    <section className="flex flex-col overflow-hidden rounded-lg border">
+    <section className="flex flex-col overflow-hidden border">
       <div className="p-5">
         <h2 className="text-xl font-bold">
           {period}

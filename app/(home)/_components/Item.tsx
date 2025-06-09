@@ -32,7 +32,7 @@ export default function Item({
   return (
     <div>
       <Link href={link}>
-        <div className="group/container relative rounded-lg border border-t border-white/10 from-white/10 to-white/1 p-8 transition-all select-none lg:border-transparent lg:group-hover/section:opacity-50 lg:hover:scale-[101%] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100!">
+        <div className="group/container border-foreground/10 relative border border-t from-white/10 to-white/1 p-8 transition-all ease-in-out select-none lg:border-transparent lg:group-hover/section:opacity-50 lg:hover:scale-[101%] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:border-l-white/20 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100">
           <div className="grid gap-5 md:grid-cols-[0.3fr_0.7fr]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
@@ -51,7 +51,7 @@ export default function Item({
                     setPath(image);
                     e.preventDefault();
                   }}
-                  className="object-coverrounded-sm border-foreground/30 cursor-zoom-in border-2"
+                  className="border-foreground/30 cursor-zoom-in border-2 object-cover"
                 />
               )}
             </div>

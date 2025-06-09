@@ -37,8 +37,6 @@ export default function CV() {
             variant="outline"
             size="lg"
             className={cn("", {
-              "rounded-r-none": c.id === "en",
-              "rounded-l-none": c.id === "pt",
               "opacity-50": language !== c.id,
             })}
             onClick={() => setLanguage(c.id)}
@@ -48,7 +46,7 @@ export default function CV() {
         ))}
       </div>
       <iframe
-        className="animate-in slide-in-from-bottom-10 fade-in h-[75vh] w-[80vw] grow rounded-lg duration-1000"
+        className="animate-in slide-in-from-bottom-10 fade-in h-[75vh] w-[80vw] grow duration-1000"
         src={cv.find((c) => c.id === language)?.url}
       ></iframe>
     </div>

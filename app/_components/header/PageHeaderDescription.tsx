@@ -11,7 +11,7 @@ export default function PageHeaderDescription({
   return (
     <p
       className={cn(
-        "text-foreground/70 max-w-lg text-lg md:text-xl",
+        "text-foreground/70 max-w-lg text-lg font-light md:text-xl",
         className,
       )}
       {...props}

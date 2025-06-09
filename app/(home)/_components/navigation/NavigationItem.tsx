@@ -15,9 +15,9 @@ export default function NavigationItem({
     <li className={className}>
       <Link
         href={href}
-        className="group text-muted-foreground hover:text-foreground flex h-8 cursor-pointer items-center gap-3 transition-all"
+        className="group text-muted-foreground hover:text-foreground flex h-8 cursor-pointer items-center gap-3 font-mono font-light uppercase transition-all"
       >
-        <div className="bg-muted-foreground group-hover:bg-foreground h-0.5 w-5 rounded-full transition-all group-hover:w-12"></div>
+        <div className="bg-muted-foreground group-hover:bg-foreground h-[1px] w-5 transition-all ease-in-out group-hover:w-12"></div>
         {title}
       </Link>
     </li>

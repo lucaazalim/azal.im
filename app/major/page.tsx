@@ -1,6 +1,7 @@
 import { getCourses, MAX_PERIODS } from "@/lib/major/major";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
+import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageHeaderTitle from "../_components/header/PageHeaderTitle";
 import MajorProgressBar from "./_components/MajorProgressBar";
 import PeriodSection from "./_components/PeriodSection";
@@ -9,11 +10,12 @@ export default function Page() {
   const courses = getCourses();
 
   return (
-    <div className="mx-auto space-y-10 p-10">
+    <div className="mx-auto space-y-10 px-10 pb-10">
       <PageHeader>
-        <PageHeaderTitle>Software Engineering Major</PageHeaderTitle>
+        <PageHeaderTag>Major</PageHeaderTag>
+        <PageHeaderTitle>Check my grades</PageHeaderTitle>
         <PageHeaderDescription className="max-w-xl">
-          A complete list of courses and grades from my Software Engineering
+          A detailed list of all courses and grades from my Software Engineering
           degree at PUC Minas.
         </PageHeaderDescription>
       </PageHeader>

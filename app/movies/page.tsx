@@ -1,26 +1,23 @@
 import PageHeader from "@/app/_components/header/PageHeader";
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
-import { genres, totalMovies, totalRuntime } from "@/lib/movies/movies";
+import { genres } from "@/lib/movies/movies";
+import PageHeaderTag from "../_components/header/PageHeaderTag";
 import Movies from "./_components/Movies";
+import MovieStats from "./_components/MovieStats";
 
 export default function Page() {
-  const totalRuntimeInHoursFormatted = Math.round(
-    totalRuntime / 60,
-  ).toLocaleString();
-
-  const totalMoviesFormatted = totalMovies.toLocaleString();
-
   return (
-    <div className="mx-auto space-y-5 p-5">
+    <div className="space-y-5 px-5 pb-5">
       <PageHeader>
-        <PageHeaderTitle>Movies</PageHeaderTitle>
+        <PageHeaderTag>Movies</PageHeaderTag>
+        <PageHeaderTitle>Grab some popcorn</PageHeaderTitle>
         <PageHeaderDescription>
-          <span className="font-bold">{totalRuntimeInHoursFormatted}</span>{" "}
-          hours. <span className="font-bold">{totalMoviesFormatted}</span>{" "}
-          titles. All rated.
+          Since 2018, I've been keeping track of the movies and series I've
+          watched, rating each one from 1 to 5 stars.
         </PageHeaderDescription>
       </PageHeader>
+      <MovieStats />
       <Movies genres={genres} />
     </div>
   );

@@ -60,7 +60,7 @@ type CustomImageProps = {
 };
 
 function CustomImage({ alt, ...props }: CustomImageProps) {
-  const className = "rounded-lg";
+  const className = "";
   let image: ReactElement;
 
   if (props.src.startsWith("http")) {

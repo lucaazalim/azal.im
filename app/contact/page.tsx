@@ -1,20 +1,49 @@
+import { Mail, MapPin } from "lucide-react";
+import PageHeader from "../_components/header/PageHeader";
+import PageHeaderDescription from "../_components/header/PageHeaderDescription";
+import PageHeaderTag from "../_components/header/PageHeaderTag";
+import PageHeaderTitle from "../_components/header/PageHeaderTitle";
+import OpenToWork from "../_components/socials/OpenToWork";
+import Socials from "../_components/socials/Socials";
+import { Separator } from "../_components/ui/separator";
+import ContactCard from "./_components/ContactCard";
+import ContactForm from "./_components/ContactForm";
+
 export default function Page() {
   return (
-    <div className="flex h-[calc(100vh-var(--navbar-height))] flex-col justify-center p-10 text-center">
-      <h1 className="text-2xl font-black">
-        I'm gonna build something fun here soon!
-      </h1>
-      <p className="text-foreground/50 mt-4 text-xl">
-        For now, shoot me an email at{" "}
-        <a
-          className="text-primary underline"
-          href="mailto:luca@azal.im"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          luca@azal.im
-        </a>
-      </p>
+    <div className="mx-auto max-w-5xl space-y-10 px-10 pb-10">
+      <PageHeader>
+        <PageHeaderTag>Contact</PageHeaderTag>
+        <PageHeaderTitle>Get in Touch</PageHeaderTitle>
+        <PageHeaderDescription>
+          I like to bring ideas to life and collaborate with others. If you have
+          a project in mind, want to discuss ideas, or just want to say hi, feel
+          free to reach out!
+        </PageHeaderDescription>
+      </PageHeader>
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-[0.4fr_0.6fr]">
+        <div className="animate-in max-md:slide-in-from-bottom-5 md:slide-in-from-left-[30px] fade-in flex flex-col gap-3 duration-1000 ease-in-out">
+          <OpenToWork />
+          <ContactCard
+            icon={Mail}
+            label="Email"
+            text="luca@azal.im"
+            href="mailto:luca@azal.im"
+          />
+          <ContactCard
+            icon={MapPin}
+            label="Location"
+            text="Belo Horizonte, Brazil 🇧🇷"
+          />
+          <Socials className="gap-3" />
+          <Separator className="max-md:hidden" />
+          <p className="text-center text-sm max-md:hidden">
+            You're welcome to write in English or Portuguese.
+            <br />I usually reply within a day!
+          </p>
+        </div>
+        <ContactForm />
+      </div>
     </div>
   );
 }

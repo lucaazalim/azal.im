@@ -1,21 +1,14 @@
 import { cn } from "@/lib/utils";
 import { HTMLAttributes } from "react";
 
-type Props = {
-  animation?: boolean;
-} & HTMLAttributes<HTMLDivElement>;
+type Props = HTMLAttributes<HTMLDivElement>;
 
-export default function PageHeader({
-  animation = true,
-  className,
-  children,
-  ...props
-}: Props) {
+export default function PageHeader({ className, children, ...props }: Props) {
   return (
     <header
       className={cn(
         "mx-auto flex flex-col items-center p-8 text-center",
-        animation && "animate-in fade-in duration-500 ease-out",
+        "animate-in fade-in slide-in-from-bottom-[20px] duration-750 ease-in-out",
         className,
       )}
       {...props}

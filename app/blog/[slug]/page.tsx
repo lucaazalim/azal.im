@@ -88,7 +88,7 @@ export default async function Page({ params }: Props) {
             alt={post.metadata.title}
             fill={true}
             sizes="100vw"
-            className="rounded-2xl object-cover"
+            className="object-cover"
           />
           <LoadingImage
             src={post.metadata.cover}

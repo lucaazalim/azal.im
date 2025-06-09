@@ -24,11 +24,11 @@ type Props = {
 
 export default function MovieFilterForm({ genres }: Props) {
   const form = useFormContext<MovieFilters>();
-  const EMPTY_KEY = "empty"
+  const EMPTY_KEY = "empty";
 
   return (
     <form
-      className="bg-accent grid grid-cols-2 items-end gap-5 rounded-xl border p-5 lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_0.5fr]"
+      className="bg-accent grid w-full grid-cols-2 items-end gap-5 self-center border p-5 lg:max-w-6xl lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_0.5fr]"
       onSubmit={(e) => e.preventDefault()}
     >
       <FormField
@@ -51,10 +51,11 @@ export default function MovieFilterForm({ genres }: Props) {
           <FormItem className="flex grow flex-col">
             <FormLabel>Type</FormLabel>
             <FormControl>
-              <Select 
-                 key={field.value ?? EMPTY_KEY}
-                 onValueChange={field.onChange} 
-                 defaultValue={field.value}>
+              <Select
+                key={field.value ?? EMPTY_KEY}
+                onValueChange={field.onChange}
+                defaultValue={field.value}
+              >
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Type" />
                 </SelectTrigger>
@@ -135,10 +136,11 @@ export default function MovieFilterForm({ genres }: Props) {
           <FormItem className="flex grow flex-col">
             <FormLabel>Genre</FormLabel>
             <FormControl>
-              <Select 
-                 key={field.value ?? EMPTY_KEY} 
-                 onValueChange={field.onChange} 
-                 defaultValue={field.value}>
+              <Select
+                key={field.value ?? EMPTY_KEY}
+                onValueChange={field.onChange}
+                defaultValue={field.value}
+              >
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
@@ -163,7 +165,7 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Stars</FormLabel>
             <FormControl>
               <Select
-                key={field.value ?? EMPTY_KEY} 
+                key={field.value ?? EMPTY_KEY}
                 onValueChange={field.onChange}
                 defaultValue={field.value?.toString()}
               >

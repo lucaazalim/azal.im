@@ -19,5 +19,6 @@ export const routes = {
     movies: (request: MoviesRequest) => {
       return `/api/movies?${objectToSearchParams(request)}`;
     },
+    contact: "/api/contact",
   },
 };

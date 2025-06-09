@@ -1,5 +1,6 @@
 import PageHeader from "@/app/_components/header/PageHeader";
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
+import PageHeaderTag from "@/app/_components/header/PageHeaderTag";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import { routes } from "@/lib/constants";
 import { redirect } from "next/navigation";
@@ -29,11 +30,13 @@ export default async function Page({
   }
 
   return (
-    <div className="mx-auto max-w-[950px] space-y-5 p-5">
-      <PageHeader animation={false}>
-        <PageHeaderTitle>Videos</PageHeaderTitle>
+    <div className="mx-auto max-w-[950px] space-y-5 px-5 pb-5">
+      <PageHeader>
+        <PageHeaderTag>Videos</PageHeaderTag>
+        <PageHeaderTitle>What I’ve Been Watching</PageHeaderTitle>
         <PageHeaderDescription>
-          YouTube videos I watched, learned from, or enjoyed.
+          A curated list of YouTube videos I’ve learned from or enjoyed. I hope
+          you find them useful too.
         </PageHeaderDescription>
       </PageHeader>
       <main className="space-y-10">

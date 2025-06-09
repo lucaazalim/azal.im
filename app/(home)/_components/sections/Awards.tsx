@@ -20,7 +20,7 @@ export default function Awards() {
       </Item>
 
       <Item
-        date="2024"
+        date="2024 – 2025"
         title="Outstanding Project Award"
         subtitle="Pontifical Catholic University of Minas Gerais"
         badge="4x"

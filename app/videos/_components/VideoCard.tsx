@@ -14,7 +14,7 @@ export default function VideoCard({ video, index, onClick }: Props) {
     <article
       onClick={onClick}
       className={cn(
-        "animate-in fade-in group flex h-full cursor-pointer flex-col overflow-hidden rounded-2xl border border-neutral-800",
+        "animate-in fade-in group flex h-full cursor-pointer flex-col overflow-hidden border border-neutral-800",
         index === 0 && "duration-200",
         index === 1 && "duration-400",
         index === 2 && "duration-600",
@@ -30,7 +30,7 @@ export default function VideoCard({ video, index, onClick }: Props) {
           src={video.snippet.thumbnails.medium.url}
           alt={video.snippet.title}
           fill={true}
-          className="rounded-t-2xl object-cover transition-all md:group-hover:brightness-25"
+          className="object-cover transition-all md:group-hover:brightness-25"
           unoptimized
         />
       </div>

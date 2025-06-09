@@ -61,9 +61,9 @@ function DesktopNavBar() {
           <Link
             href={item.href}
             className={cn(
-              "font-semibold drop-shadow-sm",
+              "font-mono uppercase drop-shadow-sm",
               matches(pathname, item.href)
-                ? "text-foreground"
+                ? "text-foreground border-foreground border-b-1"
                 : "text-foreground/50 hover:text-foreground transition-colors duration-200",
             )}
           >
@@ -99,9 +99,9 @@ function MobileNavBar() {
                 href={item.href}
                 onClick={() => setIsSheetOpen(false)}
                 className={cn(
-                  "rounded-md px-4 py-2 text-3xl font-bold transition-colors duration-200",
+                  "px-4 py-2 font-mono text-3xl uppercase transition-colors duration-200",
                   matches(pathname, item.href)
-                    ? "text-foreground"
+                    ? "text-foreground border-foreground border-b-1"
                     : "text-foreground/50 hover:text-foreground hover:bg-accent/50",
                 )}
               >

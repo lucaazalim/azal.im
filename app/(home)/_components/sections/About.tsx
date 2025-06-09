@@ -7,7 +7,7 @@ export default function About() {
       <SectionTitle className="sr-only">About</SectionTitle>
 
       <div className="text-muted-foreground space-y-4 lg:px-5">
-        <p className="text-foreground text-2xl font-bold">
+        <p className="text-foreground font-serif text-2xl font-bold">
           Hi there! I'm Luca.
           <motion.span
             animate={{
@@ -26,14 +26,14 @@ export default function About() {
         </p>
         <p>
           My journey in the digital world began in 2008, at the age of 8, when I
-          created a blog about Club Penguin and started experimenting with web
-          development. This sparked my passion for technology and online
-          communities.
+          created a blog about <span className="font-serif">Club Penguin</span>{" "}
+          and started experimenting with web development. This sparked my
+          passion for technology and online communities.
         </p>
 
         <p>
-          In 2011, I discovered Minecraft, and by 2013, I had launched my first
-          Minecraft server. By 2017, I owned and operated the{" "}
+          A few years later, in 2011, I discovered Minecraft, and by 2013, I had
+          launched my first Minecraft server. By 2017, I owned and operated the{" "}
           <a className="link" href="https://redesky.com">
             largest Minecraft network in Brazil
           </a>

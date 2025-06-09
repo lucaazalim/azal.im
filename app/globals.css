@@ -133,7 +133,7 @@
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.7076 0.19745 46.4558);
-  --primary-foreground: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -185,7 +185,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  @apply w-[8px];
+  @apply w-[7px];
 }
 
 /* Track */
@@ -195,7 +195,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-muted-foreground/80 rounded-xl transition-all;
+  @apply bg-muted-foreground/80 transition-all;
 }
 
 /* Handle on hover */
