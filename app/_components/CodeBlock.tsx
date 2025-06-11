@@ -1,13 +1,13 @@
 import { BundledLanguage, codeToHtml } from "shiki";
 
 interface Props {
-  children: string;
+  code: string;
   lang: BundledLanguage;
 }
 
-export async function CodeBlock(props: Props) {
-  const out = await codeToHtml(props.children, {
-    lang: props.lang,
+export async function CodeBlock({ code, lang }: Props) {
+  const out = await codeToHtml(code, {
+    lang: lang,
     theme: "github-dark",
   });
 

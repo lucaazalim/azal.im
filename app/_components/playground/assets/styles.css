@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+span {
+  background-color: oklch(0.627 0.265 303.9);
+  color: white;
+  font-family: monospace;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.flex {
+  border: 2px solid oklch(0.627 0.265 303.9);
+  padding: 1rem;
+}

@@ -1,4 +1,5 @@
 import LoadingImage from "@/app/_components/LoadingImage";
+import TailwindPlayground from "@/app/_components/playground/TailwindPlayground";
 import { evaluate } from "next-mdx-remote-client/rsc";
 import Link from "next/link";
 import { ReactElement, ReactNode } from "react";
@@ -100,6 +101,7 @@ const components = {
   img: CustomImage,
   a: CustomLink,
   table: Table,
+  TailwindPlayground: TailwindPlayground,
 };
 
 export default async function parseMDX(source: string): Promise<{
