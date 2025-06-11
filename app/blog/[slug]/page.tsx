@@ -68,7 +68,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <PageWrapper className="mx-auto max-w-5xl">
+    <PageWrapper className="mx-auto max-w-5xl pt-5">
       <ProgressBar />
       <article className="space-y-10">
         <BackButton label="Posts" href={routes.blog} />
