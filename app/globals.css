@@ -4,6 +4,8 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@custom-variant max-vh-height-md (@media (max-height: 720px));
+
 @theme {
   --navbar-height: 60px;
 

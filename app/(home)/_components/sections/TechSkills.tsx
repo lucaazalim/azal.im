@@ -1,8 +1,9 @@
 export default function TechSkills() {
   return (
     <div className="flex flex-wrap items-center gap-2 lg:px-5">
-      <Badge skill="Java" years={10} />
+      <Badge skill="Java" years={11} />
       <Badge skill="SQL" years={10} />
+      <Badge skill="Redis" years={8} />
       <Badge skill="Docker" years={6} />
       <Badge skill="Node.js" years={5} />
       <Badge skill="PostgreSQL" years={5} />
