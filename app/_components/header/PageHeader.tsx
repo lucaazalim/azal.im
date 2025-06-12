@@ -7,7 +7,7 @@ export default function PageHeader({ className, children, ...props }: Props) {
   return (
     <header
       className={cn(
-        "mx-auto flex flex-col items-center p-8 text-center",
+        "mx-auto flex flex-col items-center px-10 pt-10 text-center",
         "animate-in fade-in slide-in-from-bottom-[20px] duration-750 ease-in-out",
         className,
       )}
