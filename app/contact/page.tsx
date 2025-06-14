@@ -6,6 +6,7 @@ import PageHeaderTitle from "../_components/header/PageHeaderTitle";
 import PageWrapper from "../_components/header/PageWrapper";
 import OpenToWork from "../_components/socials/OpenToWork";
 import Socials from "../_components/socials/Socials";
+import Tangerine from "../_components/Tangerine";
 import { Separator } from "../_components/ui/separator";
 import ContactCard from "./_components/ContactCard";
 import ContactForm from "./_components/ContactForm";
@@ -24,6 +25,7 @@ export default function Page() {
       </PageHeader>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-[0.4fr_0.6fr]">
         <div className="animate-in max-md:slide-in-from-bottom-5 md:slide-in-from-left-[30px] fade-in flex flex-col gap-3 duration-1000 ease-in-out">
+          <Tangerine />
           <OpenToWork />
           <ContactCard
             icon={Mail}
