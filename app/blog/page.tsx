@@ -17,9 +17,9 @@ export default async function Page() {
           find interesting.
         </PageHeaderDescription>
       </PageHeader>
-      <div className="animate-in fade-in grid grid-cols-1 gap-5 duration-750 ease-in-out md:grid-cols-3">
-        {(await getPosts()).map((post, index) => (
-          <PostCard key={index} post={post} index={index} />
+      <div className="animate-in fade-in flex flex-row flex-wrap items-stretch justify-center gap-5 duration-750 ease-in-out">
+        {(await getPosts()).map((post, _) => (
+          <PostCard key={post.slug} post={post} className="sm:basis-1/3" />
         ))}
       </div>
     </PageWrapper>

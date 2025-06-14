@@ -5,12 +5,12 @@ import Link from "next/link";
 
 type Props = {
   post: Post;
-  index: number;
+  className?: string;
 };
 
-export default function PostCard({ post, index }: Props) {
+export default function PostCard({ post, className }: Props) {
   return (
-    <Link href={post.route}>
+    <Link href={post.route} className={className}>
       <article className="group flex h-full flex-col overflow-hidden border border-neutral-800">
         <div className="relative h-[200px] w-full shrink-0">
           <LoadingImage
@@ -29,7 +29,7 @@ export default function PostCard({ post, index }: Props) {
             </p>
           </div>
           <div>
-            <p className="text-sm">
+            <p className="font-mono text-sm uppercase">
               {format(post.metadata.date, "LLLL d, yyyy")}
             </p>
           </div>
