@@ -66,8 +66,11 @@ public
 | `app/api/movies`     | Endpoint for fetching movies data.                      |
 | `app/api/og`         | Open Graph image generation API for the blog.           |
 | `app/blog`           | Blog components, pages and layout.                      |
+| `app/contact`        | Contact page components and layout.                     |
+| `app/cv`             | CV page components and layout.                          |
 | `app/major`          | Major page components and layout.                       |
 | `app/movies`         | Movies page components and layout.                      |
+| `app/projects`       | Projects page components and layout.                    |
 | `app/videos`         | Videos page components and layout.                      |
 | `data`               | Static data files.                                      |
 | `data/movies`        | JSON files containing movies and their metadata.        |
