@@ -18,8 +18,10 @@ export default function Page() {
           watched, rating each one from 1 to 5 stars.
         </PageHeaderDescription>
       </PageHeader>
-      <MovieStats />
-      <Movies genres={genres} />
+      <div className="space-y-5">
+        <MovieStats />
+        <Movies genres={genres} />
+      </div>
     </PageWrapper>
   );
 }
