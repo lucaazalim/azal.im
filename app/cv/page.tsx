@@ -30,7 +30,7 @@ export default function CV() {
   const [language, setLanguage] = useState<Language>("en");
 
   return (
-    <PageWrapper className="mx-auto flex max-w-xl flex-col items-center py-10">
+    <PageWrapper className="mx-auto flex max-w-xl flex-col items-center space-y-10 pt-10">
       <div className="grid w-full grid-cols-2">
         {cv.map((c) => (
           <Button
