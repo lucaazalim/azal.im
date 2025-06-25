@@ -6,7 +6,7 @@ export const routes = {
   blog: "/blog",
   videos: (playlistSlug?: string) => `/videos/${playlistSlug ?? ""}`,
   movies: "/movies",
-  major: "/major",
+  academics: "/academics",
   cv: "/cv",
   projects: {
     "90ti-docs": "/projects/90ti-docs",

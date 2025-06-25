@@ -14,7 +14,7 @@ export default function Education() {
         title="Bachelor's Degree in Software Engineering"
         subtitle="Pontifical Catholic University of Minas Gerais"
       >
-        <Link href={routes.major}>
+        <Link href={routes.academics}>
           <Button variant="outline">Check all my grades</Button>
         </Link>
       </Item>

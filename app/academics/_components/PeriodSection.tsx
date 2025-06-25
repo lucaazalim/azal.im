@@ -1,4 +1,4 @@
-import { Course } from "@/lib/major/types";
+import { Course } from "@/lib/academics/types";
 import PeriodCoursesTable from "./PeriodCoursesTable";
 import PeriodSummary from "./PeriodSummary";
 

@@ -3,7 +3,6 @@ import Aside from "@/app/(home)/_components/sections/Aside";
 import Awards from "@/app/(home)/_components/sections/Awards";
 import Education from "@/app/(home)/_components/sections/Education";
 import Experiences from "@/app/(home)/_components/sections/Experiences";
-import Footer from "@/app/(home)/_components/sections/Footer";
 import Projects from "@/app/(home)/_components/sections/Projects";
 import TechSkills from "./_components/sections/TechSkills";
 
@@ -18,7 +17,6 @@ export default function Home() {
         <Education />
         <Awards />
         <Projects />
-        <Footer />
       </div>
     </div>
   );

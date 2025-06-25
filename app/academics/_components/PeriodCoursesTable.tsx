@@ -12,7 +12,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/app/_components/ui/tooltip";
-import { Course } from "@/lib/major/types";
+import { Course } from "@/lib/academics/types";
 import { capitalizeFirstLetter, cn } from "@/lib/utils";
 import { Info } from "lucide-react";
 

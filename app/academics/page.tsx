@@ -1,4 +1,4 @@
-import { getCourses, MAX_PERIODS } from "@/lib/major/major";
+import { getCourses, MAX_PERIODS } from "@/lib/academics/academics";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <PageWrapper className="mx-auto">
       <PageHeader>
-        <PageHeaderTag>Major</PageHeaderTag>
+        <PageHeaderTag>Academics</PageHeaderTag>
         <PageHeaderTitle>Check my grades</PageHeaderTitle>
         <PageHeaderDescription className="max-w-xl">
           A detailed list of all courses and grades from my Software Engineering

@@ -1,5 +1,5 @@
-import { getPeriodSummary } from "@/lib/major/major";
-import { Course } from "@/lib/major/types";
+import { getPeriodSummary } from "@/lib/academics/academics";
+import { Course } from "@/lib/academics/types";
 
 type Props = {
   courses: Course[];

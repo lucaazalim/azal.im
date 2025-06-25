@@ -36,8 +36,8 @@ const menu = [
     href: routes.movies,
   },
   {
-    name: "Major",
-    href: routes.major,
+    name: "Academics",
+    href: routes.academics,
   },
   {
     name: "Contact",

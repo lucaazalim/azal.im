@@ -8,7 +8,7 @@ The site is organized into the following sections:
 - ✍️ **Blog** – A collection of articles I've written on software development and technology.
 - ▶️ **Videos** – A curated list of my favorite YouTube videos across a variety of topics.
 - 🎞 **Movies** – A catalog of movies and series I’ve watched in recent years, complete with my personal ratings.
-- 🎓 **Major** – An overview of my academic journey in Software Engineering, including completed courses, individual grades, and GPA.
+- 🎓 **Academics** – An overview of my academic journey in Software Engineering, including completed courses, individual grades, and GPA.
 
 ---
 
@@ -44,7 +44,7 @@ app
     ├── movies
     └── og
     blog
-    major
+    academics
     movies
     videos
 data
@@ -68,7 +68,7 @@ public
 | `app/blog`           | Blog components, pages and layout.                      |
 | `app/contact`        | Contact page components and layout.                     |
 | `app/cv`             | CV page components and layout.                          |
-| `app/major`          | Major page components and layout.                       |
+| `app/academics`      | Academics page components and layout.                   |
 | `app/movies`         | Movies page components and layout.                      |
 | `app/projects`       | Projects page components and layout.                    |
 | `app/videos`         | Videos page components and layout.                      |
