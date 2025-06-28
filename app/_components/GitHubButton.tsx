@@ -2,7 +2,7 @@
 
 import GitHubButton from "react-github-btn";
 
-export default function GitHubButtons() {
+export default function GitHubStarButton() {
   return (
     <>
       <GitHubButton

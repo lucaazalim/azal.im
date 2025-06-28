@@ -1,12 +1,10 @@
-"use client";
-
-import GitHubButtons from "./GitHubButton";
+import GitHubStarButton from "./GitHubButton";
 
 export default function Footer() {
   return (
     <footer className="bg-background flex h-20 items-center justify-center border-t">
       <div className="space-x-2">
-        <GitHubButtons />
+        <GitHubStarButton />
       </div>
     </footer>
   );

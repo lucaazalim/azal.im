@@ -7,7 +7,6 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
 import Script from "next/script";
 import { ReactNode } from "react";
-import Footer from "./_components/Footer";
 import NavBar from "./_components/NavBar";
 import "./globals.css";
 
@@ -69,7 +68,7 @@ export default function RootLayout({
             <NavBar />
             <ImageView />
             <main className="pt-[var(--navbar-height)]">{children}</main>
-            <Footer />
+            {/* <Footer /> */}
             {development && <TailwindBreakpoint />}
           </ImageViewContextProvider>
         </TanStackQueryProvider>
