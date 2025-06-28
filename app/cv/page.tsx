@@ -16,13 +16,13 @@ const cv: {
     id: "en",
     name: "english",
     label: "🌎 English",
-    url: "/cv-en.pdf",
+    url: "/cv/en.pdf",
   },
   {
     id: "pt",
     name: "portuguese",
     label: "🇧🇷 Portuguese",
-    url: "/cv-pt.pdf",
+    url: "/cv/pt.pdf",
   },
 ];
 
