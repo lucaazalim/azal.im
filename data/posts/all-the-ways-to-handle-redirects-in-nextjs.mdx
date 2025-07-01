@@ -334,6 +334,10 @@ export default function LoginForm() {
 
 ## Navigation Options
 
+The `useRouter` hook provides several navigation methods, each serving different purposes in your application's user experience. Understanding when to use each method will help you create intuitive navigation flows that feel natural to your users.
+
+The key difference between these methods is how they affect the browser's history stack. `push()` adds a new entry to the history, allowing users to navigate back, while `replace()` overwrites the current entry, preventing users from returning to the previous page. This distinction is crucial for authentication flows and multi-step processes.
+
 ```tsx
 "use client";
 
@@ -360,6 +364,10 @@ export default function NavigationComponent() {
 Understanding HTTP status codes is crucial for SEO and user experience:
 
 ## 301 vs 302 vs 307 vs 308
+
+The choice of HTTP status code for redirects has significant implications for both SEO and application behavior. Understanding the differences between these codes is crucial for implementing redirects correctly.
+
+The main distinction lies in two factors: **permanence** (temporary vs permanent) and **method preservation** (whether the HTTP method changes during redirect). Status codes 301 and 302 are legacy codes that will change POST requests to GET requests, while 307 and 308 are newer codes that preserve the original HTTP method.
 
 ```tsx
 // 301 - Permanent redirect (changes POST to GET)
@@ -397,6 +405,10 @@ export function GET() {
 
 # Middleware Redirects
 
+Middleware redirects operate at the edge of your application, running before your pages and API routes are processed. This makes them incredibly powerful for implementing cross-cutting concerns like authentication, A/B testing, and geo-based redirects with minimal performance impact.
+
+Unlike component-based redirects, middleware runs on every request matching your configuration, making it ideal for global redirect logic. The middleware function has access to the incoming request, allowing you to make decisions based on headers, cookies, URLs, and other request properties.
+
 Handle redirects at the edge with middleware for better performance:
 
 ```tsx
@@ -431,6 +443,10 @@ export const config = {
 
 ## ❌ Using `window.location` Instead of Next.js Methods
 
+Using the browser's native `window.location` API might seem like a quick solution, but it bypasses all of Next.js's optimizations and features. This approach forces a full page reload, losing the benefits of client-side navigation, prefetching, and the smooth user experience that Next.js provides.
+
+Next.js navigation methods maintain the application state, preserve scroll position when appropriate, and work seamlessly with the framework's routing system. They also integrate properly with features like loading states and error boundaries.
+
 ```tsx
 // ❌ Don't do this - breaks Next.js optimizations
 const handleRedirect = () => {
@@ -444,6 +460,10 @@ const handleRedirect = () => {
 ```
 
 ## ❌ Redirecting in Client Components During Render
+
+One of the most common mistakes when working with redirects in Next.js is attempting to call server-side redirect functions from client components during the render phase. The `redirect()` function is designed to work only in server-side contexts and will throw an error if called from a client component.
+
+This pattern often occurs when developers try to implement authentication checks or conditional redirects in client components. The solution is to use React's `useEffect` hook or event handlers, combined with the `useRouter` hook for client-side navigation.
 
 ```tsx
 // ❌ Don't do this - causes issues
@@ -476,6 +496,10 @@ export default function ClientComponent() {
 
 ## ❌ Using Wrong Status Codes for SEO
 
+Choosing the wrong HTTP status code for redirects can have lasting negative effects on your website's search engine rankings. Search engines interpret status codes as signals about the nature of the redirect, which directly impacts how they handle link equity, indexing, and ranking.
+
+Using a permanent redirect (308 or 301) for temporary changes can confuse search engines and cause them to permanently replace the original URL in their index. Conversely, using temporary redirects for permanent changes means you won't transfer SEO value to the new URL.
+
 ```tsx
 // ❌ Wrong - using permanent redirect for temporary content
 export function GET() {
@@ -491,6 +515,10 @@ export function GET() {
 # Performance Considerations
 
 ## Server-Side vs Client-Side
+
+The choice between server-side and client-side redirects significantly impacts your application's performance, user experience, and SEO. Server-side redirects happen before any HTML is sent to the browser, making them faster and more SEO-friendly, while client-side redirects require JavaScript execution and a full page render.
+
+Server-side redirects are ideal for authentication checks, data validation, and any logic that can be determined before rendering. They prevent unnecessary loading states and provide immediate feedback to users. Client-side redirects are better suited for interactive scenarios where you need to show loading states, handle user feedback, or perform client-only operations.
 
 ```tsx
 // ✅ Fast - handled at server level
@@ -523,6 +551,10 @@ export default function Page() {
 
 ## Authentication Flow
 
+Authentication redirects are one of the most common use cases for server-side redirects. By checking authentication status on the server, you can immediately redirect unauthenticated users without exposing protected content or requiring a client-side redirect after the page loads.
+
+This pattern ensures that protected routes are secure by default and provides a better user experience by eliminating loading flashes and unnecessary API calls for unauthenticated users.
+
 ```tsx
 // app/dashboard/page.tsx
 import { redirect } from "next/navigation";
@@ -541,6 +573,10 @@ export default async function DashboardPage() {
 
 ## URL Migration
 
+When restructuring your website or changing URL patterns, configuration-based redirects in `next.config.js` provide the most efficient solution. These redirects are handled at the build level and don't require any runtime processing, making them extremely fast and SEO-friendly.
+
+The key to successful URL migration is using permanent redirects (status 308) to ensure search engines transfer all ranking signals from old URLs to new ones. This preserves your SEO investment and prevents broken links.
+
 ```tsx
 // next.config.js
 const nextConfig = {
@@ -557,6 +593,10 @@ const nextConfig = {
 ```
 
 ## Form Success Redirect
+
+Server Actions provide an elegant way to handle form submissions and subsequent redirects in a single server-side operation. This pattern is particularly powerful because it combines data mutation, cache revalidation, and user redirection in one seamless flow.
+
+The redirect after a successful form submission prevents the common issue of duplicate submissions when users refresh the page, following the Post-Redirect-Get pattern that's considered a web development best practice.
 
 ```tsx
 // app/actions.ts
