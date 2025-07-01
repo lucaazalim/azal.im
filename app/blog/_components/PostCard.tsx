@@ -12,7 +12,7 @@ export default function PostCard({ post, className }: Props) {
   return (
     <Link href={post.route} className={className}>
       <article className="group flex h-full flex-col overflow-hidden border border-neutral-800">
-        <div className="relative h-[200px] w-full shrink-0">
+        <div className="relative aspect-video w-full shrink-0">
           <LoadingImage
             src={post.metadata.cover}
             alt={post.metadata.title}

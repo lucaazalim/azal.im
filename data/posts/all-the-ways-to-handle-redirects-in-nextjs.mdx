@@ -1,0 +1,597 @@
+---
+title: "All The Ways to Handle Redirects in Next.js"
+description: "A comprehensive guide to every method of redirecting users in Next.js, from basic server-side redirects to advanced client-side navigation patterns."
+date: "2025-07-01"
+cover: "/blog/all-the-ways-to-handle-redirects-in-nextjs.png"
+---
+
+Redirects are a fundamental part of web development, and Next.js provides multiple ways to handle them. Whether you need to redirect users after a form submission, handle authentication flows, or implement SEO-friendly redirects, understanding all the available options is crucial for building robust applications.
+
+In this comprehensive guide, we'll explore every method of redirecting users in Next.js, including their use cases, status codes, and best practices.
+
+# The Complete Redirect Methods Overview
+
+Next.js offers five main approaches to handle redirects:
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Use Case</th>
+      <th>Context</th>
+      <th>Status Code</th>
+      <th>SEO Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>redirect()</code>
+      </td>
+      <td>Conditional redirects, authentication checks, data validation</td>
+      <td>Server Components, Route Handlers, Server Actions</td>
+      <td>307 (Temporary) or 303 (Server Actions)</td>
+      <td>Temporary redirect</td>
+    </tr>
+    <tr>
+      <td>
+        <code>permanentRedirect()</code>
+      </td>
+      <td>Permanent URL changes</td>
+      <td>Server Components, Route Handlers, Server Actions</td>
+      <td>308 (Permanent)</td>
+      <td>Permanent redirect</td>
+    </tr>
+    <tr>
+      <td>
+        <code>NextResponse.redirect()</code>
+      </td>
+      <td>Conditional redirects with custom status</td>
+      <td>Route Handlers, Middleware</td>
+      <td>Custom (301, 302, 307, 308)</td>
+      <td>Flexible</td>
+    </tr>
+    <tr>
+      <td>
+        <code>next.config.js</code> redirects
+      </td>
+      <td>Static URL redirects</td>
+      <td>Build time</td>
+      <td>307/308 (configurable)</td>
+      <td>SEO-friendly</td>
+    </tr>
+    <tr>
+      <td>
+        <code>useRouter().push()</code>
+      </td>
+      <td>Client-side navigation</td>
+      <td>Client Components</td>
+      <td>N/A</td>
+      <td>No SEO impact</td>
+    </tr>
+  </tbody>
+</table>
+
+# 1. Server Component with redirect()
+
+The `redirect()` function is the most common way to redirect users in Next.js. It's designed for temporary redirects and always returns a **307 status code** (or 303 in Server Actions).
+
+## Basic Usage
+
+```tsx
+import { redirect } from "next/navigation";
+
+export default async function ProfilePage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const user = await fetchUser(params.id);
+
+  // Redirect if user doesn't exist
+  if (!user) {
+    redirect("/login");
+  }
+
+  return <div>Welcome, {user.name}!</div>;
+}
+```
+
+## Key Characteristics
+
+- **Status Code**: 307 (Temporary Redirect) or 303 (Server Actions)
+- **Method Preservation**: Preserves the original HTTP method (POST remains POST)
+- **Use Cases**: Authentication checks, data validation, conditional navigation
+- **Error Handling**: Throws a `NEXT_REDIRECT` error that terminates rendering
+
+## Important Notes
+
+```tsx
+// ❌ Don't use in try/catch blocks
+try {
+  redirect("/dashboard");
+} catch (error) {
+  // This won't work as expected
+}
+
+// ✅ Call outside try/catch
+const result = await someOperation();
+if (!result.success) {
+  redirect("/error");
+}
+```
+
+# 2. Server Component with permanentRedirect()
+
+Use `permanentRedirect()` when you want to indicate that a URL has permanently moved. This returns a **308 status code**.
+
+## When to Use
+
+```tsx
+import { permanentRedirect } from "next/navigation";
+
+export default async function OldProductPage({
+  params,
+}: {
+  params: { oldId: string };
+}) {
+  // Get the new product ID from database
+  const newProductId = await getNewProductId(params.oldId);
+
+  if (newProductId) {
+    // This product has permanently moved
+    permanentRedirect(`/products/${newProductId}`);
+  }
+
+  return <div>Product not found</div>;
+}
+```
+
+## SEO Benefits
+
+- **Search Engine Behavior**: Search engines will update their indexes
+- **Link Equity**: Passes SEO value to the new URL
+- **Permanent Change**: Indicates the old URL should not be used anymore
+
+# 3. Route Handler with Custom Status Codes
+
+For maximum control over redirect behavior, use Route Handlers with `NextResponse.redirect()`. This is the **only method** that allows you to specify custom status codes.
+
+## Basic Route Handler Redirect
+
+```tsx
+// app/api/redirect/route.ts
+import { NextRequest, NextResponse } from "next/server";
+
+export function GET(request: NextRequest) {
+  // Always returns 308 (permanent redirect)
+  return NextResponse.redirect(new URL("/new-path", request.url));
+}
+```
+
+## Custom Status Code Redirects
+
+```tsx
+// app/api/seo-redirect/route.ts
+import { NextRequest, NextResponse } from "next/server";
+
+export function GET(request: NextRequest) {
+  const { searchParams } = request.nextUrl;
+  const destination = searchParams.get("to");
+
+  if (!destination) {
+    return NextResponse.json({ error: "Missing destination" }, { status: 400 });
+  }
+
+  // SEO-friendly 301 redirect for permanent moves
+  return NextResponse.redirect(
+    new URL(destination, request.url),
+    301, // Custom status code
+  );
+}
+```
+
+## Advanced Example with Conditional Logic
+
+```tsx
+// app/api/smart-redirect/route.ts
+import { NextRequest, NextResponse } from "next/server";
+
+export async function GET(request: NextRequest) {
+  const userAgent = request.headers.get("user-agent") || "";
+  const isMobile = /mobile/i.test(userAgent);
+
+  // Different redirects based on device
+  const destination = isMobile
+    ? new URL("/mobile-app", request.url)
+    : new URL("/desktop-app", request.url);
+
+  // Use 302 for temporary device-based redirects
+  return NextResponse.redirect(destination, 302);
+}
+```
+
+# 4. Next.js Config Redirects
+
+Configure redirects at build time using `next.config.js`. This is perfect for known URL changes and provides excellent performance.
+
+## Basic Configuration
+
+```javascript
+// next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async redirects() {
+    return [
+      // Basic redirect
+      {
+        source: "/old-about",
+        destination: "/about",
+        permanent: true, // 308 status code
+      },
+      // Wildcard matching
+      {
+        source: "/blog/:slug*",
+        destination: "/articles/:slug*",
+        permanent: true,
+      },
+      // Query string handling
+      {
+        source: "/search",
+        destination: "/find?q=:q",
+        permanent: false, // 307 status code
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;
+```
+
+## Advanced Patterns
+
+```javascript
+// next.config.js
+const nextConfig = {
+  async redirects() {
+    return [
+      // Conditional redirects based on headers
+      {
+        source: "/admin/:path*",
+        destination: "/login",
+        permanent: false,
+        has: [
+          {
+            type: "header",
+            key: "authorization",
+            value: "(?<token>.*)",
+          },
+        ],
+      },
+      // Subdomain redirects
+      {
+        source: "/blog/:slug",
+        destination: "https://blog.example.com/:slug",
+        permanent: true,
+        has: [
+          {
+            type: "host",
+            value: "www.example.com",
+          },
+        ],
+      },
+    ];
+  },
+};
+```
+
+# 5. Client-Side Navigation with `useRouter()`
+
+For client-side redirects in response to user interactions, use the `useRouter` hook.
+
+## Basic Usage
+
+```tsx
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+
+export default function LoginForm() {
+  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubmit = async (formData: FormData) => {
+    setIsLoading(true);
+
+    try {
+      const response = await fetch("/api/login", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        // Client-side redirect after successful login
+        router.push("/dashboard");
+      }
+    } catch (error) {
+      console.error("Login failed:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <form action={handleSubmit}>
+      {/* form fields */}
+      <button type="submit" disabled={isLoading}>
+        {isLoading ? "Signing in..." : "Sign In"}
+      </button>
+    </form>
+  );
+}
+```
+
+## Navigation Options
+
+```tsx
+"use client";
+
+import { useRouter } from "next/navigation";
+
+export default function NavigationComponent() {
+  const router = useRouter();
+
+  const handleNavigation = () => {
+    // Different navigation methods
+    router.push("/dashboard"); // Add to history
+    router.replace("/dashboard"); // Replace current entry
+    router.back(); // Go back
+    router.forward(); // Go forward
+    router.refresh(); // Refresh current page
+  };
+
+  return <button onClick={handleNavigation}>Navigate</button>;
+}
+```
+
+# Status Codes: Why They Matter
+
+Understanding HTTP status codes is crucial for SEO and user experience:
+
+## 301 vs 302 vs 307 vs 308
+
+```tsx
+// 301 - Permanent redirect (changes POST to GET)
+NextResponse.redirect(url, 301);
+
+// 302 - Temporary redirect (changes POST to GET)
+NextResponse.redirect(url, 302);
+
+// 307 - Temporary redirect (preserves method)
+NextResponse.redirect(url, 307); // Default for redirect()
+
+// 308 - Permanent redirect (preserves method)
+NextResponse.redirect(url, 308); // Default for permanentRedirect()
+```
+
+## SEO Implications
+
+```tsx
+// ✅ Good for SEO - permanent change
+export function GET() {
+  return NextResponse.redirect(
+    new URL("/new-location", request.url),
+    301, // Search engines update their indexes
+  );
+}
+
+// ⚠️ Neutral for SEO - temporary change
+export function GET() {
+  return NextResponse.redirect(
+    new URL("/temporary-location", request.url),
+    307, // Search engines keep original URL
+  );
+}
+```
+
+# Middleware Redirects
+
+Handle redirects at the edge with middleware for better performance:
+
+```tsx
+// middleware.ts
+import { NextResponse, NextRequest } from "next/server";
+
+export function middleware(request: NextRequest) {
+  // Authentication redirect
+  if (request.nextUrl.pathname.startsWith("/admin")) {
+    const token = request.cookies.get("auth-token");
+
+    if (!token) {
+      return NextResponse.redirect(new URL("/login", request.url));
+    }
+  }
+
+  // A/B testing redirect
+  if (request.nextUrl.pathname === "/pricing") {
+    const variant = Math.random() > 0.5 ? "a" : "b";
+    return NextResponse.redirect(new URL(`/pricing-${variant}`, request.url));
+  }
+
+  return NextResponse.next();
+}
+
+export const config = {
+  matcher: ["/admin/:path*", "/pricing"],
+};
+```
+
+# Anti-Patterns and Common Mistakes
+
+## ❌ Using `window.location` Instead of Next.js Methods
+
+```tsx
+// ❌ Don't do this - breaks Next.js optimizations
+const handleRedirect = () => {
+  window.location.href = "/dashboard";
+};
+
+// ✅ Use Next.js navigation instead
+const handleRedirect = () => {
+  router.push("/dashboard");
+};
+```
+
+## ❌ Redirecting in Client Components During Render
+
+```tsx
+// ❌ Don't do this - causes issues
+"use client";
+
+export default function ClientComponent() {
+  // This will cause problems
+  if (someCondition) {
+    redirect("/somewhere"); // Error!
+  }
+
+  return <div>Content</div>;
+}
+
+// ✅ Use useEffect or event handlers instead
+("use client");
+
+export default function ClientComponent() {
+  const router = useRouter();
+
+  useEffect(() => {
+    if (someCondition) {
+      router.push("/somewhere");
+    }
+  }, [someCondition]);
+
+  return <div>Content</div>;
+}
+```
+
+## ❌ Using Wrong Status Codes for SEO
+
+```tsx
+// ❌ Wrong - using permanent redirect for temporary content
+export function GET() {
+  return NextResponse.redirect(url, 308); // Wrong for temporary changes
+}
+
+// ✅ Right - using appropriate status code
+export function GET() {
+  return NextResponse.redirect(url, 302); // Correct for temporary redirects
+}
+```
+
+# Performance Considerations
+
+## Server-Side vs Client-Side
+
+```tsx
+// ✅ Fast - handled at server level
+export default async function Page() {
+  const user = await getUser();
+  if (!user) {
+    redirect("/login"); // Server-side redirect
+  }
+  return <Dashboard user={user} />;
+}
+
+// ⚠️ Slower - requires client-side JavaScript
+("use client");
+export default function Page() {
+  const { user, isLoading } = useUser();
+  const router = useRouter();
+
+  if (isLoading) return <Loading />;
+
+  if (!user) {
+    router.push("/login"); // Client-side redirect
+    return null;
+  }
+
+  return <Dashboard user={user} />;
+}
+```
+
+# Real-World Examples
+
+## Authentication Flow
+
+```tsx
+// app/dashboard/page.tsx
+import { redirect } from "next/navigation";
+import { getServerSession } from "next-auth";
+
+export default async function DashboardPage() {
+  const session = await getServerSession();
+
+  if (!session) {
+    redirect("/api/auth/signin");
+  }
+
+  return <Dashboard user={session.user} />;
+}
+```
+
+## URL Migration
+
+```tsx
+// next.config.js
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/old-blog/:slug",
+        destination: "/articles/:slug",
+        permanent: true, // 308 - tells search engines it's permanent
+      },
+    ];
+  },
+};
+```
+
+## Form Success Redirect
+
+```tsx
+// app/actions.ts
+"use server";
+
+import { redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
+
+export async function createPost(formData: FormData) {
+  const title = formData.get("title") as string;
+
+  // Create post in database
+  const post = await createPostInDB({ title });
+
+  // Revalidate the posts page
+  revalidatePath("/posts");
+
+  // Redirect to the new post (307 status code)
+  redirect(`/posts/${post.id}`);
+}
+```
+
+# Best Practices Summary
+
+1. **Use `redirect()` for temporary redirects** after user actions
+2. **Use `permanentRedirect()` for permanent URL changes**
+3. **Use Route Handlers with custom status codes** for SEO-critical redirects
+4. **Use `next.config.js` redirects** for known static redirects
+5. **Use `useRouter()` for client-side navigation** in response to user events
+6. **Choose the right status code** based on whether the redirect is temporary or permanent
+7. **Avoid `window.location`** in favor of Next.js methods
+8. **Handle redirects at the server level** when possible for better performance
+
+# Conclusion
+
+Next.js provides powerful and flexible redirect capabilities that cover every use case from simple page redirects to complex conditional logic. Understanding when to use each method will help you build better user experiences while maintaining good SEO practices.
+
+Remember: the key is choosing the right tool for the job. Server-side redirects are faster and better for SEO, while client-side redirects offer more interactivity. Status codes matter for search engines, and using the appropriate method for your use case will ensure your application performs optimally.

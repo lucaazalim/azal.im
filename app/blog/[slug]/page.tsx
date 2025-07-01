@@ -71,12 +71,14 @@ export default async function Page({ params }: Props) {
     <PageWrapper className="mx-auto max-w-5xl pt-5">
       <ProgressBar />
       <article className="space-y-10">
-        <BackButton label="Posts" href={routes.blog} />
-        <div className="space-y-5">
-          <h1 className="text-foreground text-4xl font-bold">
+        <div className="flex flex-col items-center justify-center gap-5 text-center">
+          <BackButton label="Posts" href={routes.blog} />
+          <h1 className="text-foreground font-serif text-4xl font-bold">
             {post.metadata.title}
           </h1>
-          <p className="text-muted-foreground">{post.metadata.description}</p>
+          <p className="text-muted-foreground max-w-3xl">
+            {post.metadata.description}
+          </p>
         </div>
         <motion.div
           initial={{ opacity: 0, filter: "blur(5px)" }}
