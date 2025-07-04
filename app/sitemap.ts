@@ -19,9 +19,6 @@ const STATIC_ROUTES = [
 const STATIC_ROUTES_SITEMAP: MetadataRoute.Sitemap = STATIC_ROUTES.map(
   (route) => ({
     url: process.env.BASE_URL + route,
-    lastModified: new Date().toISOString(),
-    changeFrequency: "monthly",
-    priority: 1,
   }),
 );
 
@@ -30,9 +27,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const postsSitemap = posts.map((post) => ({
     url: process.env.BASE_URL + post.route,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 1,
   })) satisfies MetadataRoute.Sitemap;
 
   return [...STATIC_ROUTES_SITEMAP, ...postsSitemap];
