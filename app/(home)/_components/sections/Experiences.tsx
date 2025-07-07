@@ -7,7 +7,7 @@ export default function Experiences() {
       <SectionTitle>Experience</SectionTitle>
 
       <Item
-        date="6/2024 - 4/2025"
+        date="6/2024 – 4/2025"
         title="Software Developer"
         subtitle="90 Information Technology"
         link="https://noventa.com.br"

@@ -7,7 +7,30 @@ export default function Projects() {
     <section id="projects" className="group/section scroll-mt-24 space-y-10">
       <SectionTitle>Projects</SectionTitle>
       <Item
-        date="2024 - 2025"
+        date="2025 – 2025"
+        image="/projects/pollmodoro.png"
+        title="Pollmodoro"
+        link="https://github.com/lucaazalim/pollmodoro"
+        subtitle="Personal project"
+        skills={[
+          "TypeScript",
+          "Svelte",
+          "SvelteKit",
+          "TailwindCSS",
+          "CloudFlare Workers",
+          "Durable Objects",
+        ]}
+      >
+        <p>
+          Pollmodoro is an open-source, real-time polling platform built with
+          SvelteKit and Cloudflare Workers. It allows users to create and share
+          polls instantly, with results updated live via WebSockets and polls
+          stored in the edge. The project highlights my expertise in modern web
+          technologies, serverless architecture, and real-time interactivity.
+        </p>
+      </Item>
+      <Item
+        date="2024 – 2025"
         image="/projects/90ti-docs/1.png"
         title="90TI Docs"
         link={routes.projects["90ti-docs"]}
@@ -21,7 +44,32 @@ export default function Projects() {
         </p>
       </Item>
       <Item
-        date="2024 - 2025"
+        date="2015 – 2022"
+        image="/projects/redesky.png"
+        title="Rede Sky"
+        link="https://redesky.com"
+        subtitle="Largest Minecraft network in Brazil"
+        skills={[
+          "Java",
+          "SQL",
+          "Bash",
+          "Lua",
+          "Redis",
+          "MongoDB",
+          "Grafana",
+          "Linux",
+          "DevOps",
+        ]}
+      >
+        <p>
+          Rede Sky was the largest Minecraft community in Brazil, reaching over
+          300,000 active players per month and setting a national record of
+          8,115 concurrent players online. In total, more than 16 million
+          players engaged with the game modes launched by the company.
+        </p>
+      </Item>
+      <Item
+        date="2024 – 2025"
         image="/projects/portal-do-fornecedor.png"
         title="Portal do Fornecedor (Supplier Portal)"
         link="https://fornecedor.noventa.com.br"
@@ -134,31 +182,6 @@ export default function Projects() {
           the rental process for both tenants and landlords, offering an
           efficient, centralized solution for listings, processes, and
           documentation.
-        </p>
-      </Item>
-      <Item
-        date="2015-2022"
-        image="/projects/redesky.png"
-        title="Rede Sky"
-        link="https://redesky.com"
-        subtitle="Largest Minecraft network in Brazil"
-        skills={[
-          "Java",
-          "SQL",
-          "Bash",
-          "Lua",
-          "Redis",
-          "MongoDB",
-          "Grafana",
-          "Linux",
-          "DevOps",
-        ]}
-      >
-        <p>
-          Rede Sky was the largest Minecraft community in Brazil, reaching over
-          300,000 active players per month and setting a national record of
-          8,115 concurrent players online. In total, more than 16 million
-          players engaged with the game modes launched by the company.
         </p>
       </Item>
     </section>
