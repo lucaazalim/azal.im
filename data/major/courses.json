@@ -415,7 +415,7 @@
       "pt": "Conceitos de Arquiteturas de Software. Requisitos arquiteturais. Padrões arquiteturais. Modelos baseados em camadas, componentes e agentes. Arquiteturas: orientadas a mensagens, orientadas a serviços, para persistência de dados, de objetos distribuídos, para aplicações Web, para dispositivos móveis, para aplicações ubíquas.",
       "en": "Concepts of Software Architectures. Architectural requirements. Architectural patterns. Models based on layers, components, and agents. Architectures: message-oriented, service-oriented, for data persistence, distributed objects, for web applications, for mobile devices, for ubiquitous applications."
     },
-    "grade": null,
+    "grade": 92,
     "hours": 80,
     "modality": "in-person"
   },
@@ -430,7 +430,7 @@
       "pt": "Fundamentação da práxis cristã. A categoria Pessoa em diálogo com categorias antropológicas contemporâneas. Temas atuais à luz do Humanismo Cristão: a família e a dimensão afetivo-sexual; o mundo do trabalho; ordem social e política, e a cidadania. O compromisso com o cuidado e a defesa da vida humana e ecológica, e as perspectivas de construção de uma nova ordem mundial, centrada na sustentabilidade, na justiça, no amor e na paz.",
       "en": "Foundations of Christian Praxis. The category of Person in dialogue with contemporary anthropological categories. Current topics in the light of Christian Humanism: family and the affective-sexual dimension; the world of work; social and political order, and citizenship. The commitment to the care and defense of human and ecological life, and the perspectives of building a new world order, centered on sustainability, justice, love, and peace."
     },
-    "grade": null,
+    "grade": 100,
     "hours": 40,
     "modality": "in-person"
   },
@@ -445,7 +445,7 @@
       "pt": "Fundamentos de sistemas distribuídos e computação móvel. Comunicação entre processos. Middlewares. Ambientes e ferramentas para o desenvolvimento de aplicações móveis e distribuídas. Problemas e limitações relacionados à mobilidade e à modalidade de comunicação. Coordenação e consenso. Transações distribuídas e controle de concorrência. Consistência, replicação e tolerância à falha. Computação ubíqua e pervasiva. Sistemas cientes de contexto.",
       "en": "Fundamentals of distributed systems and mobile computing. Inter-process communication. Middlewares. Environments and tools for the development of mobile and distributed applications. Problems and limitations related to mobility and communication modality. Coordination and consensus. Distributed transactions and concurrency control. Consistency, replication, and fault tolerance. Ubiquitous and pervasive computing. Context-aware systems."
     },
-    "grade": null,
+    "grade": 95,
     "hours": 80,
     "modality": "in-person"
   },
@@ -460,7 +460,7 @@
       "pt": "Estatística descritiva. Probabilidade. Variáveis aleatórias. Distribuições discretas. Distribuições contínuas. Inferência estatística: estimação, intervalos de confiança e testes de hipóteses. Regressão linear.",
       "en": "Descriptive Statistics. Probability. Random Variables. Discrete Distributions. Continuous Distributions. Statistical Inference: estimation, confidence intervals, and hypothesis testing. Linear Regression."
     },
-    "grade": null,
+    "grade": 90,
     "hours": 80,
     "modality": "hybrid"
   },
@@ -475,7 +475,7 @@
       "pt": "Fundamentos de análise de algoritmos. Análise de algoritmos. Técnicas de Projeto de Algoritmos. Teoria da Complexidade.",
       "en": "Fundamentals of Algorithm Analysis. Analysis of Algorithms. Algorithm Design Techniques. Complexity Theory."
     },
-    "grade": null,
+    "grade": 100,
     "hours": 40,
     "modality": "in-person"
   },
@@ -490,7 +490,7 @@
       "pt": "Conceito de gerência de projeto de software. Planejamento de projeto. Gerência de recursos. Controle de projetos. Processo de gerência de projetos. Modelos para gerencia de projetos. Utilização de softwares para planejamento e acompanhamento de projetos.",
       "en": "Concept of software project management. Project planning. Resource management. Project control. Project management process. Models for project management. Use of software for project planning and monitoring."
     },
-    "grade": null,
+    "grade": 90,
     "hours": 60,
     "modality": "in-person"
   },
@@ -505,7 +505,7 @@
       "pt": "Elaboração da arquitetura de um sistema de software distribuído com clientes móveis e web. Desenvolvimento utilizando middlewares de comunicação. Comunicação indireta. Programação de sistemas baseados em nuvem. Construção de software utilizando funções como serviço.",
       "en": "Designing the architecture of a distributed software system with mobile and web clients. Development using communication middlewares. Indirect communication. Programming of cloud-based systems. Building software using functions as a service."
     },
-    "grade": null,
+    "grade": 94,
     "hours": 40,
     "modality": "in-person"
   },
@@ -520,7 +520,7 @@
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
       "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
     },
-    "grade": null,
+    "grade": 95,
     "hours": 80,
     "modality": "in-person"
   },
@@ -535,7 +535,7 @@
       "pt": "Planejamento e detalhamento do projeto de arquitetura de um software. Produção de artefatos de arquitetura de software e gerência de projetos. Implementação de um software distribuído de acordo com a arquitetura projetada. Avaliação da arquitetura do sistema.",
       "en": "Planning and detailing of a software architecture project. Production of software architecture artifacts and project management. Implementation of a distributed software according to the designed architecture. Evaluation of the system architecture."
     },
-    "grade": null,
+    "grade": 99,
     "hours": 45,
     "modality": "in-person"
   },
