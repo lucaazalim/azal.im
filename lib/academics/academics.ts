@@ -1,11 +1,11 @@
 import { readFileSync } from "fs";
 import path from "path";
 import { z } from "zod";
-import { Course, courseSchema, PeriodSummary } from "./types";
+import { Course, courseSchema, SemesterSummary } from "./types";
 
 const COURSES_PATH = path.join(process.cwd(), "data/major/courses.json");
 
-export const MAX_PERIODS = 8;
+export const SEMESTERS = 8;
 
 export function getCourses(filePath: string = COURSES_PATH): Course[] {
   // Read the courses.json file
@@ -31,7 +31,7 @@ export function getCourses(filePath: string = COURSES_PATH): Course[] {
   return validatedCourses;
 }
 
-export function getPeriodSummary(courses: Course[]): PeriodSummary {
+export function getSemesterSummary(courses: Course[]): SemesterSummary {
   const totalHours = courses.reduce((sum, course) => sum + course.hours, 0);
   const completedCourses = courses.filter((course) => !!course.grade);
 

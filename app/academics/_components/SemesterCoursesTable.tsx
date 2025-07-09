@@ -20,7 +20,7 @@ type Props = {
   courses: Course[];
 };
 
-export default function PeriodCoursesTable({ courses }: Props) {
+export default function SemesterCoursesTable({ courses }: Props) {
   return (
     <Table className="text-sm">
       <TableHeader>

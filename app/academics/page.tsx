@@ -1,11 +1,11 @@
-import { getCourses, MAX_PERIODS } from "@/lib/academics/academics";
+import { getCourses, SEMESTERS } from "@/lib/academics/academics";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageHeaderTitle from "../_components/header/PageHeaderTitle";
 import PageWrapper from "../_components/header/PageWrapper";
 import MajorProgressBar from "./_components/MajorProgressBar";
-import PeriodSection from "./_components/PeriodSection";
+import SemesterSection from "./_components/SemesterSection";
 
 export default function Page() {
   const courses = getCourses();
@@ -25,11 +25,13 @@ export default function Page() {
           <MajorProgressBar />
         </div>
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
-          {Array.from({ length: MAX_PERIODS }, (_, index) => (
-            <PeriodSection
+          {Array.from({ length: SEMESTERS }, (_, index) => (
+            <SemesterSection
               key={index}
-              period={index + 1}
-              courses={courses.filter((course) => course.period === index + 1)}
+              semester={index + 1}
+              courses={courses.filter(
+                (course) => course.semester === index + 1,
+              )}
             />
           ))}
         </div>

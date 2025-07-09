@@ -2,10 +2,10 @@ import { z } from "zod";
 
 export const MODALITIES = ["in-person", "hybrid", "virtual"] as const;
 
-const periodSchema = z.number().int().min(1).max(8);
+const semesterSchema = z.number().int().min(1).max(8);
 
 export const courseSchema = z.object({
-  period: periodSchema,
+  semester: semesterSchema,
   id: z.number().int().positive(),
   name: z.object({
     pt: z.string().min(1),
@@ -22,7 +22,7 @@ export const courseSchema = z.object({
 
 export type Course = z.infer<typeof courseSchema>;
 
-export type PeriodSummary = {
+export type SemesterSummary = {
   totalHours: number;
   completedHours: number;
   averageGrade: number | null;
