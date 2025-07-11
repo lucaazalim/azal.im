@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
 };
 
-const cv: {
+export const cv: {
   id: Language;
   name: string;
   label: string;
