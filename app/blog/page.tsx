@@ -5,6 +5,22 @@ import PostCard from "@/app/blog/_components/PostCard";
 import { getPosts } from "@/lib/blog/posts";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageWrapper from "../_components/header/PageWrapper";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+  openGraph: {
+    title: "Blog - Luca Azalim",
+    description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+    url: "https://azal.im/blog",
+    type: "website",
+  },
+  twitter: {
+    title: "Blog - Luca Azalim",
+    description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+  },
+};
 
 export default async function Page() {
   return (

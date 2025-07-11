@@ -9,6 +9,22 @@ import Socials from "../_components/socials/Socials";
 import { Separator } from "../_components/ui/separator";
 import ContactCard from "./_components/ContactCard";
 import ContactForm from "./_components/ContactForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+  openGraph: {
+    title: "Contact - Luca Azalim",
+    description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+    url: "https://azal.im/contact",
+    type: "website",
+  },
+  twitter: {
+    title: "Contact - Luca Azalim",
+    description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+  },
+};
 
 export default function Page() {
   return (

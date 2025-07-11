@@ -11,6 +11,7 @@ import { Movie, MovieMetadata } from "@/lib/movies/types";
 import chalk from "chalk";
 import dotenv from "dotenv";
 import path from "path";
+import { TMDB_API_KEY } from "@/lib/constants";
 
 // Load environment variables from .env file
 dotenv.config({ path: path.resolve("../../.env") });
@@ -23,7 +24,6 @@ const METADATA_PATH = path.join(
 );
 
 // API keys
-const TMDB_API_KEY = process.env.TMDB_API_KEY;
 
 // TMDB API endpoints
 const TMDB_MOVIE_URL =

@@ -8,6 +8,7 @@ import { redirect } from "next/navigation";
 import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
+import { Metadata } from "next";
 
 export const dynamicParams = false;
 export const revalidate = 60;
@@ -16,6 +17,36 @@ export async function generateStaticParams() {
   return PLAYLISTS.map((playlist) => ({
     playlistSlug: playlist.slug,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ playlistSlug: string }>;
+}): Promise<Metadata> {
+  const { playlistSlug } = await params;
+  const playlist = PLAYLISTS.find((p) => p.slug === playlistSlug);
+  
+  if (!playlist) {
+    return {
+      title: "Videos",
+    };
+  }
+
+  return {
+    title: `${playlist.title} Videos`,
+    description: `A curated list of ${playlist.title.toLowerCase()} YouTube videos I've learned from or enjoyed. I hope you find them useful too.`,
+    openGraph: {
+      title: `${playlist.title} Videos - Luca Azalim`,
+      description: `A curated list of ${playlist.title.toLowerCase()} YouTube videos I've learned from or enjoyed. I hope you find them useful too.`,
+      url: `https://azal.im/videos/${playlistSlug}`,
+      type: "website",
+    },
+    twitter: {
+      title: `${playlist.title} Videos - Luca Azalim`,
+      description: `A curated list of ${playlist.title.toLowerCase()} YouTube videos I've learned from or enjoyed. I hope you find them useful too.`,
+    },
+  };
 }
 
 export default async function Page({
@@ -34,9 +65,9 @@ export default async function Page({
     <PageWrapper className="mx-auto max-w-5xl">
       <PageHeader>
         <PageHeaderTag>Videos</PageHeaderTag>
-        <PageHeaderTitle>What I’ve Been Watching</PageHeaderTitle>
+        <PageHeaderTitle>What I've Been Watching</PageHeaderTitle>
         <PageHeaderDescription>
-          A curated list of YouTube videos I’ve learned from or enjoyed. I hope
+          A curated list of YouTube videos I've learned from or enjoyed. I hope
           you find them useful too.
         </PageHeaderDescription>
       </PageHeader>

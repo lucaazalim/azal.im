@@ -6,6 +6,22 @@ import PageHeaderTitle from "../_components/header/PageHeaderTitle";
 import PageWrapper from "../_components/header/PageWrapper";
 import MajorProgressBar from "./_components/MajorProgressBar";
 import SemesterSection from "./_components/SemesterSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Academics",
+  description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+  openGraph: {
+    title: "Academics - Luca Azalim",
+    description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+    url: "https://azal.im/academics",
+    type: "website",
+  },
+  twitter: {
+    title: "Academics - Luca Azalim",
+    description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+  },
+};
 
 export default function Page() {
   const courses = getCourses();

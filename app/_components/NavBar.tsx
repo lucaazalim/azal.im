@@ -25,7 +25,7 @@ const menu = [
   },
   {
     name: "Blog",
-    href: routes.blog,
+    href: routes.blog(),
   },
   {
     name: "Videos",

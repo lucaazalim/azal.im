@@ -44,7 +44,7 @@ export default function Item({
               {image && (
                 <LoadingImage
                   src={image}
-                  alt=""
+                  alt={`${title} - ${subtitle}`}
                   width={300}
                   height={300}
                   onClick={(e) => {

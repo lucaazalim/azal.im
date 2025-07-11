@@ -1,6 +1,7 @@
 import { contactSchema } from "@/lib/contact/types";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { GMAIL_USER, GMAIL_APP_PASSWORD, CONTACT_EMAIL } from "@/lib/constants";
 
 export async function POST(request: NextRequest) {
   try {
@@ -22,7 +23,7 @@ export async function POST(request: NextRequest) {
     const { name, email, subject, message } = result.data;
 
     // Check if required environment variables exist
-    if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
+    if (!GMAIL_USER || !GMAIL_APP_PASSWORD) {
       console.error("Gmail credentials are not configured");
       return NextResponse.json(
         { error: "Email service not configured" },
@@ -30,7 +31,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (!process.env.CONTACT_EMAIL) {
+    if (!CONTACT_EMAIL) {
       console.error("CONTACT_EMAIL is not configured");
       return NextResponse.json(
         { error: "Contact email not configured" },
@@ -42,15 +43,15 @@ export async function POST(request: NextRequest) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_APP_PASSWORD,
+        user: GMAIL_USER,
+        pass: GMAIL_APP_PASSWORD,
       },
     });
 
     // Send email using nodemailer
     const info = await transporter.sendMail({
-      from: process.env.GMAIL_USER,
-      to: process.env.CONTACT_EMAIL,
+      from: GMAIL_USER,
+      to: CONTACT_EMAIL,
       subject: `Contact Form: ${subject}`,
       html: `
           <p><strong>From:</strong> ${name} (${email})</p>

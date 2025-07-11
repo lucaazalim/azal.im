@@ -4,10 +4,11 @@ import LoadingImage from "@/app/_components/LoadingImage";
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/lib/blog/posts";
-import { routes } from "@/lib/constants";
+import { BASE_URL, routes } from "@/lib/constants";
 import { Metadata } from "next";
 import NotFound from "next/dist/client/components/not-found-error";
 import ProgressBar from "../_components/ProgressBar";
+import Script from "next/script";
 
 type Props = {
   params: Promise<{
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
-  const url = "https://azal.im/blog/" + post.slug;
+  const url = BASE_URL + routes.blog(post.slug);
 
   return {
     title: post.metadata.title,
@@ -67,12 +68,45 @@ export default async function Page({ params }: Props) {
     return <NotFound />;
   }
 
+  const url = BASE_URL + routes.blog(post.slug);
+  const publishedDate = post.metadata.date || new Date().toISOString();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.metadata.title,
+    "description": post.metadata.description,
+    "image": post.metadata.cover,
+    "author": {
+      "@type": "Person",
+      "name": "Luca Azalim",
+      "url": BASE_URL
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Luca Azalim",
+      "url": BASE_URL
+    },
+    "datePublished": publishedDate,
+    "dateModified": publishedDate,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": url
+    },
+    "url": url
+  };
+
   return (
     <PageWrapper className="mx-auto max-w-5xl pt-5">
+      <Script
+        id="blogpost-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ProgressBar />
       <article className="space-y-10">
         <div className="flex flex-col items-center justify-center gap-5 text-center">
-          <BackButton label="Posts" href={routes.blog} />
+          <BackButton label="Posts" href={routes.blog()} />
           <h1 className="text-foreground font-serif text-4xl font-bold">
             {post.metadata.title}
           </h1>
