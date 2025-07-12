@@ -2,7 +2,6 @@ import { MoviesRequest } from "./movies/types";
 import { Language } from "./types";
 import { objectToSearchParams } from "./utils";
 
-// Centralized environment variables. Add new ones here as needed.
 export const BASE_URL = process.env.BASE_URL || "https://azal.im";
 export const GMAIL_USER = process.env.GMAIL_USER;
 export const GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD;
