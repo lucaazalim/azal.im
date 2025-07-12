@@ -6,6 +6,7 @@ import { getPosts } from "@/lib/blog/posts";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageWrapper from "../_components/header/PageWrapper";
 import { Metadata } from "next";
+import { BASE_URL, routes } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blog - Luca Azalim",
     description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
-    url: "https://azal.im/blog",
+    url: BASE_URL + routes.blog(),
     type: "website",
   },
   twitter: {

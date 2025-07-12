@@ -1,4 +1,6 @@
+import { BASE_URL, routes } from "@/lib/constants";
 import { Mail, MapPin } from "lucide-react";
+import { Metadata } from "next";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
@@ -9,20 +11,22 @@ import Socials from "../_components/socials/Socials";
 import { Separator } from "../_components/ui/separator";
 import ContactCard from "./_components/ContactCard";
 import ContactForm from "./_components/ContactForm";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+  description:
+    "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
   openGraph: {
     title: "Contact - Luca Azalim",
-    description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
-    url: "https://azal.im/contact",
+    description:
+      "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+    url: BASE_URL + routes.contact,
     type: "website",
   },
   twitter: {
     title: "Contact - Luca Azalim",
-    description: "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
+    description:
+      "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
   },
 };
 

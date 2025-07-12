@@ -4,57 +4,50 @@ import Awards from "@/app/(home)/_components/sections/Awards";
 import Education from "@/app/(home)/_components/sections/Education";
 import Experiences from "@/app/(home)/_components/sections/Experiences";
 import Projects from "@/app/(home)/_components/sections/Projects";
-import TechSkills from "./_components/sections/TechSkills";
+import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
-import Script from "next/script";
+import { Person, WithContext } from "schema-dts";
+import TechSkills from "./_components/sections/TechSkills";
 
 export const metadata: Metadata = {
   title: "Home",
-  description: "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+  description:
+    "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
   openGraph: {
     title: "Luca Azalim - Software Engineer",
-    description: "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
-    url: "https://azal.im",
+    description:
+      "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+    url: BASE_URL,
   },
   twitter: {
     title: "Luca Azalim - Software Engineer",
-    description: "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+    description:
+      "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
   },
 };
 
-const jsonLd = {
+const jsonLd: WithContext<Person> = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Luca Azalim",
-  "jobTitle": "Software Engineer",
-  "description": "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
-  "url": "https://azal.im",
-  "sameAs": [
-    "https://github.com/lucaazalim",
-    "https://linkedin.com/in/lucaazalim"
-  ],
-  "knowsAbout": [
+  name: "Luca Azalim",
+  jobTitle: "Software Engineer",
+  description:
+    "Software Engineer passionate about building scalable applications.",
+  url: BASE_URL,
+  knowsAbout: [
     "Software Engineering",
     "Full-Stack Development",
     "React",
     "Next.js",
     "TypeScript",
-    "Web Development"
+    "Web Development",
   ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "90TI"
-  },
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "Software Engineering"
-  }
 };
 
 export default function Home() {
   return (
     <>
-      <Script
+      <script
         id="person-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -1,4 +1,6 @@
 import { getCourses, SEMESTERS } from "@/lib/academics/academics";
+import { BASE_URL, routes } from "@/lib/constants";
+import { Metadata } from "next";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
@@ -6,20 +8,22 @@ import PageHeaderTitle from "../_components/header/PageHeaderTitle";
 import PageWrapper from "../_components/header/PageWrapper";
 import MajorProgressBar from "./_components/MajorProgressBar";
 import SemesterSection from "./_components/SemesterSection";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Academics",
-  description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+  description:
+    "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
   openGraph: {
     title: "Academics - Luca Azalim",
-    description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
-    url: "https://azal.im/academics",
+    description:
+      "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+    url: BASE_URL + routes.academics,
     type: "website",
   },
   twitter: {
     title: "Academics - Luca Azalim",
-    description: "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
+    description:
+      "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
   },
 };
 

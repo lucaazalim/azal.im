@@ -1,5 +1,7 @@
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
+import { BASE_URL, routes } from "@/lib/constants";
+import { Metadata } from "next";
 import ProjectDesktopImage from "../_components/ProjectDesktopImage";
 import ProjectImageCarousel from "../_components/ProjectImageCarousel";
 import ProjectMain from "../_components/ProjectMain";
@@ -7,20 +9,22 @@ import ProjectMobileImage from "../_components/ProjectMobileImage";
 import ProjectPageHeader from "../_components/ProjectPageHeader";
 import ProjectPageWrapper from "../_components/ProjectPageWrapper";
 import ProjectSection from "../_components/ProjectSection";
-import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "90TI Docs",
-  description: "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
+  description:
+    "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
   openGraph: {
     title: "90TI Docs - Luca Azalim",
-    description: "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
-    url: "https://azal.im/projects/90ti-docs",
+    description:
+      "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
+    url: BASE_URL + routes.projects["90ti-docs"],
     type: "website",
   },
   twitter: {
     title: "90TI Docs - Luca Azalim",
-    description: "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
+    description:
+      "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
   },
 };
 

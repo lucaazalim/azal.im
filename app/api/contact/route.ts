@@ -1,7 +1,13 @@
+import {
+  BASE_URL,
+  CONTACT_EMAIL,
+  GMAIL_APP_PASSWORD,
+  GMAIL_USER,
+  routes,
+} from "@/lib/constants";
 import { contactSchema } from "@/lib/contact/types";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-import { GMAIL_USER, GMAIL_APP_PASSWORD, CONTACT_EMAIL } from "@/lib/constants";
 
 export async function POST(request: NextRequest) {
   try {
@@ -57,7 +63,7 @@ export async function POST(request: NextRequest) {
           <p><strong>From:</strong> ${name} (${email})</p>
           <p><strong>Subject:</strong> ${subject}</p>
           <p><strong>Message:</strong> ${message}</p>
-          <p>This message was sent from <a href="https://azal.im/contact">azal.im/contact</a>.</p>
+          <p>This message was sent from <a href="${BASE_URL + routes.contact}">your contact page</a>.</p>
         `,
       replyTo: email,
     });

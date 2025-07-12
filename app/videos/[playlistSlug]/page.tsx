@@ -3,12 +3,12 @@ import PageHeaderDescription from "@/app/_components/header/PageHeaderDescriptio
 import PageHeaderTag from "@/app/_components/header/PageHeaderTag";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import PageWrapper from "@/app/_components/header/PageWrapper";
-import { routes } from "@/lib/constants";
+import { BASE_URL, routes } from "@/lib/constants";
+import { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
 import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
-import { Metadata } from "next";
 
 export const dynamicParams = false;
 export const revalidate = 60;
@@ -26,7 +26,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { playlistSlug } = await params;
   const playlist = PLAYLISTS.find((p) => p.slug === playlistSlug);
-  
+
   if (!playlist) {
     return {
       title: "Videos",
@@ -39,7 +39,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${playlist.title} Videos - Luca Azalim`,
       description: `A curated list of ${playlist.title.toLowerCase()} YouTube videos I've learned from or enjoyed. I hope you find them useful too.`,
-      url: `https://azal.im/videos/${playlistSlug}`,
+      url: BASE_URL + routes.videos(playlistSlug),
       type: "website",
     },
     twitter: {
