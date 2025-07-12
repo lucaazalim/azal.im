@@ -2,9 +2,7 @@ import { getPosts } from "@/lib/blog/posts";
 import { BASE_URL, routes } from "@/lib/constants";
 import { PLAYLISTS } from "@/lib/videos/videos";
 import { MetadataRoute } from "next";
-
-// Import the cv array from the CV page
-import { cv } from "./cv/[lang]/page";
+import { resumes } from "../lib/resume/resume";
 
 const STATIC_ROUTES = [
   // Home
@@ -18,7 +16,9 @@ const STATIC_ROUTES = [
   // Academics
   routes.academics,
   // CV
-  ...cv.map((cv) => routes.cv + `/${cv.id}`),
+  ...Object.keys(resumes).map((lang) =>
+    routes.resume(lang as keyof typeof resumes),
+  ),
   // Videos
   ...PLAYLISTS.map((playlist) => routes.videos(playlist.slug)),
   // Projects
@@ -33,7 +33,7 @@ const STATIC_ROUTES_SITEMAP: MetadataRoute.Sitemap = STATIC_ROUTES.map(
   (route) => ({
     url: BASE_URL + route,
     lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
+    changeFrequency: "monthly" as const,
     priority: route === routes.home ? 1 : 0.8,
   }),
 );

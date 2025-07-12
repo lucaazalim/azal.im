@@ -67,7 +67,7 @@ public
 | `app/api/og`         | Open Graph image generation API for the blog.           |
 | `app/blog`           | Blog components, pages and layout.                      |
 | `app/contact`        | Contact page components and layout.                     |
-| `app/cv`             | CV page components and layout.                          |
+| `app/resume`         | Resume page components and layout.                      |
 | `app/academics`      | Academics page components and layout.                   |
 | `app/movies`         | Movies page components and layout.                      |
 | `app/projects`       | Projects page components and layout.                    |

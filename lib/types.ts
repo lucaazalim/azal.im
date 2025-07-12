@@ -1,6 +1,7 @@
 import { z } from "zod";
 
-export type Language = "en" | "pt";
+export const languageSchema = z.enum(["en", "pt"]);
+export type Language = z.infer<typeof languageSchema>;
 
 export const paginatedRequestSchema = z.object({
   cursor: z.coerce.number().int().min(0).default(0),

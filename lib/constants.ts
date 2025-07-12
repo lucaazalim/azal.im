@@ -1,4 +1,5 @@
 import { MoviesRequest } from "./movies/types";
+import { Language } from "./types";
 import { objectToSearchParams } from "./utils";
 
 // Centralized environment variables. Add new ones here as needed.
@@ -11,16 +12,17 @@ export const GOOGLE_CLOUD_API_KEY = process.env.GOOGLE_CLOUD_API_KEY;
 
 export const routes = {
   home: "/",
-  blog: (slug?: string) => slug ? `/blog/${slug}` : "/blog",
+  blog: (slug?: string) => (slug ? `/blog/${slug}` : "/blog"),
   videos: (playlistSlug?: string) => `/videos/${playlistSlug ?? ""}`,
   movies: "/movies",
   academics: "/academics",
-  cv: "/cv",
+  resume: (lang?: Language) => (lang ? `/resume/${lang}` : "/resume"),
   projects: {
     "90ti-docs": "/projects/90ti-docs",
   },
   contact: "/contact",
   api: {
+    root: "/api",
     og: (title: string, description?: string) => {
       return `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`;
     },
@@ -29,4 +31,5 @@ export const routes = {
     },
     contact: "/api/contact",
   },
+  sitemap: "/sitemap.xml",
 };

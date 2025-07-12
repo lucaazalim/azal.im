@@ -1,5 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/cv/:lang*",
+        destination: "/resume/:lang*",
+        permanent: true,
+      },
+      {
+        source: "/major",
+        destination: "/academics",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {

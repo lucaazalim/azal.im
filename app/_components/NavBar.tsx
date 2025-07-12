@@ -20,8 +20,8 @@ const menu = [
     href: routes.home,
   },
   {
-    name: "CV",
-    href: routes.cv,
+    name: "Resume",
+    href: routes.resume(),
   },
   {
     name: "Blog",
