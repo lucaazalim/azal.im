@@ -12,9 +12,10 @@ export default function Aside() {
         <div className="max-vh-height-md:size-42 relative size-52">
           <LoadingImage
             src="/avatar.png"
-            alt=""
-            fill={true}
+            alt="Luca Azalim Avatar"
             className="rounded-full outline-1 outline-offset-4 drop-shadow-lg drop-shadow-black"
+            fill
+            priority
           />
         </div>
         <div>
