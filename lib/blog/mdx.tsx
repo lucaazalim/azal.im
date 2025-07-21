@@ -1,4 +1,5 @@
 import LoadingImage from "@/app/_components/LoadingImage";
+import * as tableComponents from "@/app/_components/ui/table";
 import { evaluate } from "next-mdx-remote-client/rsc";
 import Link from "next/link";
 import { ReactElement, ReactNode } from "react";
@@ -6,34 +7,6 @@ import rehypePrettyCode from "rehype-pretty-code";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 import { createHeading, extractHeadings, PostHeading } from "./headings";
 import { PostMetadata, postMetadataSchema } from "./posts";
-
-type TableData = {
-  headers: string[];
-  rows: string[][];
-};
-
-function Table(data: TableData) {
-  const headers = data.headers.map((header, index) => (
-    <th key={index}>{header}</th>
-  ));
-
-  const rows = data.rows.map((row, index) => (
-    <tr key={index}>
-      {row.map((cell, cellIndex) => (
-        <td key={cellIndex}>{cell}</td>
-      ))}
-    </tr>
-  ));
-
-  return (
-    <table>
-      <thead>
-        <tr>{headers}</tr>
-      </thead>
-      <tbody>{rows}</tbody>
-    </table>
-  );
-}
 
 type CustomLinkProps = {
   href: string;
@@ -99,7 +72,7 @@ const components = {
   h6: createHeading(7),
   img: CustomImage,
   a: CustomLink,
-  table: Table,
+  ...tableComponents,
 };
 
 export default async function parseMDX(source: string): Promise<{

@@ -13,64 +13,54 @@ In this comprehensive guide, we'll explore every method of redirecting users in 
 
 Next.js offers five main approaches to handle redirects:
 
-<table>
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Use Case</th>
-      <th>Context</th>
-      <th>Status Code</th>
-      <th>SEO Impact</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code>redirect()</code>
-      </td>
-      <td>Conditional redirects, authentication checks, data validation</td>
-      <td>Server Components, Route Handlers, Server Actions</td>
-      <td>307 (Temporary) or 303 (Server Actions)</td>
-      <td>Temporary redirect</td>
-    </tr>
-    <tr>
-      <td>
-        <code>permanentRedirect()</code>
-      </td>
-      <td>Permanent URL changes</td>
-      <td>Server Components, Route Handlers, Server Actions</td>
-      <td>308 (Permanent)</td>
-      <td>Permanent redirect</td>
-    </tr>
-    <tr>
-      <td>
-        <code>NextResponse.redirect()</code>
-      </td>
-      <td>Conditional redirects with custom status</td>
-      <td>Route Handlers, Middleware</td>
-      <td>Custom (301, 302, 307, 308)</td>
-      <td>Flexible</td>
-    </tr>
-    <tr>
-      <td>
-        <code>next.config.js</code> redirects
-      </td>
-      <td>Static URL redirects</td>
-      <td>Build time</td>
-      <td>307/308 (configurable)</td>
-      <td>SEO-friendly</td>
-    </tr>
-    <tr>
-      <td>
-        <code>useRouter().push()</code>
-      </td>
-      <td>Client-side navigation</td>
-      <td>Client Components</td>
-      <td>N/A</td>
-      <td>No SEO impact</td>
-    </tr>
-  </tbody>
-</table>
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead>Method</TableHead>
+          <TableHead>Use Case</TableHead>
+          <TableHead>Context</TableHead>
+          <TableHead>Status Code</TableHead>
+          <TableHead>SEO Impact</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        <TableRow>
+          <TableCell><code>redirect()</code></TableCell>
+          <TableCell>Conditional redirects, authentication checks, data validation</TableCell>
+          <TableCell>Server Components, Route Handlers, Server Actions</TableCell>
+          <TableCell>307 (Temporary) or 303 (Server Actions)</TableCell>
+          <TableCell>Temporary redirect</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><code>permanentRedirect()</code></TableCell>
+          <TableCell>Permanent URL changes</TableCell>
+          <TableCell>Server Components, Route Handlers, Server Actions</TableCell>
+          <TableCell>308 (Permanent)</TableCell>
+          <TableCell>Permanent redirect</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><code>NextResponse.redirect()</code></TableCell>
+          <TableCell>Conditional redirects with custom status</TableCell>
+          <TableCell>Route Handlers, Middleware</TableCell>
+          <TableCell>Custom (301, 302, 307, 308)</TableCell>
+          <TableCell>Flexible</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><code>next.config.js</code> redirects</TableCell>
+          <TableCell>Static URL redirects</TableCell>
+          <TableCell>Build time</TableCell>
+          <TableCell>307/308 (configurable)</TableCell>
+          <TableCell>SEO-friendly</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><code>useRouter().push()</code></TableCell>
+          <TableCell>Client-side navigation</TableCell>
+          <TableCell>Client Components</TableCell>
+          <TableCell>N/A</TableCell>
+          <TableCell>No SEO impact</TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
 
 # 1. Server Component with redirect()
 
