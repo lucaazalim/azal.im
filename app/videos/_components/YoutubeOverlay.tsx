@@ -18,7 +18,7 @@ export default function YoutubeOverlay({
 }: YoutubeOverlayProps) {
   return (
     <Dialog open={!!video} onOpenChange={onClose}>
-      <DialogContent className="max-[2100px]:min-w-[80vw] min-[2101px]:min-w-[50vw]">
+      <DialogContent className="lg:max-w-[80vw] 2xl:max-w-[60vw]">
         <DialogHeader>
           <DialogTitle className="hidden">{video?.snippet.title}</DialogTitle>
         </DialogHeader>
