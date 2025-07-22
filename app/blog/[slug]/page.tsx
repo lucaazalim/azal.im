@@ -6,9 +6,9 @@ import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/lib/blog/posts";
 import { BASE_URL, routes } from "@/lib/constants";
 import { Metadata } from "next";
-import NotFound from "next/dist/client/components/not-found-error";
-import ProgressBar from "../_components/ProgressBar";
+import { notFound } from "next/navigation";
 import Script from "next/script";
+import ProgressBar from "../_components/ProgressBar";
 
 type Props = {
   params: Promise<{
@@ -65,7 +65,7 @@ export default async function Page({ params }: Props) {
   const post = await getPostBySlug(slug);
 
   if (!post) {
-    return <NotFound />;
+    return notFound();
   }
 
   const url = BASE_URL + routes.blog(post.slug);
@@ -74,26 +74,26 @@ export default async function Page({ params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": post.metadata.title,
-    "description": post.metadata.description,
-    "image": post.metadata.cover,
-    "author": {
+    headline: post.metadata.title,
+    description: post.metadata.description,
+    image: post.metadata.cover,
+    author: {
       "@type": "Person",
-      "name": "Luca Azalim",
-      "url": BASE_URL
+      name: "Luca Azalim",
+      url: BASE_URL,
     },
-    "publisher": {
+    publisher: {
       "@type": "Person",
-      "name": "Luca Azalim",
-      "url": BASE_URL
+      name: "Luca Azalim",
+      url: BASE_URL,
     },
-    "datePublished": publishedDate,
-    "dateModified": publishedDate,
-    "mainEntityOfPage": {
+    datePublished: publishedDate,
+    dateModified: publishedDate,
+    mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": url
+      "@id": url,
     },
-    "url": url
+    url: url,
   };
 
   return (
