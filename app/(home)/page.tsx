@@ -3,7 +3,6 @@ import Aside from "@/app/(home)/_components/sections/Aside";
 import Awards from "@/app/(home)/_components/sections/Awards";
 import Education from "@/app/(home)/_components/sections/Education";
 import Experiences from "@/app/(home)/_components/sections/Experiences";
-import Projects from "@/app/(home)/_components/sections/Projects";
 import { BASE_URL } from "@/lib/constants";
 import { Metadata } from "next";
 import { Person, WithContext } from "schema-dts";
@@ -60,7 +59,6 @@ export default function Home() {
           <Experiences />
           <Education />
           <Awards />
-          <Projects />
         </div>
       </div>
     </>

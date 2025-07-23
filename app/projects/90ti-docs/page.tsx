@@ -2,10 +2,10 @@ import PageHeaderDescription from "@/app/_components/header/PageHeaderDescriptio
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import { BASE_URL, routes } from "@/lib/constants";
 import { Metadata } from "next";
-import ProjectDesktopImage from "../_components/ProjectDesktopImage";
+import MacOSImageFrame from "../../_components/MacOSImageFrame";
+import ProjectMobileImage from "../../_components/PhoneImageFrame";
 import ProjectImageCarousel from "../_components/ProjectImageCarousel";
 import ProjectMain from "../_components/ProjectMain";
-import ProjectMobileImage from "../_components/ProjectMobileImage";
 import ProjectPageHeader from "../_components/ProjectPageHeader";
 import ProjectPageWrapper from "../_components/ProjectPageWrapper";
 import ProjectSection from "../_components/ProjectSection";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "90TI Docs - Luca Azalim",
     description:
       "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
-    url: BASE_URL + routes.projects["90ti-docs"],
+    url: BASE_URL + routes.projects("90ti-docs"),
     type: "website",
   },
   twitter: {
@@ -71,9 +71,11 @@ export default function Page() {
             </div>
           </div>
         </ProjectSection>
-        <ProjectDesktopImage
+        <MacOSImageFrame
           src="/projects/90ti-docs/1.png"
           alt="Home screen of 90TI Docs"
+          width={1280}
+          height={720}
         />
         <ProjectSection>
           <h2>My role</h2>
@@ -137,13 +139,17 @@ export default function Page() {
             </li>
           </ul>
         </ProjectSection>
-        <ProjectDesktopImage
+        <MacOSImageFrame
           src="/projects/90ti-docs/2.png"
           alt="Sample article published in 90TI Docs"
+          width={1280}
+          height={720}
         />
-        <ProjectDesktopImage
+        <MacOSImageFrame
           src="/projects/90ti-docs/4.png"
           alt="Light mode for those who prefer it"
+          width={1280}
+          height={720}
         />
         <ProjectSection>
           <h2>Git as CMS</h2>
@@ -177,9 +183,11 @@ export default function Page() {
             components to display brand colors and all brand and product logos.
           </p>
         </ProjectSection>
-        <ProjectDesktopImage
+        <MacOSImageFrame
           src="/projects/90ti-docs/3.png"
           alt="Brand guidelines article in 90TI Docs"
+          width={1280}
+          height={720}
         />
         <ProjectSection>
           <h2>Search engine</h2>
@@ -195,9 +203,11 @@ export default function Page() {
             enhance search capabilities and performance.
           </p>
         </ProjectSection>
-        <ProjectDesktopImage
+        <MacOSImageFrame
           src="/projects/90ti-docs/5.png"
           alt="Brand guidelines article in 90TI Docs"
+          width={1280}
+          height={720}
         />
         <ProjectSection>
           <h2>SSG and CI/CD</h2>

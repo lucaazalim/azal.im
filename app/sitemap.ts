@@ -1,5 +1,5 @@
 import { getPosts } from "@/lib/blog/posts";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ProjectSlug, routes } from "@/lib/constants";
 import { PLAYLISTS } from "@/lib/videos/videos";
 import { MetadataRoute } from "next";
 import { resumes } from "../lib/resume/resume";
@@ -22,8 +22,9 @@ const STATIC_ROUTES = [
   // Videos
   ...PLAYLISTS.map((playlist) => routes.videos(playlist.slug)),
   // Projects
-  ...Object.keys(routes.projects).map(
-    (key) => routes.projects[key as keyof typeof routes.projects],
+  routes.projects(),
+  ...Object.keys(routes.projects).map((key) =>
+    routes.projects(key as ProjectSlug),
   ),
   // Contact
   routes.contact,

@@ -8,7 +8,6 @@ export default function NavigationMenu() {
         <NavigationItem href="#experience" title="Experience" />
         <NavigationItem href="#education" title="Education" />
         <NavigationItem href="#awards" title="Awards" />
-        <NavigationItem href="#projects" title="Projects" />
       </ul>
     </nav>
   );

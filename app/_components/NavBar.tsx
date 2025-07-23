@@ -28,6 +28,10 @@ const menu = [
     href: routes.blog(),
   },
   {
+    name: "Projects",
+    href: routes.projects(),
+  },
+  {
     name: "Videos",
     href: routes.videos(),
   },
