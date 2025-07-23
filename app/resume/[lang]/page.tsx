@@ -26,11 +26,17 @@ export const metadata: Metadata = {
   },
 };
 
+export async function generateStaticParams() {
+  return Object.keys(resumes).map((lang) => ({
+    lang,
+  }));
+}
+
 type Props = {
   params: Promise<{ lang: string }>;
 };
 
-export default async function resume({ params }: Props) {
+export default async function Page({ params }: Props) {
   let { lang: rawLang } = await params;
   const parsedLang = languageSchema.safeParse(rawLang);
 
