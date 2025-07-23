@@ -181,26 +181,66 @@
   }
 }
 
-.link {
-  @apply text-foreground hover:text-primary transition-colors;
-}
+/* Scrollbar styles */
 
-/* width */
 ::-webkit-scrollbar {
   @apply w-[7px];
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   @apply bg-transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   @apply bg-muted-foreground/80 transition-all;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-muted-foreground;
+}
+
+/* Link utility class */
+
+.link {
+  @apply text-foreground hover:text-primary transition-colors;
+}
+
+/* Animated grid background */
+
+.background-grid {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.background-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, rgba(221, 221, 221, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(221, 221, 221, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation:
+    moveGrid 20s ease-in-out infinite alternate,
+    fadeGrid 4s ease-in-out infinite alternate;
+}
+
+@keyframes moveGrid {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 500px;
+  }
+}
+
+@keyframes fadeGrid {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.3;
+  }
 }

@@ -14,6 +14,7 @@ import PageWrapper from "../_components/header/PageWrapper";
 import MacOSImageFrame from "../_components/MacOSImageFrame";
 import { Badge } from "../_components/ui/badge";
 import { buttonVariants } from "../_components/ui/button";
+import styles from "./projects.module.css"
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -84,9 +85,9 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <PageWrapper className="mx-auto max-w-7xl">
-        <PageHeader className="border-x-1">
+        <PageHeader className="background-grid border-x-1">
           <PageHeaderTag>Projects</PageHeaderTag>
-          <PageHeaderTitle>What I Built</PageHeaderTitle>
+          <PageHeaderTitle>Stuff I Built</PageHeaderTitle>
           <PageHeaderDescription>
             A collection of projects I've worked on, from personal experiments
             to professional applications and open-source contributions.
