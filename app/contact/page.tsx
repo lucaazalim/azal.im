@@ -1,4 +1,4 @@
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Mail, MapPin } from "lucide-react";
 import { Metadata } from "next";
 import PageHeader from "../_components/header/PageHeader";
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Contact - Luca Azalim",
     description:
       "Get in touch with me for collaborations, project discussions, or just to say hi. I'm open to new opportunities and interesting conversations.",
-    url: BASE_URL + routes.contact,
+    url: BASE_URL + ROUTES.contact,
     type: "website",
   },
   twitter: {

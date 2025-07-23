@@ -1,7 +1,7 @@
 import Item from "@/app/(home)/_components/Item";
 import SectionTitle from "@/app/(home)/_components/SectionTitle";
 import { Button } from "@/app/_components/ui/button";
-import { routes } from "@/lib/constants";
+import { ROUTES } from "@/lib/constants";
 import Link from "next/link";
 
 export default function Education() {
@@ -14,7 +14,7 @@ export default function Education() {
         title="Bachelor's Degree in Software Engineering"
         subtitle="Pontifical Catholic University of Minas Gerais"
       >
-        <Link href={routes.academics}>
+        <Link href={ROUTES.academics}>
           <Button variant="outline">Check all my grades</Button>
         </Link>
       </Item>

@@ -3,23 +3,26 @@ import PageHeaderDescription from "@/app/_components/header/PageHeaderDescriptio
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import PostCard from "@/app/blog/_components/PostCard";
 import { getPosts } from "@/lib/blog/posts";
+import { BASE_URL, ROUTES } from "@/lib/constants";
+import { Metadata } from "next";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
 import PageWrapper from "../_components/header/PageWrapper";
-import { Metadata } from "next";
-import { BASE_URL, routes } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+  description:
+    "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
   openGraph: {
     title: "Blog - Luca Azalim",
-    description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
-    url: BASE_URL + routes.blog(),
+    description:
+      "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+    url: BASE_URL + ROUTES.blog(),
     type: "website",
   },
   twitter: {
     title: "Blog - Luca Azalim",
-    description: "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
+    description:
+      "Thoughts on programming, software architecture, and whatever else I find interesting. Explore my technical articles and insights.",
   },
 };
 

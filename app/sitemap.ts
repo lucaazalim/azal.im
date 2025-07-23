@@ -1,33 +1,31 @@
 import { getPosts } from "@/lib/blog/posts";
-import { BASE_URL, ProjectSlug, routes } from "@/lib/constants";
+import { BASE_URL, PROJECT_PAGE_SLUGS, ROUTES } from "@/lib/constants";
 import { PLAYLISTS } from "@/lib/videos/videos";
 import { MetadataRoute } from "next";
 import { resumes } from "../lib/resume/resume";
 
 const STATIC_ROUTES = [
   // Home
-  routes.home,
+  ROUTES.home,
   // Blog
-  routes.blog(),
+  ROUTES.blog(),
   // Blog posts
-  ...(await getPosts()).map((post) => routes.blog(post.slug)),
+  ...(await getPosts()).map((post) => ROUTES.blog(post.slug)),
   // Movies
-  routes.movies,
+  ROUTES.movies,
   // Academics
-  routes.academics,
+  ROUTES.academics,
   // CV
   ...Object.keys(resumes).map((lang) =>
-    routes.resume(lang as keyof typeof resumes),
+    ROUTES.resume(lang as keyof typeof resumes),
   ),
   // Videos
-  ...PLAYLISTS.map((playlist) => routes.videos(playlist.slug)),
+  ...PLAYLISTS.map((playlist) => ROUTES.videos(playlist.slug)),
   // Projects
-  routes.projects(),
-  ...Object.keys(routes.projects).map((key) =>
-    routes.projects(key as ProjectSlug),
-  ),
+  ROUTES.projects(),
+  ...PROJECT_PAGE_SLUGS.map((route) => ROUTES.projects(route)),
   // Contact
-  routes.contact,
+  ROUTES.contact,
 ];
 
 const STATIC_ROUTES_SITEMAP: MetadataRoute.Sitemap = STATIC_ROUTES.map(
@@ -35,7 +33,7 @@ const STATIC_ROUTES_SITEMAP: MetadataRoute.Sitemap = STATIC_ROUTES.map(
     url: BASE_URL + route,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
-    priority: route === routes.home ? 1 : 0.8,
+    priority: route === ROUTES.home ? 1 : 0.8,
   }),
 );
 

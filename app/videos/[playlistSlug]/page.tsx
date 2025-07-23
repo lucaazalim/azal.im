@@ -3,7 +3,7 @@ import PageHeaderDescription from "@/app/_components/header/PageHeaderDescriptio
 import PageHeaderTag from "@/app/_components/header/PageHeaderTag";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
 import PageWrapper from "@/app/_components/header/PageWrapper";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { getVideos, PLAYLISTS } from "../../../lib/videos/videos";
@@ -39,7 +39,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${playlist.title} Videos - Luca Azalim`,
       description: `A curated list of ${playlist.title.toLowerCase()} YouTube videos I've learned from or enjoyed. I hope you find them useful too.`,
-      url: BASE_URL + routes.videos(playlistSlug),
+      url: BASE_URL + ROUTES.videos(playlistSlug),
       type: "website",
     },
     twitter: {
@@ -58,7 +58,7 @@ export default async function Page({
   const videos = await getVideos(playlistSlug);
 
   if (!videos) {
-    return redirect(routes.videos());
+    return redirect(ROUTES.videos());
   }
 
   return (

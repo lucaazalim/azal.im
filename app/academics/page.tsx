@@ -1,5 +1,5 @@
 import { getCourses, SEMESTERS } from "@/lib/academics/academics";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import PageHeader from "../_components/header/PageHeader";
 import PageHeaderDescription from "../_components/header/PageHeaderDescription";
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Academics - Luca Azalim",
     description:
       "A detailed list of all courses and grades from my Software Engineering degree at PUC Minas. Track my academic progress and achievements.",
-    url: BASE_URL + routes.academics,
+    url: BASE_URL + ROUTES.academics,
     type: "website",
   },
   twitter: {

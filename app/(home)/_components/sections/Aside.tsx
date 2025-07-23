@@ -1,6 +1,6 @@
 import NavigationMenu from "@/app/(home)/_components/navigation/NavigationMenu";
 import LoadingImage from "@/app/_components/LoadingImage";
-import { routes } from "@/lib/constants";
+import { ROUTES } from "@/lib/constants";
 import Link from "next/link";
 import OpenToWork from "../../../_components/socials/OpenToWork";
 import Socials from "../../../_components/socials/Socials";
@@ -31,7 +31,7 @@ export default function Aside() {
         </div>
       </div>
       <div className="flex max-w-xs flex-col gap-2">
-        <Link href={routes.contact}>
+        <Link href={ROUTES.contact}>
           <OpenToWork />
         </Link>
         <Socials />

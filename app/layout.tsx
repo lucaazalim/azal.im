@@ -2,6 +2,7 @@ import ImageView from "@/app/(home)/_components/image-view/ImageView";
 import { ImageViewContextProvider } from "@/app/(home)/_components/image-view/ImageViewContext";
 import TailwindBreakpoint from "@/app/_components/TailwindBreakpoint";
 import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
@@ -9,7 +10,6 @@ import Script from "next/script";
 import { ReactNode } from "react";
 import NavBar from "./_components/NavBar";
 import "./globals.css";
-import { BASE_URL, routes } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,10 +34,18 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Luca Azalim - Software Engineer",
-    template: "%s | Luca Azalim"
+    template: "%s | Luca Azalim",
   },
-  description: "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
-  keywords: ["software engineer", "full-stack developer", "react", "next.js", "typescript", "web development"],
+  description:
+    "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
+  keywords: [
+    "software engineer",
+    "full-stack developer",
+    "react",
+    "next.js",
+    "typescript",
+    "web development",
+  ],
   authors: [{ name: "Luca Azalim" }],
   creator: "Luca Azalim",
   publisher: "Luca Azalim",
@@ -48,7 +56,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(BASE_URL),
   alternates: {
-    canonical: routes.home,
+    canonical: ROUTES.home,
   },
   robots: {
     index: true,
@@ -67,10 +75,11 @@ export const metadata: Metadata = {
     url: BASE_URL,
     siteName: "Luca Azalim",
     title: "Luca Azalim - Software Engineer",
-    description: "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
+    description:
+      "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
     images: [
       {
-        url: routes.api.og("Luca Azalim", "Software Engineer"),
+        url: ROUTES.api.og("Luca Azalim", "Software Engineer"),
         width: 1200,
         height: 630,
         alt: "Luca Azalim - Software Engineer",
@@ -80,8 +89,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Luca Azalim - Software Engineer",
-    description: "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
-    images: [routes.api.og("Luca Azalim", "Software Engineer")],
+    description:
+      "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
+    images: [ROUTES.api.og("Luca Azalim", "Software Engineer")],
     creator: "@lucaazalim",
   },
   verification: {
@@ -92,23 +102,24 @@ export const metadata: Metadata = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Luca Azalim",
-  "description": "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
-  "url": BASE_URL,
-  "author": {
+  name: "Luca Azalim",
+  description:
+    "Software Engineer passionate about building scalable applications and sharing knowledge through writing and open source contributions.",
+  url: BASE_URL,
+  author: {
     "@type": "Person",
-    "name": "Luca Azalim",
-    "jobTitle": "Software Engineer",
-    "url": BASE_URL
+    name: "Luca Azalim",
+    jobTitle: "Software Engineer",
+    url: BASE_URL,
   },
-  "potentialAction": {
+  potentialAction: {
     "@type": "SearchAction",
-    "target": {
+    target: {
       "@type": "EntryPoint",
-      "urlTemplate": `${BASE_URL}/search?q={search_term_string}`
+      urlTemplate: `${BASE_URL}/search?q={search_term_string}`,
     },
-    "query-input": "required name=search_term_string"
-  }
+    "query-input": "required name=search_term_string",
+  },
 };
 
 export default function RootLayout({

@@ -3,7 +3,7 @@ import {
   CONTACT_EMAIL,
   GMAIL_APP_PASSWORD,
   GMAIL_USER,
-  routes,
+  ROUTES,
 } from "@/lib/constants";
 import { contactSchema } from "@/lib/contact/types";
 import { NextRequest, NextResponse } from "next/server";
@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
           <p><strong>From:</strong> ${name} (${email})</p>
           <p><strong>Subject:</strong> ${subject}</p>
           <p><strong>Message:</strong> ${message}</p>
-          <p>This message was sent from <a href="${BASE_URL + routes.contact}">your contact page</a>.</p>
+          <p>This message was sent from <a href="${BASE_URL + ROUTES.contact}">your contact page</a>.</p>
         `,
       replyTo: email,
     });

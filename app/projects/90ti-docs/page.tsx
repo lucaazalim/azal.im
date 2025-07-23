@@ -1,6 +1,6 @@
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import MacOSImageFrame from "../../_components/MacOSImageFrame";
 import ProjectMobileImage from "../../_components/PhoneImageFrame";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "90TI Docs - Luca Azalim",
     description:
       "A comprehensive knowledge base and documentation platform for 90TI. Built with Next.js, featuring Git as CMS, custom MDX components, and PWA capabilities.",
-    url: BASE_URL + routes.projects("90ti-docs"),
+    url: BASE_URL + ROUTES.projects("90ti-docs"),
     type: "website",
   },
   twitter: {

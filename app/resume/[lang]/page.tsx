@@ -1,4 +1,4 @@
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Language, languageSchema } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { Metadata } from "next";
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Resume - Luca Azalim",
     description:
       "Download my resume in English or Portuguese. Software Engineer with experience in full-stack development and modern web technologies.",
-    url: BASE_URL + routes.resume(),
+    url: BASE_URL + ROUTES.resume(),
     type: "website",
   },
   twitter: {
@@ -51,7 +51,7 @@ export default async function Page({ params }: Props) {
     <PageWrapper className="mx-auto flex max-w-xl flex-col items-center space-y-10 pt-10">
       <div className="grid w-full grid-cols-2">
         {Object.entries(resumes).map(([lang, resume]) => (
-          <Link key={lang} href={routes.resume(lang as Language)}>
+          <Link key={lang} href={ROUTES.resume(lang as Language)}>
             <Button
               variant="outline"
               size="lg"

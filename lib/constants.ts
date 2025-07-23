@@ -9,9 +9,11 @@ export const CONTACT_EMAIL = process.env.CONTACT_EMAIL;
 export const TMDB_API_KEY = process.env.TMDB_API_KEY;
 export const GOOGLE_CLOUD_API_KEY = process.env.GOOGLE_CLOUD_API_KEY;
 
-export type ProjectSlug = "90ti-docs";
+export const PROJECT_PAGE_SLUGS = ["90ti-docs"]; // Projects with special pages
 
-export const routes = {
+export type ProjectSlug = (typeof PROJECT_PAGE_SLUGS)[number];
+
+export const ROUTES = {
   home: "/",
   blog: (slug?: string) => (slug ? `/blog/${slug}` : "/blog"),
   videos: (playlistSlug?: string) => `/videos/${playlistSlug ?? ""}`,

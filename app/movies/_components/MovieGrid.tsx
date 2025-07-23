@@ -1,5 +1,5 @@
 import LoadingSpinner from "@/app/_components/LoadingSpinner";
-import { routes } from "@/lib/constants";
+import { ROUTES } from "@/lib/constants";
 import { MovieFilters, MovieWithMetadata } from "@/lib/movies/types";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
@@ -53,7 +53,7 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
     queryKey: ["movies", debouncedFilters],
     queryFn: async ({ pageParam = 0 }) => {
       const response = await fetch(
-        routes.api.movies({
+        ROUTES.api.movies({
           cursor: pageParam,
           limit: 16,
           ...debouncedFilters,

@@ -1,5 +1,5 @@
 import { projects } from "@/data/projects/projects";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { SiGithub } from "@icons-pack/react-simple-icons";
 import { Sparkles, SquareArrowOutUpRight } from "lucide-react";
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Projects - Luca Azalim",
     description:
       "A collection of projects I've worked on, from personal experiments to professional applications and open-source contributions.",
-    url: BASE_URL + routes.projects(),
+    url: BASE_URL + ROUTES.projects(),
     type: "website",
   },
   twitter: {
@@ -49,7 +49,7 @@ export default function Page() {
     name: "Projects - Luca Azalim",
     description:
       "A collection of projects I've worked on, from personal experiments to professional applications and open-source contributions.",
-    url: BASE_URL + routes.projects(),
+    url: BASE_URL + ROUTES.projects(),
     mainEntity: {
       "@type": "ItemList",
       itemListElement: projects.map((project, index) => ({

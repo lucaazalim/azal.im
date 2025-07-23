@@ -4,7 +4,7 @@ import LoadingImage from "@/app/_components/LoadingImage";
 import * as motion from "@/app/_components/Motion";
 import InThisPost from "@/app/blog/_components/InThisPost";
 import { getPostBySlug, getPosts } from "@/lib/blog/posts";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Script from "next/script";
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
-  const url = BASE_URL + routes.blog(post.slug);
+  const url = BASE_URL + ROUTES.blog(post.slug);
 
   return {
     title: post.metadata.title,
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metadata.description,
       images: [
         {
-          url: routes.api.og(post.metadata.title, post.metadata.description),
+          url: ROUTES.api.og(post.metadata.title, post.metadata.description),
           width: 1200,
           height: 630,
           alt: post.metadata.title,
@@ -68,7 +68,7 @@ export default async function Page({ params }: Props) {
     return notFound();
   }
 
-  const url = BASE_URL + routes.blog(post.slug);
+  const url = BASE_URL + ROUTES.blog(post.slug);
   const publishedDate = post.metadata.date || new Date().toISOString();
 
   const jsonLd = {
@@ -106,7 +106,7 @@ export default async function Page({ params }: Props) {
       <ProgressBar />
       <article className="space-y-10">
         <div className="flex flex-col items-center justify-center gap-5 text-center">
-          <BackButton label="Posts" href={routes.blog()} />
+          <BackButton label="Posts" href={ROUTES.blog()} />
           <h1 className="text-foreground font-serif text-4xl font-bold">
             {post.metadata.title}
           </h1>

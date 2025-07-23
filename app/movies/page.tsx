@@ -1,7 +1,7 @@
 import PageHeader from "@/app/_components/header/PageHeader";
 import PageHeaderDescription from "@/app/_components/header/PageHeaderDescription";
 import PageHeaderTitle from "@/app/_components/header/PageHeaderTitle";
-import { BASE_URL, routes } from "@/lib/constants";
+import { BASE_URL, ROUTES } from "@/lib/constants";
 import { genres } from "@/lib/movies/movies";
 import { Metadata } from "next";
 import PageHeaderTag from "../_components/header/PageHeaderTag";
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Movies - Luca Azalim",
     description:
       "Since 2018, I've been keeping track of the movies and series I've watched, rating each one from 1 to 5 stars. Discover my movie recommendations.",
-    url: BASE_URL + routes.movies,
+    url: BASE_URL + ROUTES.movies,
     type: "website",
   },
   twitter: {

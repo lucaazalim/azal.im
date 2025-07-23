@@ -1,6 +1,6 @@
 "use client";
 
-import { routes } from "@/lib/constants";
+import { ROUTES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import Link from "next/link";
@@ -17,41 +17,41 @@ import {
 const menu = [
   {
     name: "Home",
-    href: routes.home,
+    href: ROUTES.home,
   },
   {
     name: "Resume",
-    href: routes.resume(),
+    href: ROUTES.resume(),
   },
   {
     name: "Blog",
-    href: routes.blog(),
+    href: ROUTES.blog(),
   },
   {
     name: "Projects",
-    href: routes.projects(),
+    href: ROUTES.projects(),
   },
   {
     name: "Videos",
-    href: routes.videos(),
+    href: ROUTES.videos(),
   },
   {
     name: "Movies",
-    href: routes.movies,
+    href: ROUTES.movies,
   },
   {
     name: "Academics",
-    href: routes.academics,
+    href: ROUTES.academics,
   },
   {
     name: "Contact",
-    href: routes.contact,
+    href: ROUTES.contact,
   },
 ];
 
 function matches(pathname: string, href: string): boolean {
-  return href === routes.home
-    ? pathname === routes.home
+  return href === ROUTES.home
+    ? pathname === ROUTES.home
     : pathname.startsWith(href);
 }
 
