@@ -34,6 +34,11 @@ export type Playlist = {
   id: string;
 };
 
+type YouTubeResponse = {
+  nextPageToken?: string;
+  items: Video[];
+};
+
 export type Video = {
   snippet: {
     title: string;
@@ -54,22 +59,49 @@ export type Video = {
   };
 };
 
-export async function getVideos(slug: string): Promise<Video[] | undefined> {
+export async function getVideos(
+  slug: string,
+  nextPageToken?: string,
+): Promise<Video[] | undefined> {
   const playlist = PLAYLISTS.find((playlist) => playlist.slug === slug);
 
   if (!playlist) {
     return undefined;
   }
 
-  const result = await fetch(
-    `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlist.id}&maxResults=50&key=${GOOGLE_CLOUD_API_KEY}`,
-  );
+  const url = new URL(`https://www.googleapis.com/youtube/v3/playlistItems`);
+
+  url.searchParams.append("part", "snippet");
+  url.searchParams.append("playlistId", playlist.id);
+  url.searchParams.append("maxResults", "50");
+
+  if (nextPageToken) {
+    url.searchParams.append("pageToken", nextPageToken);
+  }
+
+  if (!GOOGLE_CLOUD_API_KEY) {
+    throw new Error("GOOGLE_CLOUD_API_KEY is not defined");
+  }
+
+  url.searchParams.append("key", GOOGLE_CLOUD_API_KEY);
+
+  const result = await fetch(url.toString());
 
   if (!result.ok) {
     throw new Error("Failed to fetch data");
   }
 
-  const data: { items: Video[] } = await result.json();
+  const data: YouTubeResponse = await result.json();
+  const videos = data.items;
+
+  // Recursively fetch next pages if available
+  // This is to ensure we get all videos in the playlist
+  if (data.nextPageToken) {
+    const nextVideos = await getVideos(slug, data.nextPageToken);
+    if (nextVideos) {
+      videos.push(...nextVideos);
+    }
+  }
 
   data.items = data.items.sort((a, b) => {
     return (

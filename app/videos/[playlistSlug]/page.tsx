@@ -11,7 +11,7 @@ import PlaylistSelector from "../_components/PlaylistSelector";
 import VideoGrid from "../_components/VideoGrid";
 
 export const dynamicParams = false;
-export const revalidate = 60;
+export const revalidate = 300;
 
 export async function generateStaticParams() {
   return PLAYLISTS.map((playlist) => ({
