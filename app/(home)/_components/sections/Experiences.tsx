@@ -7,8 +7,16 @@ export default function Experiences() {
       <SectionTitle>Experience</SectionTitle>
 
       <Item
+        date="7/2025 – Present"
+        title="Full-Stack Software Engineer"
+        subtitle="Limestone Digital"
+        link="https://limestonedigital.com"
+        skills={["TypeScript", "Node.js", "React"]}
+      />
+
+      <Item
         date="6/2024 – 4/2025"
-        title="Software Developer"
+        title="Full-Stack Software Engineer"
         subtitle="90 Information Technology"
         link="https://noventa.com.br"
         skills={[
