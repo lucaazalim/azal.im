@@ -11,19 +11,21 @@ import { Movie, MovieMetadata } from "@/lib/movies/types";
 import chalk from "chalk";
 import dotenv from "dotenv";
 import path from "path";
-import { TMDB_API_KEY } from "@/lib/constants";
+import { fileURLToPath } from "url";
+
+// Get current file's directory (for ESM)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Load environment variables from .env file
-dotenv.config({ path: path.resolve("../../.env") });
+dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
 // File paths
-const MOVIES_PATH = path.join(process.cwd(), "../../data/movies/movies.json");
-const METADATA_PATH = path.join(
-  process.cwd(),
-  "../../data/movies/metadata.json",
-);
+const MOVIES_PATH = path.join(__dirname, "../../data/movies/movies.json");
+const METADATA_PATH = path.join(__dirname, "../../data/movies/metadata.json");
 
-// API keys
+// API keys - load after dotenv.config()
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
 
 // TMDB API endpoints
 const TMDB_MOVIE_URL =

@@ -729,7 +729,7 @@
   },
   {
     "watchedAt": "03-2019",
-    "title": "Michael Jackson's This Is It",
+    "title": "This Is It",
     "platform": "Netflix",
     "type": "movie",
     "year": 2010,
@@ -817,11 +817,11 @@
   },
   {
     "watchedAt": "03-2019",
-    "title": "A Origem",
+    "title": "Inception",
     "platform": "Netflix",
     "type": "movie",
-    "year": 2017,
-    "stars": 4
+    "year": 2010,
+    "stars": 5
   },
   {
     "watchedAt": "04-2019",
@@ -2009,7 +2009,7 @@
   },
   {
     "watchedAt": "08-2020",
-    "title": "Mission: Impossible",
+    "title": "Mission: Impossible - Ghost Protocol",
     "platform": "Netflix",
     "type": "movie",
     "year": 2011,
@@ -3553,7 +3553,7 @@
   },
   {
     "watchedAt": "09-2022",
-    "title": "The Anthrax Attacks",
+    "title": "The Anthrax Attacks: In the Shadow of 9/11",
     "platform": "Netflix",
     "type": "movie",
     "year": 2022,
@@ -4694,7 +4694,7 @@
   },
   {
     "watchedAt": "12-2024",
-    "title": "Reindeer Baby",
+    "title": "Baby Reindeer",
     "type": "miniseries",
     "year": 2024,
     "stars": 4
@@ -6125,6 +6125,310 @@
     "platform": "Prime",
     "type": "movie",
     "year": 2009,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Mickey 17",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 2
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Dept. Q",
+    "platform": "Netflix",
+    "type": "series",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2025",
+    "title": "Nonnas",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 1
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "The Accountant 2",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "The Last of Us",
+    "platform": "HBO Max",
+    "type": "series",
+    "year": 2023,
+    "stars": 3
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Straw",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 2
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Better Man",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Lilo & Stitch",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Warfare",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Deep Cover",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Homem com H",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 5
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Mystic River",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2003,
+    "stars": 4
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "Superman",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "Breaking Bad",
+    "platform": "Netflix",
+    "type": "series",
+    "year": 2008,
+    "stars": 5
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "El Camino: A Breaking Bad Movie",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2019,
+    "stars": 4
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "Mulholland Drive",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2019,
+    "stars": 1
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "The Forgotten",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2004,
+    "stars": 2
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "Brokeback Mountain",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2005,
+    "stars": 5
+  },
+  {
+    "watchedAt": "07-2025",
+    "title": "Brokeback Mountain",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2005,
+    "stars": 5
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "Tickled",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2016,
+    "stars": 4
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "Winter's Bone",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2010,
+    "stars": 3
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "Locked",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "F1",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "The Conjuring",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2013,
+    "stars": 3
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "Night Always Comes",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "08-2025",
+    "title": "A Time to Kill",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 1996,
+    "stars": 4
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Moonrise Kingdom",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2012,
+    "stars": 3
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "The Departed",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2006,
+    "stars": 5
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Weapons",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Funny Games",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 1997,
+    "stars": 4
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Final Destination Bloodlines",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Heat",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 1995,
+    "stars": 4
+  },
+  {
+    "watchedAt": "09-2025",
+    "title": "Spy Game",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2001,
+    "stars": 2
+  },
+  {
+    "watchedAt": "10-2025",
+    "title": "aka Charlie Sheen",
+    "platform": "Netflix",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "10-2025",
+    "title": "Fracture",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2007,
+    "stars": 4
+  },
+  {
+    "watchedAt": "10-2025",
+    "title": "The Perfect Neighbor",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "10-2025",
+    "title": "A House of Dynamite",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "10-2025",
+    "title": "Aileen: Queen of the Serial Killers",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
     "stars": 4
   }
 ]
