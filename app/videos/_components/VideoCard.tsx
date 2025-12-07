@@ -1,7 +1,7 @@
 import LoadingImage from "@/app/_components/LoadingImage";
 import { cn } from "@/lib/utils";
 import { Play, Youtube } from "lucide-react";
-import { Video } from "../../../lib/videos/videos";
+import { getThumbnailUrl, Video } from "../../../lib/videos/videos";
 
 type Props = {
   video: Video;
@@ -27,7 +27,7 @@ export default function VideoCard({ video, index, onClick }: Props) {
           <Play className="text-primary size-5 fill-current opacity-0 transition-all duration-400 md:group-hover:size-12 md:group-hover:opacity-100" />
         </div>
         <LoadingImage
-          src={video.snippet.thumbnails.medium.url}
+          src={getThumbnailUrl(video)}
           alt={video.snippet.title}
           fill={true}
           className="object-cover transition-all md:group-hover:brightness-25"

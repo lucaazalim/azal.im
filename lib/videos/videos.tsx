@@ -44,10 +44,19 @@ export type Video = {
     title: string;
     description: string;
     thumbnails: {
-      medium: {
+      default?: {
         url: string;
       };
-      high: {
+      medium?: {
+        url: string;
+      };
+      high?: {
+        url: string;
+      };
+      standard?: {
+        url: string;
+      };
+      maxres?: {
         url: string;
       };
     };
@@ -58,6 +67,18 @@ export type Video = {
     videoOwnerChannelTitle: string;
   };
 };
+
+export function getThumbnailUrl(video: Video): string {
+  const thumbnails = video.snippet.thumbnails;
+  return (
+    thumbnails.medium?.url ||
+    thumbnails.high?.url ||
+    thumbnails.standard?.url ||
+    thumbnails.maxres?.url ||
+    thumbnails.default?.url ||
+    ''
+  );
+}
 
 export async function getVideos(
   slug: string,
@@ -103,12 +124,12 @@ export async function getVideos(
     }
   }
 
-  data.items = data.items.sort((a, b) => {
+  videos.sort((a, b) => {
     return (
       new Date(b.snippet.publishedAt).getTime() -
       new Date(a.snippet.publishedAt).getTime()
     );
   });
 
-  return data.items;
+  return videos;
 }

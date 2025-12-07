@@ -14,7 +14,7 @@ import PageWrapper from "../_components/header/PageWrapper";
 import MacOSImageFrame from "../_components/MacOSImageFrame";
 import { Badge } from "../_components/ui/badge";
 import { buttonVariants } from "../_components/ui/button";
-import styles from "./projects.module.css"
+import styles from "./projects.module.css";
 
 export const metadata: Metadata = {
   title: "Projects",
