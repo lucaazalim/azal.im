@@ -17,7 +17,7 @@ export type Post = {
 export const postMetadataSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
-  cover: z.string(),
+  cover: z.string().optional(),
   date: z.coerce.date(),
 });
 

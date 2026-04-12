@@ -105,36 +105,38 @@ export default async function Page({ params }: Props) {
       />
       <ProgressBar />
       <article className="space-y-10">
-        <div className="flex flex-col items-center justify-center gap-5 text-center">
+        <div className="flex flex-col gap-5">
           <BackButton label="Posts" href={ROUTES.blog()} />
-          <h1 className="text-foreground font-serif text-4xl font-bold">
+          <h1 className="text-foreground font-serif text-4xl leading-12 font-bold">
             {post.metadata.title}
           </h1>
-          <p className="text-muted-foreground max-w-3xl">
-            {post.metadata.description}
-          </p>
+          <p className="text-muted-foreground">{post.metadata.description}</p>
         </div>
-        <motion.div
-          initial={{ opacity: 0, filter: "blur(5px)" }}
-          animate={{ opacity: 1, filter: "blur(0px)" }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="relative h-[300px] w-full md:h-[500px]"
-        >
-          <LoadingImage
-            src={post.metadata.cover}
-            alt={post.metadata.title}
-            fill={true}
-            sizes="100vw"
-            className="object-cover"
-          />
-          <LoadingImage
-            src={post.metadata.cover}
-            alt={post.metadata.title}
-            fill={true}
-            sizes="100vw"
-            className="-z-40 object-cover opacity-40 blur-2xl"
-          />
-        </motion.div>
+        {post.metadata.cover ? (
+          <motion.div
+            initial={{ opacity: 0, filter: "blur(5px)" }}
+            animate={{ opacity: 1, filter: "blur(0px)" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="relative h-[300px] w-full md:h-[500px]"
+          >
+            <LoadingImage
+              src={post.metadata.cover}
+              alt={post.metadata.title}
+              fill={true}
+              sizes="100vw"
+              className="object-cover"
+            />
+            <LoadingImage
+              src={post.metadata.cover}
+              alt={post.metadata.title}
+              fill={true}
+              sizes="100vw"
+              className="-z-40 object-cover opacity-40 blur-2xl"
+            />
+          </motion.div>
+        ) : (
+          <hr />
+        )}
         <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_0.2fr]">
           <div className="prose prose-primary dark:prose-invert shrink">
             {post.content}

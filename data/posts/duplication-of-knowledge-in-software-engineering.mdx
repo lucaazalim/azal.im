@@ -1,0 +1,83 @@
+---
+title: "Duplication of knowledge might be the real problem behind software documentation"
+description: "A reflection on duplication of knowledge in software engineering and how AI may reduce redundant documentation."
+date: 2026-04-12
+---
+
+Lately, I have been reflecting a lot on software documentation because I have been taking classes on Information and Knowledge Management in software engineering. The more I think about it, the more I come back to one idea that has been bothering me for years: duplication of knowledge.
+
+When developers talk about DRY, many people immediately think about duplicated lines of code. But I think the more interesting interpretation is broader than that. The real problem is not just duplicated code, but duplicated knowledge. The same rule, decision, behavior, or intent gets represented in multiple places, often in different formats, maintained by different people, and updated at different times. Once that happens, divergence becomes almost inevitable.
+
+This idea is not entirely new. It is closely connected to the original spirit of DRY, which is really about keeping each piece of knowledge in a single, unambiguous, authoritative representation. It also relates to the idea of a single source of truth. In practice, both point to the same concern: whenever the same knowledge lives in multiple places, the system becomes harder to trust, harder to evolve, and harder to understand.
+
+I also think this connects to other engineering ideas, such as orthogonality, because when knowledge is duplicated, one conceptual change starts requiring updates in many different artifacts. In a looser way, it also connects to the single responsibility principle. If an artifact is trying to both define behavior and separately explain behavior that is already defined somewhere else, its responsibility becomes blurred.
+
+To me, this is a useful lens not only for thinking about code, but for thinking about software engineering as a whole.
+
+# Documentation as duplicated knowledge
+
+Software documentation is probably the clearest example of this problem. A large part of software documentation exists to describe knowledge that is already present in the code: behavior, rules, flows, contracts, and constraints. The same knowledge ends up represented twice, once in natural language and once in programming language. To me, that is the root of one of the most common problems in software teams: documentation becomes outdated.
+
+When developers talk about documentation, this is usually the complaint that comes up first. Docs fall behind, people stop trusting them, and eventually they go straight to the code to understand how the system really behaves. But I think the impact goes even further than that. In many organizations, this lack of trust does not just make documentation weaker. It leads to not documenting at all.
+
+I have seen large startups and enterprises with little to no meaningful software documentation, relying mostly on tacit knowledge, that is, knowledge that lives inside people's heads. That may work for a while, especially when the team is stable, but it becomes a serious problem when people move to other projects or leave the company altogether. At that point, organizations do not just lose documentation. They lose memory.
+
+This is one of the reasons I think AI is becoming so important in software engineering. Of course, using AI to read code, explain systems, and generate documentation is not some futuristic idea anymore. We are in 2026, and people already do this every day. AI-assisted documentation, repository Q&A, code explanation, and on-demand summaries are already part of real engineering workflows. What I find interesting is not that AI can help us document software. It is that AI may be starting to replace traditional software documentation strategies altogether.
+
+For a long time, organizations have tried to solve the documentation problem with wikis, intranets, knowledge bases, internal portals, shared folders, and all kinds of structured documentation processes. These tools still have value, but I keep wondering whether many of them were trying to compensate for a deeper issue: the duplication of knowledge. If documentation mirrors the code, then by definition it creates a second representation of the same knowledge, and duplicated knowledge tends to drift.
+
+That is why I think AI changes the game. Instead of forcing teams to maintain large volumes of persistent documentation that duplicate what already exists in the source code, we can increasingly interact with AI directly and ask for explanations in natural language. We can ask it to explain how a module works, identify the business rules implemented in a workflow, generate documentation for a service, or summarize the architecture of a particular part of the system. In this model, documentation becomes something generated on demand from the actual source of truth instead of something permanently stored and constantly at risk of becoming obsolete.
+
+To me, this is a much more promising direction than simply trying to improve traditional documentation hygiene. It also helps with one of the hardest organizational problems: knowledge loss. When the most knowledgeable developer leaves a team, AI can still help the organization understand what the system does by reading the codebase, tests, configs, schemas, and related artifacts. That is incredibly valuable. At the same time, it makes something very clear: behavior is not the same as intent. AI may help recover what the system does, but it does not automatically recover why certain decisions were made, nor does it fully reconstruct the historical context, the trade-offs, the political constraints, or the architectural reasoning that shaped the code over time.
+
+So my current view is not that AI will eliminate documentation entirely. It is that AI is increasingly replacing the traditional role of documentation as a persistent mirror of system behavior, and that is probably a good thing. If AI can explain the behavior of a system directly from the code, then maybe we should stop spending so much effort maintaining documentation whose main job is to restate what the code already says. What should remain as persistent documentation, in my opinion, is the knowledge that code alone does not express well: intent, trade-offs, architectural decisions, business context, governance, and historical reasoning.
+
+This same point applies to diagrams as well. Architecture diagrams are often useful, but manually maintained diagrams suffer from exactly the same problem as written documentation: they become another copy of knowledge that already exists somewhere else. If diagrams are valuable, then ideally they should be generated from actual sources of truth such as source code, infrastructure as code, deployment definitions, or cloud metadata, rather than maintained manually as standalone descriptions that developers need to remember to update.
+
+# Code comments as duplicated knowledge
+
+Another example of duplicated knowledge appears inside the code itself. I still believe comments have an important place in software, but I think comments should exist mainly when the code is genuinely hard to understand, when the intent is not obvious, or when an important trade-off needs to be preserved for future readers. What does not make sense is commenting code that already explains itself.
+
+For example, this kind of comment adds almost no value:
+
+```ts
+// Increment the counter
+counter++;
+
+// Check if the user is active
+if (user.isActive) {
+  sendEmail(user);
+}
+```
+
+These comments are technically correct, but they simply restate what the code already says. That is duplication of knowledge.
+
+Now compare that with a case where the code is less obvious for a good reason:
+
+```ts
+// We intentionally retry only on 429 and 5xx responses.
+// Retrying all failures caused duplicate charges in the past because some partner
+// endpoints complete the operation but time out before sending the response.
+// Do not broaden this retry policy unless the downstream API is proven idempotent.
+async function capturePayment(request: CapturePaymentRequest) {
+  return retry(async () => paymentProvider.capture(request), {
+    maxAttempts: 3,
+    shouldRetry: (error) =>
+      error.status === 429 || (error.status >= 500 && error.status < 600),
+  });
+}
+```
+
+This is the kind of comment I think makes sense. It does not merely describe what the code is doing. It preserves context that the code alone does not express well, especially when a piece of logic reflects a non-obvious production lesson or a business risk.
+
+Now that AI writes a significant portion of code in many teams, this problem often becomes worse in a new way. AI frequently adds comments that are technically correct but unnecessary, simply because it was trained on many codebases where that pattern is common. For that reason, I think we should be explicit when instructing coding agents: only add comments when the code is not easy to read, when the intent is not obvious, or when an important trade-off needs to be preserved.
+
+# A broader principle
+
+To me, these examples point to a broader principle. Duplication of knowledge is not just a documentation problem. It can appear in backlogs, tickets, acceptance criteria, diagrams, internal wikis, runbooks, and even in the way different teams talk about the same requirement in different words. Whenever the same idea, rule, or requirement is expressed in multiple places, we create maintenance overhead and increase the chance of divergence.
+
+That does not mean every repeated representation is automatically wrong. Sometimes duplication is intentional and useful. But I think we should become much more deliberate about it. In software engineering, we usually talk a lot about avoiding duplicated code. Maybe we should talk more about avoiding duplicated knowledge.
+
+In the end, outdated documentation, stale diagrams, useless comments, and inconsistent backlogs may all be symptoms of the same deeper issue: we keep creating parallel representations of the same truth, and then we are surprised when they stop matching.
+
+That is why I increasingly think the future is not no documentation. It is far less redundant documentation. It means spending less effort maintaining second copies of knowledge and more effort preserving the context that would otherwise disappear. I think AI will play a major role in making that shift possible.
