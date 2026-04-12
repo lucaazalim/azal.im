@@ -20,6 +20,7 @@ export const PLATFORMS = [
   "Apple TV+",
   "Star+",
   "TV",
+  "Airplane",
 ] as const;
 
 export const movieSchema = z.object({
@@ -57,12 +58,19 @@ export type MovieWithMetadata = Movie & {
   metadata: MovieMetadata;
 };
 
+const runtimeFilterSchema = z
+  .object({
+    min: z.coerce.number().int().min(0).optional(),
+    max: z.coerce.number().int().min(0).optional(),
+  })
+  .optional();
+
 export const movieFilterSchema = z.object({
   title: z.string().optional(),
   type: movieSchema.shape.type.optional(),
   stars: z.coerce.number().int().min(1).max(MAX_MOVIE_STARS).optional(),
   genre: z.string().optional(),
-  runtime: z.coerce.number().int().min(0).optional(),
+  runtime: runtimeFilterSchema,
 });
 
 export type MovieFilters = z.infer<typeof movieFilterSchema>;

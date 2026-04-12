@@ -76,10 +76,20 @@ export function getMovies({
     );
   }
 
-  if (runtime) {
+  const runtimeMin = runtime?.min;
+  const runtimeMax = runtime?.max;
+
+  if (runtimeMin !== undefined && runtimeMin > 0) {
     filteredMovies = filteredMovies.filter(
       ({ metadata: { runtime: movieRuntime } }) =>
-        movieRuntime !== null && movieRuntime <= runtime,
+        movieRuntime !== null && movieRuntime >= runtimeMin,
+    );
+  }
+
+  if (runtimeMax !== undefined) {
+    filteredMovies = filteredMovies.filter(
+      ({ metadata: { runtime: movieRuntime } }) =>
+        movieRuntime !== null && movieRuntime <= runtimeMax,
     );
   }
 

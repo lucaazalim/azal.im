@@ -13,6 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/app/_components/ui/select";
+import { Slider } from "@/app/_components/ui/slider";
 import { MAX_MOVIE_STARS, MovieFilters, TYPES } from "@/lib/movies/types";
 import { RefreshCcw } from "lucide-react";
 import { useFormContext } from "react-hook-form";
@@ -24,11 +25,29 @@ type Props = {
 
 export default function MovieFilterForm({ genres }: Props) {
   const form = useFormContext<MovieFilters>();
-  const EMPTY_KEY = "empty";
+  const EMPTY_OPTION_VALUE = "__empty__";
+  const RUNTIME_MIN = 0;
+  const RUNTIME_MAX = 240;
+  const RUNTIME_STEP = 30;
+
+  const formatRuntime = (minutes: number) => {
+    const hours = Math.floor(minutes / 60);
+    const remainingMinutes = minutes % 60;
+
+    if (hours === 0) {
+      return `${minutes}m`;
+    }
+
+    if (remainingMinutes === 0) {
+      return `${hours}h`;
+    }
+
+    return `${hours}h${remainingMinutes}`;
+  };
 
   return (
     <form
-      className="bg-accent grid w-full grid-cols-2 items-end gap-5 self-center border p-5 lg:max-w-6xl lg:grid-cols-[1fr_1fr_1fr_1fr_1fr_0.5fr]"
+      className="bg-accent grid w-full grid-cols-2 items-end gap-5 self-center border p-5 lg:max-w-6xl lg:grid-cols-[1fr_1fr_1.25fr_1fr_1fr_0.5fr]"
       onSubmit={(e) => e.preventDefault()}
     >
       <FormField
@@ -52,14 +71,18 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Type</FormLabel>
             <FormControl>
               <Select
-                key={field.value ?? EMPTY_KEY}
-                onValueChange={field.onChange}
-                defaultValue={field.value}
+                value={field.value ?? EMPTY_OPTION_VALUE}
+                onValueChange={(value) =>
+                  field.onChange(
+                    value === EMPTY_OPTION_VALUE ? undefined : value,
+                  )
+                }
               >
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Type" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value={EMPTY_OPTION_VALUE}>Any</SelectItem>
                   {TYPES.map((option) => (
                     <SelectItem key={option} value={option}>
                       {option.charAt(0).toUpperCase() + option.slice(1)}
@@ -75,58 +98,51 @@ export default function MovieFilterForm({ genres }: Props) {
       <FormField
         control={form.control}
         name="runtime"
-        render={({ field }) => (
-          <FormItem className="flex grow flex-col">
-            <FormLabel>Max runtime</FormLabel>
-            <FormControl>
-              <Select
-                key={field.value ?? EMPTY_KEY}
-                onValueChange={field.onChange}
-                defaultValue={field.value ? String(field.value) : undefined}
-              >
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Max runtime" />
-                </SelectTrigger>
-                <SelectContent>
-                  {[
-                    {
-                      label: "30m",
-                      value: "30",
-                    },
-                    {
-                      label: "1h",
-                      value: "60",
-                    },
-                    {
-                      label: "1h30",
-                      value: "90",
-                    },
-                    {
-                      label: "2h",
-                      value: "120",
-                    },
-                    {
-                      label: "2h30",
-                      value: "150",
-                    },
-                    {
-                      label: "3h",
-                      value: "180",
-                    },
-                    {
-                      label: "4h",
-                      value: "240",
-                    },
-                  ].map(({ label, value }) => (
-                    <SelectItem key={value} value={value}>
-                      {label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </FormControl>
-          </FormItem>
-        )}
+        render={({ field }) => {
+          const currentMinRuntime = field.value?.min;
+          const currentMaxRuntime = field.value?.max;
+
+          return (
+            <FormItem className="flex grow self-stretch flex-col justify-between">
+              <FormLabel>Runtime range</FormLabel>
+              <FormControl>
+                <div className="space-y-2">
+                  <Slider
+                    value={[
+                      currentMinRuntime ?? RUNTIME_MIN,
+                      currentMaxRuntime ?? RUNTIME_MAX,
+                    ]}
+                    min={RUNTIME_MIN}
+                    max={RUNTIME_MAX}
+                    step={RUNTIME_STEP}
+                    minStepsBetweenThumbs={1}
+                    onValueChange={([nextMinRuntime, nextMaxRuntime]) => {
+                      field.onChange({
+                        min: nextMinRuntime,
+                        max:
+                          nextMaxRuntime === RUNTIME_MAX
+                            ? undefined
+                            : nextMaxRuntime,
+                      });
+                    }}
+                  />
+                  <div className="text-muted-foreground flex items-center justify-between text-xs">
+                    <span>
+                      Min:{" "}
+                      {formatRuntime(currentMinRuntime ?? RUNTIME_MIN)}
+                    </span>
+                    <span>
+                      Max:{" "}
+                      {currentMaxRuntime
+                        ? formatRuntime(currentMaxRuntime)
+                        : "Any"}
+                    </span>
+                  </div>
+                </div>
+              </FormControl>
+            </FormItem>
+          );
+        }}
       />
 
       <FormField
@@ -137,14 +153,18 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Genre</FormLabel>
             <FormControl>
               <Select
-                key={field.value ?? EMPTY_KEY}
-                onValueChange={field.onChange}
-                defaultValue={field.value}
+                value={field.value ?? EMPTY_OPTION_VALUE}
+                onValueChange={(value) =>
+                  field.onChange(
+                    value === EMPTY_OPTION_VALUE ? undefined : value,
+                  )
+                }
               >
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value={EMPTY_OPTION_VALUE}>Any</SelectItem>
                   {genres.map((option) => (
                     <SelectItem key={option} value={option}>
                       {option}
@@ -165,14 +185,20 @@ export default function MovieFilterForm({ genres }: Props) {
             <FormLabel>Stars</FormLabel>
             <FormControl>
               <Select
-                key={field.value ?? EMPTY_KEY}
-                onValueChange={field.onChange}
-                defaultValue={field.value?.toString()}
+                value={
+                  field.value ? field.value.toString() : EMPTY_OPTION_VALUE
+                }
+                onValueChange={(value) =>
+                  field.onChange(
+                    value === EMPTY_OPTION_VALUE ? undefined : value,
+                  )
+                }
               >
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Stars" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value={EMPTY_OPTION_VALUE}>Any</SelectItem>
                   {Array.from({ length: MAX_MOVIE_STARS })
                     .map((_, index) => index + 1)
                     .map((option) => (

@@ -1844,7 +1844,7 @@
     "title": "Super Size Me 2: Holy Chicken!",
     "platform": "Prime",
     "type": "movie",
-    "year": 2017,
+    "year": 2019,
     "stars": 4
   },
   {
@@ -6430,5 +6430,155 @@
     "type": "movie",
     "year": 2025,
     "stars": 4
+  },
+  {
+    "watchedAt": "06-2025",
+    "title": "Titan: The OceanGate Submersible Disaster",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "11-2025",
+    "title": "Frankenstein",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "11-2025",
+    "title": "Drop",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "11-2025",
+    "title": "The Beast in Me",
+    "platform": "Netflix",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "11-2025",
+    "title": "Companion",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "12-2025",
+    "title": "The Son of a Thousand Men",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 5
+  },
+  {
+    "watchedAt": "12-2025",
+    "title": "Wake Up Dead Man: A Knives Out Mystery",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "12-2025",
+    "title": "Train Dreams",
+    "platform": "Netflix",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "12-2025",
+    "title": "One Battle After Another",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 5
+  },
+  {
+    "watchedAt": "01-2026",
+    "title": "Bugonia",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2026",
+    "title": "All Her Fault",
+    "platform": "Prime",
+    "type": "miniseries",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "01-2026",
+    "title": "Roofman",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2026",
+    "title": "The Hangover",
+    "platform": "Airplane",
+    "type": "movie",
+    "year": 2009,
+    "stars": 5
+  },
+  {
+    "watchedAt": "02-2026",
+    "title": "The Hangover Part II",
+    "platform": "Airplane",
+    "type": "movie",
+    "year": 2011,
+    "stars": 4
+  },
+  {
+    "watchedAt": "02-2026",
+    "title": "The Fantastic Four: First Steps",
+    "platform": "Airplane",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "title": "True Detective",
+    "type": "series",
+    "year": 2014,
+    "stars": 4
+  },
+  {
+    "watchedAt": "03-2026",
+    "title": "Twinless",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "04-2026",
+    "title": "Together",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "04-2026",
+    "title": "Project Hail Mary",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2026,
+    "stars": 5
   }
 ]

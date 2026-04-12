@@ -25,7 +25,10 @@ export default function Movies({ genres }: Props) {
       type: undefined,
       genre: undefined,
       stars: undefined,
-      runtime: undefined,
+      runtime: {
+        min: 0,
+        max: undefined,
+      },
     },
   });
 

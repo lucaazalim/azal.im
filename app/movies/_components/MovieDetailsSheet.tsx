@@ -33,7 +33,7 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
         onClose();
       }}
     >
-      <SheetContent className="max-w-[90vw] px-10 sm:max-w-[70vw] lg:max-w-[50vw] lg:px-20">
+      <SheetContent className="max-w-[90vw] overflow-y-auto px-10 pb-12 sm:max-w-[70vw] lg:max-w-[50vw] lg:px-20 lg:pb-16">
         <SheetHeader className="-z-5 px-0 pt-36 lg:pt-90">
           <SheetTitle className="space-x-2 text-2xl sm:text-4xl">
             <span>{movie?.title}</span>
