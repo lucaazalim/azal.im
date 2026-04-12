@@ -34,7 +34,7 @@ export default function Page() {
         <PageHeaderTag>Movies</PageHeaderTag>
         <PageHeaderTitle>Grab some popcorn</PageHeaderTitle>
         <PageHeaderDescription>
-          Since 2018, I've been keeping track of the movies and series I've
+          Since 2018, I&apos;ve been keeping track of the movies and series I&apos;ve
           watched, rating each one from 1 to 5 stars.
         </PageHeaderDescription>
       </PageHeader>

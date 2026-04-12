@@ -88,10 +88,10 @@ export default function Page() {
           <h2>Motivation</h2>
           <p>
             The project emerged from a critical business need at 90TI. The
-            company's software documentation was scattered across multiple
+            company&apos;s software documentation was scattered across multiple
             platforms, making it difficult for users to find answers to their
             questions. This resulted in increased support tickets and user
-            frustration. As the company's product portfolio expanded, the need
+            frustration. As the company&apos;s product portfolio expanded, the need
             for a centralized, searchable knowledge base became paramount.
           </p>
           <h2>Technical Planning</h2>
@@ -161,7 +161,7 @@ export default function Page() {
           </p>
           <p>
             To address these needs, instead of building some kind of CMS or
-            using an existing one, we adopted the "Git as CMS" approach. By
+            using an existing one, we adopted the &quot;Git as CMS&quot; approach. By
             storing our documentation in a Git repository, we benefit from
             powerful versioning capabilities and seamless collaboration across
             the team.
@@ -179,7 +179,7 @@ export default function Page() {
           <p>
             Leveraging the power of MDX, we enhanced the user experience by
             embedding custom React components directly into the documentation.
-            One example is the "Brand Guidelines" article, which features custom
+            One example is the &quot;Brand Guidelines&quot; article, which features custom
             components to display brand colors and all brand and product logos.
           </p>
         </ProjectSection>

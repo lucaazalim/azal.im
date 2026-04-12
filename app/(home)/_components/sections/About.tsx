@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="text-muted-foreground space-y-4 lg:px-5">
         <p className="text-foreground font-serif text-2xl font-bold">
-          Hi there! I'm Luca.
+          Hi there! I&apos;m Luca.
           <motion.span
             animate={{
               rotateZ: [0, 5, -15, 10, -10, 10, -15, 0],

@@ -59,7 +59,7 @@ export default function Page() {
           <Socials className="gap-3" />
           <Separator className="max-md:hidden" />
           <p className="text-center text-sm max-md:hidden">
-            You're welcome to write in English or Portuguese.
+            You&apos;re welcome to write in English or Portuguese.
             <br />I usually reply within a day!
           </p>
         </div>

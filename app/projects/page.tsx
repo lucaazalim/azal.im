@@ -89,7 +89,7 @@ export default function Page() {
           <PageHeaderTag>Projects</PageHeaderTag>
           <PageHeaderTitle>Stuff I Built</PageHeaderTitle>
           <PageHeaderDescription>
-            A collection of projects I've worked on, from personal experiments
+            A collection of projects I&apos;ve worked on, from personal experiments
             to professional applications and open-source contributions.
           </PageHeaderDescription>
         </PageHeader>

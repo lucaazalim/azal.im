@@ -135,7 +135,7 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
             <LoadingSpinner />
           </div>
         ) : movies.length > 0 && !hasNextPage ? (
-          <p className="text-sm text-neutral-500">That's it!</p>
+          <p className="text-sm text-neutral-500">That&apos;s it!</p>
         ) : null}
       </div>
     </div>

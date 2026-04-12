@@ -65,10 +65,10 @@ export default async function Page({
     <PageWrapper className="mx-auto max-w-5xl">
       <PageHeader>
         <PageHeaderTag>Videos</PageHeaderTag>
-        <PageHeaderTitle>What I've Been Watching</PageHeaderTitle>
+        <PageHeaderTitle>What I&apos;ve Been Watching</PageHeaderTitle>
         <PageHeaderDescription>
-          A curated list of YouTube videos I've learned from or enjoyed. I hope
-          you find them useful too.
+          A curated list of YouTube videos I&apos;ve learned from or enjoyed. I
+          hope you find them useful too.
         </PageHeaderDescription>
       </PageHeader>
       <div className="space-y-10">

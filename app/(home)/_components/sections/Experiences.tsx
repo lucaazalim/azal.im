@@ -31,7 +31,7 @@ export default function Experiences() {
       >
         <ul className="list-disc space-y-3">
           <li>
-            Led the development of a complete web platform connecting ERP's
+            Led the development of a complete web platform connecting ERP&apos;s
             clients to suppliers of construction materials, using{" "}
             <strong>.NET 9, Next.js, PostgreSQL</strong>, and{" "}
             <strong>Docker</strong>.
@@ -82,14 +82,14 @@ export default function Experiences() {
       >
         <ul className="list-disc space-y-3">
           <li>
-            Led the company's operation for seven years, focusing on managing
+            Led the company&apos;s operation for seven years, focusing on managing
             the technology area and growth strategies that led to{" "}
             <strong>16 million</strong> registered accounts,{" "}
             <strong>300,000</strong> monthly active players, and a national
             record of <strong>8,115</strong> players online simultaneously.
           </li>
           <li>
-            Designed and scaled the company's systems to support loads of over{" "}
+            Designed and scaled the company&apos;s systems to support loads of over{" "}
             <strong>8,000</strong> players online simultaneously, distributed
             across more than <strong>30 game modes</strong> developed and
             maintained by the company itself.

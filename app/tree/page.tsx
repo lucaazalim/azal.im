@@ -51,7 +51,6 @@ export default function TreePage() {
 function TreePageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [isHydrated, setIsHydrated] = useState(false);
 
   const [input, setInput] = useState(() => {
     const encoded = searchParams.get("t");
@@ -69,7 +68,12 @@ function TreePageContent() {
       const decoded = decodeSettings(urlSettings);
       if (decoded) return decoded;
     }
-    // Return defaults for initial render, localStorage will be checked in useEffect
+    // Fall back to persisted settings when available on the client.
+    if (typeof window !== "undefined") {
+      const stored = loadSettingsFromStorage();
+      if (stored) return stored;
+    }
+
     return DEFAULT_SETTINGS;
   });
 
@@ -82,33 +86,18 @@ function TreePageContent() {
     return lines.map((_, i) => <div key={i}>{i + 1}</div>);
   }, [input]);
 
-  // Hydrate settings from localStorage after mount (only if not provided in URL)
-  useEffect(() => {
-    const urlSettings = searchParams.get("s");
-    if (!urlSettings) {
-      const stored = loadSettingsFromStorage();
-      if (stored) {
-        setSettings(stored);
-      }
-    }
-    setIsHydrated(true);
-  }, [searchParams]);
-
   // Save settings to localStorage when they change
   useEffect(() => {
-    if (isHydrated) {
-      saveSettingsToStorage(settings);
-    }
-  }, [settings, isHydrated]);
+    saveSettingsToStorage(settings);
+  }, [settings]);
 
   // Keep URL in sync with input and settings
   useEffect(() => {
-    if (!isHydrated) return;
     const encoded = encodeInput(input);
     const settingsEncoded = encodeSettings(settings);
     const newUrl = `${window.location.pathname}?t=${encoded}&s=${settingsEncoded}`;
     router.replace(newUrl, { scroll: false });
-  }, [input, settings, router, isHydrated]);
+  }, [input, settings, router]);
 
   const asciiTree = useMemo(() => {
     return generateAsciiTree(input, settings);

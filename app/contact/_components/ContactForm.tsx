@@ -71,7 +71,7 @@ export default function ContactForm() {
             className="text-primary text-5xl font-black"
             text="Thank you!"
           />
-          <p className="mb-4">I'll get back to you as soon as possible.</p>
+          <p className="mb-4">I&apos;ll get back to you as soon as possible.</p>
           <Button onClick={() => submitMutation.reset()} variant="outline">
             Send another message
           </Button>
