@@ -4,3 +4,7 @@ node_modules
 .DS_Store
 .env
 cli/dist
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
