@@ -333,8 +333,8 @@
     "semester": 4,
     "id": 60399,
     "name": {
-      "pt": "Optativa I (Ciência de Dados)",
-      "en": "Elective I (Data Science)"
+      "pt": "Ciência de Dados (Optativa)",
+      "en": "Data Science (Elective)"
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
@@ -513,8 +513,8 @@
     "semester": 5,
     "id": 60447,
     "name": {
-      "pt": "Optativa II (Desenvolvimento Web Full-Stack)",
-      "en": "Elective II (Full-Stack Web Development)"
+      "pt": "Desenvolvimento Web Full-Stack (Optativa)",
+      "en": "Full-Stack Web Development (Elective)"
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
@@ -522,7 +522,7 @@
     },
     "grade": 95,
     "hours": 80,
-    "modality": "in-person"
+    "modality": "virtual"
   },
   {
     "semester": 5,
@@ -550,7 +550,7 @@
       "pt": "Estimativa por pontos de função; Estimativa por dados históricos; Modelo COCOMO; Modelos empíricos de estimativa de software. Proposta técnica. Contratos de aquisição de software e serviços. Analise de viabilidade técnica e econômica. Retorno sobre investimento (ROI). Licença, Patente e propriedade intelectual ou industrial.",
       "en": "Function Point Estimation; Historical Data Estimation; COCOMO Model; Empirical Software Estimation Models. Technical Proposal. Software Acquisition and Service Contracts. Technical and Economic Feasibility Analysis. Return on Investment (ROI). Licensing, Patent, and Intellectual or Industrial Property."
     },
-    "grade": null,
+    "grade": 87,
     "hours": 80,
     "modality": "in-person"
   },
@@ -565,7 +565,7 @@
       "pt": "Conceitos. Papéis, Artefatos e Atividades de Gerência de Configuração. Princípios de entrega contínua. Integração contínua. A cultura DevOps. Definição e projeto de Build. Ferramentas. Provisionamento de ambientes de desenvolvimento, produção, integração e testes. Princípios e técnicas de manutenção de software. Tipos de manutenções. Reengenharia.",
       "en": "Concepts. Roles, Artifacts, and Activities in Configuration Management. Principles of Continuous Delivery. Continuous Integration. The DevOps Culture. Definition and Design of Build. Tools. Provisioning of development, production, integration, and testing environments. Principles and techniques of software maintenance. Types of maintenance. Reengineering."
     },
-    "grade": null,
+    "grade": 92,
     "hours": 80,
     "modality": "in-person"
   },
@@ -580,7 +580,7 @@
       "pt": "Aplicação prática, em um projeto, de técnicas de medição e experimentação em Engenharia de Software e processos de software.",
       "en": "Practical application, in a project, of measurement and experimentation techniques in Software Engineering and software processes."
     },
-    "grade": null,
+    "grade": 96,
     "hours": 40,
     "modality": "in-person"
   },
@@ -595,7 +595,7 @@
       "pt": "Métricas de software: conceito. Métricas objetivas e subjetivas; Métricas para processo, projeto e produto. Processo e Técnicas de medição e análise. Noções de confiabilidade metrológica. Controle estatístico de qualidade. Aplicação de técnicas estatísticas para análise de dados: análise fatorial, análise multivariada e testes de hipóteses. Estabilidade de processos. Princípios e técnicas para experimentação em Engenharia de Software. Planejamento e condução de experimentos.",
       "en": "Software Metrics: concept. Objective and subjective metrics; Metrics for process, project, and product. Measurement and analysis process and techniques. Notions of metrological reliability. Statistical quality control. Application of statistical techniques for data analysis: factorial analysis, multivariate analysis, and hypothesis testing. Process stability. Principles and techniques for experimentation in Software Engineering. Planning and conducting experiments."
     },
-    "grade": null,
+    "grade": 93,
     "hours": 80,
     "modality": "in-person"
   },
@@ -603,15 +603,30 @@
     "semester": 6,
     "id": 60454,
     "name": {
-      "pt": "Optativa III",
-      "en": "Elective III"
+      "pt": "Tópicos em Gramática (Optativa)",
+      "en": "Topics in Grammar (Elective)"
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
       "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
     },
-    "grade": null,
-    "hours": 80,
+    "grade": 1,
+    "hours": 40,
+    "modality": "virtual"
+  },
+  {
+    "semester": 6,
+    "id": 60454,
+    "name": {
+      "pt": "Leitura de Textos em Língua Inglesa (Optativa)",
+      "en": "Reading Texts in English (Elective)"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+    },
+    "grade": 1,
+    "hours": 40,
     "modality": "virtual"
   },
   {
@@ -625,7 +640,7 @@
       "pt": "Fundamentos de testes. Níveis de testes. Tipos de testes. Técnicas de projeto de testes. Ferramentas de suporte a testes. Automatização de testes. Projeto de casos de teste. Planos de testes. Gerenciamento do processo de testes. Registro e acompanhamento de problemas. Técnicas de verificação e validação de sistemas.",
       "en": "Fundamentals of Testing. Levels of Testing. Types of Testing. Test Design Techniques. Test Support Tools. Test Automation. Test Case Design. Test Plans. Test Process Management. Problem Logging and Tracking. System Verification and Validation Techniques."
     },
-    "grade": null,
+    "grade": 82,
     "hours": 80,
     "modality": "in-person"
   },
@@ -640,9 +655,24 @@
       "pt": "Planejamento e execução de um experimento de Engenharia de Software.",
       "en": "Planning and execution of a Software Engineering experiment."
     },
-    "grade": null,
+    "grade": 80,
     "hours": 45,
     "modality": "in-person"
+  },
+  {
+    "semester": 7,
+    "id": 1,
+    "name": {
+      "pt": "Economia (Optativa)",
+      "en": "Economics (Elective)"
+    },
+    "syllabus": {
+      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
+      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+    },
+    "grade": 1,
+    "hours": 40,
+    "modality": "virtual"
   },
   {
     "semester": 7,
@@ -655,7 +685,7 @@
       "pt": "A evolução tecnológica e os distintos contextos sociais. Consequências da informatização na sociedade: aspectos culturais, sociais e de sociabilidade.",
       "en": "Technological evolution and various social contexts. Consequences of computerization in society: cultural, social, and sociability aspects."
     },
-    "grade": null,
+    "grade": 81,
     "hours": 40,
     "modality": "in-person"
   },
@@ -670,7 +700,7 @@
       "pt": "Conceitos de processos e produtos. Modelos de processos de software. Definição, personalização, institucionalização e avaliação de processos de desenvolvimento de software. Qualidade de Software: Normas e modelos de maturidade de processo de desenvolvimento de software. Avaliação de Qualidade e Certificação. Melhoria continua. Processos críticos.",
       "en": "Concepts of processes and products. Software process models. Definition, customization, institutionalization, and evaluation of software development processes. Software Quality: Standards and maturity models of software development processes. Quality Assessment and Certification. Continuous improvement. Critical processes."
     },
-    "grade": null,
+    "grade": 87,
     "hours": 80,
     "modality": "in-person"
   },
@@ -685,7 +715,7 @@
       "pt": "Concepções filosófico-antropológicas. O ser humano como ser no mundo e sua dimensão simbólico-cultural. A condição ética da ação humana. Questões éticas fundamentais e atuais, sociedade de consumo, diversidade étnica e desafios ecológicos.",
       "en": "Philosophical-Anthropological Concepts. The human being as a being in the world and its symbolic-cultural dimension. The ethical condition of human action. Fundamental and current ethical issues, consumer society, ethnic diversity, and ecological challenges."
     },
-    "grade": null,
+    "grade": 1,
     "hours": 80,
     "modality": "in-person"
   },
@@ -700,7 +730,7 @@
       "pt": "Caracterização da função planejamento da produção nas organizações. O PCP (Planejamento e Controle da Produção) na empresa. Conciliação entre suprimento e demanda. Parâmetros de Controle de Produção. Fundamentos da qualidade. Produção Enxuta (Lean Manufacturing).",
       "en": "Characterization of the production planning function in organizations. The PPC (Production Planning and Control) in the company. Reconciliation between supply and demand. Production Control Parameters. Quality fundamentals. Lean Manufacturing."
     },
-    "grade": null,
+    "grade": 71,
     "hours": 40,
     "modality": "in-person"
   },
@@ -715,7 +745,7 @@
       "pt": "Sociedade do Conhecimento. Estratégia e Inteligência Competitiva. Processos de Gestão da Informação. Processos de Gestão do Conhecimento. Sistema de Inteligência Competitiva. Integração da Inteligência Competitiva com a Gestão do Conhecimento. Tecnologia da Informação aplicada à Gestão da Informação. Tecnologia da Informação aplicada à Gestão do Conhecimento.",
       "en": "Knowledge Society. Strategy and Competitive Intelligence. Information Management Processes. Knowledge Management Processes. Competitive Intelligence System. Integration of Competitive Intelligence with Knowledge Management. Information Technology applied to Information Management. Information Technology applied to Knowledge Management."
     },
-    "grade": null,
+    "grade": 86,
     "hours": 40,
     "modality": "in-person"
   },
@@ -723,14 +753,14 @@
     "semester": 7,
     "id": 60460,
     "name": {
-      "pt": "Tópicos em Computação I",
-      "en": "Topics in Computing I"
+      "pt": "Segurança Cibernética e Hacking Ético (Tópicos em Computação I)",
+      "en": "Cybersecurity and Ethical Hacking (Topics in Computing I)"
     },
     "syllabus": {
       "pt": "Tema atual na área de Computação.",
       "en": "Current Topic in the field of Computing."
     },
-    "grade": null,
+    "grade": 1,
     "hours": 40,
     "modality": "virtual"
   },
@@ -738,14 +768,14 @@
     "semester": 7,
     "id": 60461,
     "name": {
-      "pt": "Tópicos em Computação II",
-      "en": "Topics in Computing II"
+      "pt": "Computação Forense (Tópicos em Computação II)",
+      "en": "Forensic Computing (Topics in Computing II)"
     },
     "syllabus": {
       "pt": "Tema atual na área de Computação.",
       "en": "Current Topic in the field of Computing."
     },
-    "grade": null,
+    "grade": 73,
     "hours": 40,
     "modality": "virtual"
   },
@@ -760,7 +790,7 @@
       "pt": "Elaboração de um projeto de trabalho que contribua para a melhoria da automação, do desempenho, da eficiência e da racionalização dos recursos no desenvolvimento, experimentação, manutenção e operação de software. Caracterização da natureza e objetivos do Trabalho de Conclusão de Curso. Elaboração do projeto de desenvolvimento, com metodologia, cronograma e descrição dos resultados esperados. Elaboração de resenhas e construção do estado da arte da área relacionada ao projeto.",
       "en": "Development of a work project that contributes to the improvement of automation, performance, efficiency, and rationalization of resources in the development, experimentation, maintenance, and operation of software. Characterization of the nature and objectives of the Capstone Project. Development of the project plan, including methodology, timeline, and description of expected outcomes. Compilation of literature reviews and construction of the state of the art in the field related to the project."
     },
-    "grade": null,
+    "grade": 1,
     "hours": 60,
     "modality": "in-person"
   },
@@ -778,21 +808,6 @@
     "grade": null,
     "hours": 80,
     "modality": "in-person"
-  },
-  {
-    "semester": 8,
-    "id": 60106,
-    "name": {
-      "pt": "Optativa IV",
-      "en": "Elective IV"
-    },
-    "syllabus": {
-      "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
-    },
-    "grade": null,
-    "hours": 80,
-    "modality": "virtual"
   },
   {
     "semester": 8,
@@ -835,7 +850,7 @@
       "pt": "Tema atual na área de Sistemas de Informação e Engenharia de Software.",
       "en": "Current Topic in the field of Information Systems and Software Engineering."
     },
-    "grade": null,
+    "grade": 1,
     "hours": 40,
     "modality": "virtual"
   },
