@@ -1,35 +1,14 @@
-import { readFileSync } from "fs";
-import path from "path";
-import { z } from "zod";
+import rawCourses from "@/data/courses.json";
+import { loadCollection } from "@/lib/data/load";
 import { Course, courseSchema, SemesterSummary } from "./types";
-
-const COURSES_PATH = path.join(process.cwd(), "data/courses.json");
 
 export const SEMESTERS = 8;
 
-export function getCourses(filePath: string = COURSES_PATH): Course[] {
-  // Read the courses.json file
-  const fileContent = readFileSync(filePath, "utf-8");
-  const coursesData = JSON.parse(fileContent);
-
-  // Validate the data is an array
-  if (!Array.isArray(coursesData)) {
-    throw new Error("Courses data must be an array");
-  }
-
-  // Validate each course against the schema and return the array
-  const validatedCourses = coursesData.map((course, index) => {
-    try {
-      return courseSchema.parse(course);
-    } catch (error) {
-      throw new Error(
-        `Validation failed for course at index ${index}: ${error instanceof z.ZodError ? error.message : "Unknown error"}`,
-      );
-    }
-  });
-
-  return validatedCourses;
-}
+export const courses: Course[] = loadCollection(
+  rawCourses,
+  courseSchema,
+  "courses",
+);
 
 export function getSemesterSummary(courses: Course[]): SemesterSummary {
   const totalHours = courses.reduce((sum, course) => sum + course.hours, 0);

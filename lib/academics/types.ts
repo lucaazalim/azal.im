@@ -6,7 +6,6 @@ const semesterSchema = z.number().int().min(1).max(8);
 
 export const courseSchema = z.object({
   semester: semesterSchema,
-  id: z.number().int().positive(),
   name: z.object({
     pt: z.string().min(1),
     en: z.string().min(1),

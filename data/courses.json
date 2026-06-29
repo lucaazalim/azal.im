@@ -1,7 +1,6 @@
 [
   {
     "semester": 1,
-    "id": 60422,
     "name": {
       "pt": "Algoritmos e Estruturas de Dados I",
       "en": "Algorithms and Data Structures I"
@@ -16,7 +15,6 @@
   },
   {
     "semester": 1,
-    "id": 57384,
     "name": {
       "pt": "Cálculo I",
       "en": "Calculus I"
@@ -31,7 +29,6 @@
   },
   {
     "semester": 1,
-    "id": 63236,
     "name": {
       "pt": "Desenvolvimento de Interfaces Web",
       "en": "Web Interface Development"
@@ -46,7 +43,6 @@
   },
   {
     "semester": 1,
-    "id": 56963,
     "name": {
       "pt": "Fundamentos de Engenharia de Software",
       "en": "Software Engineering Fundamentals"
@@ -61,7 +57,6 @@
   },
   {
     "semester": 1,
-    "id": 60388,
     "name": {
       "pt": "Introdução à Computação",
       "en": "Introduction to Computing"
@@ -76,7 +71,6 @@
   },
   {
     "semester": 1,
-    "id": 60423,
     "name": {
       "pt": "Trabalho Interdisciplinar: Aplicações Web",
       "en": "Interdisciplinary Project: Web Applications"
@@ -91,7 +85,6 @@
   },
   {
     "semester": 2,
-    "id": 60393,
     "name": {
       "pt": "Arquitetura de Computadores",
       "en": "Computer Architecture"
@@ -106,7 +99,6 @@
   },
   {
     "semester": 2,
-    "id": 60426,
     "name": {
       "pt": "Bancos de Dados",
       "en": "Databases"
@@ -121,7 +113,6 @@
   },
   {
     "semester": 2,
-    "id": 54810,
     "name": {
       "pt": "Cálculo II",
       "en": "Calculus II"
@@ -136,7 +127,6 @@
   },
   {
     "semester": 2,
-    "id": 54279,
     "name": {
       "pt": "Filosofia: Razão e Modernidade",
       "en": "Philosophy: Reason and Modernity"
@@ -151,7 +141,6 @@
   },
   {
     "semester": 2,
-    "id": 60428,
     "name": {
       "pt": "Laboratório de Programação Modular",
       "en": "Modular Programming Lab"
@@ -166,7 +155,6 @@
   },
   {
     "semester": 2,
-    "id": 60424,
     "name": {
       "pt": "Modelagem de Processos de Negócios",
       "en": "Business Process Modeling"
@@ -181,7 +169,6 @@
   },
   {
     "semester": 2,
-    "id": 60427,
     "name": {
       "pt": "Programação Modular",
       "en": "Modular Programming"
@@ -196,7 +183,6 @@
   },
   {
     "semester": 2,
-    "id": 60425,
     "name": {
       "pt": "Trabalho Interdisciplinar: Aplicações para Processos de Negócios",
       "en": "Interdisciplinary Project: Business Process Applications"
@@ -211,7 +197,6 @@
   },
   {
     "semester": 3,
-    "id": 60430,
     "name": {
       "pt": "Algoritmos e Estruturas de Dados II",
       "en": "Algorithms and Data Structures II"
@@ -226,7 +211,6 @@
   },
   {
     "semester": 3,
-    "id": 56212,
     "name": {
       "pt": "Cultura Religiosa: Fenômeno Religioso",
       "en": "Religious Culture: The Religious Phenomenon"
@@ -241,7 +225,6 @@
   },
   {
     "semester": 3,
-    "id": 60432,
     "name": {
       "pt": "Engenharia de Requisitos de Software",
       "en": "Software Requirements Engineering"
@@ -256,7 +239,6 @@
   },
   {
     "semester": 3,
-    "id": 60429,
     "name": {
       "pt": "Introdução à Pesquisa em Informática",
       "en": "Introduction to Computing Research"
@@ -271,7 +253,6 @@
   },
   {
     "semester": 3,
-    "id": 60431,
     "name": {
       "pt": "Sistemas Operacionais",
       "en": "Operating Systems"
@@ -286,7 +267,6 @@
   },
   {
     "semester": 3,
-    "id": 60433,
     "name": {
       "pt": "Trabalho Interdisciplinar: Aplicações para Cenários Reais",
       "en": "Interdisciplinary Project: Real-World Applications"
@@ -301,7 +281,6 @@
   },
   {
     "semester": 4,
-    "id": 60439,
     "name": {
       "pt": "Interação Humano-Computador",
       "en": "Human-Computer Interaction"
@@ -316,7 +295,6 @@
   },
   {
     "semester": 4,
-    "id": 60436,
     "name": {
       "pt": "Laboratório de Desenvolvimento de Software",
       "en": "Software Development Lab"
@@ -331,7 +309,6 @@
   },
   {
     "semester": 4,
-    "id": 60399,
     "name": {
       "pt": "Ciência de Dados (Optativa)",
       "en": "Data Science (Elective)"
@@ -346,7 +323,6 @@
   },
   {
     "semester": 4,
-    "id": 60435,
     "name": {
       "pt": "Projeto de Software",
       "en": "Software Design"
@@ -361,7 +337,6 @@
   },
   {
     "semester": 4,
-    "id": 60437,
     "name": {
       "pt": "Redes de Computadores",
       "en": "Computer Networks"
@@ -376,7 +351,6 @@
   },
   {
     "semester": 4,
-    "id": 60434,
     "name": {
       "pt": "Teoria dos Grafos e Computabilidade",
       "en": "Graph Theory and Computability"
@@ -391,7 +365,6 @@
   },
   {
     "semester": 4,
-    "id": 60438,
     "name": {
       "pt": "Trabalho Interdisciplinar: Aplicações para Sustentabilidade",
       "en": "Interdisciplinary Project: Sustainability Applications"
@@ -406,7 +379,6 @@
   },
   {
     "semester": 5,
-    "id": 60442,
     "name": {
       "pt": "Arquitetura de Software",
       "en": "Software Architecture"
@@ -421,7 +393,6 @@
   },
   {
     "semester": 5,
-    "id": 54318,
     "name": {
       "pt": "Cultura Religiosa: Pessoa e Sociedade",
       "en": "Religious Culture: Person and Society"
@@ -436,7 +407,6 @@
   },
   {
     "semester": 5,
-    "id": 60444,
     "name": {
       "pt": "Desenvolvimento de Aplicações Móveis e Distribuídas",
       "en": "Mobile and Distributed Application Development"
@@ -451,7 +421,6 @@
   },
   {
     "semester": 5,
-    "id": 60441,
     "name": {
       "pt": "Estatística e Probabilidade",
       "en": "Statistics and Probability"
@@ -466,7 +435,6 @@
   },
   {
     "semester": 5,
-    "id": 60440,
     "name": {
       "pt": "Fundamentos de Projeto e Análise de Algoritmos",
       "en": "Algorithm Design and Analysis Fundamentals"
@@ -481,7 +449,6 @@
   },
   {
     "semester": 5,
-    "id": 63237,
     "name": {
       "pt": "Gerência de Projetos de Software",
       "en": "Software Project Management"
@@ -496,7 +463,6 @@
   },
   {
     "semester": 5,
-    "id": 60445,
     "name": {
       "pt": "Laboratório de Desenvolvimento de Aplicações Móveis e Distribuídas",
       "en": "Mobile and Distributed Application Development Lab"
@@ -511,7 +477,6 @@
   },
   {
     "semester": 5,
-    "id": 60447,
     "name": {
       "pt": "Desenvolvimento Web Full-Stack (Optativa)",
       "en": "Full-Stack Web Development (Elective)"
@@ -526,7 +491,6 @@
   },
   {
     "semester": 5,
-    "id": 60446,
     "name": {
       "pt": "Trabalho Interdisciplinar: Aplicações Distribuídas",
       "en": "Interdisciplinary Project: Distributed Applications"
@@ -541,7 +505,6 @@
   },
   {
     "semester": 6,
-    "id": 63238,
     "name": {
       "pt": "Engenharia Econômica para Software",
       "en": "Software Economics"
@@ -556,7 +519,6 @@
   },
   {
     "semester": 6,
-    "id": 60451,
     "name": {
       "pt": "Gerência de Configuração e Evolução de Software",
       "en": "Software Configuration and Evolution Management"
@@ -571,7 +533,6 @@
   },
   {
     "semester": 6,
-    "id": 60450,
     "name": {
       "pt": "Laboratório de Experimentação de Software",
       "en": "Software Experimentation Lab"
@@ -586,7 +547,6 @@
   },
   {
     "semester": 6,
-    "id": 60449,
     "name": {
       "pt": "Medição e Experimentação em Engenharia de Software",
       "en": "Measurement and Experimentation in Software Engineering"
@@ -601,7 +561,6 @@
   },
   {
     "semester": 6,
-    "id": 60454,
     "name": {
       "pt": "Tópicos em Gramática (Optativa)",
       "en": "Topics in Grammar (Elective)"
@@ -616,7 +575,6 @@
   },
   {
     "semester": 6,
-    "id": 60454,
     "name": {
       "pt": "Leitura de Textos em Língua Inglesa (Optativa)",
       "en": "Reading Texts in English (Elective)"
@@ -631,7 +589,6 @@
   },
   {
     "semester": 6,
-    "id": 60448,
     "name": {
       "pt": "Teste de Software",
       "en": "Software Testing"
@@ -646,7 +603,6 @@
   },
   {
     "semester": 6,
-    "id": 60453,
     "name": {
       "pt": "Trabalho Interdisciplinar: Pesquisa em Engenharia de Software",
       "en": "Interdisciplinary Project: Research in Software Engineering"
@@ -661,7 +617,6 @@
   },
   {
     "semester": 7,
-    "id": 1,
     "name": {
       "pt": "Economia (Optativa)",
       "en": "Economics (Elective)"
@@ -676,7 +631,6 @@
   },
   {
     "semester": 7,
-    "id": 60456,
     "name": {
       "pt": "Computadores e Sociedade",
       "en": "Computers and Society"
@@ -691,7 +645,6 @@
   },
   {
     "semester": 7,
-    "id": 60457,
     "name": {
       "pt": "Engenharia de Processos e Qualidade de Software",
       "en": "Software Process and Quality Engineering"
@@ -706,7 +659,6 @@
   },
   {
     "semester": 7,
-    "id": 60455,
     "name": {
       "pt": "Filosofia: Antropologia e Ética",
       "en": "Philosophy: Anthropology and Ethics"
@@ -721,7 +673,6 @@
   },
   {
     "semester": 7,
-    "id": 60458,
     "name": {
       "pt": "Gestão da Produção de Software",
       "en": "Software Production Management"
@@ -736,7 +687,6 @@
   },
   {
     "semester": 7,
-    "id": 60459,
     "name": {
       "pt": "Tecnologias da Informação e do Conhecimento",
       "en": "Information and Communication Technologies"
@@ -751,7 +701,6 @@
   },
   {
     "semester": 7,
-    "id": 60460,
     "name": {
       "pt": "Segurança Cibernética e Hacking Ético (Tópicos em Computação I)",
       "en": "Cybersecurity and Ethical Hacking (Topics in Computing I)"
@@ -766,7 +715,6 @@
   },
   {
     "semester": 7,
-    "id": 60461,
     "name": {
       "pt": "Computação Forense (Tópicos em Computação II)",
       "en": "Forensic Computing (Topics in Computing II)"
@@ -781,7 +729,6 @@
   },
   {
     "semester": 7,
-    "id": 60462,
     "name": {
       "pt": "Trabalho de Conclusão de Curso I",
       "en": "Capstone Project I"
@@ -796,7 +743,6 @@
   },
   {
     "semester": 8,
-    "id": 60465,
     "name": {
       "pt": "Modelagem e Avaliação de Desempenho",
       "en": "Performance Modeling and Evaluation"
@@ -811,7 +757,6 @@
   },
   {
     "semester": 8,
-    "id": 60467,
     "name": {
       "pt": "Segurança e Auditoria de Sistemas",
       "en": "Systems Security and Auditing"
@@ -826,7 +771,6 @@
   },
   {
     "semester": 8,
-    "id": 60463,
     "name": {
       "pt": "Tópicos em Engenharia de Software",
       "en": "Topics in Software Engineering"
@@ -841,7 +785,6 @@
   },
   {
     "semester": 8,
-    "id": 60464,
     "name": {
       "pt": "Tópicos em Sistemas de Software",
       "en": "Topics in Software Systems"
@@ -856,7 +799,6 @@
   },
   {
     "semester": 8,
-    "id": 60466,
     "name": {
       "pt": "Trabalho de Conclusão de Curso II",
       "en": "Capstone Project II"

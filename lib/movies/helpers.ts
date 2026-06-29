@@ -1,6 +1,6 @@
+import { loadCollection } from "@/lib/data/load";
 import { distance } from "fastest-levenshtein";
 import fs from "fs";
-import { z } from "zod";
 import {
   Movie,
   MovieMetadata,
@@ -19,7 +19,7 @@ export function loadRawMetadata(filePath: string) {
 
 export function loadMetadata(filePath: string): MovieMetadata[] {
   const json = loadRawMetadata(filePath);
-  return z.array(movieMetadataSchema).parse(json);
+  return loadCollection(json, movieMetadataSchema, "movie metadata");
 }
 
 export function saveMetadata(filePath: string, data: MovieMetadata[]): void {
@@ -43,8 +43,7 @@ export function loadMovies(filePath: string): Movie[] {
   }
 
   const content = fs.readFileSync(filePath, "utf-8");
-  const json = JSON.parse(content);
-  return z.array(movieSchema).parse(json);
+  return loadCollection(JSON.parse(content), movieSchema, "movies");
 }
 
 export function compareMovieTitles(title1: string, title2: string): boolean {

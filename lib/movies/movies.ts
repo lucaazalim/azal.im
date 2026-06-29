@@ -1,10 +1,14 @@
-import path from "path";
+import rawMetadata from "@/data/movies-metadata.json";
+import rawMovies from "@/data/movies.json";
+import { loadCollection } from "@/lib/data/load";
 import { PaginatedResponse } from "../types";
-import { findMovieMetadata, loadMetadata, loadMovies } from "./helpers";
-import { MoviesRequest, MovieWithMetadata } from "./types";
-
-const MOVIES_PATH = path.join(process.cwd(), "data/movies.json");
-const METADATA_PATH = path.join(process.cwd(), "data/movies-metadata.json");
+import { findMovieMetadata } from "./helpers";
+import {
+  movieMetadataSchema,
+  MoviesRequest,
+  movieSchema,
+  MovieWithMetadata,
+} from "./types";
 
 export const { moviesWithMetadata, genres, totalMovies, totalRuntime } =
   loadMoviesWithMetadata();
@@ -15,8 +19,12 @@ export function loadMoviesWithMetadata(): {
   totalMovies: number;
   totalRuntime: number;
 } {
-  const movies = loadMovies(MOVIES_PATH);
-  const metadata = loadMetadata(METADATA_PATH);
+  const movies = loadCollection(rawMovies, movieSchema, "movies");
+  const metadata = loadCollection(
+    rawMetadata,
+    movieMetadataSchema,
+    "movie metadata",
+  );
 
   const moviesWithMetadata = movies
     .map((movie) => {

@@ -1,4 +1,4 @@
-import { getCourses, SEMESTERS } from "@/lib/academics/academics";
+import { courses, SEMESTERS } from "@/lib/academics/academics";
 import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import PageHeader from "../_components/header/PageHeader";
@@ -28,8 +28,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const courses = getCourses();
-
   return (
     <PageWrapper className="mx-auto">
       <PageHeader>

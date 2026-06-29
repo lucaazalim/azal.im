@@ -34,7 +34,7 @@ export default function SemesterCoursesTable({ courses }: Props) {
       <TableBody>
         {courses.map((course) => (
           <TableRow
-            key={course.id}
+            key={`${course.semester}-${course.name.en}`}
             className={cn(!course.grade && "opacity-50")}
           >
             <TableCell className="flex flex-row items-center gap-1.5">
