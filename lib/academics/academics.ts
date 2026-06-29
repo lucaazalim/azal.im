@@ -3,7 +3,7 @@ import path from "path";
 import { z } from "zod";
 import { Course, courseSchema, SemesterSummary } from "./types";
 
-const COURSES_PATH = path.join(process.cwd(), "data/major/courses.json");
+const COURSES_PATH = path.join(process.cwd(), "data/courses.json");
 
 export const SEMESTERS = 8;
 

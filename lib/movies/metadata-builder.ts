@@ -21,8 +21,8 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
 // File paths
-const MOVIES_PATH = path.join(__dirname, "../../data/movies/movies.json");
-const METADATA_PATH = path.join(__dirname, "../../data/movies/metadata.json");
+const MOVIES_PATH = path.join(__dirname, "../../data/movies.json");
+const METADATA_PATH = path.join(__dirname, "../../data/movies-metadata.json");
 
 // API keys - load after dotenv.config()
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
@@ -253,7 +253,7 @@ async function fetchMovieMetadata() {
   saveMetadata(METADATA_PATH, metadata);
 
   console.log(
-    "All metadata has been fetched, formatted, and saved to metadata.json.",
+    "All metadata has been fetched, formatted, and saved to movies-metadata.json.",
   );
 
   console.log(

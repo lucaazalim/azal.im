@@ -24,7 +24,7 @@ export function loadMetadata(filePath: string): MovieMetadata[] {
 
 export function saveMetadata(filePath: string, data: MovieMetadata[]): void {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-  console.log("Metadata saved to metadata.json");
+  console.log("Metadata saved to movies-metadata.json");
 }
 
 export function isMetadataEntryValid(entry: any): entry is MovieMetadata {

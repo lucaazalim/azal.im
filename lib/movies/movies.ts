@@ -3,8 +3,8 @@ import { PaginatedResponse } from "../types";
 import { findMovieMetadata, loadMetadata, loadMovies } from "./helpers";
 import { MoviesRequest, MovieWithMetadata } from "./types";
 
-const MOVIES_PATH = path.join(process.cwd(), "data/movies/movies.json");
-const METADATA_PATH = path.join(process.cwd(), "data/movies/metadata.json");
+const MOVIES_PATH = path.join(process.cwd(), "data/movies.json");
+const METADATA_PATH = path.join(process.cwd(), "data/movies-metadata.json");
 
 export const { moviesWithMetadata, genres, totalMovies, totalRuntime } =
   loadMoviesWithMetadata();

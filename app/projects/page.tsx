@@ -1,5 +1,5 @@
-import { projects } from "@/data/projects/projects";
 import { BASE_URL, ROUTES } from "@/lib/constants";
+import { getProjects } from "@/lib/projects/projects";
 import { cn } from "@/lib/utils";
 import { SiGithub } from "@icons-pack/react-simple-icons";
 import { Sparkles, SquareArrowOutUpRight } from "lucide-react";
@@ -44,6 +44,8 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const projects = getProjects();
+
   const structuredData: WithContext<CollectionPage> = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
