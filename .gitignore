@@ -8,3 +8,6 @@ cli/dist
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# reports
+lighthouse-report.json
