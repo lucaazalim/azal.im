@@ -7,14 +7,16 @@ import { useState } from "react";
 export default function LoadingImage({
   className,
   onLoad,
+  alt,
   ...props
 }: ImageProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
   return (
     <Image
-      onLoad={() => {
+      alt={alt}
+      onLoad={(event) => {
         setImageLoaded(true);
-        return onLoad;
+        onLoad?.(event);
       }}
       className={cn(
         className,
