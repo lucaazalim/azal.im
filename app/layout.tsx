@@ -94,9 +94,6 @@ export const metadata: Metadata = {
     images: [ROUTES.api.og("Luca Azalim", "Software Engineer")],
     creator: "@lucaazalim",
   },
-  verification: {
-    google: "your-google-verification-code", // Replace with actual verification code
-  },
 };
 
 const websiteSchema = {
@@ -111,14 +108,6 @@ const websiteSchema = {
     name: "Luca Azalim",
     jobTitle: "Software Engineer",
     url: BASE_URL,
-  },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: `${BASE_URL}/search?q={search_term_string}`,
-    },
-    "query-input": "required name=search_term_string",
   },
 };
 
@@ -160,7 +149,6 @@ export default function RootLayout({
             <NavBar />
             <ImageView />
             <main className="pt-[var(--navbar-height)]">{children}</main>
-            {/* <Footer /> */}
             {development && <TailwindBreakpoint />}
           </ImageViewContextProvider>
         </TanStackQueryProvider>
