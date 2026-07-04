@@ -5,12 +5,26 @@ import {
   GMAIL_USER,
   ROUTES,
 } from "@/lib/constants";
+import { escapeHtml } from "@/lib/contact/escape";
+import { isRateLimited } from "@/lib/contact/rate-limit";
 import { contactSchema } from "@/lib/contact/types";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
   try {
+    // Best-effort per-instance rate limit, keyed by the caller's IP.
+    const key =
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+      "unknown";
+
+    if (isRateLimited(key)) {
+      return NextResponse.json(
+        { error: "Too many requests" },
+        { status: 429 },
+      );
+    }
+
     const body = await request.json();
 
     // Validate the request body using the contact schema
@@ -60,9 +74,9 @@ export async function POST(request: NextRequest) {
       to: CONTACT_EMAIL,
       subject: `Contact Form: ${subject}`,
       html: `
-          <p><strong>From:</strong> ${name} (${email})</p>
-          <p><strong>Subject:</strong> ${subject}</p>
-          <p><strong>Message:</strong> ${message}</p>
+          <p><strong>From:</strong> ${escapeHtml(name)} (${escapeHtml(email)})</p>
+          <p><strong>Subject:</strong> ${escapeHtml(subject)}</p>
+          <p><strong>Message:</strong> ${escapeHtml(message)}</p>
           <p>This message was sent from <a href="${BASE_URL + ROUTES.contact}">your contact page</a>.</p>
         `,
       replyTo: email,

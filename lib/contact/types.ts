@@ -13,9 +13,15 @@ export const contactSchema = z.object({
       message: "Please enter a valid email address.",
     })
     .transform((val) => val.toLowerCase()),
-  subject: z.string().min(5, {
-    message: "Please provide at least 5 characters for the subject.",
-  }),
+  subject: z
+    .string()
+    .min(5, {
+      message: "Please provide at least 5 characters for the subject.",
+    })
+    .max(150, {
+      message:
+        "That's more of a message than a subject — keep it under 150 characters.",
+    }),
   message: z
     .string()
     .min(10, {
