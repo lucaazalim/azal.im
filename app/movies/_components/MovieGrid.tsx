@@ -1,6 +1,7 @@
 import LoadingSpinner from "@/app/_components/LoadingSpinner";
 import { ROUTES } from "@/lib/constants";
 import { MovieFilters, MovieWithMetadata } from "@/lib/movies/types";
+import { PaginatedResponse } from "@/lib/types";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
 import { useFormContext, useWatch } from "react-hook-form";
@@ -59,7 +60,10 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
           ...debouncedFilters,
         }),
       );
-      return response.json();
+      if (!response.ok) {
+        throw new Error(`Failed to fetch movies (${response.status})`);
+      }
+      return response.json() as Promise<PaginatedResponse<MovieWithMetadata>>;
     },
     getNextPageParam: (lastPage) =>
       lastPage.hasMore ? lastPage.nextCursor : undefined,
@@ -76,7 +80,12 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
     observerRef.current = new IntersectionObserver(
       (entries) => {
         const [entry] = entries;
-        if (entry.isIntersecting && hasNextPage && !isFetchingNextPage) {
+        if (
+          entry.isIntersecting &&
+          hasNextPage &&
+          !isFetchingNextPage &&
+          !isError
+        ) {
           fetchNextPage();
         }
       },
@@ -92,7 +101,7 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
         observerRef.current.disconnect();
       }
     };
-  }, [fetchNextPage, hasNextPage, isFetchingNextPage]);
+  }, [fetchNextPage, hasNextPage, isFetchingNextPage, isError]);
 
   // Flatten all pages of movies
   const movies = data?.pages.flatMap((page) => page.data) || [];
@@ -120,9 +129,9 @@ export default function MoviesGrid({ onMovieClicked }: Props) {
   return (
     <div className="space-y-6">
       <div className="grid grid-cols-3 justify-center gap-6 md:grid-cols-6 lg:grid-cols-8">
-        {movies.map((movieWithMetadata, index) => (
+        {movies.map((movieWithMetadata) => (
           <MovieCard
-            key={`${movieWithMetadata.title}-${index}`}
+            key={`${movieWithMetadata.title}-${movieWithMetadata.year}`}
             movie={movieWithMetadata}
             onClick={() => onMovieClicked(movieWithMetadata)}
           />
