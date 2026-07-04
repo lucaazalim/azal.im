@@ -21,13 +21,15 @@ Personal website (azal.im) built with Next.js App Router. Sections: homepage (ex
 ## Commands
 
 ```bash
-npm run dev      # start dev server (Turbopack)
-npm run build    # production build
-npm run start    # serve production build
-npm run lint     # eslint (next/core-web-vitals + prettier)
+npm run dev        # start dev server (Turbopack)
+npm run build      # production build
+npm run start      # serve production build
+npm run lint       # eslint (next/core-web-vitals + prettier)
+npm run typecheck  # tsc --noEmit
+npm test           # vitest run
 ```
 
-There is no test suite. Before considering a change done, run `npm run lint` and, for non-trivial changes, `npm run build` to catch type errors (the project uses `noEmit`, so types are only checked at build/lint time).
+Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a change done, run `npm run lint` and, for non-trivial changes, `npm run build` to catch type errors (the project uses `noEmit`, so types are only checked at build/lint time).
 
 ## Project layout
 
