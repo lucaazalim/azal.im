@@ -9,6 +9,9 @@ The site is organized into the following sections:
 - ▶️ **Videos** – A curated list of my favorite YouTube videos across a variety of topics.
 - 🎞 **Movies** – A catalog of movies and series I’ve watched in recent years, complete with my personal ratings.
 - 🎓 **Academics** – An overview of my academic journey in Software Engineering, including completed courses, individual grades, and GPA.
+- 💼 **Projects** – A showcase of personal and professional projects I've built.
+- 📄 **Resume** – My resume, available for viewing and download.
+- 📬 **Contact** – A form to get in touch with me directly.
 
 ---
 
@@ -48,7 +51,10 @@ app
     movies
     videos
 data
-├── movies
+├── movies.json
+├── movies-metadata.json
+├── courses.json
+├── projects.json
 └── posts
 lib
 └── ...
@@ -56,29 +62,30 @@ public
 └── ...
 ```
 
-| Directory            | Description                                             |
-| -------------------- | ------------------------------------------------------- |
-| `app`                | Root directory for Next.js application with app router. |
-| `app/_components`    | Shared components used across multiple pages.           |
-| `app/_components/ui` | Shadcn/UI components.                                   |
-| `app/(home)`         | Homepage components and layout.                         |
-| `app/api`            | API routes for server-side functionality.               |
-| `app/api/movies`     | Endpoint for fetching movies data.                      |
-| `app/api/og`         | Open Graph image generation API for the blog.           |
-| `app/blog`           | Blog components, pages and layout.                      |
-| `app/contact`        | Contact page components and layout.                     |
-| `app/resume`         | Resume page components and layout.                      |
-| `app/academics`      | Academics page components and layout.                   |
-| `app/movies`         | Movies page components and layout.                      |
-| `app/projects`       | Projects page components and layout.                    |
-| `app/videos`         | Videos page components and layout.                      |
-| `data`               | Static data files.                                      |
-| `data/movies`        | JSON files containing movies and their metadata.        |
-| `data/posts`         | MDX files for blog posts.                               |
-| `lib`                | Utility functions, types, and helper code.              |
-| `public`             | Public static assets like images.                       |
+| Directory                   | Description                                             |
+| --------------------------- | ------------------------------------------------------- |
+| `app`                       | Root directory for Next.js application with app router. |
+| `app/_components`           | Shared components used across multiple pages.           |
+| `app/_components/ui`        | Shadcn/UI components.                                   |
+| `app/(home)`                | Homepage components and layout.                         |
+| `app/api`                   | API routes for server-side functionality.               |
+| `app/api/movies`            | Endpoint for fetching movies data.                      |
+| `app/api/og`                | Open Graph image generation API for the blog.           |
+| `app/blog`                  | Blog components, pages and layout.                      |
+| `app/contact`               | Contact page components and layout.                     |
+| `app/resume`                | Resume page components and layout.                      |
+| `app/academics`             | Academics page components and layout.                   |
+| `app/movies`                | Movies page components and layout.                      |
+| `app/projects`              | Projects page components and layout.                    |
+| `app/videos`                | Videos page components and layout.                      |
+| `data`                      | Static data files.                                      |
+| `data/movies.json`          | Movies and series data.                                 |
+| `data/movies-metadata.json` | TMDB-enriched metadata for movies and series.           |
+| `data/posts`                | MDX files for blog posts.                               |
+| `lib`                       | Utility functions, types, and helper code.              |
+| `public`                    | Public static assets like images.                       |
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE.md).
 You are free to use, modify, and distribute this code, provided that **proper credit is given** by linking back to the [original repository](https://github.com/lucaazalim/azal.im).

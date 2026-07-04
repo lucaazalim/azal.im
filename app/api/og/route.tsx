@@ -3,8 +3,8 @@ import { NextRequest } from "next/server";
 
 export function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl;
-  const title = searchParams.get("title");
-  const description = searchParams.get("description");
+  const title = (searchParams.get("title") || "Luca Azalim").slice(0, 100);
+  const description = (searchParams.get("description") || "").slice(0, 200);
 
   return new ImageResponse(
     (
