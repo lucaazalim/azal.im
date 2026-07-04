@@ -56,4 +56,26 @@ describe("contactSchema", () => {
 
     expect(result.success).toBe(false);
   });
+
+  it("rejects a subject longer than 150 characters", () => {
+    const result = contactSchema.safeParse({
+      name: "Luca Azalim",
+      email: "luca@example.com",
+      subject: "a".repeat(151),
+      message: "This is a long enough message to pass validation.",
+    });
+
+    expect(result.success).toBe(false);
+  });
+
+  it("accepts a subject of exactly 150 characters", () => {
+    const result = contactSchema.safeParse({
+      name: "Luca Azalim",
+      email: "luca@example.com",
+      subject: "a".repeat(150),
+      message: "This is a long enough message to pass validation.",
+    });
+
+    expect(result.success).toBe(true);
+  });
 });
