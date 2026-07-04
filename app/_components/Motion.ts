@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 // See https://github.com/motiondivision/motion/issues/2054#issuecomment-1550228682
 
