@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
 export type PostHeading = {
   slug: string;
@@ -6,9 +6,21 @@ export type PostHeading = {
   level: number;
 };
 
+export function textFromChildren(children: ReactNode): string {
+  if (children == null || typeof children === "boolean") return "";
+  if (typeof children === "string" || typeof children === "number") {
+    return String(children);
+  }
+  if (Array.isArray(children)) return children.map(textFromChildren).join("");
+  if (React.isValidElement<{ children?: ReactNode }>(children)) {
+    return textFromChildren(children.props.children);
+  }
+  return "";
+}
+
 export function createHeading(level: number) {
-  const Heading = ({ children }: { children: any }) => {
-    const slug = slugify(children);
+  const Heading = ({ children }: { children: ReactNode }) => {
+    const slug = slugify(textFromChildren(children));
 
     return React.createElement(
       `h${level}`,
@@ -41,21 +53,40 @@ export function slugify(str: string) {
     .replace(/--+/g, "-"); // Replace multiple - with single -
 }
 
+function stripInlineMarkdown(title: string): string {
+  return title
+    .replace(/`([^`]*)`/g, "$1") // inline code
+    .replace(/\*\*([^*]*)\*\*/g, "$1") // bold
+    .replace(/\*([^*]*)\*/g, "$1") // italic
+    .replace(/_([^_]*)_/g, "$1") // underscore emphasis
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1"); // links → text
+}
+
 export function extractHeadings(source: string): PostHeading[] {
   const headings: PostHeading[] = [];
 
   // match the `#` syntax for headings
-  const headingMatcher = /^(#+)\s(.+)$/gm;
+  const headingMatcher = /^(#+)\s(.+)$/;
 
-  let match = headingMatcher.exec(source);
+  let inFence = false;
 
-  while (match !== null) {
+  for (const line of source.split("\n")) {
+    if (line.trimStart().startsWith("```")) {
+      inFence = !inFence;
+      continue;
+    }
+
+    if (inFence) continue;
+
+    const match = headingMatcher.exec(line);
+
+    if (match === null) continue;
+
     const level = match[1].length;
-    const title = match[2].trim();
+    const title = stripInlineMarkdown(match[2].trim());
     const slug = slugify(title);
 
     headings.push({ slug, title, level });
-    match = headingMatcher.exec(source);
   }
 
   return headings;
