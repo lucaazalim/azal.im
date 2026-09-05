@@ -13,7 +13,7 @@ export default function ProjectMobileImage({ src, alt }: Props) {
       <div className="absolute -start-[11px] top-[178px] h-[46px] w-[3px] rounded-s-lg bg-neutral-800"></div>
       <div className="absolute -end-[11px] top-[142px] h-[64px] w-[3px] rounded-e-lg bg-neutral-800"></div>
       <div className="relative [aspect-ratio:9/19.5] w-xs overflow-hidden rounded-[2rem]">
-        <LoadingImage src={src} alt={alt} fill={true} />
+        <LoadingImage src={src} alt={alt} fill={true} sizes="320px" />
       </div>
     </div>
   );

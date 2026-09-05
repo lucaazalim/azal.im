@@ -40,6 +40,7 @@ export default function ImageView() {
         src={path}
         alt="Image"
         fill={true}
+        sizes="100vw"
         className="object-scale-down"
       />
     </div>

@@ -15,6 +15,7 @@ export default function Aside() {
             alt="Luca Azalim Avatar"
             className="rounded-full outline-1 outline-offset-4 drop-shadow-lg drop-shadow-black"
             fill
+            sizes="208px"
             priority
           />
         </div>
