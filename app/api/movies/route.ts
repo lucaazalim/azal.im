@@ -2,6 +2,7 @@ import { getMovies } from "@/lib/movies/movies";
 import { moviesRequestSchema } from "@/lib/movies/types";
 import { searchParamsToObject } from "@/lib/utils";
 import { NextRequest, NextResponse } from "next/server";
+import { z } from "zod";
 
 export async function GET(request: NextRequest) {
   const searchParams = searchParamsToObject(request.nextUrl.searchParams);
@@ -11,7 +12,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(
       {
         error: "Invalid request",
-        issues: moviesRequest.error.format(),
+        issues: z.treeifyError(moviesRequest.error),
       },
       { status: 400 },
     );

@@ -1,6 +1,7 @@
+import YoutubeIcon from "@/app/_components/icons/YoutubeIcon";
 import LoadingImage from "@/app/_components/LoadingImage";
 import { cn } from "@/lib/utils";
-import { Play, Youtube } from "lucide-react";
+import { Play } from "lucide-react";
 import { getThumbnailUrl, Video } from "../../../lib/videos/videos";
 
 type Props = {
@@ -43,7 +44,7 @@ export default function VideoCard({ video, index, onClick }: Props) {
         </div>
         <div>
           <span className="text-primary flex items-center gap-1.5 text-sm">
-            <Youtube className="size-5" />
+            <YoutubeIcon className="size-5" />
             <span className="line-clamp-1">
               {video.snippet.videoOwnerChannelTitle}
             </span>

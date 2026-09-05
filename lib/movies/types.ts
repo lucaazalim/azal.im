@@ -60,15 +60,15 @@ export type MovieWithMetadata = Movie & {
 
 const runtimeFilterSchema = z
   .object({
-    min: z.coerce.number().int().min(0).optional(),
-    max: z.coerce.number().int().min(0).optional(),
+    min: z.coerce.number<number>().int().min(0).optional(),
+    max: z.coerce.number<number>().int().min(0).optional(),
   })
   .optional();
 
 export const movieFilterSchema = z.object({
   title: z.string().optional(),
   type: movieSchema.shape.type.optional(),
-  stars: z.coerce.number().int().min(1).max(MAX_MOVIE_STARS).optional(),
+  stars: z.coerce.number<number>().int().min(1).max(MAX_MOVIE_STARS).optional(),
   genre: z.string().optional(),
   runtime: runtimeFilterSchema,
 });

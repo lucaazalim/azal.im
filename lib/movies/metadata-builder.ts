@@ -8,17 +8,17 @@ import {
   saveMetadata,
 } from "@/lib/movies/helpers";
 import { Movie, MovieMetadata } from "@/lib/movies/types";
-import chalk from "chalk";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
+import { styleText } from "node:util";
 
 // Get current file's directory (for ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Load environment variables from .env file
-dotenv.config({ path: path.resolve(__dirname, "../../.env") });
+dotenv.config({ path: path.resolve(__dirname, "../../.env"), quiet: true });
 
 // File paths
 const MOVIES_PATH = path.join(__dirname, "../../data/movies.json");
@@ -177,7 +177,9 @@ async function fetchMovieMetadata() {
       const tmdbEntry = await searchMovieInTMDB(movie);
 
       if (!tmdbEntry) {
-        console.log(chalk.red(`No TMDB entry found for ${movie.title}.`));
+        console.log(
+          styleText("red", `No TMDB entry found for ${movie.title}.`),
+        );
         failed++;
         continue;
       }
@@ -189,7 +191,7 @@ async function fetchMovieMetadata() {
 
       if (!tmdbEntryOriginalTitle || !tmdbEntryTitle) {
         console.log(
-          chalk.red(`No title found in TMDB entry for ${movie.title}.`),
+          styleText("red", `No title found in TMDB entry for ${movie.title}.`),
         );
         failed++;
         continue;
@@ -200,7 +202,8 @@ async function fetchMovieMetadata() {
         !compareMovieTitles(movie.title, tmdbEntryTitle)
       ) {
         console.log(
-          chalk.yellow(
+          styleText(
+            "yellow",
             `Title mismatch for ${movie.title}. TMDB returned ${tmdbEntry.original_title || tmdbEntry.original_name}.`,
           ),
         );
@@ -213,7 +216,10 @@ async function fetchMovieMetadata() {
 
       if (!tmdbEntryReleaseDate) {
         console.log(
-          chalk.red(`No release date found in TMDB entry for ${movie.title}.`),
+          styleText(
+            "red",
+            `No release date found in TMDB entry for ${movie.title}.`,
+          ),
         );
         failed++;
         continue;
@@ -223,7 +229,8 @@ async function fetchMovieMetadata() {
 
       if (!compareMovieYears(movie.year, tmdbEntryYear)) {
         console.log(
-          chalk.yellow(
+          styleText(
+            "yellow",
             `Year mismatch for ${movie.title}. TMDB returned ${tmdbEntryYear}.`,
           ),
         );
@@ -257,7 +264,8 @@ async function fetchMovieMetadata() {
   );
 
   console.log(
-    chalk.red(
+    styleText(
+      "red",
       `Failed to fetch metadata for ${failed} movies. Please check the logs for details.`,
     ),
   );

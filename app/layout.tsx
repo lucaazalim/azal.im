@@ -136,14 +136,15 @@ export default function RootLayout({
           />
         </head>
       )}
-      <Script
-        id="website-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable} bg-background`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema).replace(/</g, "\\u003c"),
+          }}
+        />
         <TanStackQueryProvider>
           <ImageViewContextProvider>
             <NavBar />

@@ -81,7 +81,14 @@
     "title": "WebTech",
     "subtitle": "Pontifical Catholic University of Minas Gerais",
     "description": "It was an honor to volunteer for the WebTech extension project for one year. I was responsible for developing the project's website and contributed to other initiatives as well.",
-    "skills": ["JavaScript", "SQL", "Node.js", "Next.js", "TailwindCSS", "Docker"],
+    "skills": [
+      "JavaScript",
+      "SQL",
+      "Node.js",
+      "Next.js",
+      "TailwindCSS",
+      "Docker"
+    ],
     "urls": {
       "live": "https://webtech.network"
     }

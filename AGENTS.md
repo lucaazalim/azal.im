@@ -12,8 +12,9 @@ Personal website (azal.im) built with Next.js App Router. Sections: homepage (ex
 
 ## Stack
 
-- **Next.js 16** (App Router, React Server Components) with **React 19** and **Turbopack** in dev.
-- **TypeScript** (strict mode), **Tailwind CSS v4**, **shadcn/ui** (new-york style, neutral base).
+- **Next.js 16** (App Router, React Server Components) with **React 19** and **Turbopack** (default for dev and build).
+- **TypeScript 7** (strict mode; the native `tsc` type-checks, there is no JS compiler API), **Tailwind CSS v4**, **shadcn/ui** (new-york style, neutral base).
+- **Oxlint** for linting (`.oxlintrc.json`) and **Prettier** for formatting.
 - **Zod** for schema validation, **TanStack Query** for client data-fetching, **React Hook Form** for forms.
 - **Shiki** / `rehype-pretty-code` for code highlighting, **next-mdx-remote-client** for MDX blog posts.
 - **Nodemailer** (Gmail) for the contact form, **TMDB** + **Google Cloud Translation** APIs for movie data.
@@ -24,12 +25,12 @@ Personal website (azal.im) built with Next.js App Router. Sections: homepage (ex
 npm run dev        # start dev server (Turbopack)
 npm run build      # production build
 npm run start      # serve production build
-npm run lint       # eslint (next/core-web-vitals + prettier)
-npm run typecheck  # tsc --noEmit
+npm run lint       # oxlint (Next.js, React, jsx-a11y and import rules)
+npm run typecheck  # tsc --noEmit (TypeScript 7 native compiler)
 npm test           # vitest run
 ```
 
-Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a change done, run `npm run lint` and, for non-trivial changes, `npm run build` to catch type errors (the project uses `noEmit`, so types are only checked at build/lint time).
+Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a change done, run `npm run lint` and `npm run typecheck`, and, for non-trivial changes, `npm run build` (the project uses `noEmit`, so types are only checked by `typecheck` and `build`).
 
 ## Project layout
 
@@ -48,7 +49,7 @@ Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a c
 - **Styling**: Tailwind utility classes; compose conditional classes with `cn()`. Class ordering is enforced by `prettier-plugin-tailwindcss` — run Prettier, don't hand-sort.
 - **Components**: default to Server Components; add `"use client"` only when needed (interactivity, hooks, TanStack Query). Add new UI primitives via the shadcn CLI (config in `components.json`), not by hand.
 - **Icons** come from `lucide-react`.
-- Match the formatting and naming of surrounding files; Prettier + ESLint are the source of truth.
+- Match the formatting and naming of surrounding files; Prettier + Oxlint are the source of truth.
 
 ## Environment
 

@@ -1,9 +1,9 @@
-import { IconType } from "@icons-pack/react-simple-icons";
-import { LucideIcon } from "lucide-react";
-import { AnchorHTMLAttributes } from "react";
+import { AnchorHTMLAttributes, ComponentType, SVGProps } from "react";
+
+export type SocialIcon = ComponentType<SVGProps<SVGSVGElement>>;
 
 type Props = {
-  icon: IconType | LucideIcon;
+  icon: SocialIcon;
 } & AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export default function SocialButton({ icon: Icon, href, ...props }: Props) {

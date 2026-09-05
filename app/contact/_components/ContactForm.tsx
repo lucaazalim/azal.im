@@ -18,11 +18,8 @@ import { Input } from "@/app/_components/ui/input";
 import { Textarea } from "@/app/_components/ui/textarea";
 import { ROUTES } from "@/lib/constants";
 import { ContactFormValues, contactSchema } from "@/lib/contact/types";
-import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
-  const router = useRouter();
-
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
     defaultValues: {

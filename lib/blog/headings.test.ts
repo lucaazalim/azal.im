@@ -2,7 +2,11 @@ import { readFileSync } from "fs";
 import path from "path";
 import { createElement } from "react";
 import { describe, expect, it } from "vitest";
-import { extractHeadings, slugify, textFromChildren } from "@/lib/blog/headings";
+import {
+  extractHeadings,
+  slugify,
+  textFromChildren,
+} from "@/lib/blog/headings";
 
 function readPost(filename: string): string {
   return readFileSync(
@@ -57,9 +61,9 @@ describe("extractHeadings", () => {
   });
 
   it("returns an empty array when there are no headings", () => {
-    expect(extractHeadings("Just a plain paragraph.\nNo headings here.")).toEqual(
-      [],
-    );
+    expect(
+      extractHeadings("Just a plain paragraph.\nNo headings here."),
+    ).toEqual([]);
   });
 
   it("ignores non-heading lines starting with # inside a sentence", () => {

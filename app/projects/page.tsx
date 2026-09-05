@@ -14,7 +14,6 @@ import PageWrapper from "../_components/header/PageWrapper";
 import MacOSImageFrame from "../_components/MacOSImageFrame";
 import { Badge } from "../_components/ui/badge";
 import { buttonVariants } from "../_components/ui/button";
-import styles from "./projects.module.css";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -80,17 +79,19 @@ export default function Page() {
   return (
     <>
       <script
-        id="projects-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+        }}
       />
       <PageWrapper className="mx-auto max-w-7xl">
         <PageHeader className="background-grid border-x-1">
           <PageHeaderTag>Projects</PageHeaderTag>
           <PageHeaderTitle>Stuff I Built</PageHeaderTitle>
           <PageHeaderDescription>
-            A collection of projects I&apos;ve worked on, from personal experiments
-            to professional applications and open-source contributions.
+            A collection of projects I&apos;ve worked on, from personal
+            experiments to professional applications and open-source
+            contributions.
           </PageHeaderDescription>
         </PageHeader>
         <main className="animate-in fade-in grid grid-cols-1 border-b-1 duration-750 ease-in-out">

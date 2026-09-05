@@ -4,11 +4,7 @@ import { HTMLAttributes } from "react";
 
 type Props = HTMLAttributes<HTMLSpanElement>;
 
-export default function PageHeaderTag({
-  children,
-  className,
-  ...props
-}: Props) {
+export default function PageHeaderTag({ children, className }: Props) {
   return (
     <div className="flex flex-row items-center justify-center gap-2">
       <Line />

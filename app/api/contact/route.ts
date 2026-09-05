@@ -10,6 +10,7 @@ import { isRateLimited } from "@/lib/contact/rate-limit";
 import { contactSchema } from "@/lib/contact/types";
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { z } from "zod";
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,10 +20,7 @@ export async function POST(request: NextRequest) {
       "unknown";
 
     if (isRateLimited(key)) {
-      return NextResponse.json(
-        { error: "Too many requests" },
-        { status: 429 },
-      );
+      return NextResponse.json({ error: "Too many requests" }, { status: 429 });
     }
 
     const body = await request.json();
@@ -34,7 +32,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           error: "Invalid form data",
-          issues: result.error.format(),
+          issues: z.treeifyError(result.error),
         },
         { status: 400 },
       );

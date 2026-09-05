@@ -82,17 +82,17 @@ export default function Experiences() {
       >
         <ul className="list-disc space-y-3">
           <li>
-            Led the company&apos;s operation for seven years, focusing on managing
-            the technology area and growth strategies that led to{" "}
+            Led the company&apos;s operation for seven years, focusing on
+            managing the technology area and growth strategies that led to{" "}
             <strong>16 million</strong> registered accounts,{" "}
             <strong>300,000</strong> monthly active players, and a national
             record of <strong>8,115</strong> players online simultaneously.
           </li>
           <li>
-            Designed and scaled the company&apos;s systems to support loads of over{" "}
-            <strong>8,000</strong> players online simultaneously, distributed
-            across more than <strong>30 game modes</strong> developed and
-            maintained by the company itself.
+            Designed and scaled the company&apos;s systems to support loads of
+            over <strong>8,000</strong> players online simultaneously,
+            distributed across more than <strong>30 game modes</strong>{" "}
+            developed and maintained by the company itself.
           </li>
           <li>
             Led the development of the first Minecraft game mode with

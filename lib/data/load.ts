@@ -7,7 +7,7 @@ import { z } from "zod";
  * malformed hand-edited data file fails loudly at load time rather than
  * surfacing as a confusing runtime error later.
  */
-export function loadCollection<S extends z.ZodTypeAny>(
+export function loadCollection<S extends z.ZodType>(
   data: unknown,
   schema: S,
   label: string,
@@ -17,7 +17,7 @@ export function loadCollection<S extends z.ZodTypeAny>(
   if (!parsed.success) {
     const details = parsed.error.issues
       .map((issue) => {
-        const path = issue.path.join(".");
+        const path = issue.path.map(String).join(".");
         return path ? `${path}: ${issue.message}` : issue.message;
       })
       .join("; ");

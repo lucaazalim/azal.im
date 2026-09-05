@@ -7,44 +7,42 @@ export function GET(request: NextRequest) {
   const description = (searchParams.get("description") || "").slice(0, 200);
 
   return new ImageResponse(
-    (
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "black",
+      }}
+    >
       <div
         style={{
-          height: "100%",
-          width: "100%",
           display: "flex",
           flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          backgroundColor: "black",
+          padding: "100px",
         }}
       >
-        <div
+        <h1
           style={{
-            display: "flex",
-            flexDirection: "column",
-            padding: "100px",
+            fontSize: "2rem",
+            fontWeight: "bold",
+            color: "white",
           }}
         >
-          <h1
-            style={{
-              fontSize: "2rem",
-              fontWeight: "bold",
-              color: "white",
-            }}
-          >
-            {title}
-          </h1>
-          <span
-            style={{
-              fontSize: "1.5rem",
-              color: "#ff6f00",
-            }}
-          >
-            {description}
-          </span>
-        </div>
+          {title}
+        </h1>
+        <span
+          style={{
+            fontSize: "1.5rem",
+            color: "#ff6f00",
+          }}
+        >
+          {description}
+        </span>
       </div>
-    ),
+    </div>,
   );
 }

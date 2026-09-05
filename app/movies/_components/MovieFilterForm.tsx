@@ -103,7 +103,7 @@ export default function MovieFilterForm({ genres }: Props) {
           const currentMaxRuntime = field.value?.max;
 
           return (
-            <FormItem className="flex grow self-stretch flex-col justify-between">
+            <FormItem className="flex grow flex-col justify-between self-stretch">
               <FormLabel>Runtime range</FormLabel>
               <FormControl>
                 <div className="space-y-2">
@@ -128,8 +128,7 @@ export default function MovieFilterForm({ genres }: Props) {
                   />
                   <div className="text-muted-foreground flex items-center justify-between text-xs">
                     <span>
-                      Min:{" "}
-                      {formatRuntime(currentMinRuntime ?? RUNTIME_MIN)}
+                      Min: {formatRuntime(currentMinRuntime ?? RUNTIME_MIN)}
                     </span>
                     <span>
                       Max:{" "}

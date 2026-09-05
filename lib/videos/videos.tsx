@@ -76,7 +76,7 @@ export function getThumbnailUrl(video: Video): string {
     thumbnails.standard?.url ||
     thumbnails.maxres?.url ||
     thumbnails.default?.url ||
-    ''
+    ""
   );
 }
 

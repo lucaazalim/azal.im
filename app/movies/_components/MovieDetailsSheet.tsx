@@ -6,7 +6,6 @@ import {
   SheetTitle,
 } from "@/app/_components/ui/sheet";
 import { MovieWithMetadata } from "@/lib/movies/types";
-import { useState } from "react";
 import Stars from "./Stars";
 
 type Props = {
@@ -15,8 +14,6 @@ type Props = {
 };
 
 export default function MovieDetailsSheet({ movie, onClose }: Props) {
-  const [imageLoaded, setImageLoaded] = useState(false);
-
   const imagePath = movie?.metadata.backdrop_path
     ? `https://image.tmdb.org/t/p/original${movie.metadata.backdrop_path}`
     : null;
@@ -26,13 +23,7 @@ export default function MovieDetailsSheet({ movie, onClose }: Props) {
     : undefined;
 
   return (
-    <Sheet
-      open={!!movie}
-      onOpenChange={() => {
-        setImageLoaded(false);
-        onClose();
-      }}
-    >
+    <Sheet open={!!movie} onOpenChange={onClose}>
       <SheetContent className="max-w-[90vw] overflow-y-auto px-10 pb-12 sm:max-w-[70vw] lg:max-w-[50vw] lg:px-20 lg:pb-16">
         <SheetHeader className="-z-5 px-0 pt-36 lg:pt-90">
           <SheetTitle className="space-x-2 text-2xl sm:text-4xl">

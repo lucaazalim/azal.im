@@ -47,9 +47,10 @@ export default function Home() {
   return (
     <>
       <script
-        id="person-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <div className="animate-in fade-in mx-auto flex max-w-5xl flex-col px-12 duration-300 ease-out lg:flex-row lg:divide-x-1 lg:divide-dashed">
         <Aside />

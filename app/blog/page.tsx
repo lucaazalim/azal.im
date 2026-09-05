@@ -38,7 +38,7 @@ export default async function Page() {
         </PageHeaderDescription>
       </PageHeader>
       <div className="animate-in fade-in grid grid-cols-1 gap-5 duration-750 ease-in-out md:grid-cols-3">
-        {(await getPosts()).map((post, _) => (
+        {(await getPosts()).map((post) => (
           <PostCard key={post.slug} post={post} className="sm:basis-1/3" />
         ))}
       </div>

@@ -1,21 +1,17 @@
+import LinkedinIcon from "@/app/_components/icons/LinkedinIcon";
 import { cn } from "@/lib/utils";
-import {
-  SiGithub,
-  SiInstagram,
-  SiLinkedin,
-  SiX,
-} from "@icons-pack/react-simple-icons";
-import { LucideIcon, Utensils } from "lucide-react";
+import { SiGithub, SiInstagram, SiX } from "@icons-pack/react-simple-icons";
+import { Utensils } from "lucide-react";
 import { HTMLAttributes } from "react";
-import SocialButton from "./SocialButton";
+import SocialButton, { SocialIcon } from "./SocialButton";
 
 const socials: {
-  icon: LucideIcon;
+  icon: SocialIcon;
   href: string;
   label: string;
 }[] = [
   {
-    icon: SiLinkedin,
+    icon: LinkedinIcon,
     href: "https://www.linkedin.com/in/lucaazalim",
     label: "LinkedIn",
   },

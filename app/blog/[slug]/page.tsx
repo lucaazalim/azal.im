@@ -7,7 +7,6 @@ import { getPostBySlug, getPosts } from "@/lib/blog/posts";
 import { BASE_URL, ROUTES } from "@/lib/constants";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import ProgressBar from "../_components/ProgressBar";
 
 type Props = {
@@ -19,7 +18,7 @@ type Props = {
 export async function generateStaticParams() {
   return (await getPosts()).map((post) => {
     return {
-      path: post.slug,
+      slug: post.slug,
     };
   });
 }
@@ -98,10 +97,11 @@ export default async function Page({ params }: Props) {
 
   return (
     <PageWrapper className="mx-auto max-w-5xl pt-5">
-      <Script
-        id="blogpost-schema"
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
       <ProgressBar />
       <article className="space-y-10">

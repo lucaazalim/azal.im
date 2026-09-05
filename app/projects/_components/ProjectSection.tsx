@@ -4,7 +4,6 @@ import { HTMLAttributes } from "react";
 export default function ProjectSection({
   className,
   children,
-  ...props
 }: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
