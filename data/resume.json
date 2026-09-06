@@ -1,6 +1,6 @@
 {
   "name": "Luca Ferrari Azalim",
-  "title": "Software Engineer",
+  "title": "Product Engineer",
   "location": "Based in Belo Horizonte, Brazil",
   "contacts": [
     {
@@ -24,7 +24,7 @@
       "url": "https://azal.im"
     }
   ],
-  "summary": "Full-stack software engineer with **10+ years** of experience building scalable and distributed systems across consumer and enterprise products. Currently a Senior Product Engineer at OneRail, building an invoicing platform that processes **millions of deliveries** each month with **.NET**, **Node.js**, and **React**, and leading AI-augmented engineering initiatives at Limestone Digital. Former founder and tech lead of Brazil’s largest Minecraft server network, scaling to **16M** accounts and a national record of **8,115 concurrent players**. Currently pursuing a Software Engineering degree at PUC Minas.",
+  "summary": "Product Engineer with **10+ years** of experience building scalable and distributed systems across consumer and enterprise products. Currently a Senior Product Engineer at OneRail, building an invoicing platform that processes **millions of deliveries** each month with **.NET**, **Node.js**, and **React**, and leading AI-augmented engineering initiatives at Limestone Digital. Former founder and tech lead of Brazil’s largest Minecraft server network, scaling to **16M** accounts and a national record of **8,115 concurrent players**. Currently pursuing a Software Engineering degree at PUC Minas.",
   "technicalSkills": [
     {
       "category": "Languages",

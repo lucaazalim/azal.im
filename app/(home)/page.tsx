@@ -13,17 +13,17 @@ import TechSkills from "./_components/sections/TechSkills";
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+    "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
   openGraph: {
-    title: "Luca Azalim - Software Engineer",
+    title: "Luca Azalim - Product Engineer",
     description:
-      "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+      "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
     url: BASE_URL,
   },
   twitter: {
-    title: "Luca Azalim - Software Engineer",
+    title: "Luca Azalim - Product Engineer",
     description:
-      "Software Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+      "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
   },
 };
 
@@ -31,12 +31,12 @@ const jsonLd: WithContext<Person> = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Luca Azalim",
-  jobTitle: "Software Engineer",
+  jobTitle: "Product Engineer",
   description:
-    "Software Engineer passionate about building scalable applications.",
+    "Product Engineer passionate about building scalable applications.",
   url: BASE_URL,
   knowsAbout: [
-    "Software Engineering",
+    "Product Engineering",
     "Full-Stack Development",
     "React",
     "Next.js",

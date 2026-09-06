@@ -24,7 +24,7 @@ export default function Aside() {
             Luca Azalim
           </h1>
           <h2 className="text-normal font-mono font-light text-nowrap uppercase">
-            Software Engineer
+            Product Engineer
           </h2>
         </div>
         <div className="max-lg:hidden">

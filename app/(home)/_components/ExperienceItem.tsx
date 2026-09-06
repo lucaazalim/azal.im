@@ -65,7 +65,7 @@ export default function ExperienceItem({
           dateNote={duration}
           location={location}
         />
-        <DescriptionBlock description={description.concise} />
+        <DescriptionBlock description={description.full} />
         {skills.length > 0 && <ExperienceSkills skills={skills} />}
       </div>
     </article>

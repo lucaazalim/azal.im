@@ -10,25 +10,15 @@
     "startDate": "2023-02",
     "endDate": "2026-12",
     "skills": [
-      "Scrum",
-      "Calculus",
-      "HTML",
-      "Computer Networks",
-      "Operating Systems",
-      "Databases",
-      "Web Development",
-      "Process Modeling",
-      "Java",
-      "CSS",
-      "Team Leadership",
-      "Object-Oriented Programming (OOP)",
-      "C (Programming Language)",
-      "Computer Architecture",
-      "Teamwork",
-      "SQL",
+      "Algorithms and Data Structures",
+      "Object-Oriented Programming",
+      "C",
+      "Software Architecture",
       "Requirements Engineering",
-      "Bootstrap (Framework)",
-      "JavaScript"
+      "Software Testing",
+      "Databases",
+      "Operating Systems",
+      "Computer Networks"
     ]
   }
 ]

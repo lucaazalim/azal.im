@@ -7,6 +7,7 @@
       "url": "https://www.onerail.com",
       "description": "Final-mile delivery orchestration platform based in Orlando, Florida."
     },
+    "employmentType": "indirect-contract",
     "startDate": "2025-07",
     "endDate": null,
     "location": {
@@ -27,30 +28,18 @@
           "Collaborate with solution architects, team leads, and engineers across the United States, Poland, Colombia, and other European locations to align architecture, engineering patterns, and integrations. Work entirely in English."
         ]
       },
-      "concise": {
-        "paragraphs": [
-          "Build and evolve **Freight Audit & Pay**, OneRail’s invoicing and dispute management platform, which handles invoicing for **millions of deliveries** each month. Engaged full-time through Limestone Digital."
-        ],
-        "highlights": [
-          "Part of the **two-engineer team** that pioneered end-to-end AI-assisted development at OneRail, informing the company-wide adoption of AI as a core engineering tool.",
-          "Design and maintain distributed services in **.NET 10** and **Node.js** with a **React** frontend, integrating MySQL, PostgreSQL, and Snowflake, including background jobs for invoice population, data synchronization, and approval workflows.",
-          "Solve scalability challenges across data processing, invoice generation, and retrieval, making **millions of delivery records** accessible through the application.",
-          "Main maintainer of the shared .NET monorepo: **CI/CD pipelines**, automated SDK generation, and shared libraries used across teams.",
-          "Drive product discovery with stakeholders and internal auditors, collaborating with architects and engineers across the United States, Poland, Colombia, and Europe."
-        ]
-      }
+      "concise": "Build and evolve **Freight Audit & Pay**, OneRail’s invoicing and dispute management platform, which processes **millions of deliveries** each month. Design distributed services in **.NET 10** and **Node.js** with a **React** frontend over MySQL, PostgreSQL, and Snowflake, solving the scalability challenges of making millions of delivery records accessible in the application. Main maintainer of the shared .NET monorepo and its **CI/CD** pipelines, and part of the **two-engineer team** that pioneered AI-assisted development at OneRail. Engaged full-time through Limestone Digital."
     },
     "skills": [
-      "TypeScript",
       "C#",
+      ".NET",
+      "TypeScript",
       "Node.js",
-      ".NET Core",
-      "React.js",
-      "Sequelize.js",
-      "Vite",
-      "Confluent",
+      "React",
+      "PostgreSQL",
+      "Snowflake",
       "Apache Kafka",
-      "OpenTelemetry"
+      "Distributed Systems"
     ]
   },
   {
@@ -61,6 +50,7 @@
       "url": "https://limestonedigital.com",
       "description": "Nearshore engineering company that builds engineering teams for clients in the US and Europe."
     },
+    "employmentType": "full-time",
     "startDate": "2025-07",
     "endDate": null,
     "location": {
@@ -80,36 +70,25 @@
           "Conducted technical interviews with more than 130 engineers over the past year, covering backend and frontend development as well as practical AI proficiency and mindset toward AI-augmented engineering."
         ]
       },
-      "concise": {
-        "paragraphs": [
-          "Lead **AI-augmented engineering** and productivity initiatives for **28 contractors** assigned to OneRail, Limestone Digital’s largest client, alongside my full-time engineering engagement at OneRail."
-        ],
-        "highlights": [
-          "Help engineers explore, evaluate, and apply AI-assisted approaches to everyday development challenges, and define adoption strategies grounded in conversations with contractors.",
-          "Partner with the **COO** and Project Manager in weekly reviews to assess productivity reports and turn findings into changes to engineering workflows.",
-          "Support **technical pre-sales** with C-level executives, presenting the company’s AI-augmented engineering approach to prospective clients.",
-          "Conducted technical interviews with **130+ engineers**, covering backend and frontend development and practical AI proficiency."
-        ]
-      }
+      "concise": "Lead **AI-augmented engineering** and productivity initiatives for **28 contractors** assigned to OneRail, Limestone Digital’s largest client, alongside my full-time engagement at OneRail. Help engineers apply AI-assisted approaches to everyday development challenges, partner with the **COO** in weekly productivity reviews, and support **technical pre-sales** by presenting the company’s AI-augmented engineering approach to prospective clients. Conducted technical interviews with **130+ engineers** over the past year."
     },
     "skills": [
-      "TypeScript",
-      ".NET Core",
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "Sequelize.js",
-      "Vite"
+      "AI-Augmented Engineering",
+      "Developer Productivity",
+      "Technical Leadership",
+      "Technical Pre-sales",
+      "Technical Interviewing"
     ]
   },
   {
     "type": "position",
     "title": "Software Engineer",
     "company": {
-      "name": "90 Information Technology",
+      "name": "90 IT",
       "url": "https://noventa.com.br",
       "description": "Company that develops management systems for civil engineering."
     },
+    "employmentType": "full-time",
     "startDate": "2024-06",
     "endDate": "2025-05",
     "location": {
@@ -130,30 +109,17 @@
           "Designed and launched a centralized knowledge base for the company’s software suite, making product documentation more accessible and improving customer support."
         ]
       },
-      "concise": {
-        "paragraphs": [
-          "Developed web products and led **engineering modernization**, improving the foundations, tooling, and practices used by a team of **25+ developers**."
-        ],
-        "highlights": [
-          "Designed and developed the company’s new **web ERP**, building its application foundation and most shared components from a Figma design system.",
-          "Built a full-stack platform connecting **100+ ERP clients** with construction material suppliers using **.NET 9**, **Next.js**, **TypeScript**, **PostgreSQL**, and **Docker**.",
-          "Led company-wide adoption of a modern web stack and migrated the legacy codebase from SVN to **GitHub**, introducing **code review** and **CI/CD** pipelines.",
-          "Improved the company website with a streamlined SaaS checkout, a corporate blog, and CRM-integrated lead capture, and launched a centralized **knowledge base** for the software suite."
-        ]
-      }
+      "concise": "Developed web products and led **engineering modernization** for a team of **25+ developers**. Designed and developed the company’s new **web ERP**, building its application foundation and most shared components, and delivered a full-stack platform connecting **100+ ERP clients** with construction material suppliers using **.NET 9**, **Next.js**, **TypeScript**, and **PostgreSQL**. Led adoption of a modern web stack and migrated the legacy codebase from SVN to **GitHub**, introducing **code review** standards and **CI/CD** pipelines."
     },
     "skills": [
-      "Legacy Modernization",
-      "Enterprise Resource Planning (ERP)",
       "C#",
-      ".NET Core",
-      "Entity Framework",
+      ".NET",
       "TypeScript",
       "Next.js",
-      "Tailwind CSS",
-      "Git",
-      "GitHub",
-      "Linux"
+      "PostgreSQL",
+      "Docker",
+      "Legacy Modernization",
+      "CI/CD"
     ]
   },
   {
@@ -173,6 +139,7 @@
       "url": "https://redesky.com",
       "description": "Largest Minecraft server network in Brazil from 2015 to 2022."
     },
+    "employmentType": "full-time",
     "startDate": "2015-07",
     "endDate": "2022-09",
     "location": {
@@ -193,36 +160,18 @@
           "Directed business operations, growth strategy, and community engagement, connecting player feedback with technical priorities and the development of new game experiences."
         ]
       },
-      "concise": {
-        "paragraphs": [
-          "Founded and led Brazil’s largest Minecraft server network for **seven years**, growing it to **16M+ registered accounts**, **300K monthly active players**, and a national record of **8,115 concurrent players**."
-        ],
-        "highlights": [
-          "Architected scalable **Java** systems supporting thousands of concurrent players across dozens of custom game modes, including a **distributed** game mode where **1,000+ players** shared a single virtual environment.",
-          "Built and maintained hundreds of custom plugins powering matchmaking, gameplay logic, anti-cheat, virtual economies, and real-time events.",
-          "Led the development team and set architecture, **CI/CD**, and workflow standards across **250+ Git repositories**.",
-          "Automated infrastructure with **Bash** and implemented monitoring with **Grafana** and **Sentry**, while directing business operations, growth strategy, and community engagement."
-        ]
-      }
+      "concise": "Founded and led Brazil’s largest Minecraft server network for **seven years**, growing it to **16M+ registered accounts**, **300K monthly active players**, and a national record of **8,115 concurrent players**. Architected scalable, fault-tolerant **Java** systems and hundreds of plugins powering many custom game modes, including a **distributed** game mode where **1,000+ players** shared a single virtual environment. Led the development team and set architecture and **CI/CD** standards across **250+ Git repositories**, while directing business operations, growth strategy, and community engagement."
     },
     "skills": [
-      "Strategic Planning",
-      "Software Project Management",
-      "Cross-functional Team Leadership",
-      "Crisis Management",
       "Java",
-      "SQL",
-      "Bash",
-      "JavaScript",
-      "MariaDB",
-      "MongoDB",
+      "Distributed Systems",
       "Redis",
-      "Git",
-      "Grafana",
+      "MariaDB",
       "Linux",
-      "Sentry",
-      "Zabbix",
-      "Lua"
+      "Grafana",
+      "CI/CD",
+      "Team Leadership",
+      "Strategic Planning"
     ]
   },
   {
@@ -232,8 +181,13 @@
       "name": "Mineland Network",
       "description": "Minecraft server network with five custom game modes."
     },
+    "employmentType": "full-time",
     "startDate": "2014-07",
     "endDate": "2015-08",
+    "location": {
+      "name": "Belo Horizonte, Brazil",
+      "type": "remote"
+    },
     "description": {
       "full": {
         "paragraphs": [
@@ -244,21 +198,8 @@
         ],
         "highlights": []
       },
-      "concise": {
-        "paragraphs": [
-          "At 14, started Mineland Network with friends, growing it to **500+ concurrent players** across **five custom game modes**. Learned **Java**, web development, and **Linux** server administration while building, running, and promoting my first online product."
-        ],
-        "highlights": []
-      }
+      "concise": "At 14, started Mineland Network with friends, growing it to **500+ concurrent players** across **five custom game modes**. Learned **Java**, web development, and **Linux** while building, running, and promoting my first online product, and earned my first income from it."
     },
-    "skills": [
-      "Java",
-      "SQL",
-      "Team Leadership",
-      "Strategic Planning",
-      "Redis",
-      "MariaDB",
-      "Minecraft"
-    ]
+    "skills": ["Java", "SQL", "Linux", "Web Development", "Team Leadership"]
   }
 ]

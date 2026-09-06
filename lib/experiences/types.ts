@@ -1,6 +1,25 @@
 import { yearMonthSchema } from "@/lib/dates";
 import { z } from "zod";
 
+/** LinkedIn's employment types. Shown in the resume's experience headers. */
+export const EMPLOYMENT_TYPES = {
+  "full-time": "Full-time",
+  "part-time": "Part-time",
+  "self-employed": "Self-employed",
+  freelance: "Freelance",
+  contract: "Contract",
+  "indirect-contract": "Indirect Contract",
+  internship: "Internship",
+  apprenticeship: "Apprenticeship",
+  seasonal: "Seasonal",
+} as const;
+
+export const employmentTypeSchema = z.enum(
+  Object.keys(EMPLOYMENT_TYPES) as [keyof typeof EMPLOYMENT_TYPES],
+);
+
+export type EmploymentType = z.infer<typeof employmentTypeSchema>;
+
 export const LOCATION_TYPES = {
   "on-site": "On-site",
   hybrid: "Hybrid",
@@ -41,6 +60,7 @@ export const positionSchema = z
       /** One-line summary of the company, shown on the resume. */
       description: z.string().min(1).optional(),
     }),
+    employmentType: employmentTypeSchema,
     ...dateRangeSchema,
     location: z
       .object({
@@ -51,8 +71,8 @@ export const positionSchema = z
     description: z.object({
       /** The comprehensive description, as written on LinkedIn. */
       full: descriptionSchema,
-      /** A shorter version used where space is limited (e.g. the resume). */
-      concise: descriptionSchema,
+      /** A single-paragraph summary used where space is limited (the resume). */
+      concise: z.string().min(1),
     }),
     skills: z.array(z.string().min(1)),
   })

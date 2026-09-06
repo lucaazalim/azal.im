@@ -4,7 +4,7 @@ import {
   formatYearMonthRange,
   formatYearMonthRangeDuration,
 } from "@/lib/dates";
-import { experiences, formatLocation } from "@/lib/experiences/experiences";
+import { experiences } from "@/lib/experiences/experiences";
 
 export default function Experiences() {
   return (
@@ -23,7 +23,7 @@ export default function Experiences() {
             experience.startDate,
             experience.endDate,
           )}
-          location={formatLocation(experience.location)}
+          location={experience.location?.name ?? null}
         />
       ))}
     </section>

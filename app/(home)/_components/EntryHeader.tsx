@@ -15,8 +15,9 @@ type Props = {
 };
 
 /**
- * Two-column header for homepage entries: what and where (title, subtitle,
- * location) on the left, when (dates) on the right. Stacks on small screens.
+ * Two-column header for homepage entries: what and where (title, then subtitle
+ * and location on one line) on the left, when (dates) on the right. Stacks on
+ * small screens.
  */
 export default function EntryHeader({
   title,
@@ -33,11 +34,16 @@ export default function EntryHeader({
           <h3 className="text-lg font-semibold tracking-tight">{title}</h3>
           {badge && <Badge>{badge}</Badge>}
         </div>
-        {subtitle && (
-          <p className="text-muted-foreground text-sm">{subtitle}</p>
-        )}
-        {location && (
-          <p className="text-muted-foreground text-xs">{location}</p>
+        {(subtitle || location) && (
+          <p className="text-muted-foreground flex flex-wrap items-baseline gap-x-2 text-sm">
+            {subtitle}
+            {subtitle && location && (
+              <span className="text-muted-foreground/50" aria-hidden="true">
+                &middot;
+              </span>
+            )}
+            {location}
+          </p>
         )}
       </div>
       {dateRange && (

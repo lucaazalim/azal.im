@@ -7,7 +7,7 @@ import {
   isInProgress,
 } from "@/lib/education/education";
 import { positions } from "@/lib/experiences/experiences";
-import { Description } from "@/lib/experiences/types";
+import { EMPLOYMENT_TYPES } from "@/lib/experiences/types";
 import { resume } from "@/lib/resume/resume";
 import { cn } from "@/lib/utils";
 import { Fragment, ReactNode } from "react";
@@ -59,26 +59,32 @@ export default function ResumeDocument() {
           {positions.map((position) => (
             <div
               key={`${position.title}-${position.startDate}`}
-              className="space-y-1 not-first:border-t not-first:border-neutral-200 not-first:pt-3"
+              className="space-y-1.5 not-first:border-t not-first:border-neutral-200 not-first:pt-3"
             >
-              <p className="break-after-avoid">
-                <strong>
-                  {position.title} | {position.company.name}
-                </strong>{" "}
-                (
-                {formatYearMonthRange(
-                  position.startDate,
-                  position.endDate,
-                  "long",
+              <header className="break-after-avoid space-y-0.5">
+                <div className="flex items-baseline justify-between gap-3">
+                  <p>
+                    <strong>
+                      {position.title} | {position.company.name}
+                    </strong>
+                    <span className="text-neutral-600">
+                      {" · "}
+                      {EMPLOYMENT_TYPES[position.employmentType]}
+                    </span>
+                  </p>
+                  <p className="shrink-0 text-neutral-600">
+                    {formatYearMonthRange(position.startDate, position.endDate)}
+                  </p>
+                </div>
+                {position.company.description && (
+                  <p className="text-neutral-600 italic">
+                    {position.company.description}
+                  </p>
                 )}
-                )
+              </header>
+              <p className="text-justify">
+                <RichText text={position.description.concise} />
               </p>
-              {position.company.description && (
-                <p className="break-after-avoid italic">
-                  {position.company.description}
-                </p>
-              )}
-              <DescriptionBlock description={position.description.concise} />
             </div>
           ))}
         </div>
@@ -170,25 +176,4 @@ function ResumeSection({
 
 function BulletList({ children }: { children: ReactNode }) {
   return <ul className="list-['–__'] space-y-1.5 pl-5">{children}</ul>;
-}
-
-function DescriptionBlock({ description }: { description: Description }) {
-  return (
-    <div className="space-y-1">
-      {description.paragraphs.map((paragraph, index) => (
-        <p key={index} className="break-after-avoid">
-          <RichText text={paragraph} />
-        </p>
-      ))}
-      {description.highlights.length > 0 && (
-        <BulletList>
-          {description.highlights.map((highlight, index) => (
-            <li key={index} className="break-inside-avoid">
-              <RichText text={highlight} />
-            </li>
-          ))}
-        </BulletList>
-      )}
-    </div>
-  );
 }

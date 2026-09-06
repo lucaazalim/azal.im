@@ -23,7 +23,7 @@
     "endedAt": "2025-12-31",
     "image": ["/projects/90ti-docs/1.png"],
     "title": "90TI Docs",
-    "subtitle": "90 Information Technology",
+    "subtitle": "90 IT",
     "description": "I developed the 90TI Docs, a comprehensive knowledge base and documentation platform for 90TI, a Brazilian software company specializing in construction management solutions.",
     "skills": ["TypeScript", "Next.js", "TailwindCSS", "PWA"],
     "urls": {
@@ -58,7 +58,7 @@
     "endedAt": "2025-12-31",
     "image": ["/projects/portal-do-fornecedor.png"],
     "title": "Portal do Fornecedor (Supplier Portal)",
-    "subtitle": "90 Information Technology",
+    "subtitle": "90 IT",
     "description": "I developed the Supplier Portal for 90 TI — a web application designed to streamline and enhance the relationship between ERP clients and their suppliers, facilitating more efficient communication and collaboration.",
     "skills": [
       "C#",
