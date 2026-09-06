@@ -21,7 +21,7 @@ const menu = [
   },
   {
     name: "Resume",
-    href: ROUTES.resume(),
+    href: ROUTES.resume,
   },
   {
     name: "Blog",
@@ -128,6 +128,7 @@ export default function NavBar() {
         "fixed top-0 left-0 z-50 p-3", // positioning
         "h-[var(--navbar-height)] w-full", // size
         "bg-background/80 border-b backdrop-blur-sm backdrop-saturate-150", // background
+        "print:hidden",
       )}
     >
       <DesktopNavBar />

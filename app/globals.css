@@ -243,3 +243,22 @@
     opacity: 0.9;
   }
 }
+
+/* Print styles (used when generating the resume PDF) */
+
+/* Keep in sync with the on-screen padding in app/resume/_components/ResumeDocument.tsx */
+@page {
+  size: A4;
+  margin: 6mm 7mm;
+}
+
+@media print {
+  html {
+    scroll-behavior: auto;
+    scrollbar-gutter: auto !important;
+  }
+
+  body {
+    background: white;
+  }
+}

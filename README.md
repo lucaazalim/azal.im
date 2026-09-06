@@ -55,6 +55,10 @@ data
 ├── movies-metadata.json
 ├── courses.json
 ├── projects.json
+├── experiences.json
+├── education.json
+├── awards.json
+├── resume.json
 └── posts
 lib
 └── ...
@@ -81,7 +85,12 @@ public
 | `data`                      | Static data files.                                      |
 | `data/movies.json`          | Movies and series data.                                 |
 | `data/movies-metadata.json` | TMDB-enriched metadata for movies and series.           |
+| `data/experiences.json`     | Professional experience (LinkedIn-style).               |
+| `data/education.json`       | Education.                                              |
+| `data/awards.json`          | Awards and recognitions.                                |
+| `data/resume.json`          | Resume-only content (summary, skills, languages).       |
 | `data/posts`                | MDX files for blog posts.                               |
+| `scripts`                   | Standalone scripts, e.g. resume PDF generation.         |
 | `lib`                       | Utility functions, types, and helper code.              |
 | `public`                    | Public static assets like images.                       |
 

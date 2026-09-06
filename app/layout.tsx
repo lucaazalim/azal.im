@@ -149,7 +149,9 @@ export default function RootLayout({
           <ImageViewContextProvider>
             <NavBar />
             <ImageView />
-            <main className="pt-[var(--navbar-height)]">{children}</main>
+            <main className="pt-[var(--navbar-height)] print:pt-0">
+              {children}
+            </main>
             {development && <TailwindBreakpoint />}
           </ImageViewContextProvider>
         </TanStackQueryProvider>

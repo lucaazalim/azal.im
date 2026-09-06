@@ -1,14 +1,11 @@
-"use client";
-
+import EntryHeader from "@/app/(home)/_components/EntryHeader";
 import ExperienceSkills from "@/app/(home)/_components/ExperienceSkills";
-import { useImageView } from "@/app/(home)/_components/image-view/ImageViewContext";
-import LoadingImage from "@/app/_components/LoadingImage";
-import { Badge } from "@/app/_components/ui/badge";
 import { ReactNode } from "react";
 
 type Props = {
-  date: string;
-  image?: string;
+  date?: string;
+  /** Shown under the date, e.g. `Expected`. */
+  dateNote?: string;
   badge?: string;
   title: string;
   subtitle: string;
@@ -17,9 +14,12 @@ type Props = {
   children?: ReactNode;
 };
 
+export const itemCardClassName =
+  "item-card border-foreground/10 relative border from-white/10 to-white/1 p-8 transition-all ease-in-out lg:border-transparent lg:group-has-[:where(.item-card:hover)]/section:opacity-50 lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:border-l-white/20 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100";
+
 export default function Item({
   date,
-  image,
+  dateNote,
   badge,
   title,
   subtitle,
@@ -27,52 +27,26 @@ export default function Item({
   skills,
   children,
 }: Props) {
-  const { setPath } = useImageView();
-
   return (
-    <div>
-      <Link href={link}>
-        <div className="group/container border-foreground/10 relative border border-t from-white/10 to-white/1 p-8 transition-all ease-in-out select-none lg:border-transparent lg:group-hover/section:opacity-50 lg:hover:scale-[101%] lg:hover:border-t-white/20 lg:hover:border-b-black/50 lg:hover:border-l-white/20 lg:hover:bg-white/5 lg:hover:bg-linear-to-br lg:hover:opacity-100">
-          <div className="grid gap-5 md:grid-cols-[0.3fr_0.7fr]">
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-3">
-                <span className="mt-1 text-xs font-semibold text-wrap">
-                  {date}
-                </span>
-                {badge && <Badge>{badge}</Badge>}
-              </div>
-              {image && (
-                <LoadingImage
-                  src={image}
-                  alt={`${title} - ${subtitle}`}
-                  width={300}
-                  height={300}
-                  onClick={(e) => {
-                    setPath(image);
-                    e.preventDefault();
-                  }}
-                  className="border-foreground/30 cursor-zoom-in border-2 object-cover"
-                />
-              )}
+    <Link href={link}>
+      <div className={itemCardClassName}>
+        <div className="space-y-4">
+          <EntryHeader
+            title={title}
+            subtitle={subtitle}
+            badge={badge}
+            dateRange={date}
+            dateNote={dateNote}
+          />
+          {children && (
+            <div className="text-muted-foreground space-y-4 text-sm">
+              {children}
             </div>
-            <div className="space-y-4">
-              <div className="flex justify-between gap-2">
-                <div className="flex items-center space-x-2">
-                  <div className="flex flex-col gap-2">
-                    <span className="font-semibold">{title}</span>
-                    <p className="text-muted-foreground text-sm">{subtitle}</p>
-                  </div>
-                </div>
-              </div>
-              <div className="text-muted-foreground space-y-4 text-sm">
-                {children}
-              </div>
-              {skills && <ExperienceSkills skills={skills} />}
-            </div>
-          </div>
+          )}
+          {skills && <ExperienceSkills skills={skills} />}
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
 

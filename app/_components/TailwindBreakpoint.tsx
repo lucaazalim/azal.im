@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 export default function TailwindBreakpoint() {
   return (
-    <div className="fixed right-0 bottom-0 z-2147483647">
+    <div className="fixed right-0 bottom-0 z-2147483647 print:hidden">
       <Badge breakpoint="xs" className="hidden max-sm:block" />
       <Badge breakpoint="sm" className="hidden sm:max-md:block" />
       <Badge breakpoint="md" className="hidden md:max-lg:block" />

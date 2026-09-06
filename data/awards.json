@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Academic Excellence Award",
+    "issuer": "Pontifical Catholic University of Minas Gerais",
+    "description": "Given every semester to the single student with the best overall academic performance among 700+ students.",
+    "occurrences": ["2nd Semester of 2023", "1st Semester of 2024"],
+    "url": "https://www.linkedin.com/posts/lucaazalim_como-compartilhei-recentemente-por-aqui-activity-7177182303314460672-xNfd"
+  },
+  {
+    "name": "Outstanding Project Award",
+    "issuer": "Pontifical Catholic University of Minas Gerais",
+    "description": "Given every semester to a single team for the best project in the course. Led the winning team in every occurrence.",
+    "occurrences": [
+      "Interdisciplinary Work: Applications for Sustainability",
+      "Interdisciplinary Work: Applications for Real-World Scenarios",
+      "Interdisciplinary Work: Applications for Business Processes",
+      "Interdisciplinary Work: Web Applications",
+      "Human-Computer Interaction"
+    ],
+    "url": "https://www.linkedin.com/posts/lucaazalim_certificado-de-destaque-acad%C3%AAmico-1%C2%BA2024-activity-7229986810079133697-1JQx"
+  },
+  {
+    "name": "We Make Software",
+    "issuer": "Pontifical Catholic University of Minas Gerais",
+    "occurrences": ["Winning Project (2024/1)", "3rd Place (2024/2)"]
+  }
+]

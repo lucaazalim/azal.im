@@ -4,6 +4,8 @@ import Awards from "@/app/(home)/_components/sections/Awards";
 import Education from "@/app/(home)/_components/sections/Education";
 import Experiences from "@/app/(home)/_components/sections/Experiences";
 import { BASE_URL } from "@/lib/constants";
+import { education } from "@/lib/education/education";
+import { isCurrent, positions } from "@/lib/experiences/experiences";
 import { Metadata } from "next";
 import { Person, WithContext } from "schema-dts";
 import TechSkills from "./_components/sections/TechSkills";
@@ -41,6 +43,16 @@ const jsonLd: WithContext<Person> = {
     "TypeScript",
     "Web Development",
   ],
+  worksFor: positions.filter(isCurrent).map((position) => ({
+    "@type": "Organization",
+    name: position.company.name,
+    url: position.company.url,
+  })),
+  alumniOf: education.map((entry) => ({
+    "@type": "CollegeOrUniversity",
+    name: entry.school.name,
+    url: entry.school.url,
+  })),
 };
 
 export default function Home() {

@@ -1,0 +1,264 @@
+[
+  {
+    "type": "position",
+    "title": "Senior Product Engineer",
+    "company": {
+      "name": "OneRail",
+      "url": "https://www.onerail.com",
+      "description": "Final-mile delivery orchestration platform based in Orlando, Florida."
+    },
+    "startDate": "2025-07",
+    "endDate": null,
+    "location": {
+      "name": "Orlando, United States",
+      "type": "remote"
+    },
+    "description": {
+      "full": {
+        "paragraphs": [
+          "Built and continue to evolve Freight Audit & Pay, OneRail’s platform for shipper and logistics provider invoicing and dispute management. The platform handles invoicing for millions of deliveries each month, with individual invoices containing hundreds of thousands of delivery records. Engaged full-time through Limestone Digital."
+        ],
+        "highlights": [
+          "Joined a two-engineer team that pioneered end-to-end application development with AI at OneRail. The pilot’s results helped inform the company’s decision to adopt AI as a core engineering tool across all teams.",
+          "Drive product discovery and technical delivery with product stakeholders, technical leaders, and internal auditors. Facilitate requirements discussions, clarify business constraints, and propose improvements informed by direct feedback from internal and external users.",
+          "Design and maintain distributed services in .NET 10 and Node.js, alongside a React frontend, integrating MySQL, PostgreSQL, and Snowflake. Develop asynchronous processing and background jobs for invoice population, data synchronization, cost updates, and approval workflows.",
+          "Solve scalability challenges across data processing, invoice generation, and retrieval, making millions of delivery records accessible through the application.",
+          "Serve as a main maintainer of the shared .NET monorepo, improving CI/CD pipelines, automating SDK generation, and developing shared libraries used across teams.",
+          "Collaborate with solution architects, team leads, and engineers across the United States, Poland, Colombia, and other European locations to align architecture, engineering patterns, and integrations. Work entirely in English."
+        ]
+      },
+      "concise": {
+        "paragraphs": [
+          "Build and evolve **Freight Audit & Pay**, OneRail’s invoicing and dispute management platform, which handles invoicing for **millions of deliveries** each month. Engaged full-time through Limestone Digital."
+        ],
+        "highlights": [
+          "Part of the **two-engineer team** that pioneered end-to-end AI-assisted development at OneRail, informing the company-wide adoption of AI as a core engineering tool.",
+          "Design and maintain distributed services in **.NET 10** and **Node.js** with a **React** frontend, integrating MySQL, PostgreSQL, and Snowflake, including background jobs for invoice population, data synchronization, and approval workflows.",
+          "Solve scalability challenges across data processing, invoice generation, and retrieval, making **millions of delivery records** accessible through the application.",
+          "Main maintainer of the shared .NET monorepo: **CI/CD pipelines**, automated SDK generation, and shared libraries used across teams.",
+          "Drive product discovery with stakeholders and internal auditors, collaborating with architects and engineers across the United States, Poland, Colombia, and Europe."
+        ]
+      }
+    },
+    "skills": [
+      "TypeScript",
+      "C#",
+      "Node.js",
+      ".NET Core",
+      "React.js",
+      "Sequelize.js",
+      "Vite",
+      "Confluent",
+      "Apache Kafka",
+      "OpenTelemetry"
+    ]
+  },
+  {
+    "type": "position",
+    "title": "AI Productivity Lead",
+    "company": {
+      "name": "Limestone Digital",
+      "url": "https://limestonedigital.com",
+      "description": "Nearshore engineering company that builds engineering teams for clients in the US and Europe."
+    },
+    "startDate": "2025-07",
+    "endDate": null,
+    "location": {
+      "name": "Prague, Czechia",
+      "type": "remote"
+    },
+    "description": {
+      "full": {
+        "paragraphs": [
+          "Lead AI-augmented engineering and productivity initiatives for 28 contractors assigned to OneRail, Limestone Digital’s largest client. Hold this part-time leadership role alongside my full-time engineering engagement at OneRail."
+        ],
+        "highlights": [
+          "Serve as a key resource for AI-augmented software engineering, helping engineers explore, evaluate, and apply AI-assisted approaches to everyday development challenges.",
+          "Define adoption and productivity strategies grounded in conversations with contractors, addressing technical blockers, development practices, team collaboration, and client policies.",
+          "Partner with Limestone’s COO and Project Manager in weekly reviews to assess productivity reports, prioritize improvements, and translate findings into changes to engineering workflows.",
+          "Support technical pre-sales alongside Limestone’s C-level executives, participating in meetings with prospective clients. Create and deliver presentations explaining the company’s approach to AI-augmented engineering, connect that approach to clients’ software delivery goals, and answer questions from their technical teams.",
+          "Conducted technical interviews with more than 130 engineers over the past year, covering backend and frontend development as well as practical AI proficiency and mindset toward AI-augmented engineering."
+        ]
+      },
+      "concise": {
+        "paragraphs": [
+          "Lead **AI-augmented engineering** and productivity initiatives for **28 contractors** assigned to OneRail, Limestone Digital’s largest client, alongside my full-time engineering engagement at OneRail."
+        ],
+        "highlights": [
+          "Help engineers explore, evaluate, and apply AI-assisted approaches to everyday development challenges, and define adoption strategies grounded in conversations with contractors.",
+          "Partner with the **COO** and Project Manager in weekly reviews to assess productivity reports and turn findings into changes to engineering workflows.",
+          "Support **technical pre-sales** with C-level executives, presenting the company’s AI-augmented engineering approach to prospective clients.",
+          "Conducted technical interviews with **130+ engineers**, covering backend and frontend development and practical AI proficiency."
+        ]
+      }
+    },
+    "skills": [
+      "TypeScript",
+      ".NET Core",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Sequelize.js",
+      "Vite"
+    ]
+  },
+  {
+    "type": "position",
+    "title": "Software Engineer",
+    "company": {
+      "name": "90 Information Technology",
+      "url": "https://noventa.com.br",
+      "description": "Company that develops management systems for civil engineering."
+    },
+    "startDate": "2024-06",
+    "endDate": "2025-05",
+    "location": {
+      "name": "Belo Horizonte, Brazil",
+      "type": "hybrid"
+    },
+    "description": {
+      "full": {
+        "paragraphs": [
+          "Developed web products and led engineering modernization at 90 Information Technology, improving the foundations, tooling, and development practices used by a team of 25+ developers."
+        ],
+        "highlights": [
+          "Designed and developed the company’s new web ERP, spanning multiple modules and hundreds of features. Built its application foundation and most shared components, working closely with product and UI/UX teams to implement a consistent, maintainable interface based on a Figma design system.",
+          "Built a full-stack platform connecting more than 100 ERP clients with construction material suppliers, using .NET 9, Next.js, TypeScript, PostgreSQL, and Docker. The project established the technical foundation for subsequent company products.",
+          "Led company-wide adoption of a modern web stack, improving developer productivity and maintainability while reducing infrastructure costs.",
+          "Migrated the legacy codebase from SVN to Git and GitHub. Introduced code review standards and CI/CD pipelines, strengthening collaboration and automating delivery workflows for 25+ developers.",
+          "Improved the company’s website with a streamlined SaaS checkout, a corporate blog, CRM-integrated lead capture forms, and SEO and performance enhancements, supporting increased visibility and conversions.",
+          "Designed and launched a centralized knowledge base for the company’s software suite, making product documentation more accessible and improving customer support."
+        ]
+      },
+      "concise": {
+        "paragraphs": [
+          "Developed web products and led **engineering modernization**, improving the foundations, tooling, and practices used by a team of **25+ developers**."
+        ],
+        "highlights": [
+          "Designed and developed the company’s new **web ERP**, building its application foundation and most shared components from a Figma design system.",
+          "Built a full-stack platform connecting **100+ ERP clients** with construction material suppliers using **.NET 9**, **Next.js**, **TypeScript**, **PostgreSQL**, and **Docker**.",
+          "Led company-wide adoption of a modern web stack and migrated the legacy codebase from SVN to **GitHub**, introducing **code review** and **CI/CD** pipelines.",
+          "Improved the company website with a streamlined SaaS checkout, a corporate blog, and CRM-integrated lead capture, and launched a centralized **knowledge base** for the software suite."
+        ]
+      }
+    },
+    "skills": [
+      "Legacy Modernization",
+      "Enterprise Resource Planning (ERP)",
+      "C#",
+      ".NET Core",
+      "Entity Framework",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+      "Linux"
+    ]
+  },
+  {
+    "type": "career-break",
+    "title": "Professional development",
+    "startDate": "2022-10",
+    "endDate": "2024-05",
+    "location": {
+      "name": "Belo Horizonte, Brazil"
+    }
+  },
+  {
+    "type": "position",
+    "title": "Founder & Tech Lead",
+    "company": {
+      "name": "Rede Sky",
+      "url": "https://redesky.com",
+      "description": "Largest Minecraft server network in Brazil from 2015 to 2022."
+    },
+    "startDate": "2015-07",
+    "endDate": "2022-09",
+    "location": {
+      "name": "Belo Horizonte, Brazil",
+      "type": "remote"
+    },
+    "description": {
+      "full": {
+        "paragraphs": [
+          "Founded and led Rede Sky for seven years, combining hands-on software engineering with technical leadership and business operations. Grew the platform to more than 16 million registered accounts, 300,000 monthly active players, and a peak of 8,115 concurrent players. Rede Sky ranked as Brazil’s largest Minecraft server by online player count for four consecutive years."
+        ],
+        "highlights": [
+          "Architected and developed scalable Java systems supporting thousands of concurrent players across an extensive portfolio of custom game modes, with a focus on low latency and fault tolerance.",
+          "Led development of a game mode built on distributed architecture, enabling more than 1,000 players to interact within a shared virtual environment.",
+          "Built and maintained hundreds of custom plugins powering matchmaking, gameplay logic, anti-cheat systems, virtual economies, and real-time events.",
+          "Led the development team and established architecture, CI/CD, and engineering workflow standards across more than 250 Git repositories, primarily in Java.",
+          "Automated infrastructure operations with Bash and implemented monitoring and error tracking with Grafana and Sentry to support production reliability and troubleshooting.",
+          "Directed business operations, growth strategy, and community engagement, connecting player feedback with technical priorities and the development of new game experiences."
+        ]
+      },
+      "concise": {
+        "paragraphs": [
+          "Founded and led Brazil’s largest Minecraft server network for **seven years**, growing it to **16M+ registered accounts**, **300K monthly active players**, and a national record of **8,115 concurrent players**."
+        ],
+        "highlights": [
+          "Architected scalable **Java** systems supporting thousands of concurrent players across dozens of custom game modes, including a **distributed** game mode where **1,000+ players** shared a single virtual environment.",
+          "Built and maintained hundreds of custom plugins powering matchmaking, gameplay logic, anti-cheat, virtual economies, and real-time events.",
+          "Led the development team and set architecture, **CI/CD**, and workflow standards across **250+ Git repositories**.",
+          "Automated infrastructure with **Bash** and implemented monitoring with **Grafana** and **Sentry**, while directing business operations, growth strategy, and community engagement."
+        ]
+      }
+    },
+    "skills": [
+      "Strategic Planning",
+      "Software Project Management",
+      "Cross-functional Team Leadership",
+      "Crisis Management",
+      "Java",
+      "SQL",
+      "Bash",
+      "JavaScript",
+      "MariaDB",
+      "MongoDB",
+      "Redis",
+      "Git",
+      "Grafana",
+      "Linux",
+      "Sentry",
+      "Zabbix",
+      "Lua"
+    ]
+  },
+  {
+    "type": "position",
+    "title": "Founder & Tech Lead",
+    "company": {
+      "name": "Mineland Network",
+      "description": "Minecraft server network with five custom game modes."
+    },
+    "startDate": "2014-07",
+    "endDate": "2015-08",
+    "description": {
+      "full": {
+        "paragraphs": [
+          "At 14, I started Mineland Network with friends, turning our enthusiasm for Minecraft into a community that grew to more than 500 concurrent players across five custom game modes.",
+          "This was where I first learned Java and the fundamentals of programming, building features that people played every day. It was also my introduction to web development, running an online store selling VIP packages and virtual currency, and working with content creators to bring new players to the server.",
+          "Behind the scenes, I learned to use Linux through the terminal and set up a dedicated server to host our games, website, databases, and supporting services. Working alongside friends, I got my first experience with everything involved in building, running, and promoting an online product.",
+          "Mineland was the first time I earned money from something I helped build. Seeing hundreds of people enjoy what we created together made a lasting impression on me and laid the foundation for my career in software engineering."
+        ],
+        "highlights": []
+      },
+      "concise": {
+        "paragraphs": [
+          "At 14, started Mineland Network with friends, growing it to **500+ concurrent players** across **five custom game modes**. Learned **Java**, web development, and **Linux** server administration while building, running, and promoting my first online product."
+        ],
+        "highlights": []
+      }
+    },
+    "skills": [
+      "Java",
+      "SQL",
+      "Team Leadership",
+      "Strategic Planning",
+      "Redis",
+      "MariaDB",
+      "Minecraft"
+    ]
+  }
+]

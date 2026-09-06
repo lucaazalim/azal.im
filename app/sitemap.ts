@@ -2,7 +2,6 @@ import { getPosts } from "@/lib/blog/posts";
 import { BASE_URL, PROJECT_PAGE_SLUGS, ROUTES } from "@/lib/constants";
 import { PLAYLISTS } from "@/lib/videos/videos";
 import { MetadataRoute } from "next";
-import { resumes } from "../lib/resume/resume";
 
 const STATIC_ROUTES = [
   // Home
@@ -15,10 +14,8 @@ const STATIC_ROUTES = [
   ROUTES.movies,
   // Academics
   ROUTES.academics,
-  // CV
-  ...Object.keys(resumes).map((lang) =>
-    ROUTES.resume(lang as keyof typeof resumes),
-  ),
+  // Resume
+  ROUTES.resume,
   // Videos
   ...PLAYLISTS.map((playlist) => ROUTES.videos(playlist.slug)),
   // Projects

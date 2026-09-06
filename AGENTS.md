@@ -8,7 +8,7 @@ Before any Next.js work, find and read the relevant doc in `node_modules/next/di
 
 # AGENTS.md
 
-Personal website (azal.im) built with Next.js App Router. Sections: homepage (experience, education, awards, projects), blog, videos, movies, academics, resume, and contact.
+Personal website (azal.im) built with Next.js App Router. Sections: homepage (experience, education, awards), blog, videos, movies, academics, projects, resume, and contact.
 
 ## Stack
 
@@ -28,6 +28,7 @@ npm run start      # serve production build
 npm run lint       # oxlint (Next.js, React, jsx-a11y and import rules)
 npm run typecheck  # tsc --noEmit (TypeScript 7 native compiler)
 npm test           # vitest run
+npm run resume:pdf # build, then print /resume to public/resume/<pdf> with local Chrome
 ```
 
 Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a change done, run `npm run lint` and `npm run typecheck`, and, for non-trivial changes, `npm run build` (the project uses `noEmit`, so types are only checked by `typecheck` and `build`).
@@ -37,8 +38,9 @@ Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a c
 - `app/` — App Router routes. Route-private components live in a `_components/` folder beside the route (e.g. `app/blog/_components/`). The homepage is the `app/(home)/` route group.
 - `app/_components/` — shared components; `app/_components/ui/` holds shadcn/ui primitives.
 - `app/api/` — route handlers: `contact` (sends email), `movies` (paginated movie list), `og` (Open Graph image generation).
-- `lib/` — domain logic grouped by feature (`movies/`, `blog/`, `academics/`, `projects/`, `resume/`, etc.), each typically with a `types.ts` (Zod schemas + inferred types) and loader/helper modules. `lib/constants.ts` holds env vars and the `ROUTES` helper; `lib/utils.ts` has `cn()` and search-param helpers.
-- `data/` — content as static files: `movies.json`, `movies-metadata.json`, `courses.json`, `projects.json`, and `data/posts/*.mdx` for blog posts. Data is read from disk at module load (`process.cwd()` paths) and validated with Zod.
+- `lib/` — domain logic grouped by feature (`movies/`, `blog/`, `academics/`, `projects/`, `experiences/`, `education/`, `awards/`, `resume/`, etc.), each typically with a `types.ts` (Zod schemas + inferred types) and loader/helper modules. `lib/constants.ts` holds env vars and the `ROUTES` helper; `lib/utils.ts` has `cn()` and search-param helpers; `lib/dates.ts` handles `YYYY-MM` dates and LinkedIn-style durations; `lib/rich-text.ts` parses the `**bold**` markers allowed in data files.
+- `data/` — content as static files: `movies.json`, `movies-metadata.json`, `courses.json`, `projects.json`, `experiences.json`, `education.json`, `awards.json`, `resume.json`, and `data/posts/*.mdx` for blog posts. Data is read from disk at module load (`process.cwd()` paths) and validated with Zod.
+- `scripts/` — standalone scripts run with `tsx` (e.g. `build-resume-pdf.ts`).
 - `public/` — static assets.
 
 ## Conventions
@@ -54,6 +56,12 @@ Tests live in `lib/**/*.test.ts` and run with `npm test`. Before considering a c
 ## Environment
 
 Copy `.env.example` to `.env`. Keys: `BASE_URL`, `GOOGLE_CLOUD_API_KEY`, `TMDB_API_KEY`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `CONTACT_EMAIL`. The contact form, movie metadata, and translation features depend on these; the site otherwise runs without them.
+
+## Experience, education, awards, and resume
+
+`data/experiences.json` and `data/education.json` are the single source of truth for professional experience and education; they are modeled after LinkedIn (location type, `YYYY-MM` dates with `null` meaning "Present", skills, career breaks). Each position carries two descriptions: `full` (as written on LinkedIn) and `concise` (used by the resume and the homepage). `data/awards.json` holds awards (name, issuer, occurrences) and drives both the homepage Awards section and the resume's "Academic Recognitions". Text fields may use `**bold**` markers.
+
+`data/resume.json` holds resume-only content (header, contacts, summary, skills, languages). The resume page renders `app/resume/_components/ResumeDocument.tsx` as an A4 sheet; `npm run resume:pdf` builds the site and prints that page to `public/resume/luca-azalim-resume.pdf` with a locally installed Chrome/Chromium (override with `CHROME_PATH`). The PDF is committed, so regenerate it whenever experience, education, or resume data changes.
 
 ## Movie metadata
 

@@ -1,0 +1,104 @@
+{
+  "name": "Luca Ferrari Azalim",
+  "title": "Software Engineer",
+  "location": "Based in Belo Horizonte, Brazil",
+  "contacts": [
+    {
+      "label": "lucaazalim@gmail.com",
+      "url": "mailto:lucaazalim@gmail.com"
+    },
+    {
+      "label": "+55 31 99768-8572",
+      "url": "tel:+5531997688572"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lucaazalim"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/lucaazalim"
+    },
+    {
+      "label": "Portfolio",
+      "url": "https://azal.im"
+    }
+  ],
+  "summary": "Full-stack software engineer with **10+ years** of experience building scalable and distributed systems across consumer and enterprise products. Currently a Senior Product Engineer at OneRail, building an invoicing platform that processes **millions of deliveries** each month with **.NET**, **Node.js**, and **React**, and leading AI-augmented engineering initiatives at Limestone Digital. Former founder and tech lead of Brazil’s largest Minecraft server network, scaling to **16M** accounts and a national record of **8,115 concurrent players**. Currently pursuing a Software Engineering degree at PUC Minas.",
+  "technicalSkills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Java (10+ yrs)",
+        "TypeScript",
+        "C#",
+        "C",
+        "SQL",
+        "Bash",
+        "HTML and CSS"
+      ]
+    },
+    {
+      "category": "Back-end",
+      "items": [".NET 10", "Node.js", "Express.js", "Spring Boot"]
+    },
+    {
+      "category": "Front-end",
+      "items": [
+        "React",
+        "Next.js",
+        "Vite",
+        "Svelte",
+        "SvelteKit",
+        "Tailwind CSS",
+        "TanStack"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "MariaDB",
+        "SQLite",
+        "Redis",
+        "Snowflake"
+      ]
+    },
+    {
+      "category": "Messaging & Data",
+      "items": ["Apache Kafka", "Confluent", "Sequelize", "Entity Framework"]
+    },
+    {
+      "category": "DevOps & Infra",
+      "items": ["Docker", "Linux", "GitHub Actions", "Cloudflare Workers"]
+    },
+    {
+      "category": "Observability",
+      "items": ["OpenTelemetry", "Grafana", "Zabbix", "Sentry"]
+    },
+    {
+      "category": "Others",
+      "items": [
+        "AI-Augmented Engineering",
+        "System Design",
+        "Software Architecture",
+        "Clean Architecture",
+        "Domain-Driven Design",
+        "Design Patterns",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Advanced"
+    }
+  ]
+}
