@@ -7,7 +7,7 @@
     },
     "syllabus": {
       "pt": "Representação e armazenamento de dados. Manipulação e movimentação de dados em memória principal e secundária. Abstração de dados. Estruturas e abstração de controle. Modularização, encapsulamento e herança. Recursividade. Documentação e testes. Implementação em linguagem de programação. Contagem de operações.",
-      "en": "Data representation and storage. Manipulation and movement of data in primary and secondary memory. Data abstraction. Control structures and abstraction. Modularization, encapsulation, and inheritance. Recursion. Documentation and testing. Implementation in programming language. Operation counting."
+      "en": "Data representation and storage. Manipulation and movement of data in primary and secondary memory. Data abstraction. Control structures and abstraction. Modularization, encapsulation, and inheritance. Recursion. Documentation and testing. Implementation in a programming language. Operation counting."
     },
     "grade": 96,
     "hours": 120,
@@ -21,7 +21,7 @@
     },
     "syllabus": {
       "pt": "Funções: polinomiais, racionais, algébricas, exponenciais, logarítmicas e trigonométricas. Aplicações de funções nas Ciências Exatas e Engenharias. Limites. Continuidade. Derivada: definição e interpretações. Regras de derivação. Derivação implícita. Aplicações de derivada: taxas relacionadas, regra de L’Hospital, estudo do comportamento de funções, esboço de gráficos e otimização. Aplicações de derivadas nas Ciências Exatas e Engenharias.",
-      "en": "Functions: polynomial, rational, algebraic, exponential, logarithmic, and trigonometric. Applications of functions in Exact Sciences and Engineering. Limits. Continuity. Derivative: definition and interpretations. Derivation rules. Implicit derivation. Applications of derivatives: related rates, L'Hopital's rule, study of function behavior, sketching of graphs, and optimization. Applications of derivatives in Exact Sciences and Engineering."
+      "en": "Functions: polynomial, rational, algebraic, exponential, logarithmic, and trigonometric. Applications of functions in Exact Sciences and Engineering. Limits. Continuity. Derivative: definition and interpretations. Differentiation rules. Implicit differentiation. Applications of derivatives: related rates, L'Hôpital's rule, study of function behavior, sketching of graphs, and optimization. Applications of derivatives in Exact Sciences and Engineering."
     },
     "grade": 68,
     "hours": 80,
@@ -63,7 +63,7 @@
     },
     "syllabus": {
       "pt": "Pesquisa, Ensino, Extensão, Inovação e Mercado. História da computação. Fundamentos de Computabilidade. Linguagens de programação. Principais áreas da Computação. Computação Verde. Práticas de extensão. Atividades de extensão com integração entre academia e saberes da sociedade.",
-      "en": "Research, Teaching, Extension, Innovation, and Market. History of Computing. Foundations of Computability. Programming Languages. Main areas of Computing. Green Computing. Extension practices. Extension activities with integration between academia and societal knowledge."
+      "en": "Research, teaching, community engagement, innovation, and the job market. History of Computing. Foundations of Computability. Programming Languages. Main areas of Computing. Green Computing. Community engagement practices. Community engagement activities that bring together academia and community knowledge."
     },
     "grade": 85,
     "hours": 70,
@@ -77,7 +77,7 @@
     },
     "syllabus": {
       "pt": "Desenvolvimento de uma aplicação web front end usando um processo incremental e iterativo. Trabalho e avaliação em equipe.",
-      "en": "Development of a front-end web application using an incremental and iterative process. Teamwork and evaluation."
+      "en": "Development of a front-end web application using an incremental and iterative process. Teamwork and team assessment."
     },
     "grade": 98,
     "hours": 50,
@@ -91,7 +91,7 @@
     },
     "syllabus": {
       "pt": "Modelos para representação de dados e aritmética computacional em nível de máquina. Introdução às funções e aos sistemas lógicos. Organização de sistemas de computação e dos subsistemas (processador, memória, entrada e saída, barramentos). Linguagem de montagem, conjunto de instruções e modos de endereçamento. Avaliação de desempenho. Hierarquia de memória. Modelos de arquiteturas sequenciais e paralelas.",
-      "en": "Models for data representation and computational arithmetic at the machine level. Introduction to functions and logical systems. Organization of computer systems and subsystems (processor, memory, input and output, buses). Assembly language, instruction sets, and addressing modes. Performance evaluation. Memory hierarchy. Models of sequential and parallel architectures."
+      "en": "Models for data representation and computational arithmetic at the machine level. Introduction to logic functions and systems. Organization of computer systems and subsystems (processor, memory, input and output, buses). Assembly language, instruction sets, and addressing modes. Performance evaluation. Memory hierarchy. Models of sequential and parallel architectures."
     },
     "grade": 94,
     "hours": 40,
@@ -147,7 +147,7 @@
     },
     "syllabus": {
       "pt": "Teste unitário. Projeto e desenvolvimento de software orientado para objetos. Implementação de sistemas utilizando padrões de projeto. Uso de recursos funcionais no desenvolvimento de sistemas.",
-      "en": "Unit Testing. Object-oriented software design and development. Implementation of systems using design patterns. Use of functional resources in system development."
+      "en": "Unit Testing. Object-oriented software design and development. Implementation of systems using design patterns. Use of functional programming features in system development."
     },
     "grade": 89,
     "hours": 40,
@@ -175,7 +175,7 @@
     },
     "syllabus": {
       "pt": "Fatores de qualidade de software. Modularidade. Projeto Orientado para Objetos. Polimorfismos de Inclusão e Paramétrico. Tipos enumeráveis e opcionais. Coleções. Tratamento de exceções. Programação Orientada a Eventos. Princípios SOLID. Padrões de projeto. Aspectos funcionais. Teste unitário. Serialização.",
-      "en": "Software Quality Factors. Modularity. Object-Oriented Design. Inclusion and Parametric Polymorphism. Enumerable and Optional Types. Collections. Exception Handling. Event-Driven Programming. SOLID Principles. Design Patterns. Functional Aspects. Unit Testing. Serialization."
+      "en": "Software Quality Factors. Modularity. Object-Oriented Design. Subtype and parametric polymorphism. Enumerated and optional types. Collections. Exception Handling. Event-Driven Programming. SOLID Principles. Design Patterns. Functional programming aspects. Unit Testing. Serialization."
     },
     "grade": 92,
     "hours": 80,
@@ -231,7 +231,7 @@
     },
     "syllabus": {
       "pt": "Conceitos de Engenharia de software. Conceitos e tipos de Processos de Software. Engenharia de requisitos. Métodos e técnicas para análise e especificação de softwares. Introdução às estimativas de software. Atividades de extensão com integração entre academia e saberes da sociedade.",
-      "en": "Concepts of Software Engineering. Concepts and types of Software Processes. Requirements Engineering. Methods and techniques for software analysis and specification. Introduction to software estimates. Extension activities with integration between academia and societal knowledge."
+      "en": "Concepts of Software Engineering. Concepts and types of Software Processes. Requirements Engineering. Methods and techniques for software analysis and specification. Introduction to software estimates. Community engagement activities that bring together academia and community knowledge."
     },
     "grade": 91,
     "hours": 80,
@@ -245,7 +245,7 @@
     },
     "syllabus": {
       "pt": "Função da metodologia científica. Técnicas de pesquisa bibliográfica. Normalização do trabalho científico. Pesquisa bibliográfica como fundamentação teórica. Metodologias qualitativas de pesquisa em Informática. Metodologias quantitativas de pesquisa em Informática (métodos, descritivos, experimentais e estatísticos). Elaboração e execução de trabalhos científicos. Comunicação científica e resenhas.",
-      "en": "Role of scientific methodology. Techniques for bibliographic research. Standardization of scientific work. Bibliographic research as theoretical foundation. Qualitative research methodologies in Computer Science. Quantitative research methodologies in Computer Science (descriptive, experimental, and statistical methods). Development and execution of scientific papers. Scientific communication and reviews."
+      "en": "Role of scientific methodology. Literature research techniques. Standards for presenting scholarly work. Literature research as a theoretical foundation. Qualitative research methodologies in computing. Quantitative research methodologies in computing (descriptive, experimental, and statistical methods). Planning and conducting scientific work. Scientific communication and reviews."
     },
     "grade": 98,
     "hours": 40,
@@ -273,7 +273,7 @@
     },
     "syllabus": {
       "pt": "Descrição dos requisitos funcionais e não funcionais de um software. Atividades de extensão com integração entre academia e saberes da sociedade na finalidade do desenvolvimento dos requisitos de um software de um cliente. Avaliação do artefato de requisitos.",
-      "en": "Description of functional and non-functional requirements of a software. Extension activities with integration between academia and societal knowledge for the purpose of developing the requirements of a client's software. Evaluation of the requirements artifact."
+      "en": "Description of functional and non-functional requirements of a software system. Community engagement activities that bring together academia and community knowledge to develop software requirements for a client. Evaluation of the requirements artifact."
     },
     "grade": 100,
     "hours": 45,
@@ -287,7 +287,7 @@
     },
     "syllabus": {
       "pt": "Conceitos básicos de Interação Humano-Computador. Engenharia cognitiva e abordagens semióticas. Fatores humanos em software interativo: teorias, princípios e regras básicas. Ciclo de vida na Engenharia da Usabilidade. Estilos de interface. Projeto e prototipação de interface e interação para diversos dispositivos. Definição e métodos para avaliação de usabilidade e acessibilidade. Atividades de extensão com integração entre academia e saberes da sociedade.",
-      "en": "Fundamental concepts of Human-Computer Interaction. Cognitive engineering and semiotic approaches. Human factors in interactive software: theories, principles, and basic rules. Lifecycle in Usability Engineering. Interface styles. Design and prototyping of interface and interaction for various devices. Definition and methods for usability and accessibility evaluation. Extension activities with integration between academia and societal knowledge."
+      "en": "Fundamental concepts of Human-Computer Interaction. Cognitive engineering and semiotic approaches. Human factors in interactive software: theories, principles, and basic rules. Lifecycle in Usability Engineering. Interface styles. Design and prototyping of interface and interaction for various devices. Definition and methods for usability and accessibility evaluation. Community engagement activities that bring together academia and community knowledge."
     },
     "grade": 95,
     "hours": 90,
@@ -301,7 +301,7 @@
     },
     "syllabus": {
       "pt": "Elaboração de um projeto de um software dividido em camadas. Construção da camada de apresentação (interfaces reais). Construção da camada de aplicação. Construção da camada de domínio. Construção da camada de persistência/acesso a dados (Implementação de Bancos de Dados). Desenvolvimento do sistema projetado.",
-      "en": "Development of a layered software project. Construction of the presentation layer (real interfaces). Construction of the application layer. Construction of the domain layer. Construction of the persistence/data access layer (Database Implementation). Development of the designed system."
+      "en": "Design of a layered software system. Construction of the presentation layer (real interfaces). Construction of the application layer. Construction of the domain layer. Construction of the persistence/data access layer (Database Implementation). Development of the designed system."
     },
     "grade": 87,
     "hours": 40,
@@ -315,7 +315,7 @@
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+      "en": "A course with a strategic role in the curriculum that allows students to choose from a predefined set of courses covering different subjects that complement their education."
     },
     "grade": 99,
     "hours": 80,
@@ -329,7 +329,7 @@
     },
     "syllabus": {
       "pt": "Conceituação de projeto de software. Introdução à Arquitetura de Software. Organização e projeto das camadas de negócios, serviços e dados. Modelagem estrutural e comportamental. Padrões de Projeto. Qualidade de projeto.",
-      "en": "Conceptualization of software design. Introduction to Software Architecture. Organization and design of business, service, and data layers. Structural and behavioral modeling. Design Patterns. Project quality."
+      "en": "Conceptualization of software design. Introduction to Software Architecture. Organization and design of business, service, and data layers. Structural and behavioral modeling. Design Patterns. Design quality."
     },
     "grade": 91,
     "hours": 80,
@@ -357,7 +357,7 @@
     },
     "syllabus": {
       "pt": "Lógica, relações de equivalência, funções e conjuntos. Prova e demonstração de teoremas. Estruturas de dados para grafos, caminhos, busca, árvores, conectividade, isomorfismo, planaridade, coloração, particionamento, modelagem de problemas e fluxo em redes.",
-      "en": "Logic, equivalence relations, functions, and sets. Proof and theorem demonstration. Data structures for graphs, paths, search, trees, connectivity, isomorphism, planarity, coloring, partitioning, problem modeling, and network flow."
+      "en": "Logic, equivalence relations, functions, and sets. Proofs and theorem proving. Data structures for graphs, paths, search, trees, connectivity, isomorphism, planarity, coloring, partitioning, problem modeling, and network flow."
     },
     "grade": 86,
     "hours": 120,
@@ -371,7 +371,7 @@
     },
     "syllabus": {
       "pt": "Planejamento do projeto de software. Detalhamento dos requisitos de um software. Produção de artefatos de projeto e desenvolvimento de software. Atividades de extensão com integração entre academia e saberes da sociedade com a finalidade do desenvolvimento dos artefatos de software aplicados a projetos para sustentabilidade.",
-      "en": "Software project planning. Detailed elaboration of software requirements. Production of software design and development artifacts. Extension activities integrating academic knowledge and societal understanding, aimed at the development of software artifacts applied to sustainability projects."
+      "en": "Software project planning. Detailed elaboration of software requirements. Production of software design and development artifacts. Community engagement activities that bring together academia and community knowledge to develop software artifacts for sustainability projects."
     },
     "grade": 94,
     "hours": 50,
@@ -413,7 +413,7 @@
     },
     "syllabus": {
       "pt": "Fundamentos de sistemas distribuídos e computação móvel. Comunicação entre processos. Middlewares. Ambientes e ferramentas para o desenvolvimento de aplicações móveis e distribuídas. Problemas e limitações relacionados à mobilidade e à modalidade de comunicação. Coordenação e consenso. Transações distribuídas e controle de concorrência. Consistência, replicação e tolerância à falha. Computação ubíqua e pervasiva. Sistemas cientes de contexto.",
-      "en": "Fundamentals of distributed systems and mobile computing. Inter-process communication. Middlewares. Environments and tools for the development of mobile and distributed applications. Problems and limitations related to mobility and communication modality. Coordination and consensus. Distributed transactions and concurrency control. Consistency, replication, and fault tolerance. Ubiquitous and pervasive computing. Context-aware systems."
+      "en": "Fundamentals of distributed systems and mobile computing. Inter-process communication. Middleware. Environments and tools for the development of mobile and distributed applications. Problems and limitations related to mobility and mode of communication. Coordination and consensus. Distributed transactions and concurrency control. Consistency, replication, and fault tolerance. Ubiquitous and pervasive computing. Context-aware systems."
     },
     "grade": 95,
     "hours": 80,
@@ -437,7 +437,7 @@
     "semester": 5,
     "name": {
       "pt": "Fundamentos de Projeto e Análise de Algoritmos",
-      "en": "Algorithm Design and Analysis Fundamentals"
+      "en": "Fundamentals of Algorithm Design and Analysis"
     },
     "syllabus": {
       "pt": "Fundamentos de análise de algoritmos. Análise de algoritmos. Técnicas de Projeto de Algoritmos. Teoria da Complexidade.",
@@ -469,7 +469,7 @@
     },
     "syllabus": {
       "pt": "Elaboração da arquitetura de um sistema de software distribuído com clientes móveis e web. Desenvolvimento utilizando middlewares de comunicação. Comunicação indireta. Programação de sistemas baseados em nuvem. Construção de software utilizando funções como serviço.",
-      "en": "Designing the architecture of a distributed software system with mobile and web clients. Development using communication middlewares. Indirect communication. Programming of cloud-based systems. Building software using functions as a service."
+      "en": "Designing the architecture of a distributed software system with mobile and web clients. Development using communication middleware. Indirect communication. Programming of cloud-based systems. Building software using functions as a service."
     },
     "grade": 94,
     "hours": 40,
@@ -483,7 +483,7 @@
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+      "en": "A course with a strategic role in the curriculum that allows students to choose from a predefined set of courses covering different subjects that complement their education."
     },
     "grade": 95,
     "hours": 80,
@@ -497,7 +497,7 @@
     },
     "syllabus": {
       "pt": "Planejamento e detalhamento do projeto de arquitetura de um software. Produção de artefatos de arquitetura de software e gerência de projetos. Implementação de um software distribuído de acordo com a arquitetura projetada. Avaliação da arquitetura do sistema.",
-      "en": "Planning and detailing of a software architecture project. Production of software architecture artifacts and project management. Implementation of a distributed software according to the designed architecture. Evaluation of the system architecture."
+      "en": "Planning and detailing the architectural design of a software system. Production of software architecture and project management artifacts. Implementation of a distributed software system according to the designed architecture. Evaluation of the system architecture."
     },
     "grade": 99,
     "hours": 45,
@@ -507,11 +507,11 @@
     "semester": 6,
     "name": {
       "pt": "Engenharia Econômica para Software",
-      "en": "Software Economics"
+      "en": "Software Engineering Economics"
     },
     "syllabus": {
       "pt": "Estimativa por pontos de função; Estimativa por dados históricos; Modelo COCOMO; Modelos empíricos de estimativa de software. Proposta técnica. Contratos de aquisição de software e serviços. Analise de viabilidade técnica e econômica. Retorno sobre investimento (ROI). Licença, Patente e propriedade intelectual ou industrial.",
-      "en": "Function Point Estimation; Historical Data Estimation; COCOMO Model; Empirical Software Estimation Models. Technical Proposal. Software Acquisition and Service Contracts. Technical and Economic Feasibility Analysis. Return on Investment (ROI). Licensing, Patent, and Intellectual or Industrial Property."
+      "en": "Estimation using function points; Estimation using historical data; COCOMO Model; Empirical Software Estimation Models. Technical Proposal. Software Acquisition and Service Contracts. Technical and Economic Feasibility Analysis. Return on Investment (ROI). Licensing, Patent, and Intellectual or Industrial Property."
     },
     "grade": 87,
     "hours": 80,
@@ -525,7 +525,7 @@
     },
     "syllabus": {
       "pt": "Conceitos. Papéis, Artefatos e Atividades de Gerência de Configuração. Princípios de entrega contínua. Integração contínua. A cultura DevOps. Definição e projeto de Build. Ferramentas. Provisionamento de ambientes de desenvolvimento, produção, integração e testes. Princípios e técnicas de manutenção de software. Tipos de manutenções. Reengenharia.",
-      "en": "Concepts. Roles, Artifacts, and Activities in Configuration Management. Principles of Continuous Delivery. Continuous Integration. The DevOps Culture. Definition and Design of Build. Tools. Provisioning of development, production, integration, and testing environments. Principles and techniques of software maintenance. Types of maintenance. Reengineering."
+      "en": "Concepts. Roles, Artifacts, and Activities in Configuration Management. Principles of Continuous Delivery. Continuous Integration. The DevOps Culture. Build definition and design. Tools. Provisioning of development, production, integration, and testing environments. Principles and techniques of software maintenance. Types of maintenance. Reengineering."
     },
     "grade": 92,
     "hours": 80,
@@ -553,7 +553,7 @@
     },
     "syllabus": {
       "pt": "Métricas de software: conceito. Métricas objetivas e subjetivas; Métricas para processo, projeto e produto. Processo e Técnicas de medição e análise. Noções de confiabilidade metrológica. Controle estatístico de qualidade. Aplicação de técnicas estatísticas para análise de dados: análise fatorial, análise multivariada e testes de hipóteses. Estabilidade de processos. Princípios e técnicas para experimentação em Engenharia de Software. Planejamento e condução de experimentos.",
-      "en": "Software Metrics: concept. Objective and subjective metrics; Metrics for process, project, and product. Measurement and analysis process and techniques. Notions of metrological reliability. Statistical quality control. Application of statistical techniques for data analysis: factorial analysis, multivariate analysis, and hypothesis testing. Process stability. Principles and techniques for experimentation in Software Engineering. Planning and conducting experiments."
+      "en": "Software Metrics: concept. Objective and subjective metrics; Metrics for process, project, and product. Measurement and analysis process and techniques. Notions of metrological reliability. Statistical quality control. Application of statistical techniques for data analysis: factor analysis, multivariate analysis, and hypothesis testing. Process stability. Principles and techniques for experimentation in Software Engineering. Planning and conducting experiments."
     },
     "grade": 93,
     "hours": 80,
@@ -567,9 +567,9 @@
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+      "en": "A course with a strategic role in the curriculum that allows students to choose from a predefined set of courses covering different subjects that complement their education."
     },
-    "grade": 1,
+    "grade": 78,
     "hours": 40,
     "modality": "virtual"
   },
@@ -581,9 +581,9 @@
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+      "en": "A course with a strategic role in the curriculum that allows students to choose from a predefined set of courses covering different subjects that complement their education."
     },
-    "grade": 1,
+    "grade": 78,
     "hours": 40,
     "modality": "virtual"
   },
@@ -623,9 +623,9 @@
     },
     "syllabus": {
       "pt": "Disciplina de natureza estratégica que permite ao aluno escolher, entre um conjunto de disciplinas previamente definidas, diferentes conteúdos complementares à sua formação.",
-      "en": "A strategic nature course that allows the student to choose, from a set of predefined courses, different complementary content to their education."
+      "en": "A course with a strategic role in the curriculum that allows students to choose from a predefined set of courses covering different subjects that complement their education."
     },
-    "grade": 1,
+    "grade": 81,
     "hours": 40,
     "modality": "virtual"
   },
@@ -667,7 +667,7 @@
       "pt": "Concepções filosófico-antropológicas. O ser humano como ser no mundo e sua dimensão simbólico-cultural. A condição ética da ação humana. Questões éticas fundamentais e atuais, sociedade de consumo, diversidade étnica e desafios ecológicos.",
       "en": "Philosophical-Anthropological Concepts. The human being as a being in the world and its symbolic-cultural dimension. The ethical condition of human action. Fundamental and current ethical issues, consumer society, ethnic diversity, and ecological challenges."
     },
-    "grade": 1,
+    "grade": 86,
     "hours": 80,
     "modality": "in-person"
   },
@@ -679,7 +679,7 @@
     },
     "syllabus": {
       "pt": "Caracterização da função planejamento da produção nas organizações. O PCP (Planejamento e Controle da Produção) na empresa. Conciliação entre suprimento e demanda. Parâmetros de Controle de Produção. Fundamentos da qualidade. Produção Enxuta (Lean Manufacturing).",
-      "en": "Characterization of the production planning function in organizations. The PPC (Production Planning and Control) in the company. Reconciliation between supply and demand. Production Control Parameters. Quality fundamentals. Lean Manufacturing."
+      "en": "Characterization of the production planning function in organizations. Production planning and control (PPC) within a company. Reconciliation between supply and demand. Production Control Parameters. Quality fundamentals. Lean Manufacturing."
     },
     "grade": 71,
     "hours": 40,
@@ -689,7 +689,7 @@
     "semester": 7,
     "name": {
       "pt": "Tecnologias da Informação e do Conhecimento",
-      "en": "Information and Communication Technologies"
+      "en": "Information and Knowledge Technologies"
     },
     "syllabus": {
       "pt": "Sociedade do Conhecimento. Estratégia e Inteligência Competitiva. Processos de Gestão da Informação. Processos de Gestão do Conhecimento. Sistema de Inteligência Competitiva. Integração da Inteligência Competitiva com a Gestão do Conhecimento. Tecnologia da Informação aplicada à Gestão da Informação. Tecnologia da Informação aplicada à Gestão do Conhecimento.",
@@ -709,7 +709,7 @@
       "pt": "Tema atual na área de Computação.",
       "en": "Current Topic in the field of Computing."
     },
-    "grade": 1,
+    "grade": 91,
     "hours": 40,
     "modality": "virtual"
   },
@@ -717,7 +717,7 @@
     "semester": 7,
     "name": {
       "pt": "Computação Forense (Tópicos em Computação II)",
-      "en": "Forensic Computing (Topics in Computing II)"
+      "en": "Computer Forensics (Topics in Computing II)"
     },
     "syllabus": {
       "pt": "Tema atual na área de Computação.",
@@ -735,9 +735,9 @@
     },
     "syllabus": {
       "pt": "Elaboração de um projeto de trabalho que contribua para a melhoria da automação, do desempenho, da eficiência e da racionalização dos recursos no desenvolvimento, experimentação, manutenção e operação de software. Caracterização da natureza e objetivos do Trabalho de Conclusão de Curso. Elaboração do projeto de desenvolvimento, com metodologia, cronograma e descrição dos resultados esperados. Elaboração de resenhas e construção do estado da arte da área relacionada ao projeto.",
-      "en": "Development of a work project that contributes to the improvement of automation, performance, efficiency, and rationalization of resources in the development, experimentation, maintenance, and operation of software. Characterization of the nature and objectives of the Capstone Project. Development of the project plan, including methodology, timeline, and description of expected outcomes. Compilation of literature reviews and construction of the state of the art in the field related to the project."
+      "en": "Preparation of a project proposal aimed at improving automation, performance, efficiency, and the effective use of resources in software development, experimentation, maintenance, and operation. Characterization of the nature and objectives of the Capstone Project. Development of the project plan, including methodology, timeline, and description of expected outcomes. Writing critical reviews and developing an overview of the state of the art in the field related to the project."
     },
-    "grade": 1,
+    "grade": 92,
     "hours": 60,
     "modality": "in-person"
   },
@@ -749,7 +749,7 @@
     },
     "syllabus": {
       "pt": "Ciclo de vida, avaliação, modelagem e otimização de sistemas computacionais. Planejamento de capacidade. Curvas de desempenho teóricas e experimentais. Técnicas para avaliação de desempenho. Previsão de carga futura. Paradigmas de modelagem. Modelos de Markov e Teoria das filas. Modelos de sistemas computacionais. Simulação de modelos.",
-      "en": "Lifecycle, evaluation, modeling, and optimization of computational systems. Capacity planning. Theoretical and experimental performance curves. Techniques for performance evaluation. Prediction of future load. Modeling paradigms. Markov models and Queue Theory. Models of computational systems. Simulation of models."
+      "en": "Lifecycle, evaluation, modeling, and optimization of computational systems. Capacity planning. Theoretical and experimental performance curves. Techniques for performance evaluation. Prediction of future load. Modeling paradigms. Markov models and queuing theory. Models of computational systems. Simulation of models."
     },
     "grade": null,
     "hours": 80,
@@ -763,7 +763,7 @@
     },
     "syllabus": {
       "pt": "Auditoria de sistemas de informação. Ambiente de auditoria. Pirâmide da tecnologia de auditagem, conceitos básicos. Posicionamento na organização. Descrição das fases. Análise e desenvolvimento do processo. Segurança física e segurança lógica da informação. Contribuição do software em elementos de prevenção e combate a incêndios e desastres. Atividades de extensão com integração entre academia e saberes da sociedade.",
-      "en": "Information Systems Auditing. Auditing environment. Auditing technology pyramid, basic concepts. Organizational positioning. Description of phases. Analysis and process development. Physical and logical information security. Software's contribution to fire and disaster prevention and mitigation elements. Extension activities with integration between academia and societal knowledge."
+      "en": "Information Systems Auditing. Auditing environment. Auditing technology pyramid, basic concepts. Organizational positioning. Description of phases. Analysis and process development. Physical and logical information security. The contribution of software to measures for preventing and responding to fires and disasters. Community engagement activities that bring together academia and community knowledge."
     },
     "grade": null,
     "hours": 60,
@@ -793,7 +793,7 @@
       "pt": "Tema atual na área de Sistemas de Informação e Engenharia de Software.",
       "en": "Current Topic in the field of Information Systems and Software Engineering."
     },
-    "grade": 1,
+    "grade": 94,
     "hours": 40,
     "modality": "virtual"
   },
@@ -805,7 +805,7 @@
     },
     "syllabus": {
       "pt": "Execução e acompanhamento do projeto de trabalho elaborado na disciplina Trabalho de Conclusão de Curso I. Elaboração de artigo no padrão estabelecido pela PUC Minas. Apresentação do Trabalho de Conclusão de Curso perante professores avaliadores.",
-      "en": "Execution and monitoring of the project developed in the Course Completion Project I class. Preparation of an article in the format established by PUC Minas. Presentation of the Course Completion Project before evaluating professors."
+      "en": "Execution and monitoring of the project developed in the Capstone Project I course. Preparation of an article in the format established by PUC Minas. Presentation of the Capstone Project to a faculty evaluation panel."
     },
     "grade": null,
     "hours": 75,
