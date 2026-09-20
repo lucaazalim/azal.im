@@ -15,7 +15,14 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useMemo, useRef, useState } from "react";
+import {
+  Suspense,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import {
   beautifyInput,
   decodeInput,
@@ -25,9 +32,11 @@ import {
   encodeSettings,
   EXAMPLE_INPUT,
   generateAsciiTree,
-  loadSettingsFromStorage,
+  parseStoredSettings,
+  readSettingsFromStorage,
   saveSettingsToStorage,
   type Settings,
+  subscribeToSettingsStorage,
 } from "./tree";
 
 const MENLO_FONT = { fontFamily: "Menlo, Monaco, 'Courier New', monospace" };
@@ -61,21 +70,30 @@ function TreePageContent() {
     return EXAMPLE_INPUT;
   });
 
-  const [settings, setSettings] = useState<Settings>(() => {
-    // URL takes priority (works on both server and client)
+  // Settings the user picked in this session; null means "not touched yet",
+  // in which case we fall back to the URL, then localStorage, then defaults.
+  const [chosenSettings, setChosenSettings] = useState<Settings | null>(() => {
     const urlSettings = searchParams.get("s");
-    if (urlSettings) {
-      const decoded = decodeSettings(urlSettings);
-      if (decoded) return decoded;
-    }
-    // Fall back to persisted settings when available on the client.
-    if (typeof window !== "undefined") {
-      const stored = loadSettingsFromStorage();
-      if (stored) return stored;
-    }
-
-    return DEFAULT_SETTINGS;
+    return urlSettings ? decodeSettings(urlSettings) : null;
   });
+
+  // localStorage isn't available on the server, so read it through
+  // useSyncExternalStore: the server snapshot (null) is used during hydration
+  // and the real value right after, which keeps server and client HTML equal.
+  const storedSettings = useSyncExternalStore(
+    subscribeToSettingsStorage,
+    readSettingsFromStorage,
+    () => null,
+  );
+
+  const settings = useMemo(
+    () =>
+      chosenSettings ?? parseStoredSettings(storedSettings) ?? DEFAULT_SETTINGS,
+    [chosenSettings, storedSettings],
+  );
+
+  const updateSettings = (patch: Partial<Settings>) =>
+    setChosenSettings({ ...settings, ...patch });
 
   const [copied, setCopied] = useState(false);
   const [shared, setShared] = useState(false);
@@ -86,10 +104,11 @@ function TreePageContent() {
     return lines.map((_, i) => <div key={i}>{i + 1}</div>);
   }, [input]);
 
-  // Save settings to localStorage when they change
+  // Persist settings the user picked (not the URL/stored/default fallback,
+  // which would overwrite the stored value with defaults on first render).
   useEffect(() => {
-    saveSettingsToStorage(settings);
-  }, [settings]);
+    if (chosenSettings) saveSettingsToStorage(chosenSettings);
+  }, [chosenSettings]);
 
   // Keep URL in sync with input and settings
   useEffect(() => {
@@ -218,7 +237,7 @@ function TreePageContent() {
                     <Switch
                       checked={settings.showRoot}
                       onCheckedChange={(checked) =>
-                        setSettings((s) => ({ ...s, showRoot: checked }))
+                        updateSettings({ showRoot: checked })
                       }
                     />
                   </label>
@@ -232,7 +251,7 @@ function TreePageContent() {
                     <Switch
                       checked={settings.trailingSlash}
                       onCheckedChange={(checked) =>
-                        setSettings((s) => ({ ...s, trailingSlash: checked }))
+                        updateSettings({ trailingSlash: checked })
                       }
                     />
                   </label>
@@ -246,7 +265,7 @@ function TreePageContent() {
                     <Switch
                       checked={settings.backwardSlash}
                       onCheckedChange={(checked) =>
-                        setSettings((s) => ({ ...s, backwardSlash: checked }))
+                        updateSettings({ backwardSlash: checked })
                       }
                     />
                   </label>
@@ -260,7 +279,7 @@ function TreePageContent() {
                     <Switch
                       checked={settings.fullPath}
                       onCheckedChange={(checked) =>
-                        setSettings((s) => ({ ...s, fullPath: checked }))
+                        updateSettings({ fullPath: checked })
                       }
                     />
                   </label>
@@ -274,7 +293,7 @@ function TreePageContent() {
                     <Switch
                       checked={settings.colors}
                       onCheckedChange={(checked) =>
-                        setSettings((s) => ({ ...s, colors: checked }))
+                        updateSettings({ colors: checked })
                       }
                     />
                   </label>

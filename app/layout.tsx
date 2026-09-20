@@ -5,14 +5,19 @@ import TanStackQueryProvider from "@/app/_components/TanStackQueryProvider";
 import { BASE_URL, ROUTES } from "@/lib/constants";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
+import {
+  Bricolage_Grotesque,
+  JetBrains_Mono,
+  Merriweather,
+} from "next/font/google";
 import Script from "next/script";
 import { ReactNode } from "react";
 import NavBar from "./_components/NavBar";
 import "./globals.css";
 
-const inter = Inter({
+const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin"],
+  axes: ["opsz"],
   variable: "--font-sans",
   display: "swap",
 });
@@ -137,7 +142,7 @@ export default function RootLayout({
         </head>
       )}
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} ${merriweather.variable} bg-background`}
+        className={`${bricolageGrotesque.variable} ${jetbrainsMono.variable} ${merriweather.variable} bg-background`}
       >
         <script
           type="application/ld+json"

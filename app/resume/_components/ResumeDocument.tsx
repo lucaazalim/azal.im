@@ -10,7 +10,13 @@ import { positions } from "@/lib/experiences/experiences";
 import { EMPLOYMENT_TYPES } from "@/lib/experiences/types";
 import { resume } from "@/lib/resume/resume";
 import { cn } from "@/lib/utils";
+import { Inter } from "next/font/google";
 import { Fragment, ReactNode } from "react";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 /**
  * The resume itself, rendered as an A4 "sheet". It is shown on the resume
@@ -26,7 +32,8 @@ export default function ResumeDocument() {
     <article
       lang="en"
       className={cn(
-        "w-full max-w-[210mm] bg-white p-[4mm] font-sans text-[10pt] leading-[1.3] text-neutral-900 shadow-2xl sm:px-[7mm] sm:py-[6mm]",
+        inter.className,
+        "w-full max-w-[210mm] bg-white p-[4mm] text-[10pt] leading-[1.3] text-neutral-900 shadow-2xl sm:px-[7mm] sm:py-[6mm]",
         "print:max-w-none print:p-0 print:shadow-none",
       )}
       style={{ printColorAdjust: "exact" }}

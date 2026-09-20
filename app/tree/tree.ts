@@ -181,15 +181,31 @@ export function decodeSettings(encoded: string): Settings | null {
   };
 }
 
-export function loadSettingsFromStorage(): Settings | null {
-  if (typeof window === "undefined") return null;
+/**
+ * Raw persisted settings. Returns a string (or null) rather than a parsed
+ * object so it can be used as a `useSyncExternalStore` snapshot, which must
+ * be referentially stable between calls.
+ */
+export function readSettingsFromStorage(): string | null {
   try {
-    const stored = localStorage.getItem(SETTINGS_STORAGE_KEY);
-    if (stored) return JSON.parse(stored);
+    return localStorage.getItem(SETTINGS_STORAGE_KEY);
   } catch {
-    // Ignore
+    return null;
   }
-  return null;
+}
+
+export function subscribeToSettingsStorage(callback: () => void): () => void {
+  window.addEventListener("storage", callback);
+  return () => window.removeEventListener("storage", callback);
+}
+
+export function parseStoredSettings(stored: string | null): Settings | null {
+  if (!stored) return null;
+  try {
+    return JSON.parse(stored);
+  } catch {
+    return null;
+  }
 }
 
 export function saveSettingsToStorage(settings: Settings): void {
