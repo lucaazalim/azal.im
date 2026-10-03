@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description:
       "A collection of projects I've worked on, from personal experiments to professional applications and open-source contributions.",
     card: "summary_large_image",
-    images: [BASE_URL + "/projects/pollmodoro.png"],
+    images: [BASE_URL + "/projects/pollmodoro/1.png"],
   },
 };
 

@@ -1,8 +1,28 @@
 [
   {
+    "startedAt": "2026-09-01",
+    "image": ["/projects/minecraft-server-census/1.png"],
+    "title": "Minecraft Server Census",
+    "subtitle": "Personal project",
+    "description": "Minecraft Server Census pings thousands of public Minecraft Java Edition servers every 10 minutes and shows how many people are playing, where, and on which servers. It detects hostnames that point to the same server so each one is counted once, and runs as a single Node.js process with SQLite on a small VM.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "SQLite",
+      "React",
+      "TailwindCSS",
+      "Fly.io"
+    ],
+    "urls": {
+      "specialPage": "/projects/minecraft-server-census",
+      "live": "https://census.azal.im",
+      "sourceCode": "https://github.com/lucaazalim/minecraft-server-census"
+    }
+  },
+  {
     "startedAt": "2025-01-01",
     "endedAt": "2025-12-31",
-    "image": ["/projects/pollmodoro.png"],
+    "image": ["/projects/pollmodoro/1.png"],
     "title": "Pollmodoro",
     "subtitle": "Personal project",
     "description": "Pollmodoro is an open-source, real-time polling platform built with SvelteKit and Cloudflare Workers. It allows users to create and share polls instantly, with results updated live via WebSockets and polls stored in the edge. The project highlights my expertise in modern web technologies, serverless architecture, and real-time interactivity.",
@@ -15,6 +35,8 @@
       "Durable Objects"
     ],
     "urls": {
+      "specialPage": "/projects/pollmodoro",
+      "live": "https://pollmodoro.com",
       "sourceCode": "https://github.com/lucaazalim/pollmodoro"
     }
   },
