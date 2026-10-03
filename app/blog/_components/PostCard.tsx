@@ -1,5 +1,6 @@
+import LoadingImage from "@/app/_components/LoadingImage";
 import { Post } from "@/lib/blog/posts";
-import { format } from "date-fns";
+import { formatCalendarDate } from "@/lib/dates";
 import Link from "next/link";
 
 type Props = {
@@ -11,6 +12,17 @@ export default function PostCard({ post, className }: Props) {
   return (
     <Link href={post.route} className={className}>
       <article className="group flex h-full flex-col overflow-hidden border border-neutral-800">
+        {post.metadata.cover && (
+          <div className="relative aspect-video w-full shrink-0">
+            <LoadingImage
+              src={post.metadata.cover}
+              alt={post.metadata.title}
+              fill={true}
+              sizes="30vw"
+              className="object-cover"
+            />
+          </div>
+        )}
         <div className="flex grow flex-col justify-between gap-3 p-5">
           <div className="space-y-3">
             <h3 className="text-lg font-semibold">{post.metadata.title}</h3>
@@ -20,7 +32,7 @@ export default function PostCard({ post, className }: Props) {
           </div>
           <div>
             <p className="font-mono text-sm uppercase">
-              {format(post.metadata.date, "LLLL d, yyyy")}
+              {formatCalendarDate(post.metadata.date)}
             </p>
           </div>
         </div>

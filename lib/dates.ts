@@ -50,6 +50,16 @@ export function formatYearMonth(
 }
 
 /**
+ * Formats a calendar day like `April 12, 2026`. Dates without a time (such as
+ * `2026-04-12` in post frontmatter) parse to midnight UTC, so this reads the
+ * UTC fields; local time would show the previous day west of UTC.
+ */
+export function formatCalendarDate(date: Date): string {
+  const month = MONTHS[date.getUTCMonth()];
+  return `${month} ${date.getUTCDate()}, ${date.getUTCFullYear()}`;
+}
+
+/**
  * Formats a range like `Jul 2025 – Present` or `Jun 2024 – May 2025`.
  */
 export function formatYearMonthRange(

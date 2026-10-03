@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   currentYearMonth,
+  formatCalendarDate,
   formatDuration,
   formatYearMonth,
   formatYearMonthRange,
@@ -112,5 +113,19 @@ describe("isFutureYearMonth", () => {
     expect(isFutureYearMonth("2026-12", now)).toBe(true);
     expect(isFutureYearMonth("2026-09", now)).toBe(false);
     expect(isFutureYearMonth("2023-02", now)).toBe(false);
+  });
+});
+
+describe("formatCalendarDate", () => {
+  it("formats a frontmatter date as the same calendar day", () => {
+    expect(formatCalendarDate(new Date("2026-04-12"))).toBe("April 12, 2026");
+    expect(formatCalendarDate(new Date("2024-12-31"))).toBe(
+      "December 31, 2024",
+    );
+  });
+
+  it("ignores the local time zone", () => {
+    const date = new Date(Date.UTC(2025, 2, 14));
+    expect(formatCalendarDate(date)).toBe("March 14, 2025");
   });
 });
