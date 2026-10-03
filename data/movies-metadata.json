@@ -3993,6 +3993,21 @@
     ]
   },
   {
+    "title": "Fuze",
+    "original_title": "Fuze",
+    "language": "en",
+    "overview": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+    "backdrop_path": "/8wIaBCeGv3UhIn5CJOWQGHT1Cif.jpg",
+    "poster_path": "/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+    "release_date": "2026-03-23T00:00:00.000Z",
+    "runtime": 96,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
     "title": "Gaga: Five Foot Two",
     "original_title": "Gaga: Five Foot Two",
     "language": "en",
@@ -4365,6 +4380,20 @@
     "genres": [
       "History",
       "Drama"
+    ]
+  },
+  {
+    "title": "Hamnet",
+    "original_title": "Hamnet",
+    "language": "en",
+    "overview": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
+    "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+    "poster_path": "/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+    "release_date": "2025-11-26T00:00:00.000Z",
+    "runtime": 125,
+    "genres": [
+      "Drama",
+      "Romance"
     ]
   },
   {
@@ -5234,6 +5263,21 @@
     ]
   },
   {
+    "title": "Last Night in Soho",
+    "original_title": "Last Night in Soho",
+    "language": "en",
+    "overview": "A young girl, passionate about fashion design, is mysteriously able to enter the 1960s where she encounters her idol, a dazzling wannabe singer. But 1960s London is not what it seems, and time seems to be falling apart with shady consequences.",
+    "backdrop_path": "/nPWy5KISy7BbUOQcg588dflKzTL.jpg",
+    "poster_path": "/n1ZRmjlk1BJTY7aASqACfPAaLn2.jpg",
+    "release_date": "2021-10-09T00:00:00.000Z",
+    "runtime": 117,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
     "title": "Late Night with the Devil",
     "original_title": "Late Night with the Devil",
     "language": "en",
@@ -6020,6 +6064,20 @@
     ]
   },
   {
+    "title": "Michael",
+    "original_title": "Michael",
+    "language": "en",
+    "overview": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
+    "backdrop_path": "/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+    "poster_path": "/dueFqKLvjftnELZaGYwY7xinfaI.jpg",
+    "release_date": "2026-04-22T00:00:00.000Z",
+    "runtime": 128,
+    "genres": [
+      "Music",
+      "Drama"
+    ]
+  },
+  {
     "title": "Mickey 17",
     "original_title": "Mickey 17",
     "language": "en",
@@ -6577,6 +6635,20 @@
     "genres": [
       "Science Fiction",
       "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "title": "Nothing But the Truth",
+    "original_title": "Nothing But the Truth",
+    "language": "en",
+    "overview": "When reporter Rachel Armstrong writes a story that reveals the identity of a covert CIA operative, the government demands that Rachel reveal her source. She defies the special prosecutor and is thrown in jail. Meanwhile, her attorney, Albert Burnside argues her case all the way to the U.S. Supreme Court.",
+    "backdrop_path": "/k5SLaqFAEdDLlMv6KaNOj5eL0SA.jpg",
+    "poster_path": "/ueJXKG3PFoDPEhcKtIjP52fCRQ5.jpg",
+    "release_date": "2008-12-19T00:00:00.000Z",
+    "runtime": 108,
+    "genres": [
+      "Drama",
       "Thriller"
     ]
   },
@@ -8150,6 +8222,21 @@
     ]
   },
   {
+    "title": "Spider-Man: Brand New Day",
+    "original_title": "Spider-Man: Brand New Day",
+    "language": "en",
+    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+    "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "release_date": "2026-07-29T00:00:00.000Z",
+    "runtime": 145,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
     "title": "Spider-Man: Far From Home",
     "original_title": "Spider-Man: Far From Home",
     "language": "en",
@@ -9116,6 +9203,21 @@
     ]
   },
   {
+    "title": "The Drama",
+    "original_title": "The Drama",
+    "language": "en",
+    "overview": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
+    "backdrop_path": "/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
+    "poster_path": "/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg",
+    "release_date": "2026-04-01T00:00:00.000Z",
+    "runtime": 105,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
     "title": "The Empire Strikes Back",
     "original_title": "The Empire Strikes Back",
     "language": "en",
@@ -9516,6 +9618,20 @@
       "Drama",
       "Mystery",
       "Western"
+    ]
+  },
+  {
+    "title": "The Housemaid",
+    "original_title": "The Housemaid",
+    "language": "en",
+    "overview": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+    "backdrop_path": "/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
+    "poster_path": "/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+    "release_date": "2025-12-18T00:00:00.000Z",
+    "runtime": 131,
+    "genres": [
+      "Mystery",
+      "Thriller"
     ]
   },
   {
@@ -10092,6 +10208,21 @@
       "Sci-Fi & Fantasy",
       "Mystery",
       "Drama"
+    ]
+  },
+  {
+    "title": "The Odyssey",
+    "original_title": "The Odyssey",
+    "language": "en",
+    "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+    "backdrop_path": "/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+    "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+    "release_date": "2026-07-15T00:00:00.000Z",
+    "runtime": 173,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
     ]
   },
   {

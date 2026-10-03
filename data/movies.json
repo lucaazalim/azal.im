@@ -6558,5 +6558,77 @@
     "type": "movie",
     "year": 2026,
     "stars": 5
+  },
+  {
+    "watchedAt": "04-2026",
+    "title": "The Housemaid",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 3
+  },
+  {
+    "watchedAt": "05-2026",
+    "title": "Michael",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2026,
+    "stars": 4
+  },
+  {
+    "watchedAt": "05-2026",
+    "title": "Hamnet",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2025,
+    "stars": 4
+  },
+  {
+    "watchedAt": "06-2026",
+    "title": "Nothing But the Truth",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2008,
+    "stars": 3
+  },
+  {
+    "watchedAt": "07-2026",
+    "title": "The Drama",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2026,
+    "stars": 5
+  },
+  {
+    "watchedAt": "07-2026",
+    "title": "Last Night in Soho",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2021,
+    "stars": 4
+  },
+  {
+    "watchedAt": "07-2026",
+    "title": "The Odyssey",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2026,
+    "stars": 4
+  },
+  {
+    "watchedAt": "09-2026",
+    "title": "Spider-Man: Brand New Day",
+    "platform": "Cinema",
+    "type": "movie",
+    "year": 2026,
+    "stars": 5
+  },
+  {
+    "watchedAt": "09-2026",
+    "title": "Fuze",
+    "platform": "Prime",
+    "type": "movie",
+    "year": 2026,
+    "stars": 2
   }
 ]
