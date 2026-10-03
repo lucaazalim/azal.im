@@ -83,9 +83,14 @@ describe("extractHeadings characterization (real posts)", () => {
     expect(
       extractHeadings(source).map(({ slug, level }) => ({ slug, level })),
     ).toEqual([
-      { slug: "documentation-as-duplicated-knowledge", level: 1 },
+      { slug: "documentation-is-a-second-copy-of-the-code", level: 1 },
+      { slug: "diagrams-are-copies-too", level: 1 },
       { slug: "code-comments-as-duplicated-knowledge", level: 1 },
-      { slug: "a-broader-principle", level: 1 },
+      { slug: "beyond-documentation-and-code", level: 1 },
+      { slug: "how-ai-is-changing-documentation", level: 1 },
+      { slug: "what-should-still-be-written-down", level: 1 },
+      { slug: "duplication-is-getting-cheaper-but-it-is-not-free", level: 1 },
+      { slug: "less-redundant-documentation", level: 1 },
     ]);
   });
 
@@ -105,17 +110,13 @@ describe("extractHeadings characterization (real posts)", () => {
     expect(
       extractHeadings(source).map(({ slug, level }) => ({ slug, level })),
     ).toEqual([
-      { slug: "the-illusion-of-microservice-superpowers", level: 1 },
-      { slug: "monoliths-arent-evil-just-misunderstood", level: 1 },
-      { slug: "pros-of-monoliths", level: 2 },
-      { slug: "cons", level: 2 },
-      { slug: "microservices-power-at-a-cost", level: 1 },
-      { slug: "3-reasons-to-avoid-microservices-at-the-start", level: 1 },
-      { slug: "1-too-much-complexity-too-soon", level: 2 },
-      { slug: "2-theyre-not-for-everyone", level: 2 },
-      { slug: "3-you-dont-know-the-domain-yet", level: 2 },
+      { slug: "what-microservices-were-actually-for", level: 1 },
+      { slug: "no-team-problem-no-need-for-the-team-solution", level: 1 },
+      { slug: "microservices-come-with-a-bill", level: 1 },
+      { slug: "you-dont-know-the-boundaries-yet", level: 1 },
+      { slug: "monoliths-arent-the-villain", level: 1 },
       { slug: "the-smarter-path-modular-monoliths", level: 1 },
-      { slug: "evolve-dont-overengineer", level: 1 },
+      { slug: "split-when-your-teams-need-it", level: 1 },
     ]);
   });
 });
