@@ -4,6 +4,7 @@ import { loadCollection } from "@/lib/data/load";
 import { PaginatedResponse } from "../types";
 import { findMovieMetadata } from "./helpers";
 import {
+  Movie,
   movieMetadataSchema,
   MoviesRequest,
   movieSchema,
@@ -20,6 +21,8 @@ export function loadMoviesWithMetadata(): {
   totalRuntime: number;
 } {
   const movies = loadCollection(rawMovies, movieSchema, "movies");
+  assertNoDuplicateMovies(movies);
+
   const metadata = loadCollection(
     rawMetadata,
     movieMetadataSchema,
@@ -50,6 +53,26 @@ export function loadMoviesWithMetadata(): {
       0,
     ),
   };
+}
+
+/**
+ * Each title appears once in `data/movies.json` (title + year identify it,
+ * and the movies grid uses that pair as its React key). Rewatches update the
+ * existing entry instead of adding a new one.
+ */
+export function assertNoDuplicateMovies(movies: Movie[]): void {
+  const seen = new Set<string>();
+  const duplicates = new Set<string>();
+
+  for (const movie of movies) {
+    const key = `${movie.title} (${movie.year})`;
+    if (seen.has(key)) duplicates.add(key);
+    seen.add(key);
+  }
+
+  if (duplicates.size > 0) {
+    throw new Error(`Duplicate movies data: ${[...duplicates].join("; ")}`);
+  }
 }
 
 export function getMovies({

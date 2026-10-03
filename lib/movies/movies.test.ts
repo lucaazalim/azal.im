@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { getMovies, moviesWithMetadata } from "@/lib/movies/movies";
+import {
+  assertNoDuplicateMovies,
+  getMovies,
+  moviesWithMetadata,
+} from "@/lib/movies/movies";
 
 describe("getMovies", () => {
   it("paginates using cursor and limit", () => {
@@ -38,5 +42,26 @@ describe("getMovies", () => {
     for (const movie of result.data) {
       expect(movie.title.toLowerCase()).toContain(target.toLowerCase());
     }
+  });
+});
+
+describe("assertNoDuplicateMovies", () => {
+  const movie = {
+    title: "Brokeback Mountain",
+    type: "movie",
+    year: 2005,
+    stars: 5,
+  } as const;
+
+  it("accepts the same title from different years", () => {
+    expect(() =>
+      assertNoDuplicateMovies([movie, { ...movie, year: 2006 }]),
+    ).not.toThrow();
+  });
+
+  it("rejects the same title and year twice", () => {
+    expect(() => assertNoDuplicateMovies([movie, { ...movie }])).toThrow(
+      "Duplicate movies data: Brokeback Mountain (2005)",
+    );
   });
 });

@@ -2009,14 +2009,6 @@
   },
   {
     "watchedAt": "08-2020",
-    "title": "Mission: Impossible - Ghost Protocol",
-    "platform": "Netflix",
-    "type": "movie",
-    "year": 2011,
-    "stars": 4
-  },
-  {
-    "watchedAt": "08-2020",
     "title": "Executive Decision",
     "platform": "Netflix",
     "type": "movie",
@@ -5189,12 +5181,6 @@
     "stars": 4
   },
   {
-    "title": "Breaking Bad",
-    "type": "series",
-    "year": 2008,
-    "stars": 1
-  },
-  {
     "title": "Chernobyl",
     "type": "series",
     "year": 2019,
@@ -6262,14 +6248,6 @@
     "type": "movie",
     "year": 2004,
     "stars": 2
-  },
-  {
-    "watchedAt": "07-2025",
-    "title": "Brokeback Mountain",
-    "platform": "Prime",
-    "type": "movie",
-    "year": 2005,
-    "stars": 5
   },
   {
     "watchedAt": "07-2025",
