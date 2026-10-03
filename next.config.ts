@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-import { RESUME_PDF_FILENAME } from "./lib/constants";
+import { RESUME_PDF_FILENAME, ROUTES } from "./lib/constants";
 
 const nextConfig: NextConfig = {
   async redirects() {
@@ -24,6 +24,12 @@ const nextConfig: NextConfig = {
       {
         source: "/resume/pt.pdf",
         destination: "/resume",
+        permanent: true,
+      },
+      {
+        // The Engineering playlist used to be called Development.
+        source: "/videos/development",
+        destination: ROUTES.videos("engineering"),
         permanent: true,
       },
       {

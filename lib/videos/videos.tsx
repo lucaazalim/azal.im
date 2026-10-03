@@ -2,8 +2,8 @@ import { GOOGLE_CLOUD_API_KEY } from "@/lib/constants";
 
 export const PLAYLISTS: Playlist[] = [
   {
-    slug: "development",
-    title: "Development",
+    slug: "engineering",
+    title: "Engineering",
     id: "PLPg-XDqJPa5Rq3XOttALgB6Bj8rkTCHF6",
   },
   {
@@ -15,6 +15,16 @@ export const PLAYLISTS: Playlist[] = [
     slug: "ted",
     title: "TED Talks",
     id: "PLPg-XDqJPa5S1xJpGUpDQVLLVVEUb5UOx",
+  },
+  {
+    slug: "podcasts",
+    title: "Podcasts",
+    id: "PLPg-XDqJPa5RUc1eH9kefCzR0ESVND5Jm",
+  },
+  {
+    slug: "music",
+    title: "Music",
+    id: "PLPg-XDqJPa5Tsr5Ijd_fhm9lBQ0JMCLQ2",
   },
   {
     slug: "diy",
