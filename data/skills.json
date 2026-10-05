@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      { "name": "C#", "since": 2024 },
+      { "name": "TypeScript", "since": 2022 },
+      { "name": "Java", "since": 2014 },
+      { "name": "SQL", "since": 2015 }
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "skills": [
+      { "name": ".NET", "since": 2024 },
+      { "name": "Node.js", "since": 2020 },
+      { "name": "React", "since": 2022 },
+      { "name": "Next.js", "since": 2022 },
+      { "name": "Tailwind CSS", "since": 2022 }
+    ]
+  },
+  {
+    "category": "Data",
+    "skills": [
+      { "name": "PostgreSQL", "since": 2020 },
+      { "name": "Redis", "since": 2017 },
+      { "name": "Snowflake", "since": 2025 },
+      { "name": "Apache Kafka", "since": 2025 }
+    ]
+  },
+  {
+    "category": "Platform & AI",
+    "skills": [
+      { "name": "Docker", "since": 2019 },
+      { "name": "Linux", "since": 2014 },
+      { "name": "AI-Augmented Engineering", "since": 2022 }
+    ]
+  }
+]

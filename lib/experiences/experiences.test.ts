@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { experiences, isCurrent, isPosition, positions } from "./experiences";
+import {
+  experiences,
+  formatLocation,
+  isCurrent,
+  isPosition,
+  positions,
+} from "./experiences";
 
 describe("experiences data", () => {
   it("loads every entry from data/experiences.json", () => {
@@ -26,5 +32,29 @@ describe("isCurrent", () => {
   it("is true when there is no end date", () => {
     expect(isCurrent({ ...positions[0], endDate: null })).toBe(true);
     expect(isCurrent({ ...positions[0], endDate: "2025-05" })).toBe(false);
+  });
+});
+
+describe("formatLocation", () => {
+  it("appends the location type when there is one", () => {
+    expect(
+      formatLocation({
+        ...positions[0],
+        location: { name: "Orlando, United States", type: "remote" },
+      }),
+    ).toBe("Orlando, United States · Remote");
+  });
+
+  it("shows only the place when there is no location type", () => {
+    expect(
+      formatLocation({
+        ...positions[0],
+        location: { name: "Belo Horizonte, Brazil" },
+      }),
+    ).toBe("Belo Horizonte, Brazil");
+  });
+
+  it("is null when there is no location", () => {
+    expect(formatLocation({ ...positions[0], location: undefined })).toBeNull();
   });
 });

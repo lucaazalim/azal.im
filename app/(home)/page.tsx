@@ -1,29 +1,29 @@
-import About from "@/app/(home)/_components/sections/About";
-import Aside from "@/app/(home)/_components/sections/Aside";
+import Hero from "@/app/(home)/_components/Hero";
 import Awards from "@/app/(home)/_components/sections/Awards";
 import Education from "@/app/(home)/_components/sections/Education";
-import Experiences from "@/app/(home)/_components/sections/Experiences";
+import Experience from "@/app/(home)/_components/sections/Experience";
+import Skills from "@/app/(home)/_components/sections/Skills";
 import { BASE_URL } from "@/lib/constants";
 import { education } from "@/lib/education/education";
 import { isCurrent, positions } from "@/lib/experiences/experiences";
+import { skills } from "@/lib/skills/skills";
 import { Metadata } from "next";
 import { Person, WithContext } from "schema-dts";
-import TechSkills from "./_components/sections/TechSkills";
+
+const description =
+  "Software Engineer with 10+ years of experience building scalable, distributed systems and owning products end-to-end, from product decisions to production. Explore my experience, skills, education, and awards.";
 
 export const metadata: Metadata = {
   title: "Home",
-  description:
-    "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+  description,
   openGraph: {
-    title: "Luca Azalim - Product Engineer",
-    description:
-      "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+    title: "Luca Azalim - Software Engineer",
+    description,
     url: BASE_URL,
   },
   twitter: {
-    title: "Luca Azalim - Product Engineer",
-    description:
-      "Product Engineer passionate about building scalable applications. Explore my experience, projects, and insights on software development.",
+    title: "Luca Azalim - Software Engineer",
+    description,
   },
 };
 
@@ -31,17 +31,16 @@ const jsonLd: WithContext<Person> = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Luca Azalim",
-  jobTitle: "Product Engineer",
+  jobTitle: "Software Engineer",
   description:
-    "Product Engineer passionate about building scalable applications.",
+    "Software Engineer building scalable, distributed systems and owning products end-to-end.",
   url: BASE_URL,
   knowsAbout: [
-    "Product Engineering",
+    "Software Engineering",
+    "Product Development",
     "Full-Stack Development",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Web Development",
+    "Distributed Systems",
+    ...skills.map((skill) => skill.name),
   ],
   worksFor: positions.filter(isCurrent).map((position) => ({
     "@type": "Organization",
@@ -64,15 +63,12 @@ export default function Home() {
           __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      <div className="animate-in fade-in mx-auto flex max-w-5xl flex-col px-12 duration-300 ease-out lg:flex-row lg:divide-x-1 lg:divide-dashed">
-        <Aside />
-        <div className="space-y-24 py-8 lg:py-14 lg:pl-14">
-          <About />
-          <TechSkills />
-          <Experiences />
-          <Education />
-          <Awards />
-        </div>
+      <div className="animate-in fade-in mx-auto max-w-5xl px-6 duration-300 ease-out sm:px-12">
+        <Hero />
+        <Skills />
+        <Experience />
+        <Education />
+        <Awards />
       </div>
     </>
   );
